@@ -4,4 +4,4 @@ title: Introduction
 bannerpath: img/intro-banner.jpg
 ---
 
-The DeltaLumin project got its start in 2013
+The DeltaLumin project got its start in 2013 at [link](#).
