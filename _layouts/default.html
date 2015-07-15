@@ -18,6 +18,18 @@
 	</header>
 
 	<!-- for sections in site.section, put 'em all here -->
+	{% for page in site.pages %}
+		{% if page.layout == 'section' %}
+			<div class="section-container">
+				<img src="{{ site.baseurl }}/{{ page.bannerpath }}" class="section-banner" />
+				<h3 class="section-title">{{ page.title }}</h3>
+
+				{{ content }}
+	
+			</div>
+
+		{% endif %}
+	{% endfor %}
 
 	<footer></footer>
 </body>
