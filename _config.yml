@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+kramdown:
+  input:          GFM
+
+# Permalinks
+permalink:        /posts/:title
+
+# Setup
+title:            DeltaLumin Year 1
+url:              deltalumin.com/lumin-story
+baseurl:          /
+author:
+  name:           DeltaLumin
+pages_list:
+  Work: 'work/index.html'
+  Resume: 'about/index.html'
+category-list: [] # can expand to include more categories as they are added
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/DeltaInstitute/lumin-story
+name: 			  	DeltaLumin
+
+# Plugins
+
+
+
+exclude: [vendor]
