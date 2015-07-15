@@ -109,6 +109,11 @@ header li {
     color: #fff;
     text-decoration: none;
     list-style: none;
+    display: inline-block;
+}
+
+header a {
+    color: #fff;
 }
 
 header a:visited {
