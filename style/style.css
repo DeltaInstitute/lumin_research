@@ -149,11 +149,21 @@ header a:visited {
     width: 100%;
     height: 200px;
     background-size: cover;
+    position: relative;
 }
 
 .section-title {
-    margin: 0 auto;
     padding-top: 50px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 3em;
+    color: #fff;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
