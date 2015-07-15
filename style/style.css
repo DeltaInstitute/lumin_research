@@ -99,16 +99,23 @@ header {
     padding: 1.5em 1em 1em 1em;
     color: #fff;
     background-color: #6ba1b9;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }
 
 header h1 {
     margin: 0;
 }
 
+header h1 span {
+    font-weight: 900;
+}
+
 header li {
     color: #fff;
     list-style: none;
     display: inline-block;
+    margin-right: 1em;
 }
 
 header a {
