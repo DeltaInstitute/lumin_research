@@ -1,7 +1,10 @@
 <div class="section-container">
-	<img src="{{ site.baseurl }}/{{ page.bannerpath }}" class="section-banner" />
-	<h3 class="section-title">{{ page.title }}</h3>
+	<div class="section-banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url( {{ page.bannerpath }} );">
+		<h3 class="section-title">{{ page.title }}</h3>
+	</div>
 
-	{{ content }}
-	
+	<div class="section-content">
+		{{ page.content }}
+	</div>
+
 </div>

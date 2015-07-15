@@ -18,7 +18,7 @@
 	</header>
 
 	<!-- for sections in site.section, put 'em all here -->
-	{% for page in site.pages %}
+<!-- 	{% for page in site.pages %}
 		{% if page.layout == 'section' %}
 			<div class="section-container">
 				<div class="section-banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url( {{ page.bannerpath }} );">
@@ -26,12 +26,16 @@
     			</div>
 
 				<div class="section-content">
-					{{ page.content | mardownify }}
+					{{ page.content }}
 				</div>
 	
 			</div>
 
 		{% endif %}
+	{% endfor %} -->
+
+	{% for page in site.pages %}
+  		{% include page.html item=page markdown=true %}
 	{% endfor %}
 
 	<footer></footer>
