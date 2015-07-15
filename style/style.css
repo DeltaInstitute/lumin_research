@@ -107,13 +107,17 @@ header h1 {
 
 header li {
     color: #fff;
-    text-decoration: none;
     list-style: none;
     display: inline-block;
 }
 
 header a {
     color: #fff;
+    text-decoration: none;
+}
+
+header h1, header ul {
+    float: left;
 }
 
 header a:visited {
