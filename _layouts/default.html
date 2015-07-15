@@ -21,7 +21,7 @@
 	{% for page in site.pages %}
 		{% if page.layout == 'section' %}
 			<div class="section-container">
-				<img src="{{ site.baseurl }}/{{ page.bannerpath }}" class="section-banner" />
+				<img src="{{ page.bannerpath }}" class="section-banner" />
 				<h3 class="section-title">{{ page.title }}</h3>
 
 				{{ page.content }}
