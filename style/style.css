@@ -153,7 +153,6 @@ header a:visited {
 }
 
 .section-title {
-    padding-top: 50px;
     margin: 0 auto;
     display: inline-block;
     text-align: center;
@@ -163,7 +162,8 @@ header a:visited {
     font-weight: 400;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translateY(-50%, -50%);
 }
 
 
