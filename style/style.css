@@ -95,6 +95,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* - - - - - - - - - - - - - - - 
+   HEADER
+- - - - - - - - - - - - - - - - */
+
+
 header {
     padding: 1.5em 1em 1em 1em;
     color: #fff;
@@ -133,8 +138,16 @@ header a:visited {
 }
 
 
+/* - - - - - - - - - - - - - - - 
+   CONTENT
+- - - - - - - - - - - - - - - - */
+.section-content {
+    padding: 0 1em 1em 1em;
+}
 
-
+.section-banner {
+    width: 100%;
+}
 
 
 
