@@ -18,21 +18,7 @@
 	</header>
 
 	<!-- for sections in site.section, put 'em all here -->
-	{% for page in site.pages %}
-		{% if page.layout == 'section' %}
-			<div class="section-container">
-				<div class="section-banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url( {{ page.bannerpath }} );">
-    				<h3 class="section-title">{{ page.title }}</h3>
-    			</div>
-
-				<div class="section-content">
-					{{ page.content }}
-				</div>
-	
-			</div>
-
-		{% endif %}
-	{% endfor %}
+	{% include all-section.html %}
 
 	<footer></footer>
 </body>
