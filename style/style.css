@@ -147,6 +147,7 @@ header a:visited {
 
 .section-banner {
     width: 100%;
+    background-size: cover;
 }
 
 
