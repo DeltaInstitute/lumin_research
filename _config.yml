@@ -3,6 +3,7 @@ markdown:         kramdown
 highlighter:      pygments
 kramdown:
   input:          GFM
+encoding:		  utf-8
 
 # Permalinks
 permalink:        /posts/:title
@@ -25,7 +26,4 @@ github:
 name: 			  	DeltaLumin
 
 # Plugins
-
-
-
 exclude: [vendor]
