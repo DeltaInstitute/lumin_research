@@ -101,12 +101,16 @@ textarea {
 
 
 header {
-    padding: 1.5em 1em 1em 1em;
+    padding: 1em 1em 1em 1em;
     color: #fff;
     background-color: #6ba1b9;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    border-bottom: 2px solid rgba(0,0,0,0.2);
+    margin:0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 header h1 {
@@ -118,39 +122,143 @@ header h1 span {
     font-weight: 900;
 }
 
-header li {
+/*header li {
     color: #fff;
     list-style: none;
     display: inline-block;
     margin-right: 1em;
+    padding: 0;
+    text-transform: uppercase;
+    opacity: .6;
+}*/
+
+nav a {
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    margin: 0 1%;
+    padding: 0 1%;
+    text-transform: uppercase;
+    opacity:.6;
+    text-decoration: none;
+    width: 10%;
 }
 
-header a {
-    color: #fff;
+nav a:hover {
+    opacity: 1;
     text-decoration: none;
+    color: #fff;
+}
+
+
+nav a.active {
+    font-weight: 700;
+    opacity: 1;
+    color: #fff;
 }
 
 header h1, header ul {
     float: left;
+
 }
 
 header a:visited {
-    color: #ddd;
+    color: #fff;
+    opacity: .6;
 }
 
 
 /* - - - - - - - - - - - - - - - 
    CONTENT
 - - - - - - - - - - - - - - - - */
+
+
+.intro {
+    background-image: url(../img/electricity_bw.jpg);
+    height:100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.intro h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding-top: 40vh;
+    padding-bottom: 35vh;
+    color: #fff;
+}
+
+.intro header h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+}
+
+.intro strong {
+    font-weight: 800;
+}
+
 .section-content {
-    padding: 0 1em 1em 1em;
+    padding: 2em 8% 1em 8%;
+}
+
+.section-content h3 {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    color: #656d71;
+    font-weight: 300;
+}
+
+.section-content p {
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.section-content ul {
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.section-content strong {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .section-banner {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-size: cover;
     position: relative;
+}
+
+.section-break {
+    width:100%;
+    height:120vh;
+    position: relative;
+    color:#6ba1b9;
+}
+
+.section-break h2 {
+    font-family: 'Open Sans';
+    font-size: 60px;
+    color: #fff;
+}
+
+.section-break-content {
+    padding: 2em 8% 1em 8%;
+}
+
+.section-break-content p {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#6ba1b9;
 }
 
 .section-title {
@@ -162,14 +270,32 @@ header a:visited {
     color: #fff;
     font-weight: 400;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.section-break-icon {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans';
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.img-responsive {
+    margin: 2em 0;
+}
 
-
+p.caption {
+    margin: -2em 0 1em 0;
+    font-style: italic;
+    font-size: 10px;
+}
 
 
 
