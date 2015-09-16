@@ -1,6 +1,6 @@
 <a name="{{ page.title }}"></a>
 
-<div class="section-container">
+<div class="section-container" id="{{ page.id }}">
 	<div class="section-break" style="background-color:#6ba1b9">
 		<div class="section-break-icon"> 
 			<i class="{{ page.bannerpath }}" style="font-size:300px;font-color:#000000"></i>
@@ -13,3 +13,10 @@
 	</div>
 
 </div>
+
+<script type="text/javascript">
+	$('.section-break-icon').hide();
+	$('#{{ page.id }}').scroll(function() {
+		$('.section-break-icon').fadeIn();
+	});	
+</script>
