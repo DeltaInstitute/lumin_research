@@ -9,7 +9,7 @@ bannerpath: img/research.jpg
 
 <div class="row">	
 	<div class="col-sm-8">
-		<img src="../img/workshop-kickoff.jpg" class="img-responsive" style="padding-top:1em">
+		<img src="img/workshop-kickoff.jpg" class="img-responsive" style="padding-top:1em">
 		<p class="caption">Pilot participants working through the energy scale activity</p>
 	</div>
 	<div class="col-sm-4" style="padding-top:1em">
@@ -25,7 +25,7 @@ bannerpath: img/research.jpg
 
 <div class="row">	
 	<div class="col-sm-8">
-		<img src="../img/workshop-1.jpg" class="img-responsive" style="padding-top:1em">
+		<img src="img/workshop-1.jpg" class="img-responsive" style="padding-top:1em">
 		<p class="caption">Caption</p>
 	</div>
 	<div class="col-sm-4" style="padding-top:1em">
@@ -40,7 +40,7 @@ bannerpath: img/research.jpg
 
 <div class="row">	
 	<div class="col-sm-8">
-		<img src="../img/workshop-2.jpg" class="img-responsive" style="padding-top:1em">
+		<img src="img/workshop-2.jpg" class="img-responsive" style="padding-top:1em">
 		<p class="caption"><i>Participants practicing setting energy goals</i></p>
 	</div>
 	<div class="col-sm-4" style="padding-top:1em">
@@ -55,7 +55,7 @@ bannerpath: img/research.jpg
 
 <div class="row">	
 	<div class="col-md-8">
-			<img src="../img/workshop-3.jpg" class="img-responsive" style="padding-top:1em">
+			<img src="img/workshop-3.jpg" class="img-responsive" style="padding-top:1em">
 			<p class="caption">Caption</p>
 		</div>
 		<div class="col-md-4" style="padding-top:1em">

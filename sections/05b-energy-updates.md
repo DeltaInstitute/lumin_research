@@ -17,7 +17,7 @@ title: Energy Updates
 </div>
 <div class="row">
 	<div class="col-sm-8">
-		<img src="../img/email.gif" class="img-responsive">
+		<img src="img/email.gif" class="img-responsive">
 	</div>
 	<div class="col-sm-4">
 		<h4>Email</h4>

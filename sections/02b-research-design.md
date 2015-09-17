@@ -12,7 +12,7 @@ title: Research Design
 		 <p>tested if energy spending updates at a shorter interval (daily rather than monthly) leads to increased levels of engagement over those receiving traditional monthly bills</p>
 	</div>
 	<div class="col-sm-6">
-		<img src="../img/spending-forecast.jpg" class="img-responsive" alt="spending forecast">
+		<img src="img/spending-forecast.jpg" class="img-responsive" alt="spending forecast">
 	</div>
 </div>
 <div class="row">
@@ -21,7 +21,7 @@ title: Research Design
 		<p>tested if appliance-level energy consumption information is a more accessible illumination of energy use leading to increased levels of engagement over those receiving traditional monthly bills</p>
 	</div>
 	<div class="col-sm-6">
-		<img src="../img/appliance-diagnosis.jpg" class="img-responsive" alt="appliance spending diagnosis">
+		<img src="img/appliance-diagnosis.jpg" class="img-responsive" alt="appliance spending diagnosis">
 	</div>
 </div>
 <div class="row">
@@ -30,7 +30,7 @@ title: Research Design
 		<p>tested if facilitating energy savings goals among participants leads to increased levels of engagement over those receiving traditional monthly bills</p>
 	</div>
 	<div class="col-sm-6">
-		<img src="../img/goal-setting.png" class="img-responsive" alt="energy savings goal">
+		<img src="img/goal-setting.png" class="img-responsive" alt="energy savings goal">
 	</div>
 </div>
 <div class="row">
@@ -39,7 +39,7 @@ title: Research Design
 		<p>tested if a curated list of existing utility programs based on actual household energy use data will lead to increased levels of engagement over those receiving traditional monthly bills</p>
 	</div>
 	<div class="col-sm-6">
-		<img src="../img/program-match.jpg" class="img-responsive" alt="program match">
+		<img src="img/program-match.jpg" class="img-responsive" alt="program match">
 	</div>
 </div>
 
