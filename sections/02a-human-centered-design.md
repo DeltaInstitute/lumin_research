@@ -54,18 +54,21 @@ title: Human-Centered Design
 
 <script>
 $('#researchTitle').on('click', function () {
-	$('#researchText').slideToggle();
+	$('#researchText').slideDown();
 });
 
 $('#developmentTitle').on('click', function () {
+	$('#developmentTitle').css('opacity', 1);
 	$('#developmentText').slideToggle();
 });
 
 $('#refineTitle').on('click', function () {
+	$('#refineTitle').css('opacity', 1);
 	$('#refineText').slideToggle();
 });
 
 $('#pilotTitle').on('click', function () {
+	$('#pilotTitle').css('opacity', 1);
 	$('#pilotText').slideToggle();
 });
 

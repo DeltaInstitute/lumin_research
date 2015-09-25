@@ -227,6 +227,16 @@ footer {
     font-size: 15px;
 }
 
+.section-content li {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    margin-top:1em;
+}
+
+.section-content ol {
+    margin: 2% 10%;
+}
+
 .section-content ul {
     font-family: 'Open Sans';
     font-size: 15px;
@@ -375,22 +385,34 @@ svg {
     margin: .5em 0;
 }
 
-#researchTitle, #developmentTitle  {
+#researchTitle {
     color:#0270af;
     cursor: pointer;
+}
+
+#developmentTitle  {
+    color:#0270af;
+    cursor: pointer;
+    opacity: .3;
 }
 
 #refineTitle {
     color: #638c3d;
     cursor: pointer;
+    opacity: .3;
 }
 
 #pilotTitle {
     color: #edbb3a;
     cursor:pointer;
+    opacity: .3;
 }
 
-#researchTitle svg, #developmentTitle svg {
+#researchTitle svg {
+    background-color:#0270af;
+}
+
+#developmentTitle svg {
     background-color:#0270af;
 }
 
@@ -486,6 +508,10 @@ blockquote {
 
 /*Carousel
 =============================================================================*/
+
+#carousel-example-generic {
+    margin: 6em 0;
+}
 
 .carousel-inner {
     height: 80vh;

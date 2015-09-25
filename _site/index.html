@@ -151,18 +151,21 @@
 
 <script>
 $('#researchTitle').on('click', function () {
-	$('#researchText').slideToggle();
+	$('#researchText').slideDown();
 });
 
 $('#developmentTitle').on('click', function () {
+	$('#developmentTitle').css('opacity', 1);
 	$('#developmentText').slideToggle();
 });
 
 $('#refineTitle').on('click', function () {
+	$('#refineTitle').css('opacity', 1);
 	$('#refineText').slideToggle();
 });
 
 $('#pilotTitle').on('click', function () {
+	$('#pilotTitle').css('opacity', 1);
 	$('#pilotText').slideToggle();
 });
 
@@ -207,7 +210,7 @@ $('#pilotTitle').on('click', function () {
 
 <p>Throughout the pilot period, participants were exposed to several methods of energy illumination. Energy use was illuminated using four different features including:</p>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide">
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
@@ -268,13 +271,23 @@ $('#pilotTitle').on('click', function () {
   </a>
 </div>
 
-<p>Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p>Results of the pilot will be evaluated using a mixed methods approach. Taking a mixed methods approach involves employing both qualitative and quantitative strategies of inquiry (e.g. numeric information like energy use data collected concurrently to text information through open-ended survey questions). This approach will be used because the indicators of successful engagement include both changes in measurable energy use and changes in non-numeric opinions, motivations, and intentions related to energy use. Indicators of participant engagement include:</p>
 
-<p><img src="http://placehold.it/1200x550" alt="carousel of treatments" class="img-responsive" /></p>
+<ol>
+	<li><strong>Conservation intention:</strong> consumer indicates the intent to reduce energy use through behavior change within or following the pilot period</li>
+	<li><strong>Conservation action:</strong> consumer demonstrates energy use reduction through behavior change within the pilot period</li>
+	<li><strong>Efficiency intention:</strong> consumer indicates the intention to reduce energy use through physical improvements to their homes including the replacement of an inefficient appliance within or following the pilot period</li>
+	<li><strong>Efficiency action:</strong> consumer demonstrates energy use reduction through physical improvements to their home including the replacement of an inefficient appliance within the pilot period</li>
+	<li><strong>Informed decision not to act:</strong> consumer demonstrates receipt and indicates understanding of energy use illumination information and chooses not to take action to reduce energy use</li>
+</ol>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta.</p>
+<p>These indicators of participant engagement were measured using a concurrent triangulation of methods including:</p>
 
-<p>Nunc mattis cursus tortor quis suscipit. Maecenas mattis mi sed consectetur euismod. In nec orci et leo fringilla efficitur ac non sem. Praesent egestas sem ut nibh elementum, ut blandit eros condimentum. Duis vel nisi velit. Integer accumsan lectus vitae velit gravida, in ornare turpis elementum.</p>
+<ol>
+	<li><strong>Monthly Workshop Activities &amp; Discussion:</strong> Participants were required to attend monthly in-person events to share reactions and insights related to the features they interacted with the previous month. Qualitative data was collected in the form of responses to open-ended discussion questions and reactions to interactive group activities. </li>
+	<li><strong>Monthly surveys:</strong> Monthly surveys were distributed and completed at each Monthly Workshop. These were mixed method surveys with an emphasis on close-ended questions, but with open-ended questions included as necessary aiming to collect information about opinions, motivations, and intentions related to energy use generally and treatments more specifically.</li>
+	<li><strong>Website analytics:</strong> Email views and/or website visits were tracked by user and by date/time to aid in the analysis of changes in both energy use seen in the collected energy use data and/or changes in opinions, motivations, and intentions captured in monthly surveys.</li>
+</ol>
 
 <script>
 	$('#illuminationDefinition').fadeIn(400);
@@ -685,14 +698,29 @@ $('#pilotTitle').on('click', function () {
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
 
-<div class="row">	
-	<div class="col-sm-4" style="padding-top:1em">
-		<h4>Feature Evaluation</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
-	</div>
-	<div class="col-sm-8">
+<h4>Feature Evaluation</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
+
+<div class="row">		
+	<div class="col-sm-3">
 		<img src="http://placehold.it/800x600" class="img-responsive" style="padding-top:1em" />
-		<p class="caption">Caption</p>
+		<p><strong>Spending Forecast</strong></p>
+		<p>Participants responded to "It was easy to understand my Spending Forecast"</p>
+	</div>
+	<div class="col-sm-3">
+		<img src="http://placehold.it/800x600" class="img-responsive" style="padding-top:1em" />
+		<p><strong>Appliance Spending Diagnosis</strong></p>
+		<p>Participants responded to "It was easy to understand my Appliance Spending Diagnosis"</p>
+	</div>
+	<div class="col-sm-3">
+		<img src="http://placehold.it/800x600" class="img-responsive" style="padding-top:1em" />
+		<p><strong>Energy Spending Goal</strong></p>
+		<p>Participants responded to "It was easy to understand my Energy Spending Goal"</p>
+	</div>
+	<div class="col-sm-3">
+		<img src="http://placehold.it/800x600" class="img-responsive" style="padding-top:1em" />
+		<p><strong>Program Match</strong></p>
+		<p>Participants responded to "It was easy to understand my Program Match"</p>
 	</div>
 </div>
 

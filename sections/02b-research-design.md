@@ -31,7 +31,7 @@ title: Research Design
 
 <p>Throughout the pilot period, participants were exposed to several methods of energy illumination. Energy use was illuminated using four different features including:</p>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide">
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
@@ -94,13 +94,25 @@ title: Research Design
 
 
 
-<p>Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p>Results of the pilot will be evaluated using a mixed methods approach. Taking a mixed methods approach involves employing both qualitative and quantitative strategies of inquiry (e.g. numeric information like energy use data collected concurrently to text information through open-ended survey questions). This approach will be used because the indicators of successful engagement include both changes in measurable energy use and changes in non-numeric opinions, motivations, and intentions related to energy use. Indicators of participant engagement include:</p>
 
-<img src="http://placehold.it/1200x550" alt="carousel of treatments" class="img-responsive">
+<ol>
+	<li><strong>Conservation intention:</strong> consumer indicates the intent to reduce energy use through behavior change within or following the pilot period</li>
+	<li><strong>Conservation action:</strong> consumer demonstrates energy use reduction through behavior change within the pilot period</li>
+	<li><strong>Efficiency intention:</strong> consumer indicates the intention to reduce energy use through physical improvements to their homes including the replacement of an inefficient appliance within or following the pilot period</li>
+	<li><strong>Efficiency action:</strong> consumer demonstrates energy use reduction through physical improvements to their home including the replacement of an inefficient appliance within the pilot period</li>
+	<li><strong>Informed decision not to act:</strong> consumer demonstrates receipt and indicates understanding of energy use illumination information and chooses not to take action to reduce energy use</li>
+</ol>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta.</p>
+<p>These indicators of participant engagement were measured using a concurrent triangulation of methods including:</p>
 
-<p>Nunc mattis cursus tortor quis suscipit. Maecenas mattis mi sed consectetur euismod. In nec orci et leo fringilla efficitur ac non sem. Praesent egestas sem ut nibh elementum, ut blandit eros condimentum. Duis vel nisi velit. Integer accumsan lectus vitae velit gravida, in ornare turpis elementum.</p>
+<ol>
+	<li><strong>Monthly Workshop Activities & Discussion:</strong> Participants were required to attend monthly in-person events to share reactions and insights related to the features they interacted with the previous month. Qualitative data was collected in the form of responses to open-ended discussion questions and reactions to interactive group activities. </li>
+	<li><strong>Monthly surveys:</strong> Monthly surveys were distributed and completed at each Monthly Workshop. These were mixed method surveys with an emphasis on close-ended questions, but with open-ended questions included as necessary aiming to collect information about opinions, motivations, and intentions related to energy use generally and treatments more specifically.</li>
+	<li><strong>Website analytics:</strong> Email views and/or website visits were tracked by user and by date/time to aid in the analysis of changes in both energy use seen in the collected energy use data and/or changes in opinions, motivations, and intentions captured in monthly surveys.</li>
+</ol>
+
+
 
 <script>
 	$('#illuminationDefinition').fadeIn(400);
