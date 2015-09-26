@@ -1,3 +1,4 @@
+
 $(window).scroll(function () {
 $('.bulb').each(function () {
     var imagePos = $(this).offset().top;
@@ -10,4 +11,3 @@ $('.bulb').each(function () {
         $(this).removeClass("drawBulb");
     }
 	});
-});
