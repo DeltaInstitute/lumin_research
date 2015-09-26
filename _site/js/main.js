@@ -11,3 +11,4 @@ $('.bulb').each(function () {
         $(this).removeClass("drawBulb");
     }
 	});
+});

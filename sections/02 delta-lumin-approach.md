@@ -21,5 +21,5 @@ bannerpath: fa fa-lightbulb-o
 </div>
 <h2>The Delta Lumin Approach</h2>
 
-<script src="jquery-2.1.3.js"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
 <script src ="js/main.js"></script>
