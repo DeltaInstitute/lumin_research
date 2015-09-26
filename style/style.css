@@ -351,6 +351,62 @@ h4 {
 }
 
 
+/* Lumin Approach animation
+=============================================================================*/
+.bulb svg {
+    height:80vh;
+    width:100%;
+    padding-top: 10vh;
+    padding-left: 30%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.bulb {
+  color: #fff;
+  background-color: #6ba1b9;
+  height: 80vh;
+}
+
+.drawBulb path {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 1300;
+  stroke-dashoffset: 1300;
+  animation-iteration-count: 1;
+  animation: draw 4s linear;
+  animation-fill-mode: forwards;
+}
+
+
+.drawBulb line {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+#lineTwo {
+  animation-delay: 5s;
+}
+
+#lineThree {
+  animation-delay: 6s;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
 /*HCD Process Diagram
 =============================================================================*/
 

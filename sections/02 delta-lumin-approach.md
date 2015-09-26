@@ -4,4 +4,22 @@ title: The DeltaLumin Approach
 bannerpath: fa fa-lightbulb-o
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+<style>
+
+
+</style>
+
+<div class="bulb">
+	<svg width="500px" height="500px">
+		<path id="bulb" fill="none" stroke="black" stroke-width="1" stroke-miterlimit="10" d="M404.8,171.1c0-85-69.2-154.2-154.2-154.2
+		S96.4,86.1,96.4,171.1c0,59.2,58.3,110.7,58.3,110.7c14.5,13.5,29,42.5,29,62.4v99.5c0,20,6.8,34.8,26.7,34.8h79.5
+		c20.3,0,28-14.5,28-34.8V342c0-20.3,16.7-49.2,31.2-62.4C349.1,279.6,404.8,228.1,404.8,171.1z"/>
+		<line id="lineOne" stroke="#000000" stroke-width="8" stroke-miterlimit="10" x1="183.6" y1="376.8" x2="317.5" y2="376.8"/>
+		<line id="lineTwo" stroke="#000000" stroke-width="8" stroke-miterlimit="10" x1="183.6" y1="410.3" x2="317.5" y2="410.3"/>
+		<line id="lineThree" stroke="#000000" stroke-width="8" stroke-miterlimit="10" x1="183.6" y1="443.8" x2="317.5" y2="443.8"/>
+	</svg>
+</div>
+<h2>The Delta Lumin Approach</h2>
+
+<script src="jquery-2.1.3.js"></script>
+<script src ="js/main.js"></script>

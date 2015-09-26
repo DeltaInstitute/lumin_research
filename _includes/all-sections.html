@@ -12,19 +12,14 @@
 
 		<a name="{{ page.title }}"></a>
 		
-		<div class="section-container">
+		<div class="section-container" id="{{ page.id }}">
 			<div class="section-break" style="background-color:#6ba1b9">
-				<div class="section-break-icon">
-					<i class="{{ page.bannerpath }}" style="font-size:300px;font-color:#000000"></i>
-				</div>
-				<div class="section-title" style="padding-top:8em"><h2>{{ page.title }}</h2></div>
-			</div>
+		
+		{{ page.content }}
 
-			<div class="section-break-content">
-				<p>{{ page.content }}</p>
 			</div>
-
 		</div>
+		
 		{% endif %}
 
 	{% endfor %}
