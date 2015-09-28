@@ -859,6 +859,95 @@ h2 {
 }*/
 
 
+/* Survey Results - Treatment Eval Animation
+=============================================================================*/
+.surveyFeature svg {
+   height:80vh;
+    width:100%;
+    padding-top: 5vh;
+    padding-left: 10%; 
+    background-color: #fff;
+}
+
+.background {
+    background-color: #fff;
+}
+
+#test .arc2 {
+    stroke-weight:0.1;
+    fill: #d3d3d3;
+}
+
+#outer {
+    background:#FFFFFF;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#forecastEval, #applianceEval, #goalEval, #programEval {
+    width: 90%;
+    height: 175px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#forecastEval .arc {
+    stroke-weight: 0.1;
+    fill: #568b42;
+}
+
+#forecastEval .arc2 {
+    stroke-weight: 0.1;
+    fill: #d3d3d3;
+}
+
+#applianceEval .arc {
+    stroke-weight: 0.1;
+    fill: #568b42;
+}
+
+#applianceEval .arc2 {
+    stroke-weight: 0.1;
+    fill: #d3d3d3;
+}
+
+#goalEval .arc {
+    stroke-weight: 0.1;
+    fill: #568b42;
+}
+
+#goalEval .arc2 {
+    stroke-weight: 0.1;
+    fill: #d3d3d3;
+}
+
+#programEval .arc {
+    stroke-weight: 0.1;
+    fill: #568b42;
+}
+
+#programEval .arc2 {
+    stroke-weight: 0.1;
+    fill: #d3d3d3;
+}
+
+
+.selectedRadial {
+    border-radius: 3px;
+    background: #d3d3d3;
+    color: #d3d3d3;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    border: 1px solid rgba(200,200,200,0.85);
+}
+
+.radial {
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: #000;
+}
+
+
 
 /* ==========================================================================
    Helper classes

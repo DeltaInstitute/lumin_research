@@ -49,13 +49,13 @@ $('.researchQuestion').each(function () {
     var topOfWindow = $(window).scrollTop();
 
     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-        $(this).find('#illuminationDefinition').fadeIn(1800);
-        $(this).find('#lowIncomeDefinition').fadeIn(1800);
-        $(this).find('#engagementDefinition').fadeIn(1800);
+        $(this).find('#illuminationDefinition').slideDown();
+        $(this).find('#lowIncomeDefinition').slideDown();
+        $(this).find('#engagementDefinition').slideDown();
     } else {
-        $(this).find('#illuminationDefinition').fadeOut();
-        $(this).find('#lowIncomeDefinition').fadeOut();
-        $(this).find('#engagementDefinition').fadeOut();
+        $(this).find('#illuminationDefinition').slideUp();
+        $(this).find('#lowIncomeDefinition').slideUp();
+        $(this).find('#engagementDefinition').slideUp();
     }
     });
 });
@@ -163,4 +163,72 @@ $('.calcFlowChart').each(function () {
     }
     });
 });
+
+
+// Survey REsults - Treatment Eval Animation
+//======================================================================================
+var div1=d3.select(document.getElementById('div1'));
+    var forecastEval=d3.select(document.getElementById('forecastEval'));
+    var applianceEval=d3.select(document.getElementById('applianceEval'));
+    var goalEval=d3.select(document.getElementById('goalEval'));
+    var programEval=d3.select(document.getElementById('programEval'));
+
+    start();
+
+    // function onClick1() {
+    //     deselect();
+    //     div1.attr("class","selectedRadial");
+    // }
+
+    // function onClick2() {
+    //     deselect();
+    //     forecastEval.attr("class","selectedRadial");
+    // }
+
+    // function onClick3() {
+    //     deselect();
+    //     div3.attr("class","selectedRadial");
+    // }
+
+    function labelFunction(val,min,max) {
+
+    }
+
+    function deselect() {
+        div1.attr("class","radial");
+        forecastEval.attr("class","radial");
+        div3.attr("class","radial");
+    }
+
+    function start() {
+
+        var rp1 = radialProgress(document.getElementById('forecastEval'))
+                .diameter(150)
+                .value(34)
+                .render();
+
+        var rp2 = radialProgress(document.getElementById('applianceEval'))
+                .diameter(150)
+                .value(60)
+                .render();
+
+        var rp3 = radialProgress(document.getElementById('goalEval'))
+                .diameter(150)
+                .value(80)
+                .render();
+
+        var rp4 = radialProgress(document.getElementById('programEval'))
+                .diameter(150)
+                .value(55)
+                .render();
+
+        // var rp3 = radialProgress(document.getElementById('div3'))
+        //         .diameter(150)
+        //         .minValue(100)
+        //         .maxValue(200)
+        //         .value(150)
+        //         .render();
+
+    }
+
 
