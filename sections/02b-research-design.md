@@ -4,7 +4,7 @@ title: Research Design
 <!-- bannerpath: img/coding.jpg-->
 ---
 
-<div class="research-question">
+<div class="researchQuestion">
 
 	<h4>Research Question:</h4>
 	<p><blockquote>Will the <span id="illumination">illumination</span> of energy use data lead <span id="lowIncome">low-income</span> energy consumers to <span id="engagement">engage</span> with their energy use beyond the level of engagement that occurs with the use of traditional monthly bills?</blockquote></p>
@@ -112,13 +112,5 @@ title: Research Design
 	<li><strong>Website analytics:</strong> Email views and/or website visits were tracked by user and by date/time to aid in the analysis of changes in both energy use seen in the collected energy use data and/or changes in opinions, motivations, and intentions captured in monthly surveys.</li>
 </ol>
 
-
-
-<script>
-	$('#illuminationDefinition').fadeIn(400);
-
-	$('#lowIncomeDefinition').fadeIn(2400);
-
-	$('#engagementDefinition').fadeIn(3000);
-
-</script>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src ="js/main.js"></script>

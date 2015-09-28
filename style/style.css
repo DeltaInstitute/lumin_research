@@ -368,6 +368,7 @@ h4 {
     width:100%;
     padding-top: 10vh;
     padding-left: 30%;
+    outline-width: 8px;
 }
 
 h2 {
@@ -496,7 +497,7 @@ blockquote {
     font-family: 'Open Sans'
 }
 
-.research-question {
+.researchQuestion {
     background-color: #ededed;
     padding: 2em;
     margin: 1em 0;
@@ -586,6 +587,277 @@ blockquote {
 .glyphicon-chevron-right, .glyphicon-chevron-left {
     color: #000;
  }
+
+
+/* Prototype animation
+=============================================================================*/
+.code svg {
+    height:80vh;
+    width:100%;
+    padding-top: 5vh;
+    padding-left: 0%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.code {
+  color: #fff;
+  background-color: #6ba1b9;
+  height: 80vh;
+}
+
+.blink .cursor {
+    animation: blink 1.5s steps(5, start) infinite;
+    -webkit-animation: blink 1.5s steps(5, start) infinite;
+    }
+    
+    @keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+    
+    @-webkit-keyframes blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+.blink .openingCarrot {
+    -webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0s; /* Firefox < 16 */
+        -ms-animation: fadein 0s; /* Internet Explorer */
+         -o-animation: fadein 0s; /* Opera < 12.1 */
+            animation: fadein 0s;
+            animation-delay: 3s;
+            animation-fill-mode: forwards;
+}
+
+.blink .slash {
+    -webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0s; /* Firefox < 16 */
+        -ms-animation: fadein 0s; /* Internet Explorer */
+         -o-animation: fadein 0s; /* Opera < 12.1 */
+            animation: fadein 0s;
+            animation-delay: 3.5s;
+            animation-fill-mode: forwards;
+}
+.blink .closingCarrot {
+    -webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0s; /* Firefox < 16 */
+        -ms-animation: fadein 0s; /* Internet Explorer */
+         -o-animation: fadein 0s; /* Opera < 12.1 */
+            animation: fadein 0s;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.openingCarrot, .slash, .closingCarrot {
+    opacity: 0;
+}
+
+
+/* Pilot animation
+=============================================================================*/
+.envelope svg {
+    height:80vh;
+    width:100%;
+    padding-top: 5vh;
+    padding-left: 0%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.envelope {
+  color: #fff;
+  background-color: #6ba1b9;
+  height: 80vh;
+}
+
+.envelopeOpen {
+    opacity: 0;
+}
+
+.paperInside {
+    opacity: 0;
+}
+
+/* Pilot animation
+=============================================================================*/
+.dashboard svg {
+    height:80vh;
+    width:100%;
+    padding-top: 5vh;
+    padding-left: 10%;
+
+}
+
+.computer {
+    position: relative;
+}
+
+.screenshot {
+    position:absolute;
+    margin: 5% 33%;
+}
+.screenshot video{
+    width: 133 %;
+}
+
+
+
+/* Energy Calc Interaction
+=============================================================================*/
+.calcFlowChart svg {
+    height:80vh;
+    width:100%;
+    padding-top: 5vh;
+    padding-left: 1%;
+
+}
+
+.drawCalcLines path {
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+/*#weatherToTime {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 365;
+  stroke-dashoffset: 365;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#weatherToPredictive {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 451;
+  stroke-dashoffset: 451;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#weatherToAppliance {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#historyToTime {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#historyToPredictive {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#historyToAppliance {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#historyToProgram {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#houseToPredictive {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#houseToAppliance {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}
+
+#houseToProgram {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  animation-iteration-count: 1;
+  animation: draw 2s linear;
+  animation-fill-mode: forwards;
+}*/
+
 
 
 /* ==========================================================================
