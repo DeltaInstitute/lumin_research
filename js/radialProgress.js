@@ -25,14 +25,14 @@
 
 function radialProgress(parent) {
     var _data=null,
-        _duration= 1000,
+        _duration= 1500,
         _selection,
         _margin = {top:0, right:0, bottom:30, left:0},
         __width = 300,
         __height = 300,
         _diameter,
         _label="",
-        _fontSize=10;
+        _fontSize=30;
 
 
     var _mouseClick;
@@ -116,7 +116,7 @@ function radialProgress(parent) {
             label.enter().append("text")
                 .attr("class","label")
                 .attr("y",_width/2+_fontSize/3)
-                .attr("x",_width/2)
+                .attr("x",_width/3)
                 .attr("cursor","pointer")
                 .attr("width",_width)
                 // .attr("x",(3*_fontSize/2))
