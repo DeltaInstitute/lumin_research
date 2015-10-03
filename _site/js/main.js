@@ -64,16 +64,15 @@ $('.researchQuestion').each(function () {
 // Recruitment animation
 //======================================================================================
 $(window).scroll(function () {
-$('nav').find('a').removeClass('active');
 $('.recruitment').each(function () {
     var imagePos = $(this).offset().top;
     var imageHeight = $(this).height();
     var topOfWindow = $(window).scrollTop();
 
     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-        $('nav').find('#recruitmentNav').addClass('active');
+        $(this).addClass('drawBubble');
     } else {
-        $(this).removeClass("drawBulb");
+        $(this).removeClass("drawBubble");
     }
     });
 });
@@ -88,24 +87,9 @@ $('.code').each(function () {
     var topOfWindow = $(window).scrollTop();
 
     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-        $('nav').find('#prototypeNav').addClass('active');
-        $(this).addClass('blink');
-        window.setTimeout(function () {
-        	$( ".cursor" ).find('line').attr( 'x1', '600');
-        	$( ".cursor" ).find('line').attr( 'x2', '600');
-    	}, 2800 );
-    	window.setTimeout(function () {
-        	$( ".cursor" ).find('line').attr( 'x1', '850');
-        	$( ".cursor" ).find('line').attr( 'x2', '850');
-    	}, 3300 );
-    	window.setTimeout(function () {
-        	$( ".cursor" ).find('line').attr( 'x1', '1100');
-        	$( ".cursor" ).find('line').attr( 'x2', '1100');
-    	}, 3800 );
+        $(this).addClass('cursorMove');
     } else {
-        $(this).removeClass('blink');
-        $( ".cursor" ).find('line').attr( 'x1', '225');
-        $( ".cursor" ).find('line').attr( 'x2', '225');
+        $(this).removeClass('cursorMove');
     }
 	});
 });
@@ -119,30 +103,9 @@ $('.envelope').each(function () {
     var topOfWindow = $(window).scrollTop();
 
     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-        window.setTimeout(function () {
-        	$( ".envelopeOpen" ).css('opacity', 1);
-        	$( ".paperInside" ).css('opacity', 1);
-    	}, 1000 );
-    	window.setTimeout(function () {
-        	$( ".paperInside" ).find('rect').attr('height', 800).attr('y', 850);
-    	}, 1500 );
-    	window.setTimeout(function () {
-        	$( ".paperInside" ).find('rect').attr('height', 1200).attr('y', 450);
-    	}, 2000 );
-    	window.setTimeout(function () {
-        	$('.paperOutside').removeAttr('display');
-        	$( ".paperInside" ).find('rect').attr('height', 1200).attr('y', 50);
-    	}, 2500 );
-    	window.setTimeout(function () {
-        	$('.paperOutside').find('rect').attr('y', 550);
-        	$('.paperInside').find('rect').attr('y', 550);
-    	}, 3000 );
+        $('.envelope').addClass('open');
     } else {
-        $( ".envelopeOpen" ).css('opacity', 0);
-        $( ".paperInside" ).find('rect').attr('height', 400).attr('y', 1250);
-        $( ".paperInside" ).css('opacity', 0);
-        $('.paperOutside').attr('y', 550);
-        $('.paperOutside').attr('display', 'none');
+        $('.envelope').removeClass('open');
     }
 	
 	});

@@ -381,39 +381,60 @@ h2 {
   height: 80vh;
 }
 
-.drawBulb path {
+.drawBulb #bulb {
   stroke: #fff;
   stroke-width: 6;
-  stroke-dasharray: 1300;
-  stroke-dashoffset: 1300;
+  stroke-dasharray: 2958;
+  stroke-dashoffset: 2958;
   animation-iteration-count: 1;
-  animation: draw 4s linear;
+  animation: draw 1s linear;
   animation-fill-mode: forwards;
 }
 
 
-.drawBulb line {
+.drawBulb #lines {
   stroke: #fff;
   stroke-width: 6;
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  animation: draw 2s linear;
+  stroke-dasharray: 312;
+  stroke-dashoffset: 312;
+  animation: draw .5s linear;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 1s;
 }
 
-#lineTwo {
+.drawBulb #fillament {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 2075;
+  stroke-dashoffset: 2075;
+  animation: draw 1s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+.drawBulb #fill {
+  opacity: 0;
+  animation: appear 2s ease 1.5s;
+  animation-fill-mode: forwards;
+}
+
+/*#lineTwo {
   animation-delay: 5s;
 }
 
 #lineThree {
   animation-delay: 6s;
-}
+}*/
 
 @keyframes draw {
   to {
     stroke-dashoffset: 0;
   }
+}
+
+@keyframes appear {
+  0% { opacity: 0; }
+  100% { opacity: .5; }
 }
 
 
@@ -589,6 +610,95 @@ blockquote {
  }
 
 
+/* Recruitment animation
+=============================================================================*/
+.recruitment svg {
+    height:80vh;
+    width:100%;
+    padding-top: 10vh;
+    padding-left: 30%;
+    outline-width: 8px;
+}
+
+.drawBubble #bubble {
+  stroke: #fff;
+  stroke-width: 6;
+  stroke-dasharray: 3005;
+  stroke-dashoffset: 3005;
+  animation-iteration-count: 1;
+  animation: draw 1s linear;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs {
+  stroke: #fff;
+  stroke-width: 15;
+  animation-iteration-count: 1;
+}
+
+.drawBubble #joinUs1 {
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  animation: draw .2s linear 1s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs2 {
+  stroke-dasharray: 348;
+  stroke-dashoffset: 348;
+  animation: draw .1s linear 1.1s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs3 {
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
+  animation: draw .1s linear 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs4 {
+  stroke-dasharray: 25;
+  stroke-dashoffset: 25;
+  animation: draw .1s linear 1.3s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs5 {
+  stroke-dasharray: 373;
+  stroke-dashoffset: 373;
+  animation: draw .1s linear 1.4s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs6 {
+  stroke-dasharray: 373;
+  stroke-dashoffset: 373;
+  animation: draw .1s linear 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs7 {
+  stroke-dasharray: 373;
+  stroke-dashoffset: 373;
+  animation: draw .1s linear 1.6s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs8 {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: draw .1s linear 1.7s;
+  animation-fill-mode: forwards;
+}
+
+.drawBubble #joinUs9 {
+  stroke-dasharray: 35;
+  stroke-dashoffset: 35;
+  animation: draw .1s linear 1.8s;
+  animation-fill-mode: forwards;
+}
+
 /* Prototype animation
 =============================================================================*/
 .code svg {
@@ -608,7 +718,11 @@ h2 {
   height: 80vh;
 }
 
-.blink .cursor {
+.cursorMove .cursor {
+  animation: type 1.5s steps(3, end) .5s;
+}
+
+/*.blink .cursor {
     animation: blink 1.5s steps(5, start) infinite;
     -webkit-animation: blink 1.5s steps(5, start) infinite;
     }
@@ -623,34 +737,39 @@ h2 {
       to {
         visibility: hidden;
       }
+    }*/
+
+    @keyframes type {
+      0% { transform: translateX(400px); }
+      100% { transform: translateX(1200px); }
     }
 
-.blink .openingCarrot {
+.cursorMove .openingCarrot {
     -webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 0s; /* Firefox < 16 */
         -ms-animation: fadein 0s; /* Internet Explorer */
          -o-animation: fadein 0s; /* Opera < 12.1 */
             animation: fadein 0s;
-            animation-delay: 3s;
+            animation-delay: .5s;
             animation-fill-mode: forwards;
 }
 
-.blink .slash {
+.cursorMove .slash {
     -webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 0s; /* Firefox < 16 */
         -ms-animation: fadein 0s; /* Internet Explorer */
          -o-animation: fadein 0s; /* Opera < 12.1 */
             animation: fadein 0s;
-            animation-delay: 3.5s;
+            animation-delay: 1s;
             animation-fill-mode: forwards;
 }
-.blink .closingCarrot {
+.cursorMove .closingCarrot {
     -webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 0s; /* Firefox < 16 */
         -ms-animation: fadein 0s; /* Internet Explorer */
          -o-animation: fadein 0s; /* Opera < 12.1 */
             animation: fadein 0s;
-            animation-delay: 4s;
+            animation-delay: 1.5s;
             animation-fill-mode: forwards;
 }
 
@@ -689,6 +808,7 @@ h2 {
 }
 
 
+
 /* Pilot animation
 =============================================================================*/
 .envelope svg {
@@ -708,13 +828,37 @@ h2 {
   height: 80vh;
 }
 
-.envelopeOpen {
-    opacity: 0;
+.open #paperInside, #envelopeOpen {
+  opacity: 0;
+  animation: openUp .2s linear 1s;
+  animation-fill-mode: forwards;
 }
 
-.paperInside {
-    opacity: 0;
+.open #paperHalf {
+  opacity: 0;
+  animation: openUp .2s linear 1.3s;
+  animation-fill-mode: forwards;
 }
+
+.open #paperFull {
+  opacity: 0;
+  animation: openFull .6s linear 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes openUp {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+@keyframes openFull {
+  0% { opacity:0; }
+  10% { opacity:1; }
+  100% { 
+    opacity:1;
+    transform: translateY(600px) };
+}
+
 
 /* Viz animation
 =============================================================================*/
