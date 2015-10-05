@@ -257,7 +257,7 @@ footer {
 
 .section-break {
     width:100%;
-    height:120vh;
+    height:100vh;
     position: relative;
     color:#6ba1b9;
 }
@@ -266,7 +266,10 @@ footer {
     font-family: 'Open Sans';
     font-size: 60px;
     color: #fff;
+    text-align: center;
+    padding: 100px 0 0 0;
 }
+
 
 .section-break-content {
     padding: 2em 8% 1em 8%;
@@ -364,21 +367,17 @@ h4 {
 /* Lumin Approach animation
 =============================================================================*/
 .bulb svg {
-    height:80vh;
+    height:40vh;
     width:100%;
-    padding-top: 10vh;
-    padding-left: 30%;
+    margin-top: 20vh;
+    padding-left: 10%;
     outline-width: 8px;
-}
-
-h2 {
-  text-align: center;
 }
 
 .bulb {
   color: #fff;
   background-color: #6ba1b9;
-  height: 80vh;
+  height: 50vh;
 }
 
 .drawBulb #bulb {
@@ -515,7 +514,7 @@ blockquote {
     font-size: 150%;
     font-weight: 400;
     border: none;
-    font-family: 'Open Sans'
+    font-family: 'Open Sans';
 }
 
 .researchQuestion {
@@ -613,11 +612,15 @@ blockquote {
 /* Recruitment animation
 =============================================================================*/
 .recruitment svg {
-    height:80vh;
+    height:50vh;
     width:100%;
-    padding-top: 10vh;
-    padding-left: 30%;
+    margin-top: 20vh;
+    padding-left: 10%;
     outline-width: 8px;
+}
+
+.recruitment {
+  height: 50vh;
 }
 
 .drawBubble #bubble {
@@ -702,20 +705,17 @@ blockquote {
 /* Prototype animation
 =============================================================================*/
 .code svg {
-    height:80vh;
+    height:40vh;
     width:100%;
-    padding-top: 5vh;
+    margin-top: 20vh;
     padding-left: 0%;
-}
-
-h2 {
-  text-align: center;
+    margin-left: -2%;
 }
 
 .code {
   color: #fff;
   background-color: #6ba1b9;
-  height: 80vh;
+  height: 40vh;
 }
 
 .cursorMove .cursor {
@@ -812,47 +812,71 @@ h2 {
 /* Pilot animation
 =============================================================================*/
 .envelope svg {
-    height:80vh;
+    height:40vh;
     width:100%;
-    padding-top: 5vh;
+    margin-top: 20vh;
     padding-left: 0%;
-}
-
-h2 {
-  text-align: center;
 }
 
 .envelope {
   color: #fff;
   background-color: #6ba1b9;
-  height: 80vh;
+  height: 50vh;
 }
 
-.open #paperInside, #envelopeOpen {
+.open #envelopeOpen {
   opacity: 0;
-  animation: openUp .2s linear 1s;
+  animation: openFirst .1s linear 1s;
   animation-fill-mode: forwards;
+}
+
+.open #paperInside {
+  opacity: 0;
+  animation: openUp .2s linear 1.3s;
 }
 
 .open #paperHalf {
   opacity: 0;
-  animation: openUp .2s linear 1.3s;
-  animation-fill-mode: forwards;
+  animation: pullOut .2s linear 1.5s;
 }
 
 .open #paperFull {
   opacity: 0;
-  animation: openFull .6s linear 1.5s;
+  animation: openFull 1s linear 1.7s;
   animation-fill-mode: forwards;
 }
 
+@keyframes openFirst {
+  100% { 
+    opacity:1;
+  }
+}
+
 @keyframes openUp {
-  from { opacity:0; }
-  to { opacity:1; }
+  0% { opacity:1; }
+  95% { 
+    opacity:1;
+    transform: translateY(-500px); }
+  100% { 
+    opacity:1;
+    transform: translateY(-500px);
+  }
+}
+
+@keyframes pullOut {
+  0% { 
+    opacity:1; }
+  95% { 
+    opacity:1;
+    transform: translateY(-800px); }
+  100% {
+    opacity: 0;
+    transform: translateY(-800px);
+  }
 }
 
 @keyframes openFull {
-  0% { opacity:0; }
+  0% { opacity: 1; }
   10% { opacity:1; }
   100% { 
     opacity:1;
@@ -862,14 +886,85 @@ h2 {
 
 /* Viz animation
 =============================================================================*/
+.dashboard {
+  padding: 5em 0;
+}
+
 .dashboard svg {
-    height:100vh;
+    height:100%;
     width:100%;
-    padding-top: 5vh;
     padding-left: 10%;
 }
 
-.computer {
+#allScrollContent {
+  animation: exploreSite 30s linear infinite;
+}
+
+#week {
+  -webkit-animation: hideWeek 30s linear infinite;
+  -o-animation: hideWeek 30s linear infinite;
+  animation: hideWeek 30s linear infinite;
+}
+
+#month {
+  -webkit-animation: showMonth 30s linear infinite;
+  -o-animation: showMonth 30s linear infinite;
+  animation: showMonth 30s linear infinite;
+}
+
+@keyframes exploreSite {
+  0% { transform: translateY(0px); }
+  10% { transform: translateY(0px); }
+  20% { transform: translateY(-400px); }
+  40% { transform: translateY(-400px); }
+  50% { transform: translateY(-900px); }
+  70% { transform: translateY(-900px); }
+  90% { transform: translateY(0px); }
+}
+
+@keyframes showMonth {
+  0% {
+    opacity: 0;
+  }
+  29% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  39% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes hideWeek {
+  0% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  39% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*.computer {
     position: relative;
 }
 
@@ -881,7 +976,7 @@ video {
     top: 17%;
     left:27%;
     z-index: 1;
-}
+}*/
 
 
 
@@ -1003,6 +1098,48 @@ video {
   animation-fill-mode: forwards;
 }*/
 
+/* Email Example Animation
+=============================================================================*/
+.emailExample svg {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 0 5% 0;
+}
+
+#email {
+  animation: scrollEmail 15s linear infinite 1s;
+}
+
+@keyframes scrollEmail {
+  5% { 
+    transform: translate(0px, 0px); 
+  }
+  20% { 
+    transform: translate(-55.5px, -100px); 
+  }
+  30% { 
+    transform: translate(-55.5px, -100px); 
+  }
+  40% { 
+    transform: translate(-148px, -267px); 
+  }
+  60% { 
+    transform: translate(-148px, -267px); 
+  }
+  70% { 
+    transform: translate(-222px, -400px); 
+  }
+  90% { 
+    transform: translate(-222px, -400px); 
+  }
+  100% { 
+    transform: translate(0px, 0px); 
+  }
+}
+
+
+
 
 /* Survey Results - Treatment Eval Animation
 =============================================================================*/
@@ -1093,7 +1230,7 @@ video {
 
 #utilityBill .arc {
     stroke-weight: 0.1;
-    fill: #568b42;
+    fill: red;
 }
 
 #utilityBill .arc2 {
@@ -1118,7 +1255,7 @@ video {
  */
 
 .hidden {
-    display: none !important;
+    display: none;
 }
 
 /*
@@ -1261,7 +1398,7 @@ video {
     }
 
     img {
-        max-width: 100% !important;
+        max-width: 100%;
     }
 
     p,

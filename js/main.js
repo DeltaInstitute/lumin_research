@@ -10,16 +10,6 @@ function checkWindow() {
 }
 
 
-// $(window).scroll(function () {
-// $('.bulb').each(function() {
-//     var view = checkWindow();
-//     if (view ='yes') {
-//         $('nav').find('#approach').addClass('active');
-//     else {
-//         $('nav').find('#aproach').removeClass('active');
-//     }
-// ]);
-
 
 // Lumin Approach animation
 //======================================================================================

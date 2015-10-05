@@ -8,9 +8,8 @@ bannerpath: fa fa-lightbulb-o
 
 
 </style>
-
 <div class="bulb">
-	<svg x="0px" y="0px" viewBox="550 75 800 1100">
+	<svg x="0px" y="0px" viewBox="550 50 800 1100">
 		<g id="fill" opacity="0.5">
 			<g>
 				<path fill="#FFFFFF" d="M596.8,51.1c312.2,0,498.2,378,219.1,622.9c-35.9,32.6-64.5,100.4-64.5,141v79.2L439,893.8V815
@@ -35,8 +34,9 @@ bannerpath: fa fa-lightbulb-o
 		</g>
 	</svg>
 </div>
-
 <h2>The Delta Lumin Approach</h2>
+
+
 
 <script src="../js/jquery-2.1.4.min.js"></script>
 <script src ="js/main.js"></script>
