@@ -144,6 +144,7 @@ nav a {
     opacity:.6;
     text-decoration: none;
     width: 10%;
+    transition: all .3s ease;
 }
 
 nav a:hover {
