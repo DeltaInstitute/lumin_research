@@ -94,11 +94,20 @@ title: Research Design
  -->
 <!-- Try carousel from scratch --> 
 <div class="featureCarousel">
-	<img id="featureImg" src="img/spending-forecast.jpg" class="img-responsive">
-	<form>
-		<button type="button" id="prevFeature" class="btn" disabled="true"><i class="fa fa-chevron-circle-left"></i></button>
-		<button type="button" id="nextFeature" class="btn"><i class="fa fa-chevron-circle-right"></i></button>
-	</form>
+	<div class="row">
+		<div class="col-xs-1">
+			<button type="button" id="prevFeature" class="btn" disabled="true"><i class="fa fa-chevron-left"></i></button>
+		</div>
+		<div class="col-xs-10">
+			<h4>1. Spending Forecast</h4>
+			<p>tested if energy spending updates at a shorter interval (daily rather than monthly) leads to increased levels of engagement over those receiving traditional monthly bills</p>
+			<hr>
+			<img id="featureImg" src="img/spending-forecast.jpg" class="img-responsive">
+		</div>
+		<div class="col-xs-1">
+			<button type="button" id="nextFeature" class="btn"><i class="fa fa-chevron-right"></i></button>
+		</div>
+	</div>	
 </div>
 
 

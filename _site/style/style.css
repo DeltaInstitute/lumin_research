@@ -612,6 +612,8 @@ blockquote {
 
 .featureCarousel {
   height: 100%;
+  margin: 5% 5%;
+  text-align: center;
 }
 
 .featureCarousel #featureImg {
@@ -619,21 +621,32 @@ blockquote {
   margin: 0 auto;
 }
 
-.featureCarousel form {
-  text-align: center;
-  position: relative;
-}
-
 #prevFeature, #nextFeature {
-  margin: 10px 100px;
+  margin: 10px 10%;
 }
 
 .featureCarousel .btn {
   background-color: #fff;
+  padding: 250px 5px;
+  width: 200%;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color:#eee;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+  outline: none;
 }
 
 .featureCarousel i {
   font-size: 30px;
+}
+
+
+.featureCarousel .col-xs-10 {
+  padding: 5%;
 }
 
 
