@@ -29,6 +29,27 @@ $('.bulb').each(function () {
 	});
 });
 
+// Human centered design
+//======================================================================================
+$('#researchTitle').on('click', function () {
+    $('#researchText').slideDown();
+});
+
+$('#developmentTitle').on('click', function () {
+    $('#developmentTitle').css('opacity', 1);
+    $('#developmentText').slideToggle();
+});
+
+$('#refineTitle').on('click', function () {
+    $('#refineTitle').css('opacity', 1);
+    $('#refineText').slideToggle();
+});
+
+$('#pilotTitle').on('click', function () {
+    $('#pilotTitle').css('opacity', 1);
+    $('#pilotText').slideToggle();
+});
+
 
 // Research Question animation
 //======================================================================================

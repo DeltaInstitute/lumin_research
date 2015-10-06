@@ -4,9 +4,7 @@ title: Human-Centered Design
 <!-- bannerpath: img/HCD.jpg -->
 ---
 
-<p>Delta Institute worked with [IDEO](http://ideo.com) to...</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
+<p>Delta Institute worked with [IDEO](http://ideo.com) to...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit.</p>
 
 <div class="row human-centered-design">
 	
@@ -51,25 +49,3 @@ title: Human-Centered Design
 <br>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
-
-<script>
-$('#researchTitle').on('click', function () {
-	$('#researchText').slideDown();
-});
-
-$('#developmentTitle').on('click', function () {
-	$('#developmentTitle').css('opacity', 1);
-	$('#developmentText').slideToggle();
-});
-
-$('#refineTitle').on('click', function () {
-	$('#refineTitle').css('opacity', 1);
-	$('#refineText').slideToggle();
-});
-
-$('#pilotTitle').on('click', function () {
-	$('#pilotTitle').css('opacity', 1);
-	$('#pilotText').slideToggle();
-});
-
-</script>

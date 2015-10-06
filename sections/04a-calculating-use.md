@@ -4,12 +4,9 @@ title: Calculating Energy Use
 <!-- bannerpath: img/question.jpg -->
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
-
 <div class="calcFlowChart">
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1200 800" enable-background="new 0 0 1200 800" xml:space="preserve">
+<svg x="0px" y="0px" viewBox="0 0 1200 800">
 	<symbol  id="billsofar" viewBox="-66 -55.4 134 90.8">
 		<path fill="#FFFFFF" stroke="#658C3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M48,34.4h-92c-11,0-21-8-21-19v-39c0-11,10-21,21-21h35.3l10.5-9.8l10.5,9.8H48c11,0,19,10,19,21v39C67,26.4,59,34.4,48,34.4z"/>
 	</symbol>

@@ -27,7 +27,7 @@ title: Research Design
 
 </div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta.</p>
+<br>
 
 <p>Throughout the pilot period, participants were exposed to several methods of energy illumination. Energy use was illuminated using four different features including:</p>
 
