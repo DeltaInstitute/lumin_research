@@ -31,10 +31,10 @@ title: Research Design
 
 <p>Throughout the pilot period, participants were exposed to several methods of energy illumination. Energy use was illuminated using four different features including:</p>
 
-<div id="carousel-example-generic" class="carousel slide">
+<!-- <div id="carousel-example-generic" class="carousel slide"> -->
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+<!-- Wrapper for slides -->
+<!--   <div class="carousel-inner" role="listbox">
     <div class="item active">
       	<div class="row">
       		<div class="col-sm-6">
@@ -79,10 +79,10 @@ title: Research Design
 	      	</div>
 	    </div>
     </div>
-  </div>
+  </div> -->
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<!-- Controls -->
+<!--   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
@@ -91,7 +91,15 @@ title: Research Design
     <span class="sr-only">Next</span>
   </a>
 </div>
-
+ -->
+<!-- Try carousel from scratch --> 
+<div class="featureCarousel">
+	<img id="featureImg" src="img/spending-forecast.jpg" class="img-responsive">
+	<form>
+		<button type="button" id="prevFeature" class="btn" disabled="true"><i class="fa fa-chevron-circle-left"></i></button>
+		<button type="button" id="nextFeature" class="btn"><i class="fa fa-chevron-circle-right"></i></button>
+	</form>
+</div>
 
 
 <p>Results of the pilot will be evaluated using a mixed methods approach. Taking a mixed methods approach involves employing both qualitative and quantitative strategies of inquiry (e.g. numeric information like energy use data collected concurrently to text information through open-ended survey questions). This approach will be used because the indicators of successful engagement include both changes in measurable energy use and changes in non-numeric opinions, motivations, and intentions related to energy use. Indicators of participant engagement include:</p>
@@ -111,6 +119,3 @@ title: Research Design
 	<li><strong>Monthly surveys:</strong> Monthly surveys were distributed and completed at each Monthly Workshop. These were mixed method surveys with an emphasis on close-ended questions, but with open-ended questions included as necessary aiming to collect information about opinions, motivations, and intentions related to energy use generally and treatments more specifically.</li>
 	<li><strong>Website analytics:</strong> Email views and/or website visits were tracked by user and by date/time to aid in the analysis of changes in both energy use seen in the collected energy use data and/or changes in opinions, motivations, and intentions captured in monthly surveys.</li>
 </ol>
-
-<script src="../js/jquery-2.1.4.min.js"></script>
-<script src ="js/main.js"></script>

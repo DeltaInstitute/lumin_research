@@ -11,7 +11,6 @@ title: Demographic and Geographic Priorities
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
 
-<script src="js/main.js" type="text/javascript"></script>
 
 <script>
 	L.mapbox.accessToken = 'pk.eyJ1IjoiY21jZyIsImEiOiJlZTA1Mjg5MThhNzAwYjIwMzkzOTRhZmI0YzdhM2ZhNyJ9.qmfiogrh1Wu7_JlfoaSMKw';

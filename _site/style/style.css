@@ -214,22 +214,20 @@ footer {
 
 .section-content {
     padding: 2em 8% 1em 8%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section-content h3 {
-    font-family: 'Open Sans';
     font-size: 40px;
     color: #656d71;
     font-weight: 300;
 }
 
 .section-content p {
-    font-family: 'Open Sans';
     font-size: 15px;
 }
 
 .section-content li {
-    font-family: 'Open Sans';
     font-size: 15px;
     margin-top:1em;
 }
@@ -239,24 +237,23 @@ footer {
 }
 
 .section-content ul {
-    font-family: 'Open Sans';
     font-size: 15px;
 }
 
 .section-content strong {
-    font-family: 'Open Sans';
     font-size: 15px;
     font-weight: 600;
 }
 
-.section-banner {
+/*.section-banner {
     width: 100%;
     height: 150px;
     background-size: cover;
     position: relative;
-}
+}*/
 
 .section-break {
+    font-family: 'Open Sans';
     width:100%;
     height:100vh;
     position: relative;
@@ -264,7 +261,6 @@ footer {
 }
 
 .section-break h2 {
-    font-family: 'Open Sans';
     font-size: 60px;
     color: #fff;
     text-align: center;
@@ -274,10 +270,10 @@ footer {
 
 .section-break-content {
     padding: 2em 8% 1em 8%;
+    font-family: 'Open Sans';
 }
 
 .section-break-content p {
-    font-family: 'Open Sans';
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
@@ -298,7 +294,7 @@ footer {
     transform: translate(-50%, -50%);
 }
 
-.section-break-icon {
+/*.section-break-icon {
     margin: 0 auto;
     display: inline-block;
     text-align: center;
@@ -308,6 +304,10 @@ footer {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}*/
+
+.blue-intro-text {
+
 }
 
 .img-responsive {
@@ -587,7 +587,7 @@ blockquote {
 /*Carousel
 =============================================================================*/
 
-#carousel-example-generic {
+/*#carousel-example-generic {
     margin: 6em 0;
 }
 
@@ -608,6 +608,33 @@ blockquote {
 .glyphicon-chevron-right, .glyphicon-chevron-left {
     color: #000;
  }
+*/
+
+.featureCarousel {
+  height: 100%;
+}
+
+.featureCarousel #featureImg {
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.featureCarousel form {
+  text-align: center;
+  position: relative;
+}
+
+#prevFeature, #nextFeature {
+  margin: 10px 100px;
+}
+
+.featureCarousel .btn {
+  background-color: #fff;
+}
+
+.featureCarousel i {
+  font-size: 30px;
+}
 
 
 /* Recruitment animation

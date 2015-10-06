@@ -51,6 +51,46 @@ $('.researchQuestion').each(function () {
 });
 
 
+// Feature carousel animation
+//======================================================================================
+
+var featureImages=['img/spending-forecast.jpg', 'img/appliance-diagnosis.jpg', 'img/goal-setting.png', 'img/program-match.jpg'];
+
+var currentFeaturePosition = 0;
+
+$('#nextFeature').on('click', nextFeature);
+$('#prevFeature').on('click', previousFeature);
+
+function nextFeature(){
+    currentFeaturePosition++;
+    
+    $('#prevFeature').prop('disabled', false);
+
+    changeFeature();
+
+    if (currentFeaturePosition === featureImages.length - 1) {
+        $('#nextFeature').prop('disabled', true);
+    }
+}
+
+function previousFeature(){
+    currentFeaturePosition--;
+
+    $('#nextFeature').prop('disabled', false);
+
+    changeFeature();
+
+    if (currentFeaturePosition === 0 ) {
+        $('#prevFeature').prop('disabled', true);
+    }
+}
+
+function changeFeature(){
+    $('#featureImg').attr('src', featureImages[ currentFeaturePosition ]);
+
+}
+
+
 // Recruitment animation
 //======================================================================================
 $(window).scroll(function () {
