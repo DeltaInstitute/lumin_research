@@ -2,7 +2,8 @@
 layout: break
 title: Building the Prototype
 bannerpath: fa fa-code
----
+--- 
+<div id="prototype"  class="section-break" style="background-color:#6ba1b9">
 
 <div class="code">
 
@@ -20,11 +21,15 @@ bannerpath: fa fa-code
 		<path fill="#FFFFFF" d="M1023.5,560.1L795.6,677v-33.9l193.5-96.3v-1l-193.5-96.3v-33.9l227.9,116.9V560.1z"/>
 	</g>
 	</svg>
-
 </div>
 
 <h2>Building a Prototype</h2>
 
+</div>
 
+<div class="sectionIntro">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+
+</div>
+

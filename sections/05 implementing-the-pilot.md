@@ -3,6 +3,8 @@ layout: break
 title: Implementing the Pilot
 bannerpath: fa fa-envelope-o
 ---
+<div id="pilot" class="section-break" style="background-color:#6ba1b9">
+
 <div class="envelope">
 	<svg x="0px" y="0px" viewBox="0 0 1200 1800" >
 		
@@ -115,5 +117,11 @@ bannerpath: fa fa-envelope-o
 </div>
 
 <h2>Implementing the Pilot</h2>
+</div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+<div class="sectionIntro">
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+
+</div>
+

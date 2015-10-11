@@ -3,39 +3,35 @@ layout: break
 title: The DeltaLumin Approach
 bannerpath: fa fa-lightbulb-o
 ---
-
-<style>
-
-
-</style>
-<div class="bulb">
-	<svg x="0px" y="0px" viewBox="550 50 800 1100">
-		<g id="fill" opacity="0.5">
-			<g>
+	
+<div id="approach" class="section-break">
+	<div class="bulb">
+		<svg x="0px" y="0px" viewBox="550 50 800 1100">
+			<g id="fill" opacity="0.5">
 				<path fill="#FFFFFF" d="M596.8,51.1c312.2,0,498.2,378,219.1,622.9c-35.9,32.6-64.5,100.4-64.5,141v79.2L439,893.8V815
 					c0-53-38.4-117.4-67-141C69.1,394.6,318.1,51.1,594.1,51.1H596.8z"/>
 			</g>
-		</g>
-		<g id="bulb">
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" d="M497.8,1132.1h84h105.3h2.2
-				c34.3,0,62.1-27.8,62.1-62.1V815c0-40.6,28.6-108.4,64.5-141c279.1-244.9,93.1-622.9-219.1-622.9h-2.7
-				c-276,0-525,343.5-222.1,622.9c28.6,23.6,67,88,67,141v255c0,34.3,27.8,62.1,62.1,62.1"/>
-		</g>
-		<g id="lines">
-			<line fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" x1="439" y1="893.8" x2="751.4" y2="893.8"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" x1="439" y1="969.4" x2="751.4" y2="969.4"/>
-			<line fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" x1="439" y1="1046.9" x2="751.4" y2="1046.9"/>
-		</g>
-		<g id="fillament">
-			<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" d="M506.4,893.8c47-140-56.7-447.8-94-429.3
-			c-35,16.4,57.5,115.4,89,97.4c26-11.8,34.8-120.1,1-117c-32,12.2,26.9,119.2,63,112.2l-3,0.1c34.9,5.6,63.2-114,32-119.1
-			c-30,0-5.2,99.2,32,114c38.9,15.2,100-96,76.2-107.2c-30.4-8.8-46.2,102.2-21,117c29.8,21.2,136.8-60,111-81
-			c-41.2-24.8-168.2,209.2-111,411"/>
-		</g>
-	</svg>
+			<g id="bulb">
+				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" d="M497.8,1132.1h84h105.3h2.2
+					c34.3,0,62.1-27.8,62.1-62.1V815c0-40.6,28.6-108.4,64.5-141c279.1-244.9,93.1-622.9-219.1-622.9h-2.7
+					c-276,0-525,343.5-222.1,622.9c28.6,23.6,67,88,67,141v255c0,34.3,27.8,62.1,62.1,62.1"/>
+			</g>
+			<g id="lines">
+				<line fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" x1="439" y1="893.8" x2="751.4" y2="893.8"/>
+				<line fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" x1="439" y1="969.4" x2="751.4" y2="969.4"/>
+				<line fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" x1="439" y1="1046.9" x2="751.4" y2="1046.9"/>
+			</g>
+			<g id="fillament">
+				<path fill="none" stroke="#FFFFFF" stroke-width="6" stroke-miterlimit="10" d="M506.4,893.8c47-140-56.7-447.8-94-429.3
+				c-35,16.4,57.5,115.4,89,97.4c26-11.8,34.8-120.1,1-117c-32,12.2,26.9,119.2,63,112.2l-3,0.1c34.9,5.6,63.2-114,32-119.1
+				c-30,0-5.2,99.2,32,114c38.9,15.2,100-96,76.2-107.2c-30.4-8.8-46.2,102.2-21,117c29.8,21.2,136.8-60,111-81
+				c-41.2-24.8-168.2,209.2-111,411"/>
+			</g>
+		</svg>
+	</div>
+	<h2>The Delta Lumin Approach</h2>
 </div>
-<h2>The Delta Lumin Approach</h2>
 
-
-
-<script src="../js/jquery-2.1.4.min.js"></script>
+<div class="sectionIntro">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+</div>

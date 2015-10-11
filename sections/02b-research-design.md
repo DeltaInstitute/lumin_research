@@ -31,67 +31,6 @@ title: Research Design
 
 <p>Throughout the pilot period, participants were exposed to several methods of energy illumination. Energy use was illuminated using four different features including:</p>
 
-<!-- <div id="carousel-example-generic" class="carousel slide"> -->
-
-<!-- Wrapper for slides -->
-<!--   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      	<div class="row">
-      		<div class="col-sm-6">
-      			<img src="img/spending-forecast.jpg" class="img-responsive" alt="spending forecast example">
-	      	</div>
-	      	<div class="col-sm-6">
-	        	<h4>1. Spending Forecast</h4>
-				<p>tested if energy spending updates at a shorter interval (daily rather than monthly) leads to increased levels of engagement over those receiving traditional monthly bills</p>
-	      	</div>
-	    </div>
-    </div>
-    <div class="item">
-      <div class="row">
-      		<div class="col-sm-6">
-      			<img src="img/appliance-diagnosis.jpg" class="img-responsive" alt="spending forecast example">
-	      	</div>
-	      	<div class="col-sm-6">
-	        	<h4>2. Appliance Spending Diagnosis</h4>
-				<p>tested if appliance-level energy consumption information is a more accessible illumination of energy use leading to increased levels of engagement over those receiving traditional monthly bills</p>
-	      	</div>
-	    </div>
-    </div>
-    <div class="item">
-      <div class="row">
-      		<div class="col-sm-6">
-      			<img src="img/goal-setting.png" class="img-responsive" alt="spending forecast example">
-	      	</div>
-	      	<div class="col-sm-6">
-	        	<h4>3. Energy Savings Goal</h4>
-				<p>tested if facilitating energy savings goals among participants leads to increased levels of engagement over those receiving traditional monthly bills</p>
-	      	</div>
-	    </div>
-    </div>
-    <div class="item">
-      <div class="row">
-      		<div class="col-sm-6">
-      			<img src="img/program-match.jpg" class="img-responsive" alt="spending forecast example">
-	      	</div>
-	      	<div class="col-sm-6">
-	        	<h4>4. Program Match</h4>
-				<p>tested if a curated list of existing utility programs based on actual household energy use data will lead to increased levels of engagement over those receiving traditional monthly bills</p>
-	      	</div>
-	    </div>
-    </div>
-  </div> -->
-
-<!-- Controls -->
-<!--   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
- -->
 <!-- Try carousel from scratch --> 
 <div class="featureCarousel">
 	<div class="row">

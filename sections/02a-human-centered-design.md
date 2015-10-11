@@ -1,13 +1,11 @@
 ---
 layout: section
 title: Human-Centered Design
-<!-- bannerpath: img/HCD.jpg -->
 ---
 
 <p>Delta Institute worked with [IDEO](http://ideo.com) to...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit.</p>
 
 <div class="row human-centered-design">
-	
 	<div class="col-xs-2">
 		<div id="researchTitle">
 			<h4>Research</h4>

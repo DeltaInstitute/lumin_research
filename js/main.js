@@ -9,7 +9,49 @@ function checkWindow() {
     }
 }
 
+// Nav
+//======================================================================================
 
+var approachPosition = $('#approach').offset().top;
+var recruitmentPosition = $('#recruitment').offset().top;
+var prototypePosition = $('#prototype').offset().top;
+var pilotPosition = $('#pilot').offset().top;
+
+$(window).on('scroll', function(){
+    if ($(this).scrollTop() > approachPosition - 100) {
+        $('nav').find('a').removeClass('activeNav');
+        $('#approachNav').addClass('activeNav');
+    } else {
+        $('#approachNav').removeClass('activeNav');
+    }
+});
+
+$(window).on('scroll', function(){
+    if ($(this).scrollTop() > recruitmentPosition - 100) {
+        $('nav').find('a').removeClass('activeNav');
+        $('#recruitmentNav').addClass('activeNav');
+    } else {
+        $('#recruitmentNav').removeClass('activeNav');
+    }
+});
+
+$(window).on('scroll', function(){
+    if ($(this).scrollTop() > prototypePosition - 100) {
+        $('nav').find('a').removeClass('activeNav');
+        $('#prototypeNav').addClass('activeNav');
+    } else {
+        $('#prototypeNav').removeClass('activeNav');
+    }
+});
+
+$(window).on('scroll', function(){
+    if ($(this).scrollTop() > pilotPosition - 100) {
+        $('nav').find('a').removeClass('activeNav');
+        $('#pilotNav').addClass('activeNav');
+    } else {
+        $('#pilotNav').removeClass('activeNav');
+    }
+});
 
 // Lumin Approach animation
 //======================================================================================
@@ -63,11 +105,7 @@ $('.researchQuestion').each(function () {
         $(this).find('#illuminationDefinition').slideDown();
         $(this).find('#lowIncomeDefinition').slideDown();
         $(this).find('#engagementDefinition').slideDown();
-    } else {
-        $(this).find('#illuminationDefinition').slideUp();
-        $(this).find('#lowIncomeDefinition').slideUp();
-        $(this).find('#engagementDefinition').slideUp();
-    }
+    } 
     });
 });
 
@@ -179,7 +217,23 @@ $('.calcFlowChart').each(function () {
 });
 
 
-// Survey REsults - Treatment Eval Animation
+// Pilot animation
+//======================================================================================
+$(window).scroll(function () {
+$('.feedback').each(function () {
+    var imagePos = $(this).offset().top;
+    var imageHeight = $(this).height();
+    var topOfWindow = $(window).scrollTop();
+
+    if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+        $('.feedback').addClass('show');
+    } else {
+        $('.feedback').removeClass('show');
+    }
+    });
+});
+
+// Survey Results - Treatment Eval Animation
 //======================================================================================
 var div1=d3.select(document.getElementById('div1'));
     var forecastEval=d3.select(document.getElementById('forecastEval'));
@@ -245,5 +299,25 @@ $('.charts').each(function () {
         //         .render();
 
     }
+
+// Web Analytics
+//======================================================================================
+
+$('rect').on('mouseenter', function() {
+    var views = $(this).attr('y');
+    views = parseFloat(views);
+    views = (400 - views) / 6;
+    var date = $(this).attr('x');
+    date = parseFloat(date);
+    date = date - 4;
+    $('.webViewMsg').find('p').show();
+    $('.webViewCount').html(views);
+    $('.webViewDate').html('day ' + date);
+    // if (date = 15, 32) {
+    //     $('.webViewMsg').append('<p>this was the day of an energy update</p>');
+    // } else {
+    // }
+});
+
 
 
