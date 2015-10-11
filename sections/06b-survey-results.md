@@ -76,15 +76,15 @@ title: Survey Results
 
 <div class="webViewMsg"> 
 	<h4>Number of visits to the website each day</h4>
-	<p><span class="webViewCount"></span>visits to the website on <span class="webViewDate"></span> of the pilot</p>
+	<p><span class="webViewCount"></span> to the website on <span class="webViewDate"></span> of the pilot</p>
 </div>
 
 <svg class="websiteAnalytics" width="100%" height="500px">
 
 <!--labels--> 	
-	<text x="20%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">May</text>
-	<text x="51%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">June</text>
-	<text x="81%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">July</text>
+	<text x="20%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 1</text>
+	<text x="51%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 2</text>
+	<text x="81%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 3</text>
 
 <!--bars-->	
 	<g class="webAnalyticsBars">
@@ -93,7 +93,7 @@ title: Survey Results
 		<rect x="7%" y="382" height="18px" width="1%" />
 		<rect x="8%" y="178" height="222px" width="1%" />
 		<rect x="9%" y="100" height="300px" width="1%" />
-		<rect x="10%" y="130px" height="270px" width="1%" />
+		<rect x="10%" y="130" height="270" width="1%" />
 		<rect x="11%" y="118px" height="282px" width="1%" />
 		<rect x="12%" y="298px" height="102px" width="1%" />
 		<rect x="13%" y="382px" height="18px" width="1%" />

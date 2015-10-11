@@ -16,6 +16,8 @@ var approachPosition = $('#approach').offset().top;
 var recruitmentPosition = $('#recruitment').offset().top;
 var prototypePosition = $('#prototype').offset().top;
 var pilotPosition = $('#pilot').offset().top;
+var learningPosition = $('#learning').offset().top;
+var futurePosition = $('#future').offset().top;
 
 $(window).on('scroll', function(){
     if ($(this).scrollTop() > approachPosition - 100) {
@@ -50,6 +52,24 @@ $(window).on('scroll', function(){
         $('#pilotNav').addClass('activeNav');
     } else {
         $('#pilotNav').removeClass('activeNav');
+    }
+});
+
+$(window).on('scroll', function(){
+    if ($(this).scrollTop() > learningPosition - 100) {
+        $('nav').find('a').removeClass('activeNav');
+        $('#learningNav').addClass('activeNav');
+    } else {
+        $('#learningNav').removeClass('activeNav');
+    }
+});
+
+$(window).on('scroll', function(){
+    if ($(this).scrollTop() > futurePosition - 100) {
+        $('nav').find('a').removeClass('activeNav');
+        $('#futureNav').addClass('activeNav');
+    } else {
+        $('#futureNav').removeClass('activeNav');
     }
 });
 
@@ -115,6 +135,8 @@ $('.researchQuestion').each(function () {
 
 var featureImages=['img/spending-forecast.jpg', 'img/appliance-diagnosis.jpg', 'img/goal-setting.png', 'img/program-match.jpg'];
 
+var featureDescription = ['#spendingDescription', '#applianceDescription', '#goalDescription', '#programDescription']
+
 var currentFeaturePosition = 0;
 
 $('#nextFeature').on('click', nextFeature);
@@ -146,7 +168,8 @@ function previousFeature(){
 
 function changeFeature(){
     $('#featureImg').attr('src', featureImages[ currentFeaturePosition ]);
-
+    $('.featureDescriptions').addClass('hidden');
+    $(featureDescription[ currentFeaturePosition ]).removeClass('hidden');
 }
 
 
@@ -164,6 +187,33 @@ $('.recruitment').each(function () {
         $(this).removeClass("drawBubble");
     }
     });
+});
+
+// Participant Profile interaction
+//======================================================================================
+
+function switchTabs() {
+    $('.profileCharts').hide();
+    $('.profileTabs').find('rect').attr('fill', '#ddd');
+}
+
+$('#whoAreThey').on('click', function() {
+    switchTabs();
+    $(this).find('rect').attr('fill', '#eee');
+    $('#whoCharts').show();
+
+});
+
+$('#whereTheyLive').on('click', function() {
+    switchTabs();
+    $(this).find('rect').attr('fill', '#eee');
+    $('#whereCharts').show();
+});
+
+$('#howTheyUseEnergy').on('click', function() {
+    switchTabs();
+    $(this).find('rect').attr('fill', '#eee');
+    $('#howCharts').show();
 });
 
 
@@ -290,14 +340,6 @@ $('.charts').each(function () {
                 .diameter(250)
                 .value(31)
                 .render();
-
-        // var rp3 = radialProgress(document.getElementById('div3'))
-        //         .diameter(150)
-        //         .minValue(100)
-        //         .maxValue(200)
-        //         .value(150)
-        //         .render();
-
     }
 
 // Web Analytics
@@ -311,12 +353,8 @@ $('rect').on('mouseenter', function() {
     date = parseFloat(date);
     date = date - 4;
     $('.webViewMsg').find('p').show();
-    $('.webViewCount').html(views);
+    $('.webViewCount').html(views + ' visits');
     $('.webViewDate').html('day ' + date);
-    // if (date = 15, 32) {
-    //     $('.webViewMsg').append('<p>this was the day of an energy update</p>');
-    // } else {
-    // }
 });
 
 

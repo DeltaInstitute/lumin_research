@@ -105,7 +105,7 @@
 </div>
 
 <div class="sectionIntro">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. </p>
 </div>
 
 
@@ -209,8 +209,22 @@
 			<button type="button" id="prevFeature" class="btn" disabled="true"><i class="fa fa-chevron-left"></i></button>
 		</div>
 		<div class="col-xs-10">
-			<h4>1. Spending Forecast</h4>
-			<p>tested if energy spending updates at a shorter interval (daily rather than monthly) leads to increased levels of engagement over those receiving traditional monthly bills</p>
+			<div id="spendingDescription" class="featureDescriptions">
+				<h4>1. Spending Forecast</h4>
+				<p>This tested if energy spending updates at a shorter interval (daily rather than monthly) leads to increased levels of engagement over those receiving traditional monthly bills.</p>
+			</div>
+			<div id="applianceDescription" class="featureDescriptions hidden">
+				<h4>2. Appliance Diagnosis</h4>
+				<p>This tested if appliance-level energy consumption information is a more accessible illumination of energy use leading to increased levels of engagement over those receiving traditional monthly bills.</p>
+			</div>
+			<div id="goalDescription" class="featureDescriptions hidden">
+				<h4>3. Goal</h4>
+				<p>This tested if facilitating energy savings goals among participants leads to increased levels of engagement over those receiving traditional monthly bills.</p>
+			</div>
+			<div id="programDescription" class="featureDescriptions hidden">
+				<h4>4. Program Match</h4>
+				<p>This tested if a curated list of existing utility programs based on actual household energy use data will lead to increased levels of engagement over those receiving traditional monthly bills.</p>
+			</div>
 			<hr />
 			<img id="featureImg" src="img/spending-forecast.jpg" class="img-responsive" />
 		</div>
@@ -279,7 +293,7 @@
 </div>
 
 <div class="sectionIntro">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. </p>
 </div>
 
 
@@ -339,7 +353,37 @@
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
 
-<p><img src="http://placehold.it/1200x550" alt="human centered design process" class="img-responsive" /></p>
+<svg class="participantProfile" height="550px" width="100%">
+	<g id="whoAreThey" class="profileTabs">
+		<rect x="0" y="0" height="55px" width="33.33%" fill="#eee" stroke="#fff" stroke-width="4px" />
+		<text x="10%" y="30px" font-size="20px">Who are they?</text>
+	</g>
+	<g id="whereTheyLive" class="profileTabs">
+		<rect x="33.33%" y="0" height="55px" width="33.33%" fill="#ddd" stroke="#fff" stroke-width="4px" />
+		<text x="40%" y="30px" font-size="20px">Where do they live?</text>
+	</g>
+	<g id="howTheyUseEnergy" class="profileTabs">
+		<rect x="66.67%" y="0" height="55px" width="33.33%" fill="#ddd" stroke="#fff" stroke-width="4px" />
+		<text x="70%" y="30px" font-size="20px">How do they use energy?</text>
+	</g>
+	<g id="howCharts" class="profileCharts">
+		<rect x="0" y="50px" width="100%" height="450px" fill="#eee" stroke="none" />
+		<rect x="2%" y="75" height="400" width="47%" fill="#fff" stroke="none"></rect>
+		<rect x="51%" y="75" height="400" width="47%" fill="#fff" stroke="none"></rect>
+	</g>
+	<g id="whereCharts" class="profileCharts">
+		<rect x="0" y="50px" width="100%" height="450px" fill="#eee" stroke="none" />
+		<rect x="2%" y="75" height="400" width="30%" fill="#fff" stroke="none"></rect>
+		<rect x="34%" y="75" height="190" width="64%" fill="#fff" stroke="none"></rect>
+		<rect x="34%" y="285" height="190" width="64%" fill="#fff" stroke="none"></rect>
+	</g>
+	<g id="whoCharts" class="profileCharts">
+		<rect x="0" y="50px" width="100%" height="450px" fill="#eee" stroke="none" />
+		<rect x="2%" y="75" height="400" width="40%" fill="#fff" stroke="none"></rect>
+		<rect x="44%" y="75" height="190" width="54%" fill="#fff" stroke="none"></rect>
+		<rect x="44%" y="285" height="190" width="54%" fill="#fff" stroke="none"></rect>
+	</g>
+</svg>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
 
@@ -383,7 +427,7 @@
 
 <div class="sectionIntro">
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris.</p>
 
 </div>
 
@@ -1364,7 +1408,7 @@
 
 <div class="sectionIntro">
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris. Curabitur maximus consequat nisi, in tristique ligula eleifend eu. Maecenas id lacus quis erat vestibulum sodales. Aenean lectus mi, eleifend ac orci at, vulputate aliquet lectus. In hac habitasse platea dictumst. Ut rutrum fringilla velit ut sodales. Aenean ligula ligula, dapibus nec pulvinar ultrices, convallis elementum turpis.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. </p>
 
 </div>
 
@@ -2883,86 +2927,64 @@
 	<a name="Learning from our Participants"></a>
 	<div class="section-container" id="">
 		
-		<div class="section-break" style="background-color:#6ba1b9">
-<div class="feedback show">
-	<svg x="0px" y="0px" viewbox="0 0 1200 1200">
+		<div class="section-break" style="background-color:#6ba1b9;">
+	<div class="feedback show">
+		<svg x="0px" y="0px" viewbox="0 0 1200 1200">
+			<g id="learning">
+				<path fill="#67A2B6" d="M718.7,579.8v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V580c0-24.5,19.8-44.4,44.4-44.4h501.4C696.6,535.6,718.7,556.9,718.7,579.8z" />
+				<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M245.3,869.5h431c23.5,0,42.5-19,42.5-42.5V579.8c0-23-22.1-44.2-44.2-44.2H173.1c-24.5,0-44.4,19.8-44.4,44.4v240.8c0,30.2,20.9,49.1,47.6,49.1l-14.6,76.7L245.3,869.5z" />
+				<text transform="matrix(1 0 0 1 146.9955 756.4667)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="131.4421">learning</text>
+			</g>
+			<g id="learningBackground">
+				<path fill="#FFFFFF" d="M173.1,535.6h501.4c22.1,0,44.2,21.2,44.2,44.2v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V580C128.8,555.5,148.6,535.6,173.1,535.6z" />
+			</g>
 
-		<g id="learning">
-			<path fill="#67A2B6" d="M718.7,579.8v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V580
-					c0-24.5,19.8-44.4,44.4-44.4h501.4C696.6,535.6,718.7,556.9,718.7,579.8z" />
-			<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M245.3,869.5h431c23.5,0,42.5-19,42.5-42.5V579.8c0-23-22.1-44.2-44.2-44.2H173.1c-24.5,0-44.4,19.8-44.4,44.4v240.8c0,30.2,20.9,49.1,47.6,49.1l-14.6,76.7L245.3,869.5z" />
-			<text transform="matrix(1 0 0 1 146.9955 756.4667)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="131.4421">learning</text>
-		</g>
-
-		<g id="learningBackground">
-			<path fill="#FFFFFF" d="M173.1,535.6h501.4c22.1,0,44.2,21.2,44.2,44.2v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V580C128.8,555.5,148.6,535.6,173.1,535.6z" />
-		</g>
-
-		<g id="interesting">
-			<path fill="#67A2B6" d="M1096.2,478v240.8c0,30.2-28.5,49.1-64.7,49.1l19.9,76.7l-113.8-77H350.8c-31.9,0-57.8-19-57.8-42.5
-				V477.8c0-23,30.1-44.2,60.2-44.2h682.6C1069.2,433.6,1096.2,453.5,1096.2,478z" />
-			<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M937.6,767.5H350.8c-31.9,0-57.8-19-57.8-42.5
-				V477.8c0-23,30.1-44.2,60.2-44.2h682.6c33.4,0,60.4,19.8,60.4,44.4v240.8c0,30.2-28.5,49.1-64.7,49.1l19.9,76.7L937.6,767.5z" />
-			<text transform="matrix(1 0 0 1 338.7906 639.1003)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="129.6056">interesting</text>
-		</g>
-
-		<g id="interestingBackground">
-			<path fill="#FFFFFF" d="M1096.2,478v240.8c0,30.2-28.5,49.1-64.7,49.1l19.9,76.7l-113.8-77H350.8c-31.9,0-57.8-19-57.8-42.5
+			<g id="interesting">
+				<path fill="#67A2B6" d="M1096.2,478v240.8c0,30.2-28.5,49.1-64.7,49.1l19.9,76.7l-113.8-77H350.8c-31.9,0-57.8-19-57.8-42.5
 					V477.8c0-23,30.1-44.2,60.2-44.2h682.6C1069.2,433.6,1096.2,453.5,1096.2,478z" />
-		</g>
-
-		<g id="helpful">
-			<path fill="#67A2B6" d="M786.7,293v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V293.1
-				c0-24.5,19.8-44.4,44.4-44.4h501.4C764.6,248.8,786.7,270,786.7,293z" />
-			<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M313.3,582.7h431c23.5,0,42.5-19,42.5-42.5V293
-				c0-23-22.1-44.2-44.2-44.2H241.1c-24.5,0-44.4,19.8-44.4,44.4v240.8c0,30.2,20.9,49.1,47.6,49.1l-14.6,76.7L313.3,582.7z" />
-			<text transform="matrix(1 0 0 1 232.494 386.0397)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="145.1626">very</tspan><tspan x="0" y="137" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="145.1626">helpful</tspan></text>
-		</g>
-
-		<g id="helpfulBackground">
-			<path fill="#FFFFFF" d="M241.1,248.8h501.4c22.1,0,44.2,21.2,44.2,44.2v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V293.1C196.8,268.6,216.6,248.8,241.1,248.8z" />
-		</g>
-
-		<g id="confusing">
-			<g>
-				<path fill="#67A2B6" d="M929.3,691.1H337.2c-26.1,0-52.2,21.2-52.2,44.2v247.2c0,23.5,22.4,42.5,50.1,42.5h509l98.7,77
-					l-17.3-76.7c31.4,0,56.2-18.8,56.2-49.1V735.5C981.7,710.9,958.3,691.1,929.3,691.1z" />
+				<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M937.6,767.5H350.8c-31.9,0-57.8-19-57.8-42.5
+					V477.8c0-23,30.1-44.2,60.2-44.2h682.6c33.4,0,60.4,19.8,60.4,44.4v240.8c0,30.2-28.5,49.1-64.7,49.1l19.9,76.7L937.6,767.5z" />
+				<text transform="matrix(1 0 0 1 338.7906 639.1003)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="129.6056">interesting</text>
 			</g>
-			<g>
-				<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M844.1,1025h-509c-27.7,0-50.1-19-50.1-42.5
-					V735.3c0-23,26.1-44.2,52.2-44.2h592.1c29,0,52.4,19.8,52.4,44.4v240.8c0,30.2-24.7,49.1-56.2,49.1l17.3,76.7L844.1,1025z" />
-			</g>
-			<text transform="matrix(1 0 0 1 331.74 889.5615)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="125.5561">confusing</text>
-		</g>
 
-		<g id="confusingBackground">
-			<g>
-				<path fill="#FFFFFF" d="M335.1,1025h509l98.7,77l-17.3-76.7c31.4,0,56.2-18.8,56.2-49.1V735.5c0-24.5-23.4-44.4-52.4-44.4H337.2
-					c-26.1,0-52.2,21.2-52.2,44.2v247.2C285,1006,307.4,1025,335.1,1025z" />
+			<g id="interestingBackground">
+				<path fill="#FFFFFF" d="M1096.2,478v240.8c0,30.2-28.5,49.1-64.7,49.1l19.9,76.7l-113.8-77H350.8c-31.9,0-57.8-19-57.8-42.5
+						V477.8c0-23,30.1-44.2,60.2-44.2h682.6C1069.2,433.6,1096.2,453.5,1096.2,478z" />
 			</g>
-		</g>
 
-		<g id="eyeOpening">
-			<g>
-				<path fill="#67A2B6" d="M522.2,490.9h431l83.6,77l-14.6-76.7c26.6,0,47.6-18.8,47.6-49.1V201.4c0-24.5-19.8-44.4-44.4-44.4H524
-					c-22.1,0-44.2,21.2-44.2,44.2v247.2C479.8,471.9,498.8,490.9,522.2,490.9z" />
+			<g id="helpful">
+				<path fill="#67A2B6" d="M786.7,293v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V293.1
+					c0-24.5,19.8-44.4,44.4-44.4h501.4C764.6,248.8,786.7,270,786.7,293z" />
+				<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M313.3,582.7h431c23.5,0,42.5-19,42.5-42.5V293
+					c0-23-22.1-44.2-44.2-44.2H241.1c-24.5,0-44.4,19.8-44.4,44.4v240.8c0,30.2,20.9,49.1,47.6,49.1l-14.6,76.7L313.3,582.7z" />
+				<text transform="matrix(1 0 0 1 232.494 386.0397)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="145.1626"><tspan x="0" y="0">very</tspan><tspan x="0" y="137">helpful</tspan></text>
 			</g>
-			<g>
-				<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M953.2,490.9h-431c-23.5,0-42.4-19-42.4-42.4
-					V201.2c0-23,22.1-44.2,44.2-44.2h501.4c24.5,0,44.4,19.8,44.4,44.4v240.8c0,30.2-20.9,49.1-47.6,49.1l14.6,76.7L953.2,490.9z" />
-			</g>
-			<text transform="matrix(1 0 0 1 511.7402 295.5615)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="125.5561">eye</tspan><tspan x="0" y="118.5" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="125.5561">opening</tspan></text>
-		</g>
-		<g id="eyeOpeningBackground">
-			<g>
-				<path fill="#FFFFFF" d="M479.8,201.2v247.2c0,23.5,19,42.4,42.4,42.4h431l83.6,77l-14.6-76.7c26.6,0,47.6-18.8,47.6-49.1V201.4
-					c0-24.5-19.8-44.4-44.4-44.4H524C501.9,157,479.8,178.2,479.8,201.2z" />
-			</g>
-		</g>
-	</svg>
-</div>
 
-<h2>Learning from our Participants</h2>
+			<g id="helpfulBackground">
+				<path fill="#FFFFFF" d="M241.1,248.8h501.4c22.1,0,44.2,21.2,44.2,44.2v247.2c0,23.5-19,42.5-42.5,42.5h-431l-83.6,77l14.6-76.7c-26.6,0-47.6-18.8-47.6-49.1V293.1C196.8,268.6,216.6,248.8,241.1,248.8z" />
+			</g>
+			<g id="confusing">
+				<path fill="#67A2B6" d="M929.3,691.1H337.2c-26.1,0-52.2,21.2-52.2,44.2v247.2c0,23.5,22.4,42.5,50.1,42.5h509l98.7,77l-17.3-76.7c31.4,0,56.2-18.8,56.2-49.1V735.5C981.7,710.9,958.3,691.1,929.3,691.1z" />
+				<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M844.1,1025h-509c-27.7,0-50.1-19-50.1-42.5V735.3c0-23,26.1-44.2,52.2-44.2h592.1c29,0,52.4,19.8,52.4,44.4v240.8c0,30.2-24.7,49.1-56.2,49.1l17.3,76.7L844.1,1025z" />
+				<text transform="matrix(1 0 0 1 331.74 889.5615)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="125.5561">confusing</text>
+			</g>
+
+			<g id="confusingBackground">
+				<path fill="#FFFFFF" d="M335.1,1025h509l98.7,77l-17.3-76.7c31.4,0,56.2-18.8,56.2-49.1V735.5c0-24.5-23.4-44.4-52.4-44.4H337.2c-26.1,0-52.2,21.2-52.2,44.2v247.2C285,1006,307.4,1025,335.1,1025z" />
+			</g>
+
+			<g id="eyeOpening">
+				<path fill="#67A2B6" d="M522.2,490.9h431l83.6,77l-14.6-76.7c26.6,0,47.6-18.8,47.6-49.1V201.4c0-24.5-19.8-44.4-44.4-44.4H524c-22.1,0-44.2,21.2-44.2,44.2v247.2C479.8,471.9,498.8,490.9,522.2,490.9z" />
+				<path fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M953.2,490.9h-431c-23.5,0-42.4-19-42.4-42.4V201.2c0-23,22.1-44.2,44.2-44.2h501.4c24.5,0,44.4,19.8,44.4,44.4v240.8c0,30.2-20.9,49.1-47.6,49.1l14.6,76.7L953.2,490.9z" />
+				<text transform="matrix(1 0 0 1 511.7402 295.5615)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="125.5561"><tspan x="0" y="0">eye</tspan><tspan x="0" y="118.5">opening</tspan></text>
+			</g>
+			<g id="eyeOpeningBackground">
+				<path fill="#FFFFFF" d="M479.8,201.2v247.2c0,23.5,19,42.4,42.4,42.4h431l83.6,77l-14.6-76.7c26.6,0,47.6-18.8,47.6-49.1V201.4c0-24.5-19.8-44.4-44.4-44.4H524C501.9,157,479.8,178.2,479.8,201.2z" />
+			</g>
+		</svg>
+	</div>
+
+	<h2>Learning from our Participants</h2>
 </div>
 
 <div class="sectionIntro">
@@ -3122,15 +3144,15 @@
 
 <div class="webViewMsg"> 
 	<h4>Number of visits to the website each day</h4>
-	<p><span class="webViewCount"></span>visits to the website on <span class="webViewDate"></span> of the pilot</p>
+	<p><span class="webViewCount"></span> to the website on <span class="webViewDate"></span> of the pilot</p>
 </div>
 
 <svg class="websiteAnalytics" width="100%" height="500px">
 
 <!--labels--> 	
-	<text x="20%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">May</text>
-	<text x="51%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">June</text>
-	<text x="81%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">July</text>
+	<text x="20%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 1</text>
+	<text x="51%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 2</text>
+	<text x="81%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 3</text>
 
 <!--bars-->	
 	<g class="webAnalyticsBars">
@@ -3139,7 +3161,7 @@
 		<rect x="7%" y="382" height="18px" width="1%" />
 		<rect x="8%" y="178" height="222px" width="1%" />
 		<rect x="9%" y="100" height="300px" width="1%" />
-		<rect x="10%" y="130px" height="270px" width="1%" />
+		<rect x="10%" y="130" height="270" width="1%" />
 		<rect x="11%" y="118px" height="282px" width="1%" />
 		<rect x="12%" y="298px" height="102px" width="1%" />
 		<rect x="13%" y="382px" height="18px" width="1%" />
@@ -3279,7 +3301,42 @@
 	<div class="section-container" id="">
 		
 		<div id="future" class="section-break" style="background-color:#6ba1b9">
-
+	<svg x="0px" y="0px" viewbox="-50 400 1200 300">
+		<g id="dl1">
+			<text transform="matrix(1 0 0 1 177.7056 600)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'AvenirNext-Regular'" font-size="100">DELTA</tspan><tspan x="312.9" y="0" fill="#FFFFFF" font-family="'AvenirNext-Bold'" font-size="100">LUMIN</tspan><tspan x="645.6" y="0" fill="#FFFFFF" font-family="'AvenirNext-Regular'" font-size="100"> 1.0</tspan></text>
+		</g>
+		<g id="scratch">
+			<path fill="none" stroke="#67A2B6" stroke-width="20" stroke-miterlimit="10" d="M966.7,611.9c-4.2-11.3,13.9-25.1,8.9-36
+				c-2-6.8-9.1-1.2-9-0.8c-3.7,10.2-7.5,20.4-11.2,30.6c-1,2.7-4.4,9.1-8.8,3.8c-3.7-11.3,0.4-24.4,5.2-35.1c1.7-3.7,3.8-7.1,5.4-10.9
+				c4.1-9.6,12.8-26.5,4-31.5c-5.2-4.5-12.7,1.4-15.1,8.6c-2.3,7.2-2.7,8.6-4.8,15.9c-1.2,4.4-2.4,15.1-4,19.3
+				c-4.6,11.9-5.6,26.3-14.1,35c-4,4.1-8.5-1.3-8.9-2.7c-3.8-16.2,7.7-32.4,11.4-48.6c3.2-14.2,20.9-39.8,11.6-43.6
+				c-6.4-6-15.1,6.2-18.5,14.4c-6,17-10.5,34.4-15.1,51.6c-1.9,7.2-2.9,14.7-5.5,21.5s-9.6,18.8-13.4,14.4c-8.3-7.3-0.4-30.6,4.9-44.9
+				c6-16.2,23.5-45.6,18.1-48.6c-3.4-2.6-7.2,2.3-9.1,6.6c-3.4,7.7-6.9,15.4-10.3,23.2c-2.5,5.7-5.1,11.5-7,17.6
+				c-4.7,15.2-9.7,44.7-19.4,40.8c-7.7-6.3,0.5-23,5.6-36c1.8-4.6,6.7-16.3,8.5-20.9c4.7-12.4,7.9-23.8,7.7-36" />
+			<path fill="none" stroke="#67A2B6" stroke-width="14" stroke-miterlimit="10" d="M944,608.8c-4.2-11.3,13.9-25.1,8.9-36
+				c-2-6.8-9.1-1.2-9-0.8c-3.7,10.2-7.5,20.4-11.2,30.6c-1,2.7-4.4,9.1-8.8,3.8c-3.7-11.3,0.4-24.4,5.2-35.1c1.7-3.7,3.8-7.1,5.4-10.9
+				c4.1-9.6,12.8-26.5,4-31.5c-5.2-4.5-12.7,1.4-15.1,8.6c-2.3,7.2-2.7,8.6-4.8,15.9c-1.2,4.4-2.4,15.1-4,19.3
+				c-4.6,11.9-5.6,26.3-14.1,35c-4,4.1-8.5-1.3-8.9-2.7c-3.8-16.2,7.7-32.4,11.4-48.6c3.2-14.2,20.9-39.8,11.6-43.6
+				c-6.4-6-15.1,6.2-18.5,14.4c-6,17-10.5,34.4-15.1,51.6c-1.9,7.2-2.9,14.7-5.5,21.5c-2.6,6.8-9.6,18.8-13.4,14.4
+				c-8.3-7.3-0.4-30.6,4.9-44.9c6-16.2,23.5-45.6,18.1-48.6c-3.4-2.6-7.2,2.3-9.1,6.6c-3.4,7.7-6.9,15.4-10.3,23.2
+				c-2.5,5.7-5.1,11.5-7,17.6c-4.7,15.2-9.7,44.7-19.4,40.8c-7.7-6.3,0.5-23,5.6-36c1.8-4.6,6.7-16.3,8.5-20.9
+				c4.7-12.4,7.9-23.8,7.7-36" />
+			<path fill="none" stroke="#67A2B6" stroke-width="14" stroke-miterlimit="10" d="M978.4,614.8c-4.2-11.3,13.9-25.1,8.9-36
+				c-2-6.8-9.1-1.2-9-0.8c-3.7,10.2-7.5,20.4-11.2,30.6c-1,2.7-4.4,9.1-8.8,3.8c-3.7-11.3,0.4-24.4,5.2-35.1c1.7-3.7,3.8-7.1,5.4-10.9
+				c4.1-9.6,12.8-26.5,4-31.5c-5.2-4.5-12.7,1.4-15.1,8.6c-2.3,7.2-2.7,8.6-4.8,15.9c-1.2,4.4-2.4,15.1-4,19.3
+				c-4.6,11.9-5.6,26.3-14.1,35c-4,4.1-8.5-1.3-8.9-2.7c-3.8-16.2,7.7-32.4,11.4-48.6c3.2-14.2,20.9-39.8,11.6-43.6
+				c-6.4-6-15.1,6.2-18.5,14.4c-6,17-10.5,34.4-15.1,51.6c-1.9,7.2-2.9,14.7-5.5,21.5c-2.6,6.8-9.6,18.8-13.4,14.4
+				c-8.3-7.3-0.4-30.6,4.9-44.9c6-16.2,23.5-45.6,18.1-48.6c-3.4-2.6-7.2,2.3-9.1,6.6c-3.4,7.7-6.9,15.4-10.3,23.2
+				c-2.5,5.7-5.1,11.5-7,17.6c-4.7,15.2-9.7,44.7-19.4,40.8c-7.7-6.3,0.5-23,5.6-36c1.8-4.6,6.7-16.3,8.5-20.9
+				c4.7-12.4,7.9-23.8,7.7-36" />
+		</g>
+		<g id="twoPointO">
+			<path id="twoPointOO" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M958.5,525.3c-37.1,0-33.6,75-1.7,75C989.8,600.3,990.4,525.3,958.5,525.3z" />
+			<path id="twoPointOPoint" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M914.9,591.4c-4.8,0-4.9,7.8,0.2,7.8C920.7,599.2,920.7,591.4,914.9,591.4z" />
+			<path id="twoPointOTwo" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M851.3,541.2c24.9-38.1,52.4,1.1,34.1,19.5l-36.8,36.8h-2.7h48.7" />
+		</g>
+	</svg>
+	<h2>Looking Forward</h2>
 </div>
 
 <div class="sectionIntro">
