@@ -1,16 +1,11 @@
 ---
 layout: section
 title: Research Design
-<!-- bannerpath: img/coding.jpg-->
 ---
-
 <div class="researchQuestion">
-
 	<h4>Research Question:</h4>
 	<p><blockquote>Will the <span id="illumination">illumination</span> of energy use data lead <span id="lowIncome">low-income</span> energy consumers to <span id="engagement">engage</span> with their energy use beyond the level of engagement that occurs with the use of traditional monthly bills?</blockquote></p>
-
 	<div class="definition row">
-		
 		<div class="col-sm-4" id="illuminationDefinition">
 			<h4>illumination:</h4>
 			<p>translation of household energy use into personalized information about participants’ energy habits and patterns</p>
@@ -24,7 +19,6 @@ title: Research Design
 			<p>demonstrate energy use reduction through action, stating an intention to reduce energy use, and/or indicating that an informed decision was made to not reduce energy use</p>
 		</div>
 	</div> 
-
 </div>
 
 <br>

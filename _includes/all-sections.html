@@ -1,10 +1,9 @@
 	{% for page in site.pages %}
 	{% if page.layout == 'section' %}
+	
 	<div class="section-content">
     	<h3>{{ page.title }}</h3>
-
 		{{ page.content }}
-	
 	</div>
 	{% endif %}
 
@@ -12,13 +11,10 @@
 
 	<a name="{{ page.title }}"></a>
 	<div class="section-container" id="{{ page.id }}">
-		
 		{{ page.content }}
-
 		</div>
 	</div>
 		
 	{% endif %}
-
 	{% endfor %}
 

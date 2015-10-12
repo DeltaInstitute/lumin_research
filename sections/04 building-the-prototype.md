@@ -3,7 +3,6 @@ layout: break
 title: Building the Prototype
 --- 
 <div id="prototype"  class="section-break" style="background-color:#6ba1b9">
-
 	<div class="code">
 		<svg viewBox="0 0 1200 1200">
 			<g class="cursor">
@@ -20,14 +19,9 @@ title: Building the Prototype
 			</g>
 		</svg>
 	</div>
-
 	<h2>Building a Prototype</h2>
-
 </div>
 
 <div class="sectionIntro">
-
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris.</p>
-
 </div>
-

@@ -2,9 +2,7 @@
 layout: section
 title: Final Pilot Cohort
 ---
-
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
-
 <svg class="participantProfile" height="550px" width="100%">
 	<g id="whoAreThey" class="profileTabs">
 		<rect x="0" y="0" height="55px" width="33.33%" fill="#eee" stroke="#fff" stroke-width="4px" />
@@ -36,5 +34,4 @@ title: Final Pilot Cohort
 		<rect x="44%" y="285" height="190" width="54%" fill="#fff" stroke="none"></rect>
 	</g>
 </svg>
-
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>

@@ -1,11 +1,8 @@
 ---
 layout: section
 title: Workshop Series
-bannerpath: img/research.jpg
 ---
-
 <p>Throughout the DeltaLumin Pilot Program there were five in-person events including two kick-off events and three pilot participant workshops. The purpose of these events was to gain insight into the participants’ reactions to the forms in which DeltaLumin communicates their energy use data. This was accomplished through open-ended discussion, written surveys, and facilitated activities.</p>
-
 
 <div class="row">	
 	<div class="col-sm-8">
@@ -21,8 +18,6 @@ bannerpath: img/research.jpg
 	</div>
 </div>
 
-
-
 <div class="row">	
 	<div class="col-sm-8">
 		<img src="img/workshop-1.jpg" class="img-responsive" style="padding-top:1em">
@@ -37,7 +32,6 @@ bannerpath: img/research.jpg
 	</div>
 </div>
 
-
 <div class="row">	
 	<div class="col-sm-8">
 		<img src="img/workshop-2.jpg" class="img-responsive">
@@ -51,7 +45,6 @@ bannerpath: img/research.jpg
 		<p><strong>Next Steps:</strong>Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
 </div>
-
 
 <div class="row">	
 	<div class="col-md-8">

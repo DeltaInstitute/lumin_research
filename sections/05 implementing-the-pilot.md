@@ -1,7 +1,6 @@
 ---
 layout: break
 title: Implementing the Pilot
-bannerpath: fa fa-envelope-o
 ---
 <div id="pilot" class="section-break" style="background-color:#6ba1b9">
 	<div class="envelope">
@@ -88,4 +87,3 @@ bannerpath: fa fa-envelope-o
 <div class="sectionIntro">
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. </p>
 </div>
-

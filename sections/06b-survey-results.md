@@ -2,7 +2,6 @@
 layout: section
 title: Survey Results
 ---
-
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
 
 <div class="charts">
@@ -54,7 +53,6 @@ title: Survey Results
 		<p class="caption">Caption</p>
 	</div>
 </div>
-
 
 <div class="row">	
 	<div class="col-sm-4" style="padding-top:1em">
@@ -206,7 +204,3 @@ title: Survey Results
 	<line x1="5%" x2="100%" y1="400px" y2="400px" stroke="#000000" stroke-width="1" />
 	<line x1="5%" x2="5%" y1="0px" y2="400px" stroke="#000000" stroke-width="1" />
 </svg>
-
-<script type="text/javascript" src="js/d3.min.js"></script>
-<script type="text/javascript" src="js/radialProgress.js"></script>
-

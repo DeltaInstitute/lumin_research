@@ -2,7 +2,6 @@
 layout: break
 title: The DeltaLumin Approach
 ---
-	
 <div id="approach" class="section-break">
 	<div class="bulb">
 		<svg x="30%" y="0px" viewBox="0 0 1200 1200">
