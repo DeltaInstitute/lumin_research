@@ -99,7 +99,7 @@ title: Visualizing Energy Use
 	</g>
 	<polygon fill="none" stroke="#E6E6E5" stroke-miterlimit="10" points="19.9,-87.1 -20.1,-87.1 -20.1,-47.1 19.9,-47.1 	"/>
 	<polygon fill="none" points="-67.5,-44 -107.3,-44 -107.3,-7.3 -67.5,-7.3 	"/>
-	<text transform="matrix(1.0185 0 0 -1 -101.6621 -20.0972)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'AvenirNextLTPro-Regular'" font-size="18">Feb</tspan><tspan x="4.8" y="19" fill="#FFFFFF" font-family="'AvenirNextLTPro-Regular'" font-size="18">16</tspan></text>
+	<text transform="matrix(1.0185 0 0 -1 -101.6621 -20.0972)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'" font-size="18">Feb</tspan><tspan x="4.8" y="19" fill="#FFFFFF" font-family="'Avenir'" font-size="18">16</tspan></text>
 	<g>
 		<path fill="#E6E6E5" d="M19-91v-38h-38v38H19 M20-90h-40v-40h40V-90L20-90z"/>
 	</g>
@@ -107,16 +107,16 @@ title: Visualizing Energy Use
 		<polygon fill="#D88E2A" points="63.2,-130 23.2,-130 23.2,-90 63.2,-90 		"/>
 	</g>
 	<polygon fill="none" points="63.1,-130.7 23.3,-130.7 23.3,-94.1 63.1,-94.1 	"/>
-	<text transform="matrix(1.0185 0 0 -1 28.416 -106.8789)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'AvenirNextLTPro-Regular'" font-size="18">Mar</tspan><tspan x="9.9" y="19" fill="#FFFFFF" font-family="'AvenirNextLTPro-Regular'" font-size="18">5</tspan></text>
+	<text transform="matrix(1.0185 0 0 -1 28.416 -106.8789)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'" font-size="18">Mar</tspan><tspan x="9.9" y="19" fill="#FFFFFF" font-family="'Avenir'" font-size="18">5</tspan></text>
 	<g>
 		<polygon fill="none" points="124.8,-171.9 -38.5,-171.9 -38.5,-135.3 124.8,-135.3 		"/>
-		<text transform="matrix(1.0185 0 0 -1 8.9795 -148.0442)"><tspan x="0" y="0" fill="#D88E2A" font-family="'AvenirNextLTPro-Regular'" font-size="18">Forecast:</tspan><tspan x="15.1" y="18" fill="#D88E2A" font-family="'AvenirNextLTPro-Demi'" font-size="18">$130</tspan></text>
+		<text transform="matrix(1.0185 0 0 -1 8.9795 -148.0442)"><tspan x="0" y="0" fill="#D88E2A" font-family="'Avenir'" font-size="18">Forecast:</tspan><tspan x="15.1" y="18" fill="#D88E2A" font-family="'AvenirDemi'" font-size="18">$130</tspan></text>
 	</g>
 	
 		<use xlink:href="#billsofar_x5F_desktop"  width="86" height="64.9" id="XMLID_3_" x="-43" y="-32.5" transform="matrix(1 0 0 1 -87.4326 31.8374)" overflow="visible"/>
 	<g>
 		<polygon fill="none" points="-46,15.3 -129.3,15.3 -129.3,52.9 -46,52.9 		"/>
-		<text transform="matrix(1.0185 0 0 -1 -112.0283 40.1118)"><tspan x="0" y="0" fill="#658C3D" font-family="'AvenirNextLTPro-Regular'" font-size="18">Spent:</tspan><tspan x="-1" y="20" fill="#658C3D" font-family="'AvenirNextLTPro-Demi'" font-size="18">$52.40</tspan></text>
+		<text transform="matrix(1.0185 0 0 -1 -112.0283 40.1118)"><tspan x="0" y="0" fill="#658C3D" font-family="'Avenir'" font-size="18">Spent:</tspan><tspan x="-1" y="20" fill="#658C3D" font-family="'AvenirDemi'" font-size="18">$52.40</tspan></text>
 	</g>
 </symbol>
 <g id="allScrollContent">
@@ -124,34 +124,34 @@ title: Visualizing Energy Use
 	<rect x="139.3" y="28.3" fill="#E6E7E8" width="927.1" height="1516.7"/>
 	<rect x="170.8" y="105.5" fill="#66A1B5" width="864" height="339.9"/>
 	<rect x="200.2" y="224" fill="none" width="799.6" height="190"/>
-	<text transform="matrix(1 0 0 1 200.1981 239.2274)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'OpenSans'" font-size="20">Welcome to your DeltaLumin dashboard. The dashboard contains information on </tspan><tspan x="0" y="24" fill="#FFFFFF" font-family="'OpenSans'" font-size="20">how you use electricity in your home including how much you use, when you use it, </tspan><tspan x="0" y="48" fill="#FFFFFF" font-family="'OpenSans'" font-size="20">and how you use it.</tspan><tspan x="0" y="96" fill="#FFFFFF" font-family="'OpenSans'" font-size="20">It looks like you usually spend about on electricity during . So far this month, we </tspan><tspan x="0" y="120" fill="#FFFFFF" font-family="'OpenSans'" font-size="20">estimate you&apos;ve spent about on your electricity.</tspan><tspan x="0" y="168" fill="#FFFFFF" font-family="'OpenSans'" font-size="20">Take a look around!</tspan></text>
-	<text transform="matrix(1 0 0 1 196.1968 205.5459)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="79.7956">Hello!</text>
+	<text transform="matrix(1 0 0 1 200.1981 239.2274)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">Welcome to your DeltaLumin dashboard. The dashboard contains information on </tspan><tspan x="0" y="24" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">how you use electricity in your home including how much you use, when you use it, </tspan><tspan x="0" y="48" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">and how you use it.</tspan><tspan x="0" y="96" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">It looks like you usually spend about on electricity during . So far this month, we </tspan><tspan x="0" y="120" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">estimate you&apos;ve spent about on your electricity.</tspan><tspan x="0" y="168" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">Take a look around!</tspan></text>
+	<text transform="matrix(1 0 0 1 196.1968 205.5459)" fill="#FFFFFF" font-family="'Open Sans'" font-size="79.7956">Hello!</text>
 	<rect x="139.3" y="28.3" fill="#646E71" width="927.1" height="51.2"/>
 	<rect x="167.6" y="465.5" fill="#FFFFFF" width="290.7" height="462.6"/>
 	<rect x="479.6" y="465.5" fill="#FFFFFF" width="553.5" height="462.6"/>
-	<text transform="matrix(1 0 0 1 209.6926 511.5276)" font-family="'AvenirNext-Regular'" font-size="24">Spending Forecast</text>
-	<text transform="matrix(1 0 0 1 181.0533 544.5276)"><tspan x="0" y="0" font-family="'AvenirNext-Regular'" font-size="16">Your estimated energy spending for</tspan><tspan x="114.1" y="19.2" font-family="'AvenirNext-Regular'" font-size="16">June</tspan></text>
+	<text transform="matrix(1 0 0 1 209.6926 511.5276)" font-family="'Avenir'" font-size="24">Spending Forecast</text>
+	<text transform="matrix(1 0 0 1 181.0533 544.5276)"><tspan x="0" y="0" font-family="'Avenir'" font-size="16">Your estimated energy spending for</tspan><tspan x="114.1" y="19.2" font-family="'Avenir'" font-size="16">June</tspan></text>
 	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="186.6" y1="576.5" x2="439.6" y2="576.5"/>
 	<rect x="180.4" y="592.5" fill="none" width="265.1" height="65"/>
-	<text transform="matrix(1 0 0 1 185.6776 603.1119)"><tspan x="0" y="0" font-family="'AvenirNext-Regular'" font-size="14">See how much you’ve already spent this </tspan><tspan x="1.5" y="16.8" font-family="'AvenirNext-Regular'" font-size="14">month and how much you may spend if </tspan><tspan x="-4.3" y="33.6" font-family="'AvenirNext-Regular'" font-size="14">you continue using electricity at the same </tspan><tspan x="112.9" y="50.4" font-family="'AvenirNext-Regular'" font-size="14">rate.</tspan></text>
-	<text transform="matrix(1 0 0 1 616.8223 511.5276)" font-family="'AvenirNext-Regular'" font-size="24">Household Energy Usage</text>
-	<text transform="matrix(1 0 0 1 651.4374 544.5276)" font-family="'AvenirNext-Regular'" font-size="16">When you spent your money</text>
+	<text transform="matrix(1 0 0 1 185.6776 603.1119)"><tspan x="0" y="0" font-family="'Avenir'" font-size="14">See how much you’ve already spent this </tspan><tspan x="1.5" y="16.8" font-family="'Avenir'" font-size="14">month and how much you may spend if </tspan><tspan x="-4.3" y="33.6" font-family="'Avenir'" font-size="14">you continue using electricity at the same </tspan><tspan x="112.9" y="50.4" font-family="'Avenir'" font-size="14">rate.</tspan></text>
+	<text transform="matrix(1 0 0 1 616.8223 511.5276)" font-family="'Avenir'" font-size="24">Household Energy Usage</text>
+	<text transform="matrix(1 0 0 1 651.4374 544.5276)" font-family="'Avenir'" font-size="16">When you spent your money</text>
 	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="494.2" y1="576.5" x2="1014.7" y2="576.5"/>
 	<rect x="506.2" y="595.1" fill="none" width="500.4" height="65"/>
-	<text transform="matrix(1 0 0 1 544.1512 605.6871)" font-family="'AvenirNext-Regular'" font-size="14">Find trends in your energy use from the past few days and months.</text>
+	<text transform="matrix(1 0 0 1 544.1512 605.6871)" font-family="'Avenir'" font-size="14">Find trends in your energy use from the past few days and months.</text>
 	<rect x="167.8" y="947.8" fill="#FFFFFF" width="290.7" height="462.6"/>
 	<rect x="479.8" y="947.8" fill="#FFFFFF" width="553.5" height="462.6"/>
-	<text transform="matrix(1 0 0 1 200.4387 993.8358)" font-family="'AvenirNext-Regular'" font-size="24">Energy Savings Goal</text>
-	<text transform="matrix(1 0 0 1 174.5352 1026.8358)"><tspan x="0" y="0" font-family="'AvenirNext-Regular'" font-size="16">Goal setting helps you stay on track to</tspan><tspan x="100" y="19.2" font-family="'AvenirNext-Regular'" font-size="16">spend less</tspan></text>
+	<text transform="matrix(1 0 0 1 200.4387 993.8358)" font-family="'Avenir'" font-size="24">Energy Savings Goal</text>
+	<text transform="matrix(1 0 0 1 174.5352 1026.8358)"><tspan x="0" y="0" font-family="'Avenir'" font-size="16">Goal setting helps you stay on track to</tspan><tspan x="100" y="19.2" font-family="'Avenir'" font-size="16">spend less</tspan></text>
 	<rect x="180.6" y="1074.8" fill="none" width="265.1" height="65"/>
-	<text transform="matrix(1 0 0 1 181.5043 1085.42)"><tspan x="0" y="0" font-family="'AvenirNext-Regular'" font-size="14">Your goal for is to save compared to your </tspan><tspan x="4.3" y="16.8" font-family="'AvenirNext-Regular'" font-size="14">typical spending. That would make your </tspan><tspan x="37.5" y="33.6" font-family="'AvenirNext-Regular'" font-size="14">total spending for this month.</tspan></text>
-	<text transform="matrix(1 0 0 1 587.2159 993.8358)" font-family="'AvenirNext-Regular'" font-size="24">Appliance Spending Diagnosis</text>
-	<text transform="matrix(1 0 0 1 666.6395 1026.8358)" font-family="'AvenirNext-Regular'" font-size="16">Where your money goes</text>
+	<text transform="matrix(1 0 0 1 181.5043 1085.42)"><tspan x="0" y="0" font-family="'Avenir'" font-size="14">Your goal for is to save compared to your </tspan><tspan x="4.3" y="16.8" font-family="'Avenir'" font-size="14">typical spending. That would make your </tspan><tspan x="37.5" y="33.6" font-family="'Avenir'" font-size="14">total spending for this month.</tspan></text>
+	<text transform="matrix(1 0 0 1 587.2159 993.8358)" font-family="'Avenir'" font-size="24">Appliance Spending Diagnosis</text>
+	<text transform="matrix(1 0 0 1 666.6395 1026.8358)" font-family="'Avenir'" font-size="16">Where your money goes</text>
 	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="494.4" y1="1058.8" x2="1014.9" y2="1058.8"/>
 	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="180.6" y1="1058.8" x2="444.8" y2="1058.8"/>
 	<rect x="506.4" y="1077.4" fill="none" width="500.4" height="65"/>
-	<text transform="matrix(1 0 0 1 509.1698 1087.9952)"><tspan x="0" y="0" font-family="'AvenirNext-Regular'" font-size="14">See how much we think you have spent on your appliances and electronics so </tspan><tspan x="201.8" y="16.8" font-family="'AvenirNext-Regular'" font-size="14">far this month.</tspan></text>
-	<text transform="matrix(1 0 0 1 177.4112 63.7447)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'AvenirNext-Regular'" font-size="21.4793">DELTA</tspan><tspan x="67.2" y="0" fill="#FFFFFF" font-family="'AvenirNext-Bold'" font-size="21.4793">LUMIN</tspan></text>
+	<text transform="matrix(1 0 0 1 509.1698 1087.9952)"><tspan x="0" y="0" font-family="'Avenir'" font-size="14">See how much we think you have spent on your appliances and electronics so </tspan><tspan x="201.8" y="16.8" font-family="'Avenir'" font-size="14">far this month.</tspan></text>
+	<text transform="matrix(1 0 0 1 177.4112 63.7447)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'" font-size="21.4793">DELTA</tspan><tspan x="67.2" y="0" fill="#FFFFFF" font-family="'AvenirMedium'" font-size="21.4793">LUMIN</tspan></text>
 	<g id="appliance">
 		<rect x="558.9" y="1342.8" fill="#885A28" width="19.6" height="30.9"/>
 		<path fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" d="M537,1378.8h-16.5c-11.4,0-11.4,0-11.4-11.4
@@ -240,13 +240,13 @@ title: Visualizing Energy Use
 		<rect x="563" y="750" fill="#E7E8E8" width="44.5" height="125.7"/>
 		<rect x="618.5" y="741.1" fill="#E7E8E8" width="44.5" height="134.5"/>
 		<rect x="899.6" y="732.7" fill="#568B43" width="44.5" height="142.9"/>
-		<text transform="matrix(1 0 0 1 622.6727 736.8868)" font-family="'AvenirNext-Regular'" font-size="14">$1.15</text>
-		<text transform="matrix(1 0 0 1 790.5009 723.9583)" font-family="'AvenirNext-Regular'" font-size="14">$1.20</text>
-		<text transform="matrix(1 0 0 1 846.6218 746.4993)" font-family="'AvenirNext-Regular'" font-size="14">$1.08</text>
-		<text transform="matrix(1 0 0 1 902.9402 730.2141)" font-family="'AvenirNext-Regular'" font-size="14">$1.18</text>
-		<text transform="matrix(1 0 0 1 567.1306 744.763)" font-family="'AvenirNext-Regular'" font-size="14">$1.10</text>
-		<text transform="matrix(1 0 0 1 678.2156 751.7063)" font-family="'AvenirNext-Regular'" font-size="14">$1.06</text>
-		<text transform="matrix(1 0 0 1 734.6258 739.8156)" font-family="'AvenirNext-Regular'" font-size="14">$1.12</text>
+		<text transform="matrix(1 0 0 1 622.6727 736.8868)" font-family="'Avenir'" font-size="14">$1.15</text>
+		<text transform="matrix(1 0 0 1 790.5009 723.9583)" font-family="'Avenir'" font-size="14">$1.20</text>
+		<text transform="matrix(1 0 0 1 846.6218 746.4993)" font-family="'Avenir'" font-size="14">$1.08</text>
+		<text transform="matrix(1 0 0 1 902.9402 730.2141)" font-family="'Avenir'" font-size="14">$1.18</text>
+		<text transform="matrix(1 0 0 1 567.1306 744.763)" font-family="'Avenir'" font-size="14">$1.10</text>
+		<text transform="matrix(1 0 0 1 678.2156 751.7063)" font-family="'Avenir'" font-size="14">$1.06</text>
+		<text transform="matrix(1 0 0 1 734.6258 739.8156)" font-family="'Avenir'" font-size="14">$1.12</text>
 		<g>
 			<g>
 				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="551.9" y1="876.5" x2="956.9" y2="876.5"/>
@@ -258,17 +258,17 @@ title: Visualizing Energy Use
 				</g>
 			</g>
 		</g>
-		<text transform="matrix(1 0 0 1 573.1077 897.0822)" font-family="'AvenirNext-Regular'" font-size="14">Sun</text>
-		<text transform="matrix(1 0 0 1 626.1864 897.0823)" font-family="'AvenirNext-Regular'" font-size="14">Mon</text>
+		<text transform="matrix(1 0 0 1 573.1077 897.0822)" font-family="'Avenir'" font-size="14">Sun</text>
+		<text transform="matrix(1 0 0 1 626.1864 897.0823)" font-family="'Avenir'" font-size="14">Mon</text>
 		<rect x="674" y="758.1" fill="#E7E8E8" width="44.5" height="117.6"/>
-		<text transform="matrix(1 0 0 1 684.2146 897.0823)" font-family="'AvenirNext-Regular'" font-size="14">Tue</text>
+		<text transform="matrix(1 0 0 1 684.2146 897.0823)" font-family="'Avenir'" font-size="14">Tue</text>
 		<rect x="730.5" y="744" fill="#E7E8E8" width="44.5" height="131.9"/>
-		<text transform="matrix(1 0 0 1 737.4129 897.3713)" font-family="'AvenirNext-Regular'" font-size="14">Wed</text>
+		<text transform="matrix(1 0 0 1 737.4129 897.3713)" font-family="'Avenir'" font-size="14">Wed</text>
 		<rect x="786.3" y="730.2" fill="#E7E8E8" width="44.5" height="145.4"/>
-		<text transform="matrix(1 0 0 1 796.4227 897.0822)" font-family="'AvenirNext-Regular'" font-size="14">Thu</text>
+		<text transform="matrix(1 0 0 1 796.4227 897.0822)" font-family="'Avenir'" font-size="14">Thu</text>
 		<rect x="842.5" y="751.7" fill="#E7E8E8" width="44.5" height="123.9"/>
-		<text transform="matrix(1 0 0 1 856.4774 897.0822)" font-family="'AvenirNext-Regular'" font-size="14">Fri</text>
-		<text transform="matrix(1 0 0 1 911.0945 897.0823)" font-family="'AvenirNext-Regular'" font-size="14">Sat</text>
+		<text transform="matrix(1 0 0 1 856.4774 897.0822)" font-family="'Avenir'" font-size="14">Fri</text>
+		<text transform="matrix(1 0 0 1 911.0945 897.0823)" font-family="'Avenir'" font-size="14">Sat</text>
 	<g id="XMLID_2_">
 		<g>
 			<path fill="#66A1B5" d="M754.4,637.5v22.7h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
@@ -280,8 +280,8 @@ title: Visualizing Energy Use
 							"/>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 687.8262 653.4446)" fill="#FFFFFF" font-family="'AvenirNext-Regular'" font-size="12">Week</text>
-	<text transform="matrix(1 0 0 1 784.381 653.1946)" font-family="'AvenirNext-Regular'" font-size="12">Month</text>
+	<text transform="matrix(1 0 0 1 687.8262 653.4446)" fill="#FFFFFF" font-family="'Avenir'" font-size="12">Week</text>
+	<text transform="matrix(1 0 0 1 784.381 653.1946)" font-family="'Avenir'" font-size="12">Month</text>
 </g>
 <g id="month">
 	<g id="XMLID_4_" display="inline">
@@ -296,22 +296,22 @@ title: Visualizing Energy Use
 							"/>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 687.8262 653.4446)" display="inline" font-family="'AvenirNext-Regular'" font-size="12">Week</text>
+	<text transform="matrix(1 0 0 1 687.8262 653.4446)" display="inline" font-family="'Avenir'" font-size="12">Week</text>
 	
-		<text transform="matrix(1 0 0 1 784.381 653.1946)" display="inline" fill="#FFFFFF" font-family="'AvenirNext-Regular'" font-size="12">Month</text>
+		<text transform="matrix(1 0 0 1 784.381 653.1946)" display="inline" fill="#FFFFFF" font-family="'Avenir'" font-size="12">Month</text>
 	<g id="Layer_1" display="inline">
 		<g>
 			<rect x="578.2" y="710" fill="#E7E8E8" width="101.6" height="165.5"/>
 			<rect x="703.7" y="734.6" fill="#E7E8E8" width="101.6" height="140.8"/>
 			<rect x="829.8" y="723.2" fill="#568B43" width="101.6" height="152.3"/>
 			<g>
-				<text transform="matrix(1 0 0 1 868.4053 718.2529)" font-family="'AvenirNext-Regular'" font-size="14">$37</text>
+				<text transform="matrix(1 0 0 1 868.4053 718.2529)" font-family="'Avenir'" font-size="14">$37</text>
 			</g>
 			<g>
-				<text transform="matrix(1 0 0 1 742.3184 728.4785)" font-family="'AvenirNext-Regular'" font-size="14">$35</text>
+				<text transform="matrix(1 0 0 1 742.3184 728.4785)" font-family="'Avenir'" font-size="14">$35</text>
 			</g>
 			<g>
-				<text transform="matrix(1 0 0 1 616.7676 704.8184)" font-family="'AvenirNext-Regular'" font-size="14">$40</text>
+				<text transform="matrix(1 0 0 1 616.7676 704.8184)" font-family="'Avenir'" font-size="14">$40</text>
 			</g>
 			<g>
 				<g>
@@ -325,13 +325,13 @@ title: Visualizing Energy Use
 				</g>
 			</g>
 			<g>
-				<text transform="matrix(1 0 0 1 615.8809 896.6963)" font-family="'AvenirNext-Regular'" font-size="14">May</text>
+				<text transform="matrix(1 0 0 1 615.8809 896.6963)" font-family="'Avenir'" font-size="14">May</text>
 			</g>
 			<g>
-				<text transform="matrix(1 0 0 1 742.9209 896.8135)" font-family="'AvenirNext-Regular'" font-size="14">Jun</text>
+				<text transform="matrix(1 0 0 1 742.9209 896.8135)" font-family="'Avenir'" font-size="14">Jun</text>
 			</g>
 			<g>
-				<text transform="matrix(1 0 0 1 871.3105 896.8135)" font-family="'AvenirNext-Regular'" font-size="14">Jul</text>
+				<text transform="matrix(1 0 0 1 871.3105 896.8135)" font-family="'Avenir'" font-size="14">Jul</text>
 			</g>
 		</g>
 	</g>

@@ -16,6 +16,9 @@ html {
     line-height: 1.4;
 }
 
+@font-face { font-family: Avenir; src: url('AvenirNextLTPro-Regular.otf'); } 
+@font-face { font-family: AvenirDemi; src: url('AvenirNextLTPro-Demi.otf'); } 
+@font-face { font-family: AvenirMedium; src: url('AvenirNextLTPro-Medium.otf'); } 
 
 
 /*
@@ -172,8 +175,8 @@ footer {
 =============================================================================*/
 
 .intro {
-    background-image: url("img/electricity_bw.jpg");
-    background-repeat: none;
+    background-image: url("../img/electricity_bw.jpg");
+    background-repeat: no-repeat;
     height:100vh;
     margin: 0;
     padding: 0;

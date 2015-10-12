@@ -194,12 +194,14 @@ $('.recruitment').each(function () {
 
 function switchTabs() {
     $('.profileCharts').hide();
-    $('.profileTabs').find('rect').attr('fill', '#ddd');
+    $('.profileTabs').find('rect').attr('fill', '#ccc');
+    $('.profileTabs').find('text').attr('opacity', '.4');
 }
 
 $('#whoAreThey').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
+    $(this).find('text').attr('opacity', '1');
     $('#whoCharts').show();
 
 });
@@ -207,12 +209,14 @@ $('#whoAreThey').on('click', function() {
 $('#whereTheyLive').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
+    $(this).find('text').attr('opacity', '1');
     $('#whereCharts').show();
 });
 
 $('#howTheyUseEnergy').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
+    $(this).find('text').attr('opacity', '1');
     $('#howCharts').show();
 });
 
