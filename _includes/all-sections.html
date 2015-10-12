@@ -1,20 +1,18 @@
-	{% for page in site.pages %}
-	{% if page.layout == 'section' %}
+{% for page in site.pages %}
+{% if page.layout == 'section' %}
 	
-	<div class="section-content">
-    	<h3>{{ page.title }}</h3>
+<div class="section-content">
+    <h3>{{ page.title }}</h3>
 		{{ page.content }}
-	</div>
-	{% endif %}
+</div>
+{% endif %}
 
-	{% if page.layout == 'break' %}
+{% if page.layout == 'break' %}
 
-	<a name="{{ page.title }}"></a>
-	<div class="section-container" id="{{ page.id }}">
-		{{ page.content }}
-		</div>
-	</div>
-		
-	{% endif %}
-	{% endfor %}
+<a name="{{ page.title }}"></a>
+<div class="section-container" id="{{ page.id }}">
+	{{ page.content }}
+</div>
+{% endif %}
+{% endfor %}
 
