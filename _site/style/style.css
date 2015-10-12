@@ -332,10 +332,10 @@ h4 {
 /* Lumin Approach animation
 =============================================================================*/
 .bulb svg {
-    height:40vh;
+    height:250px;
     width:100%;
     margin-top: 20vh;
-    padding-left: 10%;
+    padding: 0 33%;
     outline-width: 8px;
 }
 

@@ -349,7 +349,7 @@ $('.charts').each(function () {
 // Web Analytics
 //======================================================================================
 
-$('rect').on('mouseenter', function() {
+$('.webAnalyticsBars rect').on('mouseenter', function() {
     var views = $(this).attr('y');
     views = parseFloat(views);
     views = (400 - views) / 6;

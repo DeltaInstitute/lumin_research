@@ -94,7 +94,7 @@ title: Survey Results
 		<rect x="8%" y="178" height="222px" width="1%" />
 		<rect x="9%" y="100" height="300px" width="1%" />
 		<rect x="10%" y="130" height="270" width="1%" />
-		<rect x="11%" y="118px" height="282px" width="1%" />
+		<rect x="11%" y="118" height="282px" width="1%" />
 		<rect x="12%" y="298px" height="102px" width="1%" />
 		<rect x="13%" y="382px" height="18px" width="1%" />
 		<rect x="14%" y="364px" height="36px" width="1%" />
