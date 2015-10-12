@@ -58,7 +58,6 @@ title: Learning from our Participants
 			</g>
 		</svg>
 	</div>
-
 	<h2>Learning from our Participants</h2>
 </div>
 

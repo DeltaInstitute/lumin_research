@@ -605,10 +605,10 @@ h4 {
 }
 
 .recruitment svg {
-    height:50vh;
+    height:300px;
     width:100%;
     margin-top: 20vh;
-    padding-left: 10%;
+    padding: 0 33%;
     outline-width: 8px;
 }
 
@@ -760,18 +760,18 @@ h4 {
 
 /* Prototype animation
 =============================================================================*/
-.code svg {
-    height:40vh;
-    width:100%;
-    margin-top: 20vh;
-    padding-left: 0%;
-    margin-left: -2%;
-}
-
 .code {
   color: #fff;
   background-color: #6ba1b9;
   height: 40vh;
+}
+
+.code svg {
+    height:300px;
+    width:100%;
+    margin-top: 20vh;
+    padding: 0 33%;
+    margin-left: -2%;
 }
 
 .cursorMove .cursor {
@@ -829,16 +829,24 @@ h4 {
 
 
 @keyframes fadein {
-    from { opacity: 0; filter:alpha(opacity=0); }
-    to   { opacity: 1; filter:alpha(opacity=100); }
+    from { 
+      opacity: 0; filter:alpha(opacity=0); 
+    }
+    to   { 
+      opacity: 1; filter:alpha(opacity=100); 
+    }
 }
 
 /* Firefox < 16 */
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; filter:alpha(opacity=0); }
-    to   { opacity: 1; filter:alpha(opacity=100); }
+    from { 
+      opacity: 0; filter:alpha(opacity=0); 
+    }
+    to   { 
+      opacity: 1; filter:alpha(opacity=100); 
+    }
 }
 
 /* Internet Explorer */
@@ -848,6 +856,26 @@ h4 {
 .openingCarrot, .slash, .closingCarrot {
     opacity: 0;
     filter:alpha(opacity=0);
+}
+
+/* Energy Calc Interaction
+=============================================================================*/
+.calcFlowChart svg {
+    max-height:100vh;
+    width:100%;
+    padding-top: 5vh;
+    padding-left: 1%;
+}
+
+.drawCalcLines path {
+  stroke-dasharray: 611;
+  stroke-dashoffset: 611;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation: draw 2s linear;
+          animation: draw 2s linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 
@@ -1172,27 +1200,6 @@ h4 {
   }
 }
 
-
-/* Energy Calc Interaction
-=============================================================================*/
-.calcFlowChart svg {
-    max-height:100vh;
-    width:100%;
-    padding-top: 5vh;
-    padding-left: 1%;
-}
-
-.drawCalcLines path {
-  stroke-dasharray: 611;
-  stroke-dashoffset: 611;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation: draw 2s linear;
-          animation: draw 2s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
 /* Email Example Animation
 =============================================================================*/
 .emailExample svg {
@@ -1276,6 +1283,7 @@ h4 {
             transform: translate(0px, 0px); 
   }
 }
+
 
 /* Learnings animation
 =============================================================================*/

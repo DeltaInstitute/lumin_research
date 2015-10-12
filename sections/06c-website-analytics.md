@@ -1,7 +1,6 @@
 ---
 layout: section
 title: Website Analytics
-<!-- bannerpath: img/research.jpg-->
  ---
 
 <svg>

@@ -9,380 +9,289 @@ title: Visualizing Energy Use
 
 <div class="dashboard">
 	<div class="computer">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1200 696" enable-background="new 0 0 1200 696" xml:space="preserve">
-<symbol  id="billsofar_x5F_desktop" viewBox="-43 -32.5 86 64.9">
-	<path fill="#FFFFFF" stroke="#658C3D" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M28.8,32h-56.2
-		c-7.9,0-15.1-5.7-15.1-13.7V-9.8c0-7.9,7.2-15.1,15.1-15.1H-7L0.6-32l7.5,7.1h20.7c8,0,13.7,7.2,13.7,15.1v28.1
-		C42.5,26.2,36.8,32,28.8,32z"/>
-</symbol>
-<symbol  id="forecast_x5F_m1_x5F_desk" viewBox="-149.6 -171.9 299.2 254.4">
-	<polygon fill="#E6E6E5" points="63.1,42.5 23.1,42.5 23.1,82.5 63.1,82.5 	"/>
-	<g>
-		<polygon fill="#E6E6E5" points="106.3,42.5 66.3,42.5 66.3,82.5 106.3,82.5 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="149.6,42.5 109.6,42.5 109.6,82.5 149.6,82.5 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="-109.6,-0.8 -149.6,-0.8 -149.6,39.2 -109.6,39.2 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="-66.4,-0.8 -106.4,-0.8 -106.4,39.2 -66.4,39.2 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="-23.3,-0.8 -63.3,-0.8 -63.3,39.2 -23.3,39.2 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="19.9,-0.8 -20.1,-0.8 -20.1,39.2 19.9,39.2 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="63.1,-0.8 23.1,-0.8 23.1,39.2 63.1,39.2 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="106.3,-0.8 66.3,-0.8 66.3,39.2 106.3,39.2 		"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="149.6,-0.8 109.6,-0.8 109.6,39.2 149.6,39.2 		"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M105.3-5v-38h-38v38H105.3 M106.3-4h-40v-40h40V-4L106.3-4z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M148.6-5v-38h-38v38H148.6 M149.6-4h-40v-40h40V-4L149.6-4z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M105.3-48.1v-38h-38v38H105.3 M106.3-47.1h-40v-40h40V-47.1L106.3-47.1z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M148.6-48.1v-38h-38v38H148.6 M149.6-47.1h-40v-40h40V-47.1L149.6-47.1z"/>
-	</g>
-	<g>
-		<polygon fill="#E6E6E5" points="-109.6,-44 -149.6,-44 -149.6,-4 -109.6,-4 		"/>
-	</g>
-	<g>
-		<polygon fill="#658C3D" points="-66.4,-44 -106.4,-44 -106.4,-4 -66.4,-4 		"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M-24.3-5v-38h-38v38H-24.3 M-23.3-4h-40v-40h40V-4L-23.3-4z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M18.9-5v-38h-38v38H18.9 M19.9-4h-40v-40h40V-4L19.9-4z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M62.1-5v-38h-38v38H62.1 M63.1-4h-40v-40h40V-4L63.1-4z"/>
-	</g>
-	<g>
-		<g>
-			<path fill="#E6E6E5" d="M62.1-48.1v-38h-38v38H62.1 M63.1-47.1h-40v-40h40V-47.1L63.1-47.1z"/>
-		</g>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M-110.6-48.1v-38h-38v38H-110.6 M-109.6-47.1h-40v-40h40V-47.1L-109.6-47.1z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M-67.4-48.1v-38h-38v38H-67.4 M-66.4-47.1h-40v-40h40V-47.1L-66.4-47.1z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M-24.3-48.1v-38h-38v38H-24.3 M-23.3-47.1h-40v-40h40V-47.1L-23.3-47.1z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M-110.6-91v-38h-38v38H-110.6 M-109.6-90h-40v-40h40V-90L-109.6-90z"/>
-	</g>
-	<g>
-		<path fill="#E6E6E5" d="M-67.4-91v-38h-38v38H-67.4 M-66.4-90h-40v-40h40V-90L-66.4-90z"/>
-	</g>
-	<g>
-		<g>
-			<path fill="#E6E6E5" d="M-24.3-91v-38h-38v38H-24.3 M-23.3-90h-40v-40h40V-90L-23.3-90z"/>
-		</g>
-	</g>
-	<polygon fill="none" stroke="#E6E6E5" stroke-miterlimit="10" points="19.9,-87.1 -20.1,-87.1 -20.1,-47.1 19.9,-47.1 	"/>
-	<polygon fill="none" points="-67.5,-44 -107.3,-44 -107.3,-7.3 -67.5,-7.3 	"/>
-	<text transform="matrix(1.0185 0 0 -1 -101.6621 -20.0972)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'" font-size="18">Feb</tspan><tspan x="4.8" y="19" fill="#FFFFFF" font-family="'Avenir'" font-size="18">16</tspan></text>
-	<g>
-		<path fill="#E6E6E5" d="M19-91v-38h-38v38H19 M20-90h-40v-40h40V-90L20-90z"/>
-	</g>
-	<g>
-		<polygon fill="#D88E2A" points="63.2,-130 23.2,-130 23.2,-90 63.2,-90 		"/>
-	</g>
-	<polygon fill="none" points="63.1,-130.7 23.3,-130.7 23.3,-94.1 63.1,-94.1 	"/>
-	<text transform="matrix(1.0185 0 0 -1 28.416 -106.8789)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'" font-size="18">Mar</tspan><tspan x="9.9" y="19" fill="#FFFFFF" font-family="'Avenir'" font-size="18">5</tspan></text>
-	<g>
-		<polygon fill="none" points="124.8,-171.9 -38.5,-171.9 -38.5,-135.3 124.8,-135.3 		"/>
-		<text transform="matrix(1.0185 0 0 -1 8.9795 -148.0442)"><tspan x="0" y="0" fill="#D88E2A" font-family="'Avenir'" font-size="18">Forecast:</tspan><tspan x="15.1" y="18" fill="#D88E2A" font-family="'AvenirDemi'" font-size="18">$130</tspan></text>
-	</g>
-	
-		<use xlink:href="#billsofar_x5F_desktop"  width="86" height="64.9" id="XMLID_3_" x="-43" y="-32.5" transform="matrix(1 0 0 1 -87.4326 31.8374)" overflow="visible"/>
-	<g>
-		<polygon fill="none" points="-46,15.3 -129.3,15.3 -129.3,52.9 -46,52.9 		"/>
-		<text transform="matrix(1.0185 0 0 -1 -112.0283 40.1118)"><tspan x="0" y="0" fill="#658C3D" font-family="'Avenir'" font-size="18">Spent:</tspan><tspan x="-1" y="20" fill="#658C3D" font-family="'AvenirDemi'" font-size="18">$52.40</tspan></text>
-	</g>
-</symbol>
-<g id="allScrollContent">
-<g id="website">
-	<rect x="139.3" y="28.3" fill="#E6E7E8" width="927.1" height="1516.7"/>
-	<rect x="170.8" y="105.5" fill="#66A1B5" width="864" height="339.9"/>
-	<rect x="200.2" y="224" fill="none" width="799.6" height="190"/>
-	<text transform="matrix(1 0 0 1 200.1981 239.2274)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">Welcome to your DeltaLumin dashboard. The dashboard contains information on </tspan><tspan x="0" y="24" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">how you use electricity in your home including how much you use, when you use it, </tspan><tspan x="0" y="48" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">and how you use it.</tspan><tspan x="0" y="96" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">It looks like you usually spend about on electricity during . So far this month, we </tspan><tspan x="0" y="120" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">estimate you&apos;ve spent about on your electricity.</tspan><tspan x="0" y="168" fill="#FFFFFF" font-family="'Open Sans'" font-size="20">Take a look around!</tspan></text>
-	<text transform="matrix(1 0 0 1 196.1968 205.5459)" fill="#FFFFFF" font-family="'Open Sans'" font-size="79.7956">Hello!</text>
-	<rect x="139.3" y="28.3" fill="#646E71" width="927.1" height="51.2"/>
-	<rect x="167.6" y="465.5" fill="#FFFFFF" width="290.7" height="462.6"/>
-	<rect x="479.6" y="465.5" fill="#FFFFFF" width="553.5" height="462.6"/>
-	<text transform="matrix(1 0 0 1 209.6926 511.5276)" font-family="'Avenir'" font-size="24">Spending Forecast</text>
-	<text transform="matrix(1 0 0 1 181.0533 544.5276)"><tspan x="0" y="0" font-family="'Avenir'" font-size="16">Your estimated energy spending for</tspan><tspan x="114.1" y="19.2" font-family="'Avenir'" font-size="16">June</tspan></text>
-	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="186.6" y1="576.5" x2="439.6" y2="576.5"/>
-	<rect x="180.4" y="592.5" fill="none" width="265.1" height="65"/>
-	<text transform="matrix(1 0 0 1 185.6776 603.1119)"><tspan x="0" y="0" font-family="'Avenir'" font-size="14">See how much you’ve already spent this </tspan><tspan x="1.5" y="16.8" font-family="'Avenir'" font-size="14">month and how much you may spend if </tspan><tspan x="-4.3" y="33.6" font-family="'Avenir'" font-size="14">you continue using electricity at the same </tspan><tspan x="112.9" y="50.4" font-family="'Avenir'" font-size="14">rate.</tspan></text>
-	<text transform="matrix(1 0 0 1 616.8223 511.5276)" font-family="'Avenir'" font-size="24">Household Energy Usage</text>
-	<text transform="matrix(1 0 0 1 651.4374 544.5276)" font-family="'Avenir'" font-size="16">When you spent your money</text>
-	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="494.2" y1="576.5" x2="1014.7" y2="576.5"/>
-	<rect x="506.2" y="595.1" fill="none" width="500.4" height="65"/>
-	<text transform="matrix(1 0 0 1 544.1512 605.6871)" font-family="'Avenir'" font-size="14">Find trends in your energy use from the past few days and months.</text>
-	<rect x="167.8" y="947.8" fill="#FFFFFF" width="290.7" height="462.6"/>
-	<rect x="479.8" y="947.8" fill="#FFFFFF" width="553.5" height="462.6"/>
-	<text transform="matrix(1 0 0 1 200.4387 993.8358)" font-family="'Avenir'" font-size="24">Energy Savings Goal</text>
-	<text transform="matrix(1 0 0 1 174.5352 1026.8358)"><tspan x="0" y="0" font-family="'Avenir'" font-size="16">Goal setting helps you stay on track to</tspan><tspan x="100" y="19.2" font-family="'Avenir'" font-size="16">spend less</tspan></text>
-	<rect x="180.6" y="1074.8" fill="none" width="265.1" height="65"/>
-	<text transform="matrix(1 0 0 1 181.5043 1085.42)"><tspan x="0" y="0" font-family="'Avenir'" font-size="14">Your goal for is to save compared to your </tspan><tspan x="4.3" y="16.8" font-family="'Avenir'" font-size="14">typical spending. That would make your </tspan><tspan x="37.5" y="33.6" font-family="'Avenir'" font-size="14">total spending for this month.</tspan></text>
-	<text transform="matrix(1 0 0 1 587.2159 993.8358)" font-family="'Avenir'" font-size="24">Appliance Spending Diagnosis</text>
-	<text transform="matrix(1 0 0 1 666.6395 1026.8358)" font-family="'Avenir'" font-size="16">Where your money goes</text>
-	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="494.4" y1="1058.8" x2="1014.9" y2="1058.8"/>
-	<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="180.6" y1="1058.8" x2="444.8" y2="1058.8"/>
-	<rect x="506.4" y="1077.4" fill="none" width="500.4" height="65"/>
-	<text transform="matrix(1 0 0 1 509.1698 1087.9952)"><tspan x="0" y="0" font-family="'Avenir'" font-size="14">See how much we think you have spent on your appliances and electronics so </tspan><tspan x="201.8" y="16.8" font-family="'Avenir'" font-size="14">far this month.</tspan></text>
-	<text transform="matrix(1 0 0 1 177.4112 63.7447)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'" font-size="21.4793">DELTA</tspan><tspan x="67.2" y="0" fill="#FFFFFF" font-family="'AvenirMedium'" font-size="21.4793">LUMIN</tspan></text>
-	<g id="appliance">
-		<rect x="558.9" y="1342.8" fill="#885A28" width="19.6" height="30.9"/>
-		<path fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" d="M537,1378.8h-16.5c-11.4,0-11.4,0-11.4-11.4
-			v-16.5c0-11.4,0-11.4,11.4-11.4H537c11.4,0,11.4,0,11.4,11.4v16.5C548.4,1378.8,548.4,1378.8,537,1378.8z"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.5" cy="1350.3" r="6.2"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.5" cy="1350.3" r="4.5"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.5" cy="1350.2" r="2.8"/>
-		<circle fill="#885A28" cx="520.5" cy="1350.3" r="1.5"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.3" cy="1350.3" r="6.2"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.3" cy="1350.3" r="4.5"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.3" cy="1350.2" r="2.8"/>
-		<circle fill="#885A28" cx="537.3" cy="1350.3" r="1.5"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.3" cy="1366.3" r="6.2"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.3" cy="1366.4" r="4.5"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.3" cy="1366.3" r="2.8"/>
-		<circle fill="#885A28" cx="520.3" cy="1366.3" r="1.5"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.1" cy="1366.3" r="6.2"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.1" cy="1366.4" r="4.5"/>
-		<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.1" cy="1366.3" r="2.8"/>
-		<circle fill="#885A28" cx="537.1" cy="1366.3" r="1.5"/>
-		<rect x="558.1" y="1134.8" fill="#0272AE" width="361.4" height="30.9"/>
-		<g>
-			<path fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" d="M538.9,1171.9c0.3,0,0.6-0.3,0.6-0.6v-45
-				c0-0.3-0.3-0.6-0.6-0.6h-23.1c-0.4,0-0.6,0.3-0.6,0.6v45c0,0.3,0.3,0.6,0.6,0.6L538.9,1171.9L538.9,1171.9z"/>
-			<g>
-				<polyline fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" points="518.1,1172 518.1,1173.8 
-					516.5,1173.8 516.5,1172 				"/>
-				<polyline fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" points="538.5,1172 538.5,1173.8 
-					536.8,1173.8 536.8,1172 				"/>
-			</g>
-			<line fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" x1="539.7" y1="1154.2" x2="515.2" y2="1154.2"/>
-			
-				<line fill="none" stroke="#0272AE" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="535.7" y1="1150.1" x2="535.7" y2="1135.1"/>
-			
-				<line fill="none" stroke="#0272AE" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="535.7" y1="1164" x2="535.7" y2="1158.7"/>
-		</g>
-		<rect x="558.7" y="1188.5" fill="#D88E2A" width="152.9" height="30.9"/>
-		<g>
-			<path fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" d="M540.8,1198.9c0-7.3-6-13.3-13.3-13.3
-				s-13.3,6-13.3,13.3c0,5.1,5,9.6,5,9.6c1.3,1.2,2.5,3.7,2.5,5.4v8.6c0,1.7,0.6,3,2.3,3h6.9c1.8,0,2.4-1.3,2.4-3v-8.8
-				c0-1.8,1.4-4.2,2.7-5.4C536,1208.2,540.8,1203.8,540.8,1198.9z"/>
-			<line fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" x1="521.7" y1="1219.5" x2="533.2" y2="1219.5"/>
-			<line fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" x1="521.7" y1="1216.6" x2="533.2" y2="1216.6"/>
-			<line fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" x1="521.7" y1="1222.4" x2="533.2" y2="1222.4"/>
-		</g>
-		<g>
-			<g>
-				<path fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" d="M548.4,1269.8c0,0.6-0.5,1-1,1h-40
-					c-0.6,0-1-0.5-1-1v-24.6c0-0.6,0.5-1,1-1h40c0.6,0,1,0.5,1,1L548.4,1269.8L548.4,1269.8z"/>
-			</g>
-			<path fill="#6CA1B9" d="M541.7,1245.7c0.6,0,1.2,0.5,1.2,1s-0.5,1-1.2,1c-0.7,0-1.2-0.5-1.2-1
-				C540.5,1246.2,541.1,1245.7,541.7,1245.7z"/>
-			<path fill="#6CA1B9" d="M537.5,1245.7c0.6,0,1.2,0.5,1.2,1s-0.5,1-1.2,1c-0.6,0-1.2-0.5-1.2-1S536.8,1245.7,537.5,1245.7z"/>
-			<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="519.7" y1="1244.2" x2="519.7" y2="1249.7"/>
-			<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="506.5" y1="1249.7" x2="548.1" y2="1249.7"/>
-			<g>
-				<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1254" x2="545.6" y2="1254"/>
-				<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1257" x2="545.6" y2="1257"/>
-				<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1259.9" x2="545.6" y2="1259.9"/>
-				<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1262.8" x2="545.6" y2="1262.8"/>
-				<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1265.6" x2="545.6" y2="1265.6"/>
-			</g>
-		</g>
-		<rect x="558.7" y="1242" fill="#6CA1B9" width="124.8" height="30.9"/>
-		<rect x="558.7" y="1293.8" fill="#467979" width="100" height="30.9"/>
-		<g>
-			<path fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" d="M525.2,1315h-18.6
-				c-0.1,0-0.1-0.1-0.1-0.1V1294c0-0.1,0.1-0.1,0.1-0.1h42.3c0.1,0,0.1,0.1,0.1,0.1v20.9c0,0.1-0.1,0.1-0.1,0.1h-18.1"/>
-		</g>
-		<path fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" d="M530.8,1318.9h7.3
-			c0.9,0,1.7,0.3,1.7,0.6l0,0c0,0.6,0,0.6-1.7,0.6h-20.5c-1.7,0-1.7,0-1.7-0.6l0,0c0-0.6,1.7-0.6,1.7-0.6h7.7"/>
-		
-			<line fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" x1="525.2" y1="1318.7" x2="525.2" y2="1315.1"/>
-		
-			<line fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" x1="530.7" y1="1318.7" x2="530.7" y2="1315.1"/>
-		<path fill="#568B43" d="M439.6,1213.4c0,6.6-5.4,12-12,12H201.2c-6.6,0-12-5.4-12-12v-0.4c0-6.6,5.4-12,12-12h226.4
-			c6.6,0,12,5.4,12,12V1213.4z"/>
-	</g>
-	<g id="Color_Palette">
-		
-			<use xlink:href="#forecast_x5F_m1_x5F_desk"  width="299.2" height="254.4" id="XMLID_5_" x="-149.6" y="-171.9" transform="matrix(0.8001 0 0 -0.8001 316.5 767.6652)" overflow="visible"/>
-	</g>
-</g>
-
-<g id="week">
-		<rect x="563" y="750" fill="#E7E8E8" width="44.5" height="125.7"/>
-		<rect x="618.5" y="741.1" fill="#E7E8E8" width="44.5" height="134.5"/>
-		<rect x="899.6" y="732.7" fill="#568B43" width="44.5" height="142.9"/>
-		<text transform="matrix(1 0 0 1 622.6727 736.8868)" font-family="'Avenir'" font-size="14">$1.15</text>
-		<text transform="matrix(1 0 0 1 790.5009 723.9583)" font-family="'Avenir'" font-size="14">$1.20</text>
-		<text transform="matrix(1 0 0 1 846.6218 746.4993)" font-family="'Avenir'" font-size="14">$1.08</text>
-		<text transform="matrix(1 0 0 1 902.9402 730.2141)" font-family="'Avenir'" font-size="14">$1.18</text>
-		<text transform="matrix(1 0 0 1 567.1306 744.763)" font-family="'Avenir'" font-size="14">$1.10</text>
-		<text transform="matrix(1 0 0 1 678.2156 751.7063)" font-family="'Avenir'" font-size="14">$1.06</text>
-		<text transform="matrix(1 0 0 1 734.6258 739.8156)" font-family="'Avenir'" font-size="14">$1.12</text>
-		<g>
-			<g>
-				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="551.9" y1="876.5" x2="956.9" y2="876.5"/>
-				<g>
-					<rect x="551.4" y="873.3" width="1" height="6.5"/>
-				</g>
-				<g>
-					<rect x="956.4" y="873.3" width="1" height="6.5"/>
-				</g>
-			</g>
-		</g>
-		<text transform="matrix(1 0 0 1 573.1077 897.0822)" font-family="'Avenir'" font-size="14">Sun</text>
-		<text transform="matrix(1 0 0 1 626.1864 897.0823)" font-family="'Avenir'" font-size="14">Mon</text>
-		<rect x="674" y="758.1" fill="#E7E8E8" width="44.5" height="117.6"/>
-		<text transform="matrix(1 0 0 1 684.2146 897.0823)" font-family="'Avenir'" font-size="14">Tue</text>
-		<rect x="730.5" y="744" fill="#E7E8E8" width="44.5" height="131.9"/>
-		<text transform="matrix(1 0 0 1 737.4129 897.3713)" font-family="'Avenir'" font-size="14">Wed</text>
-		<rect x="786.3" y="730.2" fill="#E7E8E8" width="44.5" height="145.4"/>
-		<text transform="matrix(1 0 0 1 796.4227 897.0822)" font-family="'Avenir'" font-size="14">Thu</text>
-		<rect x="842.5" y="751.7" fill="#E7E8E8" width="44.5" height="123.9"/>
-		<text transform="matrix(1 0 0 1 856.4774 897.0822)" font-family="'Avenir'" font-size="14">Fri</text>
-		<text transform="matrix(1 0 0 1 911.0945 897.0823)" font-family="'Avenir'" font-size="14">Sat</text>
-	<g id="XMLID_2_">
-		<g>
-			<path fill="#66A1B5" d="M754.4,637.5v22.7h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
-		</g>
-		<g>
-			<path fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" d="M754.4,637.5H849c3.7,0,6.7,2.4,6.7,5.3v12.1
-				c0,2.9-3,5.3-6.7,5.3h-94.6h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
-			<polyline fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" points="754.4,637.3 754.4,637.5 754.4,660.2 
-							"/>
-		</g>
-	</g>
-	<text transform="matrix(1 0 0 1 687.8262 653.4446)" fill="#FFFFFF" font-family="'Avenir'" font-size="12">Week</text>
-	<text transform="matrix(1 0 0 1 784.381 653.1946)" font-family="'Avenir'" font-size="12">Month</text>
-</g>
-<g id="month">
-	<g id="XMLID_4_" display="inline">
-		<g>
-			<path fill="#FFFFFF" d="M754.4,637.5v22.7h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
-			<path fill="#66A1B5" d="M855.7,642.8v12.1c0,2.9-3,5.3-6.7,5.3h-94.6v-22.7H849C852.7,637.5,855.7,639.9,855.7,642.8z"/>
-		</g>
-		<g>
-			<path fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" d="M754.4,637.5H849c3.7,0,6.7,2.4,6.7,5.3v12.1
-				c0,2.9-3,5.3-6.7,5.3h-94.6h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
-			<polyline fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" points="754.4,637.3 754.4,637.5 754.4,660.2 
-							"/>
-		</g>
-	</g>
-	<text transform="matrix(1 0 0 1 687.8262 653.4446)" display="inline" font-family="'Avenir'" font-size="12">Week</text>
-	
-		<text transform="matrix(1 0 0 1 784.381 653.1946)" display="inline" fill="#FFFFFF" font-family="'Avenir'" font-size="12">Month</text>
-	<g id="Layer_1" display="inline">
-		<g>
-			<rect x="578.2" y="710" fill="#E7E8E8" width="101.6" height="165.5"/>
-			<rect x="703.7" y="734.6" fill="#E7E8E8" width="101.6" height="140.8"/>
-			<rect x="829.8" y="723.2" fill="#568B43" width="101.6" height="152.3"/>
-			<g>
-				<text transform="matrix(1 0 0 1 868.4053 718.2529)" font-family="'Avenir'" font-size="14">$37</text>
-			</g>
-			<g>
-				<text transform="matrix(1 0 0 1 742.3184 728.4785)" font-family="'Avenir'" font-size="14">$35</text>
-			</g>
-			<g>
-				<text transform="matrix(1 0 0 1 616.7676 704.8184)" font-family="'Avenir'" font-size="14">$40</text>
-			</g>
-			<g>
-				<g>
-					<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="552.1" y1="876.6" x2="957.1" y2="876.6"/>
-					<g>
-						<rect x="551.6" y="873.3" width="1" height="6.5"/>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 696" enable-background="new 0 0 1200 696" xml:space="preserve">
+			<symbol  id="billsofar_x5F_desktop" viewBox="-43 -32.5 86 64.9">
+				<path fill="#FFFFFF" stroke="#658C3D" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M28.8,32h-56.2c-7.9,0-15.1-5.7-15.1-13.7V-9.8c0-7.9,7.2-15.1,15.1-15.1H-7L0.6-32l7.5,7.1h20.7c8,0,13.7,7.2,13.7,15.1v28.1C42.5,26.2,36.8,32,28.8,32z"/>
+			</symbol>
+			<symbol  id="forecast_x5F_m1_x5F_desk" viewBox="-149.6 -171.9 299.2 254.4">
+				<polygon fill="#E6E6E5" points="63.1,42.5 23.1,42.5 23.1,82.5 63.1,82.5"/>
+				<polygon fill="#E6E6E5" points="106.3,42.5 66.3,42.5 66.3,82.5 106.3,82.5"/>
+				<polygon fill="#E6E6E5" points="149.6,42.5 109.6,42.5 109.6,82.5 149.6,82.5"/>
+				<polygon fill="#E6E6E5" points="-109.6,-0.8 -149.6,-0.8 -149.6,39.2 -109.6,39.2"/>
+				<polygon fill="#E6E6E5" points="-66.4,-0.8 -106.4,-0.8 -106.4,39.2 -66.4,39.2"/>
+				<polygon fill="#E6E6E5" points="-23.3,-0.8 -63.3,-0.8 -63.3,39.2 -23.3,39.2"/>
+				<polygon fill="#E6E6E5" points="19.9,-0.8 -20.1,-0.8 -20.1,39.2 19.9,39.2"/>
+				<polygon fill="#E6E6E5" points="63.1,-0.8 23.1,-0.8 23.1,39.2 63.1,39.2"/>
+				<polygon fill="#E6E6E5" points="106.3,-0.8 66.3,-0.8 66.3,39.2 106.3,39.2"/>
+				<polygon fill="#E6E6E5" points="149.6,-0.8 109.6,-0.8 109.6,39.2 149.6,39.2"/>
+				<path fill="#E6E6E5" d="M105.3-5v-38h-38v38H105.3 M106.3-4h-40v-40h40V-4L106.3-4z"/>
+				<path fill="#E6E6E5" d="M148.6-5v-38h-38v38H148.6 M149.6-4h-40v-40h40V-4L149.6-4z"/>
+				<path fill="#E6E6E5" d="M105.3-48.1v-38h-38v38H105.3 M106.3-47.1h-40v-40h40V-47.1L106.3-47.1z"/>
+				<path fill="#E6E6E5" d="M148.6-48.1v-38h-38v38H148.6 M149.6-47.1h-40v-40h40V-47.1L149.6-47.1z"/>
+				<polygon fill="#E6E6E5" points="-109.6,-44 -149.6,-44 -149.6,-4 -109.6,-4"/>
+				<polygon fill="#658C3D" points="-66.4,-44 -106.4,-44 -106.4,-4 -66.4,-4"/>
+				<path fill="#E6E6E5" d="M-24.3-5v-38h-38v38H-24.3 M-23.3-4h-40v-40h40V-4L-23.3-4z"/>
+				<path fill="#E6E6E5" d="M18.9-5v-38h-38v38H18.9 M19.9-4h-40v-40h40V-4L19.9-4z"/>
+				<path fill="#E6E6E5" d="M62.1-5v-38h-38v38H62.1 M63.1-4h-40v-40h40V-4L63.1-4z"/>
+				<path fill="#E6E6E5" d="M62.1-48.1v-38h-38v38H62.1 M63.1-47.1h-40v-40h40V-47.1L63.1-47.1z"/>
+				<path fill="#E6E6E5" d="M-110.6-48.1v-38h-38v38H-110.6 M-109.6-47.1h-40v-40h40V-47.1L-109.6-47.1z"/>
+				<path fill="#E6E6E5" d="M-67.4-48.1v-38h-38v38H-67.4 M-66.4-47.1h-40v-40h40V-47.1L-66.4-47.1z"/>
+				<path fill="#E6E6E5" d="M-24.3-48.1v-38h-38v38H-24.3 M-23.3-47.1h-40v-40h40V-47.1L-23.3-47.1z"/>
+				<path fill="#E6E6E5" d="M-110.6-91v-38h-38v38H-110.6 M-109.6-90h-40v-40h40V-90L-109.6-90z"/>
+				<path fill="#E6E6E5" d="M-67.4-91v-38h-38v38H-67.4 M-66.4-90h-40v-40h40V-90L-66.4-90z"/>
+				<path fill="#E6E6E5" d="M-24.3-91v-38h-38v38H-24.3 M-23.3-90h-40v-40h40V-90L-23.3-90z"/>
+				<polygon fill="none" stroke="#E6E6E5" stroke-miterlimit="10" points="19.9,-87.1 -20.1,-87.1 -20.1,-47.1 19.9,-47.1"/>
+				<polygon fill="none" points="-67.5,-44 -107.3,-44 -107.3,-7.3 -67.5,-7.3 	"/>
+				<text transform="matrix(1.0185 0 0 -1 -101.6621 -20.0972)" font-family="'Avenir'" font-size="18">
+					<tspan x="0" y="0" fill="#FFFFFF">Feb</tspan>
+					<tspan x="4.8" y="19" fill="#FFFFFF">16</tspan>
+				</text>
+				<path fill="#E6E6E5" d="M19-91v-38h-38v38H19 M20-90h-40v-40h40V-90L20-90z"/>
+				<polygon fill="#D88E2A" points="63.2,-130 23.2,-130 23.2,-90 63.2,-90"/>
+				<polygon fill="none" points="63.1,-130.7 23.3,-130.7 23.3,-94.1 63.1,-94.1"/>
+				<text transform="matrix(1.0185 0 0 -1 28.416 -106.8789)" font-family="'Avenir'" font-size="18">
+					<tspan x="0" y="0" fill="#FFFFFF">Mar</tspan>
+					<tspan x="9.9" y="19" fill="#FFFFFF">5</tspan>
+				</text>
+				<polygon fill="none" points="124.8,-171.9 -38.5,-171.9 -38.5,-135.3 124.8,-135.3"/>
+				<text transform="matrix(1.0185 0 0 -1 8.9795 -148.0442)" font-family="'Avenir'" font-size="18">
+					<tspan x="0" y="0" fill="#D88E2A">Forecast:</tspan>
+					<tspan x="15.1" y="18" fill="#D88E2A">$130</tspan>
+				</text>
+				<use xlink:href="#billsofar_x5F_desktop"  width="86" height="64.9" id="XMLID_3_" x="-43" y="-32.5" transform="matrix(1 0 0 1 -87.4326 31.8374)" overflow="visible"/>
+				<polygon fill="none" points="-46,15.3 -129.3,15.3 -129.3,52.9 -46,52.9"/>
+				<text transform="matrix(1.0185 0 0 -1 -112.0283 40.1118)" font-family="'Avenir'" font-size="18">
+					<tspan x="0" y="0" fill="#658C3D">Spent:</tspan>
+					<tspan x="-1" y="20" fill="#658C3D">$52.40</tspan>
+				</text>
+			</symbol>
+			<g id="allScrollContent">
+				<g id="website">
+					<rect x="139.3" y="28.3" fill="#E6E7E8" width="927.1" height="1516.7"/>
+					<rect x="170.8" y="105.5" fill="#66A1B5" width="864" height="339.9"/>
+					<rect x="200.2" y="224" fill="none" width="799.6" height="190"/>
+					<text transform="matrix(1 0 0 1 196.1968 205.5459)" fill="#FFFFFF" font-family="'Open Sans'" font-size="79.7956" font-weight="800">Hello!</text>
+					<text transform="matrix(1 0 0 1 200.1981 239.2274)"  font-family="'Open Sans'" font-size="20">
+						<tspan x="0" y="0" fill="#FFFFFF">Welcome to your DeltaLumin dashboard. The dashboard contains information on </tspan>
+						<tspan x="0" y="24" fill="#FFFFFF">how you use electricity in your home including how much you use, when you use it, </tspan>
+						<tspan x="0" y="48" fill="#FFFFFF">and how you use it.</tspan>
+						<tspan x="0" y="96" fill="#FFFFFF">It looks like you usually spend about on electricity during . So far this month, we </tspan>
+						<tspan x="0" y="120" fill="#FFFFFF">estimate you&apos;ve spent about on your electricity.</tspan>
+						<tspan x="0" y="168" fill="#FFFFFF">Take a look around!</tspan>
+					</text>
+					<rect x="139.3" y="28.3" fill="#646E71" width="927.1" height="51.2"/>
+					<rect x="167.6" y="465.5" fill="#FFFFFF" width="290.7" height="462.6"/>
+					<rect x="479.6" y="465.5" fill="#FFFFFF" width="553.5" height="462.6"/>
+					<text transform="matrix(1 0 0 1 209.6926 511.5276)" font-family="'Avenir'" font-size="24">Spending Forecast</text>
+					<text transform="matrix(1 0 0 1 181.0533 544.5276)"  font-family="'Avenir'" font-size="16">
+						<tspan x="0" y="0">Your estimated energy spending for</tspan>
+						<tspan x="114.1" y="19.2">June</tspan>
+					</text>
+					<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="186.6" y1="576.5" x2="439.6" y2="576.5"/>
+					<rect x="180.4" y="592.5" fill="none" width="265.1" height="65"/>
+					<text transform="matrix(1 0 0 1 185.6776 603.1119)"><tspan x="0" y="0" font-family="'Avenir'" font-size="14">See how much you’ve already spent this </tspan><tspan x="1.5" y="16.8" font-family="'Avenir'" font-size="14">month and how much you may spend if </tspan><tspan x="-4.3" y="33.6" font-family="'Avenir'" font-size="14">you continue using electricity at the same </tspan><tspan x="112.9" y="50.4" font-family="'Avenir'" font-size="14">rate.</tspan></text>
+					<text transform="matrix(1 0 0 1 616.8223 511.5276)" font-family="'Avenir'" font-size="24">Household Energy Usage</text>
+					<text transform="matrix(1 0 0 1 651.4374 544.5276)" font-family="'Avenir'" font-size="16">When you spent your money</text>
+					<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="494.2" y1="576.5" x2="1014.7" y2="576.5"/>
+					<rect x="506.2" y="595.1" fill="none" width="500.4" height="65"/>
+					<text transform="matrix(1 0 0 1 544.1512 605.6871)" font-family="'Avenir'" font-size="14">Find trends in your energy use from the past few days and months.</text>
+					<rect x="167.8" y="947.8" fill="#FFFFFF" width="290.7" height="462.6"/>
+					<rect x="479.8" y="947.8" fill="#FFFFFF" width="553.5" height="462.6"/>
+					<text transform="matrix(1 0 0 1 200.4387 993.8358)" font-family="'Avenir'" font-size="24">Energy Savings Goal</text>
+					<text transform="matrix(1 0 0 1 174.5352 1026.8358)" font-family="'Avenir'" font-size="16">
+						<tspan x="0" y="0">Goal setting helps you stay on track to</tspan>
+						<tspan x="100" y="19.2">spend less</tspan>
+					</text>
+					<rect x="180.6" y="1074.8" fill="none" width="265.1" height="65"/>
+					<text transform="matrix(1 0 0 1 181.5043 1085.42)" font-family="'Avenir'" font-size="14">
+						<tspan x="0" y="0">Your goal for is to save compared to your </tspan>
+						<tspan x="4.3" y="16.8">typical spending. That would make your </tspan>
+						<tspan x="37.5" y="33.6">total spending for this month.</tspan>
+					</text>
+					<text transform="matrix(1 0 0 1 587.2159 993.8358)" font-family="'Avenir'" font-size="24">Appliance Spending Diagnosis</text>
+					<text transform="matrix(1 0 0 1 666.6395 1026.8358)" font-family="'Avenir'" font-size="16">Where your money goes</text>
+					<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="494.4" y1="1058.8" x2="1014.9" y2="1058.8"/>
+					<line fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" x1="180.6" y1="1058.8" x2="444.8" y2="1058.8"/>
+					<rect x="506.4" y="1077.4" fill="none" width="500.4" height="65"/>
+					<text transform="matrix(1 0 0 1 509.1698 1087.9952)" font-family="'Avenir'" font-size="14">
+						<tspan x="0" y="0">See how much we think you have spent on your appliances and electronics so </tspan>
+						<tspan x="201.8" y="16.8">far this month.</tspan>
+					</text>
+					<text transform="matrix(1 0 0 1 177.4112 63.7447)" font-size="21.4793">
+						<tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'">DELTA</tspan>
+						<tspan x="67.2" y="0" fill="#FFFFFF" font-family="'AvenirMedium'">LUMIN</tspan>
+					</text>
+					<g id="appliance">
+						<rect x="558.9" y="1342.8" fill="#885A28" width="19.6" height="30.9"/>
+						<path fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" d="M537,1378.8h-16.5c-11.4,0-11.4,0-11.4-11.4v-16.5c0-11.4,0-11.4,11.4-11.4H537c11.4,0,11.4,0,11.4,11.4v16.5C548.4,1378.8,548.4,1378.8,537,1378.8z"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.5" cy="1350.3" r="6.2"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.5" cy="1350.3" r="4.5"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.5" cy="1350.2" r="2.8"/>
+						<circle fill="#885A28" cx="520.5" cy="1350.3" r="1.5"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.3" cy="1350.3" r="6.2"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.3" cy="1350.3" r="4.5"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.3" cy="1350.2" r="2.8"/>
+						<circle fill="#885A28" cx="537.3" cy="1350.3" r="1.5"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.3" cy="1366.3" r="6.2"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.3" cy="1366.4" r="4.5"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="520.3" cy="1366.3" r="2.8"/>
+						<circle fill="#885A28" cx="520.3" cy="1366.3" r="1.5"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.1" cy="1366.3" r="6.2"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.1" cy="1366.4" r="4.5"/>
+						<circle fill="none" stroke="#885A28" stroke-width="0.5" stroke-miterlimit="10" cx="537.1" cy="1366.3" r="2.8"/>
+						<circle fill="#885A28" cx="537.1" cy="1366.3" r="1.5"/>
+						<rect x="558.1" y="1134.8" fill="#0272AE" width="361.4" height="30.9"/>
+						<g>
+							<path fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" d="M538.9,1171.9c0.3,0,0.6-0.3,0.6-0.6v-45c0-0.3-0.3-0.6-0.6-0.6h-23.1c-0.4,0-0.6,0.3-0.6,0.6v45c0,0.3,0.3,0.6,0.6,0.6L538.9,1171.9L538.9,1171.9z"/>
+							<g>
+								<polyline fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" points="518.1,1172 518.1,1173.8 516.5,1173.8 516.5,1172 				"/>
+								<polyline fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" points="538.5,1172 538.5,1173.8 536.8,1173.8 536.8,1172 				"/>
+							</g>
+							<line fill="none" stroke="#0272AE" stroke-width="0.5" stroke-miterlimit="10" x1="539.7" y1="1154.2" x2="515.2" y2="1154.2"/>
+							
+								<line fill="none" stroke="#0272AE" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="535.7" y1="1150.1" x2="535.7" y2="1135.1"/>
+							
+								<line fill="none" stroke="#0272AE" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="535.7" y1="1164" x2="535.7" y2="1158.7"/>
+						</g>
+						<rect x="558.7" y="1188.5" fill="#D88E2A" width="152.9" height="30.9"/>
+						<g>
+							<path fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" d="M540.8,1198.9c0-7.3-6-13.3-13.3-13.3s-13.3,6-13.3,13.3c0,5.1,5,9.6,5,9.6c1.3,1.2,2.5,3.7,2.5,5.4v8.6c0,1.7,0.6,3,2.3,3h6.9c1.8,0,2.4-1.3,2.4-3v-8.8c0-1.8,1.4-4.2,2.7-5.4C536,1208.2,540.8,1203.8,540.8,1198.9z"/>
+							<line fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" x1="521.7" y1="1219.5" x2="533.2" y2="1219.5"/>
+							<line fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" x1="521.7" y1="1216.6" x2="533.2" y2="1216.6"/>
+							<line fill="none" stroke="#D88E2A" stroke-width="0.5" stroke-miterlimit="10" x1="521.7" y1="1222.4" x2="533.2" y2="1222.4"/>
+						</g>
+						<g>
+							<g>
+								<path fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" d="M548.4,1269.8c0,0.6-0.5,1-1,1h-40c-0.6,0-1-0.5-1-1v-24.6c0-0.6,0.5-1,1-1h40c0.6,0,1,0.5,1,1L548.4,1269.8L548.4,1269.8z"/>
+							</g>
+							<path fill="#6CA1B9" d="M541.7,1245.7c0.6,0,1.2,0.5,1.2,1s-0.5,1-1.2,1c-0.7,0-1.2-0.5-1.2-1C540.5,1246.2,541.1,1245.7,541.7,1245.7z"/>
+							<path fill="#6CA1B9" d="M537.5,1245.7c0.6,0,1.2,0.5,1.2,1s-0.5,1-1.2,1c-0.6,0-1.2-0.5-1.2-1S536.8,1245.7,537.5,1245.7z"/>
+							<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="519.7" y1="1244.2" x2="519.7" y2="1249.7"/>
+							<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="506.5" y1="1249.7" x2="548.1" y2="1249.7"/>
+							<g>
+								<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1254" x2="545.6" y2="1254"/>
+								<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1257" x2="545.6" y2="1257"/>
+								<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1259.9" x2="545.6" y2="1259.9"/>
+								<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1262.8" x2="545.6" y2="1262.8"/>
+								<line fill="none" stroke="#6CA1B9" stroke-width="0.5" stroke-miterlimit="10" x1="509.2" y1="1265.6" x2="545.6" y2="1265.6"/>
+							</g>
+						</g>
+						<rect x="558.7" y="1242" fill="#6CA1B9" width="124.8" height="30.9"/>
+						<rect x="558.7" y="1293.8" fill="#467979" width="100" height="30.9"/>
+						<g>
+							<path fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" d="M525.2,1315h-18.6c-0.1,0-0.1-0.1-0.1-0.1V1294c0-0.1,0.1-0.1,0.1-0.1h42.3c0.1,0,0.1,0.1,0.1,0.1v20.9c0,0.1-0.1,0.1-0.1,0.1h-18.1"/>
+						</g>
+						<path fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" d="M530.8,1318.9h7.3c0.9,0,1.7,0.3,1.7,0.6l0,0c0,0.6,0,0.6-1.7,0.6h-20.5c-1.7,0-1.7,0-1.7-0.6l0,0c0-0.6,1.7-0.6,1.7-0.6h7.7"/>
+						<line fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" x1="525.2" y1="1318.7" x2="525.2" y2="1315.1"/>
+						<line fill="none" stroke="#467979" stroke-width="0.5" stroke-linecap="square" stroke-miterlimit="10" x1="530.7" y1="1318.7" x2="530.7" y2="1315.1"/>
+						<path fill="#568B43" d="M439.6,1213.4c0,6.6-5.4,12-12,12H201.2c-6.6,0-12-5.4-12-12v-0.4c0-6.6,5.4-12,12-12h226.4
+							c6.6,0,12,5.4,12,12V1213.4z"/>
 					</g>
-					<g>
-						<rect x="956.6" y="873.3" width="1" height="6.5"/>
+					<g id="Color_Palette">
+						<use xlink:href="#forecast_x5F_m1_x5F_desk"  width="299.2" height="254.4" id="XMLID_5_" x="-149.6" y="-171.9" transform="matrix(0.8001 0 0 -0.8001 316.5 767.6652)" overflow="visible"/>
+					</g>
+				</g>
+
+				<g id="week">
+						<rect x="563" y="750" fill="#E7E8E8" width="44.5" height="125.7"/>
+						<rect x="618.5" y="741.1" fill="#E7E8E8" width="44.5" height="134.5"/>
+						<rect x="899.6" y="732.7" fill="#568B43" width="44.5" height="142.9"/>
+						<text transform="matrix(1 0 0 1 622.6727 736.8868)" font-family="'Avenir'" font-size="14">$1.15</text>
+						<text transform="matrix(1 0 0 1 790.5009 723.9583)" font-family="'Avenir'" font-size="14">$1.20</text>
+						<text transform="matrix(1 0 0 1 846.6218 746.4993)" font-family="'Avenir'" font-size="14">$1.08</text>
+						<text transform="matrix(1 0 0 1 902.9402 730.2141)" font-family="'Avenir'" font-size="14">$1.18</text>
+						<text transform="matrix(1 0 0 1 567.1306 744.763)" font-family="'Avenir'" font-size="14">$1.10</text>
+						<text transform="matrix(1 0 0 1 678.2156 751.7063)" font-family="'Avenir'" font-size="14">$1.06</text>
+						<text transform="matrix(1 0 0 1 734.6258 739.8156)" font-family="'Avenir'" font-size="14">$1.12</text>
+						<g>
+							<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="551.9" y1="876.5" x2="956.9" y2="876.5"/>
+							<rect x="551.4" y="873.3" width="1" height="6.5"/>
+							<rect x="956.4" y="873.3" width="1" height="6.5"/>
+						</g>
+						<text transform="matrix(1 0 0 1 573.1077 897.0822)" font-family="'Avenir'" font-size="14">Sun</text>
+						<text transform="matrix(1 0 0 1 626.1864 897.0823)" font-family="'Avenir'" font-size="14">Mon</text>
+						<rect x="674" y="758.1" fill="#E7E8E8" width="44.5" height="117.6"/>
+						<text transform="matrix(1 0 0 1 684.2146 897.0823)" font-family="'Avenir'" font-size="14">Tue</text>
+						<rect x="730.5" y="744" fill="#E7E8E8" width="44.5" height="131.9"/>
+						<text transform="matrix(1 0 0 1 737.4129 897.3713)" font-family="'Avenir'" font-size="14">Wed</text>
+						<rect x="786.3" y="730.2" fill="#E7E8E8" width="44.5" height="145.4"/>
+						<text transform="matrix(1 0 0 1 796.4227 897.0822)" font-family="'Avenir'" font-size="14">Thu</text>
+						<rect x="842.5" y="751.7" fill="#E7E8E8" width="44.5" height="123.9"/>
+						<text transform="matrix(1 0 0 1 856.4774 897.0822)" font-family="'Avenir'" font-size="14">Fri</text>
+						<text transform="matrix(1 0 0 1 911.0945 897.0823)" font-family="'Avenir'" font-size="14">Sat</text>
+					<g id="XMLID_2_">
+						<g>
+							<path fill="#66A1B5" d="M754.4,637.5v22.7h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
+						</g>
+						<g>
+							<path fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" d="M754.4,637.5H849c3.7,0,6.7,2.4,6.7,5.3v12.1c0,2.9-3,5.3-6.7,5.3h-94.6h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
+							<polyline fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" points="754.4,637.3 754.4,637.5 754.4,660.2 
+											"/>
+						</g>
+					</g>
+					<text transform="matrix(1 0 0 1 687.8262 653.4446)" fill="#FFFFFF" font-family="'Avenir'" font-size="12">Week</text>
+					<text transform="matrix(1 0 0 1 784.381 653.1946)" font-family="'Avenir'" font-size="12">Month</text>
+				</g>
+				<g id="month">
+					<g id="XMLID_4_" display="inline">
+						<g>
+							<path fill="#FFFFFF" d="M754.4,637.5v22.7h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
+							<path fill="#66A1B5" d="M855.7,642.8v12.1c0,2.9-3,5.3-6.7,5.3h-94.6v-22.7H849C852.7,637.5,855.7,639.9,855.7,642.8z"/>
+						</g>
+						<g>
+							<path fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" d="M754.4,637.5H849c3.7,0,6.7,2.4,6.7,5.3v12.1c0,2.9-3,5.3-6.7,5.3h-94.6h-94.6c-3.7,0-6.7-2.4-6.7-5.3v-12.1c0-2.9,3-5.3,6.7-5.3H754.4z"/>
+							<polyline fill="none" stroke="#A7A9AC" stroke-width="0.5" stroke-miterlimit="10" points="754.4,637.3 754.4,637.5 754.4,660.2"/>
+						</g>
+					</g>
+					<text transform="matrix(1 0 0 1 687.8262 653.4446)" display="inline" font-family="'Avenir'" font-size="12">Week</text>
+					<text transform="matrix(1 0 0 1 784.381 653.1946)" display="inline" fill="#FFFFFF" font-family="'Avenir'" font-size="12">Month</text>
+					<g id="Layer_1" display="inline">
+						<g>
+							<rect x="578.2" y="710" fill="#E7E8E8" width="101.6" height="165.5"/>
+							<rect x="703.7" y="734.6" fill="#E7E8E8" width="101.6" height="140.8"/>
+							<rect x="829.8" y="723.2" fill="#568B43" width="101.6" height="152.3"/>
+							<text transform="matrix(1 0 0 1 868.4053 718.2529)" font-family="'Avenir'" font-size="14">$37</text>
+							<text transform="matrix(1 0 0 1 742.3184 728.4785)" font-family="'Avenir'" font-size="14">$35</text>
+							<text transform="matrix(1 0 0 1 616.7676 704.8184)" font-family="'Avenir'" font-size="14">$40</text>
+							<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="552.1" y1="876.6" x2="957.1" y2="876.6"/>
+							<rect x="551.6" y="873.3" width="1" height="6.5"/>
+							<rect x="956.6" y="873.3" width="1" height="6.5"/>
+							<text transform="matrix(1 0 0 1 615.8809 896.6963)" font-family="'Avenir'" font-size="14">May</text>
+							<text transform="matrix(1 0 0 1 742.9209 896.8135)" font-family="'Avenir'" font-size="14">Jun</text>
+							<text transform="matrix(1 0 0 1 871.3105 896.8135)" font-family="'Avenir'" font-size="14">Jul</text>
+						</g>
 					</g>
 				</g>
 			</g>
-			<g>
-				<text transform="matrix(1 0 0 1 615.8809 896.6963)" font-family="'Avenir'" font-size="14">May</text>
+			<g id="computer">
+				<g display="inline">
+					<g id="XMLID_1_">
+						<path fill="#D1D3D4" d="M23.8,659.6h1153.3c8.6,0,15.8-1.9,17.8-5.6l0.7,0.1c0,22.3-4.1,40.4-9.2,40.4l-0.2,0.9H14.6v-0.9c-5.1,0-9.2-18.1-9.2-40.4l0.6-0.1C8,657.7,15.2,659.6,23.8,659.6z"/>
+						<path fill="#D1D3D4" d="M113.5,564.8l7-5.4v-0.2h959.6v0.2l9.5,7.3l101.3,77.4c4.4,4.1,5.4,7.4,4,9.9c-2,3.7-9.2,5.6-17.8,5.6H23.8c-8.6,0-15.8-1.9-17.8-5.6c-1.5-2.7-0.3-6.3,5.1-10.9L113.5,564.8z M116.4,608.1h961.4l-45.8-36.9H162.2L116.4,608.1zM730.1,649.8l-14-34.3H494.5l-20.3,34.3H730.1z"/>
+						<path fill="#D1D3D4" d="M1093.9,22v530.9c0,5.3-1.6,10.1-4.3,13.8l-9.5-7.3v-0.2H120.5v0.2l-7,5.4c-2-3.4-3.1-7.5-3.1-12V22c0-11.8,8.2-21.4,18.2-21.4h947.1C1085.8,0.6,1093.9,10.2,1093.9,22z M1065.4,540.3V28.3H138.3v511.9H1065.4z"/>
+						<polygon fill="#A7A9AC" points="1077.8,608.1 116.4,608.1 162.2,571.1 1032,571.1"/>
+						<polygon fill="#D1D3D4" points="716.1,615.4 730.1,649.8 474.2,649.8 494.5,615.4"/>
+						<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M113.9,565.4c-0.1-0.2-0.2-0.4-0.4-0.6c-2-3.4-3.1-7.5-3.1-12V22c0-11.8,8.2-21.4,18.2-21.4h947.1c10.1,0,18.2,9.6,18.2,21.4v530.9c0,5.3-1.6,10.1-4.3,13.8c-0.3,0.4-0.7,0.9-1,1.3"/>
+						<rect x="138.3" y="28.3" fill="none" stroke="#000000" stroke-miterlimit="10" width="927.1" height="511.9"/>
+						<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="120.5,559.4 113.5,564.8 11.1,643.1 9.8,644.1 				"/>
+						<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="1080.1,559.4 1089.6,566.7 1190.9,644.1 1193.5,646.1"/>
+						<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="17.4,659.6 23.8,659.6 1177.1,659.6 1182.3,659.6 "/>
+						<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="120.5" y1="559.2" x2="1080.1" y2="559.2"/>
+						<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="13.9,695.4 14.6,695.4 1186.3,695.4 				"/>
+						<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M11.1,643.1c-5.4,4.5-6.6,8.2-5.1,10.9c2,3.7,9.2,5.6,17.8,5.6"/>
+						<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M1189.8,643.1c0.4,0.3,0.8,0.7,1.1,1c4.4,4.1,5.4,7.4,4,9.9c-2,3.7-9.2,5.6-17.8,5.6"/>
+						<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M5.4,654.1c0,22.3,4.1,40.4,9.2,40.4"/>
+						<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M1195.6,654.1c0,22.3-4.1,40.4-9.2,40.4"/>
+						<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="162.2" y1="571.1" x2="1032" y2="571.1"/>
+						<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="162.2" y1="571.1" x2="116.4" y2="608.1"/>
+						<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="1032" y1="571.1" x2="1077.8" y2="608.1"/>
+						<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="116.4" y1="608.1" x2="1077.8" y2="608.1"/>
+						<polygon fill="none" stroke="#000000" stroke-miterlimit="10" points="730.1,649.8 474.2,649.8 494.5,615.4 716.1,615.4 				"/>
+					</g>
+				</g>
 			</g>
-			<g>
-				<text transform="matrix(1 0 0 1 742.9209 896.8135)" font-family="'Avenir'" font-size="14">Jun</text>
-			</g>
-			<g>
-				<text transform="matrix(1 0 0 1 871.3105 896.8135)" font-family="'Avenir'" font-size="14">Jul</text>
-			</g>
-		</g>
-	</g>
-</g>
-</g>
-<g id="computer">
-	<g display="inline">
-		<g id="XMLID_1_">
-			<g>
-				<path fill="#D1D3D4" d="M23.8,659.6h1153.3c8.6,0,15.8-1.9,17.8-5.6l0.7,0.1c0,22.3-4.1,40.4-9.2,40.4l-0.2,0.9H14.6v-0.9
-					c-5.1,0-9.2-18.1-9.2-40.4l0.6-0.1C8,657.7,15.2,659.6,23.8,659.6z"/>
-				<path fill="#D1D3D4" d="M113.5,564.8l7-5.4v-0.2h959.6v0.2l9.5,7.3l101.3,77.4c4.4,4.1,5.4,7.4,4,9.9c-2,3.7-9.2,5.6-17.8,5.6
-					H23.8c-8.6,0-15.8-1.9-17.8-5.6c-1.5-2.7-0.3-6.3,5.1-10.9L113.5,564.8z M116.4,608.1h961.4l-45.8-36.9H162.2L116.4,608.1z
-					 M730.1,649.8l-14-34.3H494.5l-20.3,34.3H730.1z"/>
-				<path fill="#D1D3D4" d="M1093.9,22v530.9c0,5.3-1.6,10.1-4.3,13.8l-9.5-7.3v-0.2H120.5v0.2l-7,5.4c-2-3.4-3.1-7.5-3.1-12V22
-					c0-11.8,8.2-21.4,18.2-21.4h947.1C1085.8,0.6,1093.9,10.2,1093.9,22z M1065.4,540.3V28.3H138.3v511.9H1065.4z"/>
-				<polygon fill="#A7A9AC" points="1077.8,608.1 116.4,608.1 162.2,571.1 1032,571.1 				"/>
-				<polygon fill="#D1D3D4" points="716.1,615.4 730.1,649.8 474.2,649.8 494.5,615.4 				"/>
-			</g>
-			<g>
-				<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M113.9,565.4c-0.1-0.2-0.2-0.4-0.4-0.6c-2-3.4-3.1-7.5-3.1-12V22
-					c0-11.8,8.2-21.4,18.2-21.4h947.1c10.1,0,18.2,9.6,18.2,21.4v530.9c0,5.3-1.6,10.1-4.3,13.8c-0.3,0.4-0.7,0.9-1,1.3"/>
-				<rect x="138.3" y="28.3" fill="none" stroke="#000000" stroke-miterlimit="10" width="927.1" height="511.9"/>
-				<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="120.5,559.4 113.5,564.8 11.1,643.1 9.8,644.1 				"/>
-				<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="1080.1,559.4 1089.6,566.7 1190.9,644.1 1193.5,646.1 
-									"/>
-				<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="17.4,659.6 23.8,659.6 1177.1,659.6 1182.3,659.6 				
-					"/>
-				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="120.5" y1="559.2" x2="1080.1" y2="559.2"/>
-				<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="13.9,695.4 14.6,695.4 1186.3,695.4 				"/>
-				<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M11.1,643.1c-5.4,4.5-6.6,8.2-5.1,10.9c2,3.7,9.2,5.6,17.8,5.6"/>
-				<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M1189.8,643.1c0.4,0.3,0.8,0.7,1.1,1c4.4,4.1,5.4,7.4,4,9.9
-					c-2,3.7-9.2,5.6-17.8,5.6"/>
-				<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M5.4,654.1c0,22.3,4.1,40.4,9.2,40.4"/>
-				<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M1195.6,654.1c0,22.3-4.1,40.4-9.2,40.4"/>
-				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="162.2" y1="571.1" x2="1032" y2="571.1"/>
-				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="162.2" y1="571.1" x2="116.4" y2="608.1"/>
-				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="1032" y1="571.1" x2="1077.8" y2="608.1"/>
-				<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="116.4" y1="608.1" x2="1077.8" y2="608.1"/>
-				<polygon fill="none" stroke="#000000" stroke-miterlimit="10" points="730.1,649.8 474.2,649.8 494.5,615.4 716.1,615.4 				"/>
-			</g>
-		</g>
-	</g>
-</g>
-</svg>
-
-<!-- 		<video autoplay muted loop>
-	        <source src="img/dashboard_recording_small.mp4" class="img-responsive" type="video/mp4">Your browser does not support the <code>video</code> element.
-	    </video> -->
-	</div>
-	
+		</svg>
+	</div>	
 </div>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>

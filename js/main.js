@@ -189,6 +189,14 @@ $('.recruitment').each(function () {
     });
 });
 
+// Recruitment Map
+//======================================================================================
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiY21jZyIsImEiOiJlZTA1Mjg5MThhNzAwYjIwMzkzOTRhZmI0YzdhM2ZhNyJ9.qmfiogrh1Wu7_JlfoaSMKw';
+var map = L.mapbox.map('map', 'mapbox.streets')
+.setView([41.831396, -87.610218], 9);
+
+
 // Participant Profile interaction
 //======================================================================================
 

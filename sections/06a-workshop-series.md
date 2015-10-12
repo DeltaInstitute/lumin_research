@@ -12,7 +12,7 @@ bannerpath: img/research.jpg
 		<img src="img/workshop-kickoff.jpg" class="img-responsive" style="padding-top:1em">
 		<p class="caption">Pilot participants working through the energy scale activity</p>
 	</div>
-	<div class="col-sm-4" style="padding-top:1em">
+	<div class="col-sm-4">
 		<h4>Pilot Kick-Off Event: Introduction to the Program</h4>
 		<p><strong>Objective:</strong> To develop a baseline for both participants’ personal energy use and their understanding of energy. </p>
 		<p><strong>Exercise:</strong> In anticipation of the first Energy Update, which would include an Appliance Spending Diagnosis outlining estimated energy use per appliance, the Kick-Off activity aimed to better understand how participants currently think about the energy consumption of individual appliances.</p>
@@ -28,7 +28,7 @@ bannerpath: img/research.jpg
 		<img src="img/workshop-1.jpg" class="img-responsive" style="padding-top:1em">
 		<p class="caption">Caption</p>
 	</div>
-	<div class="col-sm-4" style="padding-top:1em">
+	<div class="col-sm-4">
 		<h4>Workshop 1: Reactions to first Energy Updates</h4>
 		<p><strong>Objective:</strong> Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta.</p>
 		<p><strong>Exercise:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. </p>
@@ -40,7 +40,7 @@ bannerpath: img/research.jpg
 
 <div class="row">	
 	<div class="col-sm-8">
-		<img src="img/workshop-2.jpg" class="img-responsive" style="padding-top:1em">
+		<img src="img/workshop-2.jpg" class="img-responsive">
 		<p class="caption"><i>Participants practicing setting energy goals</i></p>
 	</div>
 	<div class="col-sm-4" style="padding-top:1em">
@@ -55,7 +55,7 @@ bannerpath: img/research.jpg
 
 <div class="row">	
 	<div class="col-md-8">
-			<img src="img/workshop-3.jpg" class="img-responsive" style="padding-top:1em">
+			<img src="img/workshop-3.jpg" class="img-responsive">
 			<p class="caption">Caption</p>
 		</div>
 		<div class="col-md-4" style="padding-top:1em">
