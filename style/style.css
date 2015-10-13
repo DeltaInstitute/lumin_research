@@ -1550,7 +1550,7 @@ h4 {
     padding-left: 0%;
 }
 
-#twoPointOO {
+.erase #twoPointOO {
   stroke: #fff;
   stroke-width: 8;
   stroke-dasharray: 250;
@@ -1563,7 +1563,7 @@ h4 {
           animation-fill-mode: forwards;
 }
 
-#twoPointOPoint {
+.erase #twoPointOPoint {
   stroke: #fff;
   stroke-width: 8;
   stroke-dasharray: 250;
@@ -1576,7 +1576,7 @@ h4 {
           animation-fill-mode: forwards;
 }
 
-#twoPointOTwo {
+.erase #twoPointOTwo {
   stroke: #fff;
   stroke-width: 8;
   stroke-dasharray: 250;
@@ -1589,7 +1589,7 @@ h4 {
           animation-fill-mode: forwards;
 }
 
-#scratch {
+.erase #scratch {
   stroke: #fff;
   stroke-width: 15;
   stroke-dasharray: 809;

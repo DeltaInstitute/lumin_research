@@ -369,5 +369,23 @@ $('.webAnalyticsBars rect').on('mouseenter', function() {
     $('.webViewDate').html('day ' + date);
 });
 
+// Looking Foward Animation
+//======================================================================================
+
+$(window).scroll(function () {
+$('.twoPointOh').each(function () {
+    var imagePos = $(this).offset().top;
+    var imageHeight = $(this).height();
+    var topOfWindow = $(window).scrollTop();
+
+    if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+        $('.twoPointOh').addClass('erase');
+    } else {
+        $('.twoPointOh').removeClass('erase');
+    }
+    
+    });
+});
+
 
 

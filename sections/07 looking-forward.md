@@ -3,6 +3,7 @@ layout: break
 title: Looking Forward
 ---
 <div id="future" class="section-break" style="background-color:#6ba1b9">
+<div class="twoPointOh">
 	<svg x="0px" y="0px" viewBox="-50 400 1200 300">
 		<g id="dl1">
 			<text transform="matrix(1 0 0 1 177.7056 600)" font-size="100">
@@ -21,7 +22,8 @@ title: Looking Forward
 			<path id="twoPointOTwo" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-miterlimit="10" d="M851.3,541.2c24.9-38.1,52.4,1.1,34.1,19.5l-36.8,36.8h-2.7h48.7"/>
 		</g>
 	</svg>
-	<h2>Looking Forward</h2>
+</div>
+<h2>Looking Forward</h2>
 </div>
 
 <div class="sectionIntro">
