@@ -58,11 +58,14 @@ title: Calculating Energy Use
 			</text>
 			<text transform="matrix(1 0 0 1 15 340.0329)" font-family="'Open Sans'" font-size="20">
 				<tspan x="0" y="0" font-weight="700">Historical Energy Use</tspan>
-				<tspan x="0" y="24">Energy Usage</tspan>
+				<tspan x="0" y="24">Data follows individual</tspan>
+				<tspan x="0" y="48">historic patterns</tspan>
 			</text>
 			<text transform="matrix(1 0 0 1 15 580.4973)" font-family="'Open Sans'" font-size="20">
 				<tspan x="0" y="0" font-weight="700">Home &amp; Appliances</tspan>
-				<tspan x="0" y="24">Characteristics</tspan>
+				<tspan x="0" y="24">Data based on current</tspan>
+				<tspan x="0" y="48">home type and appliance</tspan>
+				<tspan x="0" y="72">stock</tspan>
 			</text>
 			<text transform="matrix(1 0 0 1 950 76.4423)" font-family="'Open Sans'" font-size="20">
 				<tspan x="0" y="0" font-weight="700">Time-based Insights</tspan>
