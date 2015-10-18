@@ -329,6 +329,17 @@ h4 {
   -webkit-filter: grayscale(0%);
 }
 
+#contact {
+  padding: 0 30%;
+  color: #fff;
+  height: 1200px;
+}
+
+#contact p, h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
 /* Lumin Approach animation
 =============================================================================*/
 .bulb svg {
@@ -872,6 +883,15 @@ h4 {
   r: 3px;
   fill: #656d71;
   cy: 236px;
+}
+
+#chicagoMap {
+  transform: translate(-145px, -40px);
+}
+
+.chartTitle {
+  text-align: center; 
+  
 }
 
 /* Prototype animation
