@@ -597,6 +597,90 @@ h4 {
   padding: 5%;
 }
 
+/* Engagement Measurement
+=============================================================================*/
+
+#lightOn {
+  animation: lightSwitchOn 2s linear forwards;
+}
+
+#string {
+  animation: pullString 2s linear forwards;
+}
+
+#incandescent {
+  animation: hideIncand 6s linear forwards 3s;
+}
+
+#clf {
+  animation: showCfl 6s linear forwards 3s;
+}
+
+@keyframes lightSwitchOn {
+  0% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pullString {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0);
+  }
+
+  60% {
+    transform: translateY(50px);
+  }
+
+  70%{
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes hideIncand {
+  0% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes showCfl {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+}
+
 
 /* Recruitment animation
 =============================================================================*/
@@ -756,6 +840,38 @@ h4 {
 #howTheyUseEnergy {
   cursor: pointer;
   text-align: center;
+}
+
+.guidelines {
+  stroke-width: .5px;
+}
+
+.whoBar {
+  fill: #6ba1b9;
+  cursor: pointer;
+  transition: fill .2s ease; 
+}
+
+.whoBar:hover, .conCircle:hover, .effCircle:hover {
+  fill: #656d71;
+}
+
+.conCircle, .effCircle {
+  fill: #638c3c;
+  cursor: pointer;
+}
+
+.peopleIcon {
+  width: .5%;
+  height: 10px;
+  fill: #656d71;
+  y: 240px;
+}
+
+.peopleIconHead {
+  r: 3px;
+  fill: #656d71;
+  cy: 236px;
 }
 
 /* Prototype animation

@@ -201,7 +201,7 @@ var map = L.mapbox.map('map', 'mapbox.streets')
 //======================================================================================
 
 function switchTabs() {
-    $('.profileCharts').hide();
+    $('.profileCharts').fadeOut();
     $('.profileTabs').find('rect').attr('fill', '#ccc');
     $('.profileTabs').find('text').attr('opacity', '.4');
 }
@@ -210,7 +210,7 @@ $('#whoAreThey').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
     $(this).find('text').attr('opacity', '1');
-    $('#whoCharts').show();
+    $('#whoCharts').fadeIn();
 
 });
 
@@ -218,14 +218,14 @@ $('#whereTheyLive').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
     $(this).find('text').attr('opacity', '1');
-    $('#whereCharts').show();
+    $('#whereCharts').fadeIn();
 });
 
 $('#howTheyUseEnergy').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
     $(this).find('text').attr('opacity', '1');
-    $('#howCharts').show();
+    $('#howCharts').fadeIn();
 });
 
 
