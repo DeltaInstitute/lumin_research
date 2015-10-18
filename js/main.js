@@ -12,6 +12,11 @@ function checkWindow() {
 // Nav
 //======================================================================================
 
+$('.hamburger').on('click', function(){
+    $('.menu').toggleClass('openMenu');
+});
+
+
 var approachPosition = $('#approach').offset().top;
 var recruitmentPosition = $('#recruitment').offset().top;
 var prototypePosition = $('#prototype').offset().top;

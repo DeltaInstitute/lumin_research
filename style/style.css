@@ -150,6 +150,15 @@ nav a:hover {
     color: #fff;
 }
 
+.menu a {
+  display: inline;
+  float: left;
+}
+
+#dlLogo {
+  float: left;
+}
+
 header h1, header ul {
     float: left;
 
@@ -346,7 +355,7 @@ h4 {
     height:250px;
     width:100%;
     margin-top: 20vh;
-    padding: 0 33%;
+    padding: 0 0;
     outline-width: 8px;
 }
 
@@ -1906,4 +1915,44 @@ h4 {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    padding-right: 0;
+    padding-left:0;
+  }
+
+  nav a {
+    display: block;
+    text-align: left;
+    margin-left: 5%;
+    width: 100%;
+  }
+
+  .menu {
+    height: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+    background-color: #6ba1b9;
+  }
+
+  .openMenu {
+    height: 200px;
+    transition: height .3s ease-in-out;
+  }
+
+  .hamburger, #dlLogo {
+    display: inline;
+    float: none;
+    padding-left: 2%;
+    margin: 0;
+    font-size: 20px;
+  }
 }
