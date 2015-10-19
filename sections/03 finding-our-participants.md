@@ -1,7 +1,6 @@
 ---
 layout: break
 title: Finding Our Participants
-bannerpath: fa fa-group
 ---
 <div id="recruitment" class="section-break">
 	<div class="recruitment">

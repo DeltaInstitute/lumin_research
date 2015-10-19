@@ -26,7 +26,7 @@ var futurePosition = $('#future').offset().top;
 
 $(window).on('scroll', function(){
     if ($(this).scrollTop() > approachPosition - 100) {
-        $('nav').find('a').removeClass('activeNav');
+        $('#menu').find('a').removeClass('activeNav');
         $('#approachNav').addClass('activeNav');
     } else {
         $('#approachNav').removeClass('activeNav');
@@ -176,6 +176,24 @@ function changeFeature(){
     $('.featureDescriptions').addClass('hidden');
     $(featureDescription[ currentFeaturePosition ]).removeClass('hidden');
 }
+
+// Measures animation
+//======================================================================================
+// $(window).scroll(function () {
+// $('.measureExample').each(function () {
+//     var imagePos = $(this).offset().top;
+//     var imageHeight = $(this).height();
+//     var topOfWindow = $(window).scrollTop();
+
+//     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+//         $('#lightOn').addClass('switchOn');
+//         $('#string').addClass('pullOn');
+//     } else {
+//         $('#lightOn').removeClass('switchOn');
+//         $('#string').removeClass('pullOn');
+//     }
+//     });
+// });
 
 
 // Recruitment animation
