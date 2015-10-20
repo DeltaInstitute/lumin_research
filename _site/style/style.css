@@ -343,15 +343,88 @@ h4 {
 }
 
 #contact {
-  padding: 0 30%;
+  max-width: 1200px;
+  padding: 0 5%;
   color: #fff;
-  height: 2000px;
+  height: 100%;
 }
 
 #contact p, h2 {
   margin-top: 2px;
   margin-bottom: 2px;
+  text-align:left;
 }
+
+.meetTheTeam img {
+  width: 30%;
+  float: left;
+  padding: 0 2%;
+}
+
+.meetTheTeam h3 {
+  padding-top: 20px;
+}
+
+.meetTheTeam h4 {
+  opacity: .6;
+}
+
+.meetTheTeam a {
+  color: #fff;
+}
+
+.meetTheTeam svg {
+  height: 50px;
+  margin: 0;
+}
+
+.meetTheTeam {
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+#contact form {
+  padding: 4%;
+}
+
+#yourName, #yourEmail, #emailSubject {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  border: none;
+  padding: 4%;
+  outline: none;
+}
+
+#emailMessage {
+  width: 100%;
+  height: 190px;
+  border-radius: 2px;
+  border: none;
+  padding: 4%;
+  resize: none;
+  outline: none;
+}
+
+#submitButton {
+  width: 100%;
+  margin-top: 10px;
+  border: 4px solid #fff;
+  background-color: rgba(225, 225, 225, .4);
+  color: #fff;
+  padding: 3%;
+  font-weight: 700;
+  font-size: 30px;
+  transition: border .2s ease;
+}
+
+#submitButton:hover, #submitButton:active, #submitButton:visited {
+  border: 4px solid #6ba1b9;
+  outline: none;
+}
+
 
 /* Lumin Approach animation
 =============================================================================*/
