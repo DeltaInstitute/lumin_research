@@ -45,15 +45,6 @@ title: Contact
 				<h4>Program Communications & Participant Outreach</h4>
 				<p>nyunus@delta-institute.org</p>
 			</div>
-
-			<br>
-
-			<svg style="width:100%"> 
-				<line x1="2%" x2="33%" y1="25" y2="25" stroke="#fff"></line>
-				<text x="35%" y="30" fill="#fff">Joining DELTALUMIN 2.0</text>
-				<line x1="66%" x2="98%" y1="25" y2="25" stroke="#fff"></line>
-			</svg>
-
 			<div class="meetTheTeam">
 				<img src="img/helen.png" class="img-responsive">
 				<h3>Helen Behnke-Hanson</h3>

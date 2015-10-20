@@ -19,5 +19,4 @@ title: Research Question
 		</div>
 	</div> 
 </div>
-
 <br>

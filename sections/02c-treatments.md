@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Treatments
+title: Features Tested
 ---
 
 <p>Throughout the pilot period, participants were exposed to several methods of energy illumination. Energy use was illuminated using four different features including:</p>

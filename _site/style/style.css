@@ -241,6 +241,7 @@ a, a:hover, a:active, a:visited {
     height:100vh;
     position: relative;
     background-color:#6ba1b9;
+    margin-top: 100px;
 }
 
 .section-break h2 {
@@ -308,6 +309,10 @@ a, a:hover, a:active, a:visited {
     margin: 2em 0;
 }
 
+.row {
+    margin-top: 50px;
+}
+
 .row p.caption {
     margin: -1em 0 1em 0;
     font-style: italic;
@@ -326,6 +331,17 @@ h4 {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
+}
+
+.sideQuote {
+    width: 30%;
+    float: right;
+    margin: 0 0 10px 2%;
+    padding: 2%;
+    font-family: 'Sanchez';
+    border: none;
+    background-color: #eee;
+
 }
 
 .grayscale {
@@ -658,7 +674,8 @@ h4 {
 
 .featureCarousel {
   height: 100%;
-  margin: 5% 5%;
+  margin: 0 5%;
+  padding: 0 5%;
   text-align: center;
 }
 
@@ -690,9 +707,6 @@ h4 {
   font-size: 30px;
 }
 
-.featureCarousel .col-xs-10 {
-  padding: 5%;
-}
 
 /* Engagement Measurement
 =============================================================================*/
@@ -710,7 +724,7 @@ h4 {
 }
 
 .exampleText {
-  font-weight: 400;
+  font-weight: 700;
   color: #65a0b4;
 }
 
