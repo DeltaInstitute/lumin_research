@@ -3,7 +3,7 @@ layout: section
 title: Final Pilot Cohort
 ---
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
-<svg x="0px" y="0px" viewBox="0 0 1200 600" class="participantProfile" height="550px" width="100%">
+<svg x="0px" y="0px" viewBox="0 0 1200 550" class="participantProfile" height="550px" width="100%">
 	<g id="whoAreThey" class="profileTabs">
 		<rect x="0" y="0" height="65px" width="33.33%" fill="#eee" stroke="#fff" stroke-width="4px" rx="10" ry="10"></rect>
 		<text x="2%" y="30px" font-size="20px">Who are they?</text>
@@ -1273,7 +1273,7 @@ title: Final Pilot Cohort
 	<g id="whoCharts" class="profileCharts">
 		<rect x="0" y="50px" width="100%" height="450px" fill="#eee" stroke="none" rx="10" ry="10" rx="10" ry="10"></rect>
 		<g id="age">	
-			<rect x="2%" y="75" height="400" width="42%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
+			<rect id="ageBox" x="2%" y="75" height="400" width="42%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
 			<text class="chartTitle" x="9%" y="120" font-size="1.5rem">Age of Participants</text> 
 			<rect class="whoBar" x="10%" y="200" width="26%" height="25"></rect>
 			<rect class="whoBar" x="10%" y="250" width="33%" height="25"></rect>
@@ -1302,7 +1302,7 @@ title: Final Pilot Cohort
 			<text x="4%" y="415"><19</text>
 		</g>
 		<g id="familySize">
-			<rect x="46%" y="75" height="190" width="52%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
+			<rect id="familySizeBox" x="46%" y="75" height="190" width="52%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
 			<text class="chartTitle" x="65%" y="120" font-size="1.5rem">Family Size</text>
 			<rect class="whoBar" x="56%" y="140" width="4%" height="85" fill="#000"></rect>
 			<rect class="whoBar" x="63%" y="160" width="4%" height="65" fill="#000"></rect>
