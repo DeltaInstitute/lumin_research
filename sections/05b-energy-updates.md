@@ -6,7 +6,7 @@ title: Energy Updates
 
 <div class="row">
 	<div class="col-sm-8">
-		<img src="img/snailMail.gif" class="img-responsive" alt="mailed energy update example">
+		<img src="img/mail.jpg" class="img-responsive" alt="mailed energy update example">
 	</div>
 	<div class="col-sm-4">
 		<h4>Mail</h4>

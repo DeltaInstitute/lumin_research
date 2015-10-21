@@ -2,7 +2,7 @@
 layout: break
 title: Learning from our Participants
 ---
-<div class="section-break" style="background-color:#6ba1b9;">
+<div id="learnings" class="section-break" style="background-color:#6ba1b9;">
 	<div class="feedback show">
 		<svg x="0px" y="0px" viewBox="0 0 1200 1200">
 			<g id="learning">

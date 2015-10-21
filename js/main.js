@@ -16,6 +16,19 @@ $('.hamburger').on('click', function(){
     $('.menu').toggleClass('openMenu');
 });
 
+$('.menu a').on('click', function() {
+  // use the href of the link to identify what
+  // section to scroll to
+  var thisTarget = $(this).attr('href');
+  // get that section's top offset
+  var targetOffset = $(thisTarget).offset().top;
+  // use jQuery.animate() to animate the body's
+  // scrollTop to the targetOffest
+  $('body').animate({
+    scrollTop: targetOffset
+  }, 800);
+});
+
 
 var approachPosition = $('#approach').offset().top;
 var recruitmentPosition = $('#recruitment').offset().top;
@@ -224,7 +237,7 @@ var map = L.mapbox.map('map', 'mapbox.streets')
 //======================================================================================
 
 function switchTabs() {
-    $('.profileCharts').fadeOut();
+    $('.profileCharts').fadeOut(200);
     $('.profileTabs').find('rect').attr('fill', '#ccc');
     $('.profileTabs').find('text').attr('opacity', '.4');
 }
@@ -233,7 +246,7 @@ $('#whoAreThey').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
     $(this).find('text').attr('opacity', '1');
-    $('#whoCharts').fadeIn();
+    $('#whoCharts').fadeIn(200);
 
 });
 
@@ -241,14 +254,14 @@ $('#whereTheyLive').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
     $(this).find('text').attr('opacity', '1');
-    $('#whereCharts').fadeIn();
+    $('#whereCharts').fadeIn(200);
 });
 
 $('#howTheyUseEnergy').on('click', function() {
     switchTabs();
     $(this).find('rect').attr('fill', '#eee');
     $(this).find('text').attr('opacity', '1');
-    $('#howCharts').fadeIn();
+    $('#howCharts').fadeIn(200);
 });
 
 
