@@ -1,11 +1,8 @@
 ---
 layout: section
 title: Calculating Energy Use
-<!-- bannerpath: img/question.jpg -->
 ---
-
 <div class="calcFlowChart">
-
 	<svg x="0px" y="0px" viewBox="0 0 1200 800">
 		<symbol  id="billsofar" viewBox="-66 -55.4 134 90.8">
 			<path fill="#FFFFFF" stroke="#658C3D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M48,34.4h-92c-11,0-21-8-21-19v-39c0-11,10-21,21-21h35.3l10.5-9.8l10.5,9.8H48c11,0,19,10,19,21v39C67,26.4,59,34.4,48,34.4z"/>

@@ -1246,7 +1246,8 @@ h4 {
     opacity:1; 
     filter:alpha(opacity=100);
     -webkit-transform: translateY(600px);
-            transform: translateY(600px) };
+            transform: translateY(600px);
+  }
 }
 
 @keyframes openFull {
@@ -2000,6 +2001,36 @@ h4 {
 /* Media Queries
 =============================================================================*/
 
+
+/*HCD Mobile Interaction*/
+
+@media screen and (max-width: 992px) {
+  #researchTitle svg, #developmentTitle svg, #refineTitle svg, #pilotTitle svg {
+    display:none;
+  }
+  #researchTitle, #developmentTitle {
+    background-color: #0270af;
+    color: #fff;
+    padding: 1% 4%;
+  }
+  #refineTitle {
+    background-color: #638c3d;
+    color: #fff;
+    padding: 1% 4%;
+  }
+  #pilotTitle {
+    background-color: #edbb3a;
+    color: #fff;
+    padding: 1% 4%;
+  }
+
+  #researchTitle p, #developmentTitle p, #refineTitle p, #pilotTitle p {
+    color: #fff;
+    opacity: .6;
+  }
+}
+
+
 @media screen and (max-width: 850px) {
   nav {
     padding-right: 0;
@@ -2035,35 +2066,9 @@ h4 {
   }
 }
 
-@media screen and (max-width: 992px) {
-  #researchTitle svg, #developmentTitle svg, #refineTitle svg, #pilotTitle svg {
-    display:none;
-  }
-  #researchTitle, #developmentTitle {
-    background-color: #0270af;
-    color: #fff;
-    padding: 1% 4%;
-  }
-  #refineTitle {
-    background-color: #638c3d;
-    color: #fff;
-    padding: 1% 4%;
-  }
-  #pilotTitle {
-    background-color: #edbb3a;
-    color: #fff;
-    padding: 1% 4%;
-  }
 
-  #researchTitle p, #developmentTitle p, #refineTitle p, #pilotTitle p {
-    color: #fff;
-    opacity: .6;
-  }
-}
 
 @media screen and (max-width: 650px) {
-  
-  /*Headings*/
   .intro h1 {
     font-size:50px;
   }
