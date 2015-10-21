@@ -358,8 +358,7 @@ h4 {
   -webkit-filter: grayscale(0%);
 }
 
-#contact {
-  max-width: 1200px;
+#contact { 
   padding: 0 5%;
   color: #fff;
   height: 100%;
