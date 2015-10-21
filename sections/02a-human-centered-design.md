@@ -13,7 +13,7 @@ title: Human-Centered Design
 <p>Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit.</p>
 
 <div class="row human-centered-design">
-	<div class="col-xs-2">
+	<div class="col-md-2">
 		<div id="researchTitle">
 			<h4>Research</h4>
 			<p>2 weeks</p>
@@ -22,7 +22,7 @@ title: Human-Centered Design
 		<p id="researchText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut.</p>
 	</div>
 	
-	<div class="col-xs-3">
+	<div class="col-md-3">
 		<div id="developmentTitle">
 			<h4>Development</h4>
 			<p>4 weeks</p>
@@ -31,7 +31,7 @@ title: Human-Centered Design
 		<p id="developmentText">Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus.</p>
 	</div>
 	
-	<div class="col-xs-2">
+	<div class="col-md-2">
 		<div id="refineTitle">
 			<h4>Refine</h4>
 			<p>2 weeks</p>
@@ -40,7 +40,7 @@ title: Human-Centered Design
 		<p id="refineText">Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
 	</div>
 	
-	<div class="col-xs-5">
+	<div class="col-md-5">
 		<div id="pilotTitle">
 			<h4>Pilot Implementation</h4>
 			<p>12 weeks</p>
