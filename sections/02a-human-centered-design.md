@@ -3,7 +3,7 @@ layout: section
 title: Human-Centered Design
 ---
 
-<p><blockquote class="sideQuote">"...innovation is powered by a thorough understanding, through direct observation, of what people want and need in their lives and what they like or dislike about the way particular products are made, packaged, marketed, sold, and supported." <strong>--Tim Brown, CEO IDEO</strong>
+<p><blockquote class="sideQuote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu." <strong>--Tim Brown, CEO IDEO</strong>
 </blockquote></p>
 
 <p>Delta Institute worked with [IDEO](http://ideo.com) to...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu.</p>
