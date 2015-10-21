@@ -29,7 +29,7 @@ title: Features Tested
 				<p>This tested if a curated list of existing utility programs based on actual household energy use data will lead to increased levels of engagement over those receiving traditional monthly bills.</p>
 			</div>
 			<hr>
-			<img id="featureImg" src="img/spending-forecast.jpg" class="img-responsive">
+			<img id="featureImg" src="img/spending-forecast.svg" class="img-responsive">
 		</div>
 		<div class="col-xs-1">
 			<button type="button" id="nextFeature" class="btn"><i class="fa fa-chevron-right"></i></button>

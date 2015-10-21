@@ -138,7 +138,7 @@ $('.researchQuestion').each(function () {
 // Feature carousel animation
 //======================================================================================
 
-var featureImages=['img/spending-forecast.jpg', 'img/appliance-diagnosis.jpg', 'img/goal-setting.png', 'img/program-match.jpg'];
+var featureImages=['img/spending-forecast.svg', 'img/appliance-diagnosis.svg', 'img/goal-setting.svg', 'img/program-match.svg'];
 
 var featureDescription = ['#spendingDescription', '#applianceDescription', '#goalDescription', '#programDescription']
 
