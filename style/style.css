@@ -693,6 +693,7 @@ h4 {
   background: none;
   border: none;
   outline: none;
+  color: rgba(128, 130, 132, .8);
   width: 10%;
   cursor: pointer;
   top: 0;
@@ -709,7 +710,12 @@ h4 {
 }
 
 .carouselButton:hover {
-  background-color: rgba(128, 130, 132, .3);
+  color: #000;
+}
+
+.carouselButton:active, .carouselButton:visited {
+  background: none;
+  color: rgba(128, 130, 132, .8);
 }
 
 .featureCarousel i {
@@ -720,12 +726,12 @@ h4 {
 /* Engagement Measurement
 =============================================================================*/
 
-#lightOn {
-  animation: lightSwitchOn 2s linear forwards 1s;
+.lightOn {
+  animation: lightSwitchOn 3s linear infinite 5s;
 }
 
- #string {
-  animation: pullString 2s linear forwards 1s;
+.string {
+  animation: pullString 3s linear infinite 5s;
 }
 
 #lightOnNoAction {
@@ -733,7 +739,7 @@ h4 {
 }
 
 .exampleText {
-  font-weight: 700;
+  font-weight: 600;
   color: #65a0b4;
 }
 
@@ -741,14 +747,20 @@ h4 {
   0% {
     opacity: 1;
   }
-  60% {
+  30% {
     opacity: 1;
   }
-  65% {
+  35% {
     opacity: 0;
   }
-  100% {
+  60% {
     opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -756,15 +768,22 @@ h4 {
   0% {
     transform: translateY(0);
   }
+  25% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(50px);
+  }
+  35%{
+    transform: translateY(0);
+  }
   50% {
     transform: translateY(0);
   }
-
   60% {
     transform: translateY(50px);
   }
-
-  70%{
+  65%{
     transform: translateY(0);
   }
   100% {
@@ -979,6 +998,10 @@ h4 {
 
 #chicagoMap {
   transform: translate(-145px, -40px);
+}
+
+.grayFill {
+  background-color: gray;
 }
 
 .chartTitle {
@@ -2092,10 +2115,6 @@ h4 {
   }
   .definition {
     margin: 0;
-  }
-
-  .featureCarousel i {
-  font-size: 15px;
   }
 
   .featureDescriptions p {

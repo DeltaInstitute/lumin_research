@@ -199,11 +199,11 @@ function changeFeature(){
 //     var topOfWindow = $(window).scrollTop();
 
 //     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-//         $('#lightOn').addClass('switchOn');
-//         $('#string').addClass('pullOn');
+//         $('.lightOn').addClass('switchOn');
+//         $('.string').addClass('pullOn');
 //     } else {
-//         $('#lightOn').removeClass('switchOn');
-//         $('#string').removeClass('pullOn');
+//         $('.lightOn').removeClass('switchOn');
+//         $('.string').removeClass('pullOn');
 //     }
 //     });
 // });
@@ -263,6 +263,10 @@ $('#howTheyUseEnergy').on('click', function() {
     $(this).find('text').attr('opacity', '1');
     $('#howCharts').fadeIn(200);
 });
+
+// Zipcode Interation
+//======================================================================================
+
 
 
 // Prototype animation
