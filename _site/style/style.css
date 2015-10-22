@@ -727,11 +727,12 @@ h4 {
 =============================================================================*/
 
 .lightOn {
-  animation: lightSwitchOn 3s linear infinite 5s;
+  opacity: 0;
+  animation: lightSwitchOn 3s linear infinite 8s;
 }
 
 .string {
-  animation: pullString 3s linear infinite 5s;
+  animation: pullString 3s linear infinite 8s;
 }
 
 #lightOnNoAction {
@@ -745,22 +746,22 @@ h4 {
 
 @keyframes lightSwitchOn {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   30% {
-    opacity: 1;
+    opacity: 0;
   }
   35% {
-    opacity: 0;
+    opacity: 1;
   }
   60% {
-    opacity: 0;
+    opacity: 1;
   }
   65% {
-    opacity: 1;
+    opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -974,13 +975,25 @@ h4 {
   transition: fill .2s ease; 
 }
 
-.whoBar:hover, .conCircle:hover, .effCircle:hover {
+.whoBar:hover, .effCircle:hover {
   fill: #656d71;
 }
 
 .conCircle, .effCircle {
   fill: #638c3c;
   cursor: pointer;
+}
+
+
+
+
+#oneBehavior, #twoBehaviors, #threeBehaviors, #fourBehaviors {
+  opacity:0;
+  transition: opacity .2s ease-in-out;
+}
+
+#oneBehavior:hover, #twoBehaviors:hover, #threeBehaviors:hover, #fourBehaviors:hover {
+  opacity: 1;
 }
 
 .peopleIcon {
