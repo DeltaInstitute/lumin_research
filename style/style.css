@@ -815,7 +815,7 @@ h4 {
     height:300px;
     width:100%;
     margin-top: 20vh;
-    padding: 0 33%;
+    padding: 0 auto;
     outline-width: 8px;
 }
 
@@ -975,7 +975,7 @@ h4 {
   transition: fill .2s ease; 
 }
 
-.whoBar:hover, .effCircle:hover {
+.whoBar:hover {
   fill: #656d71;
 }
 
@@ -984,15 +984,31 @@ h4 {
   cursor: pointer;
 }
 
-
-
-
-#oneBehavior, #twoBehaviors, #threeBehaviors, #fourBehaviors {
+#oneBehavior, 
+#twoBehaviors, 
+#threeBehaviors, 
+#fourBehaviors,
+#fiveBehaviors, 
+#oneEfficiency, 
+#twoEfficiency, 
+#threeEfficiency, 
+#fourEfficiency, 
+#fiveEfficiency {
   opacity:0;
+  cursor: pointer;
   transition: opacity .2s ease-in-out;
 }
 
-#oneBehavior:hover, #twoBehaviors:hover, #threeBehaviors:hover, #fourBehaviors:hover {
+#oneBehavior:hover, 
+#twoBehaviors:hover, 
+#threeBehaviors:hover, 
+#fourBehaviors:hover,
+#fiveBehaviors:hover,
+#oneEfficiency:hover, 
+#twoEfficiency:hover, 
+#threeEfficiency:hover, 
+#fourEfficiency:hover, 
+#fiveEfficiency:hover {
   opacity: 1;
 }
 
@@ -1034,7 +1050,7 @@ h4 {
     height:300px;
     width:100%;
     margin-top: 20vh;
-    padding: 0 33%;
+    padding: 0 auto;
     margin-left: -2%;
 }
 
