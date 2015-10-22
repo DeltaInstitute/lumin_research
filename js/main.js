@@ -264,11 +264,6 @@ $('#howTheyUseEnergy').on('click', function() {
     $('#howCharts').fadeIn(200);
 });
 
-
-$('#twoBehaviors').on('click', function(){
-    $(this).attr('opacity', 1);
-});
-
 // Zipcode Interation
 //======================================================================================
 
