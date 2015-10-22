@@ -673,35 +673,43 @@ h4 {
 =============================================================================*/
 
 .featureCarousel {
-  height: 100%;
-  margin: 0 5%;
-  padding: 0 5%;
+  width: 100%;
   text-align: center;
 }
 
 .featureCarousel #featureImg {
-  height: 50vh;
   margin: 0 auto;
 }
 
-#prevFeature, #nextFeature {
-  margin: 10px 10%;
+.carouselContainer {
+  position: relative;
+  padding: 0 10%;
+  height: 670px;
+  width: 90%;
+}
+
+.carouselButton {
+  position: absolute;
+  background: none;
+  border: none;
   outline: none;
+  width: 10%;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  margin: 0;
 }
 
-.featureCarousel .btn {
-  background-color: #fff;
-  padding: 250px 5px;
-  width: 200%;
-  border-radius: 0;
+.carouselButton:last-child {
+  right: 0;
 }
 
-.btn:hover {
-  background-color:#eee;
+.carouselButton:first-child {
+  left: 0;
 }
 
-.btn:focus, .btn:active, .btn:visited {
-  outline: none;
+.carouselButton:hover {
+  background-color: rgba(128, 130, 132, .3);
 }
 
 .featureCarousel i {
@@ -2064,6 +2072,10 @@ h4 {
     margin: 0;
     font-size: 25px;
   }
+
+  .carouselContainer {
+  height: 510px;
+  }
 }
 
 
@@ -2075,5 +2087,29 @@ h4 {
   .section-break h2 {
     font-size: 40px;
   }
+  .sideQuote {
+    width: 100%;
+  }
+  .definition {
+    margin: 0;
+  }
+
+  .featureCarousel i {
+  font-size: 15px;
+  }
+
+  .featureDescriptions p {
+    display: none;
+  }
+
+  .carouselContainer {
+  height: 380px;
+  }
 
 }
+
+@media screen and (max-width: 450px) {
+  .carouselContainer {
+    height: 280px;
+  }
+}  
