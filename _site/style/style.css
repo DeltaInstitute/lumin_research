@@ -728,15 +728,19 @@ h4 {
 
 .lightOn {
   opacity: 0;
-  animation: lightSwitchOn 3s linear infinite 8s;
+  filter: alpha(opacity=0);
+  -webkit-animation: lightSwitchOn 3s linear infinite 8s;
+          animation: lightSwitchOn 3s linear infinite 8s;
 }
 
 .string {
-  animation: pullString 3s linear infinite 8s;
+  -webkit-animation: pullString 3s linear infinite 8s;
+          animation: pullString 3s linear infinite 8s;
 }
 
 #lightOnNoAction {
-  animation: flicker 3s ease-in-out infinite;
+  -webkit-animation: flicker 3s ease-in-out infinite;
+          animation: flicker 3s ease-in-out infinite;
 }
 
 .exampleText {
@@ -744,63 +748,157 @@ h4 {
   color: #65a0b4;
 }
 
-@keyframes lightSwitchOn {
+@-webkit-keyframes lightSwitchOn {
   0% {
     opacity: 0;
+    filter: alpha(opacity=0);
   }
   30% {
     opacity: 0;
+    filter: alpha(opacity=0);
   }
   35% {
     opacity: 1;
+    filter: alpha(opacity=100);
   }
   60% {
     opacity: 1;
+    filter: alpha(opacity=100);
   }
   65% {
     opacity: 0;
+    filter: alpha(opacity=0);
   }
   100% {
     opacity: 0;
+    filter: alpha(opacity=0);
+  }
+}
+
+@keyframes lightSwitchOn {
+  0% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  30% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  35% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  60% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  65% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  100% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+}
+
+@-webkit-keyframes pullString {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  30% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  35%{
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  60% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  65%{
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @keyframes pullString {
   0% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   25% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   30% {
-    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
   }
   35%{
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   50% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   60% {
-    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
   }
   65%{
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
   100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes flicker {
+  0% {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  50% {
+    opacity: .6;
+    filter: alpha(opacity=60);
+  }
+  100%{
+    opacity: 1;
+    filter: alpha(opacity=100);
   }
 }
 
 @keyframes flicker {
   0% {
     opacity: 1;
+    filter: alpha(opacity=100);
   }
   50% {
     opacity: .6;
+    filter: alpha(opacity=60);
   }
   100%{
     opacity: 1;
+    filter: alpha(opacity=100);
   }
 }
 
