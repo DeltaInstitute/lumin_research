@@ -1,9 +1,9 @@
 ---
 layout: section
-title: Features Tested
+title: Features Piloted
 ---
 
-<p>Throughout the pilot period, participants were exposed to several methods of energy illumination. Energy use was illuminated using four different features including:</p>
+<p>IDEO and Delta developed and tested four unique features that displayed personal energy use in different ways, including energy use across time, by energy-consuming appliances or electronic devices, and how it relates to existing utility programs. Energy use was illuminated using four different features, including a:</p>
 
 <!-- Try carousel from scratch --> 
 <div class="featureCarousel">

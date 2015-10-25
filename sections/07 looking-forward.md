@@ -7,9 +7,9 @@ title: Looking Forward
 	<svg x="0px" y="0px" viewBox="-50 400 1200 300">
 		<g id="dl1">
 			<text transform="matrix(1 0 0 1 177.7056 600)" font-size="100">
-				<tspan x="0" y="0" fill="#FFFFFF" font-family="'Avenir'">DELTA</tspan>
-				<tspan x="312.9" y="0" fill="#FFFFFF" font-family="'AvenirMedium'">LUMIN </tspan>
-				<tspan x="660" y="0" fill="#FFFFFF" font-family="'Avenir'"> 1.0</tspan>
+				<tspan x="0" y="0" fill="#FFFFFF" font-family="'Open Sans'" font-weight="300">DELTA</tspan>
+				<tspan x="300" y="0" fill="#FFFFFF" font-family="'Open Sans'" font-weight="700">LUMIN </tspan>
+				<tspan x="665" y="0" fill="#FFFFFF" font-family="'Avenir'"> 1.0</tspan>
 			</text>
 		</g>
 		<g id="scratch">

@@ -2,7 +2,8 @@
 layout: section
 title: Final Pilot Cohort
 ---
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
+<p>The final pilot cohort consisted of a diverse group of 75 south and west side Chicago residents from XX different community areas. Though the age of participants varied, the majority were over 50 years old with XX over 65 years old. Most participating households were single- or two-person households, as many were retirees or parents with grown children. [income] 71% of participating households owned rather than rented their homes, and most homes were between [home size].</p>
+<p>At the pilot kick-off event, participants completed a baseline survey for the DeltaLumin program. This survey collected information related to their homes, appliances, interaction with ComEd, as well as actions they had taken to save energy in the past. Questions were asked both about energy-saving behaviors and any energy-efficient home appliances they have. This helped us to understand the potential for reducing total energy consumption through behavior change and home retrofits. </p>
 <svg x="0px" y="0px" viewBox="0 0 1200 550" class="participantProfile" height="550px" width="100%">
 	<g id="whoAreThey" class="profileTabs">
 		<rect x="0" y="0" height="65px" width="33.33%" fill="#eee" stroke="#fff" stroke-width="4px" rx="10" ry="10"></rect>
@@ -67,7 +68,7 @@ title: Final Pilot Cohort
 		</g>
 		<g id="efficientHome">
 			<rect x="2%" y="285" height="195" width="96%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
-			<text class="chartTitle" x="30%" y="320" font-size="1.5rem">Level of Home Energy Efficiency</text>
+			<text class="chartTitle" x="33%" y="320" font-size="1.5rem">Level of Home Energy Efficiency</text>
 			<line x1="10%" x2="90%" y1="435" y2="435" stroke="#000000"></line>
 			<circle class="effCircle" cx="10%" cy="435" r="17"></circle>
 			<g id="oneEfficiency">
@@ -116,7 +117,81 @@ title: Final Pilot Cohort
 	<g id="whereCharts" class="profileCharts">
 		<rect x="0" y="50px" width="100%" height="450px" fill="#eee" stroke="none" rx="10" ry="10"></rect>
 		<rect x="2%" y="75" height="400" width="40%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
-		<text class="chartTitle" x="4%" y="120" font-size="1.5rem">Participants by Zip Code</text> 
+		<g id="zipHeadings">
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" font-weight="700">Zip Code:</text>
+			<text x="23%" y="225px" font-size="20px" font-family="'Open Sans'" font-weight="700">Neighborhoods:</text>
+		</g>
+		<g id="zipText60638" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60638</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60652" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60652</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60615" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60615</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60621" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60621</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60636" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60636</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60649" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60649</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60617" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60617</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60643" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60643</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60653" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60653</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60628" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60628</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60629" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60629</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60620" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60620</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60637" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60637</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<g id="zipText60619" display="none">
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60619</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+		</g>
+		<text class="chartTitle" x="10%" y="120" font-size="1.5rem">Participants by Zip Code</text> 
 		<g id="chicagoMap">
 			<g id="chicagoOutline">
 			<desc>Generated with Qt</desc>
@@ -873,7 +948,7 @@ title: Final Pilot Cohort
 					l1.3-0.6l0.6-0.3l0,0l0-0.2l0-0.1l0-0.3l0-0.2v0l0-0.3l0-0.1l0-0.1l0,0l0-0.2l0,0l0-0.7l0-0.6l0-0.4v0l0,0l0-0.1l0-0.1l0-0.1l0,0
 					v0l0-0.1v0l0-1l0,0l0-0.1l0.6,0l0.2,0l1.1,0l0.1,0l0.1,0l1.2,0l0,0l0.1,0l0.1,0l0.1,0l0,0.9l0,0.4l-0.2,0.1L264.7,334.4"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60652" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#E8B480" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M299.7,381.3
 					L299.7,381.3l0,0.1l0,0.4l0,0.2l0,0.1l0,0.4l0,0.2v0l0,0.1v0l0,0.1l0,0.4l0,0.3l0,0.3l0,0.2l0,0.2l0,0.4l0,0.2l0,0.5l0,0.2l0,0.2
 					l0,0.2l0,0.2l0,0.1l0,0l0,0.3l0,0.1l0,0.2l0,0l0,0l0,0.2l0,0.2l0,0.1l0,0.2l0,0.1l0,0.1l0,0.1l0,0.1l0,0.2l0,0.2l0,0.1l0,0.2
@@ -893,7 +968,7 @@ title: Final Pilot Cohort
 					h0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0
 					l0,0l0,0l0,0l0,0h0l0,0l0,0l0,0h0l0,0h0h0h0h0h0h0h0l0.2,0l1.2,0l0.2,0l7.7,0l0.7,0.1l4.9-0.1l2.8-0.1l0,0.3L299.7,381.3"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60615" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#D68C29" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M358.1,344.8
 					L358.1,344.8l0.1,0l0.1,0h0l0,0l0,0l0.1,0l0.1,0l0,0l0,0l0,0l0,0l0,0l0,0.1l0,0.1l0,0l0,0.1l0,0.1l0,0l0,0l0,0l0,0l0,0.1l-0.1,0.3
 					l0.1,0l0,0l0,0l0,0.1l0,0l0,0.1l0,0.2l0,0.1l0,0.1l0,0.1l0,0.2l0,0.1l0,0.4l0,0.1l0,0.1l0,0.1l0,0.2l0,0.4l0,0.2l0.1,0.2l0,0.2
@@ -927,7 +1002,7 @@ title: Final Pilot Cohort
 					l0,0l0.1,0l0.1,0l0,0.1l0,0l0,0l0,0h0l0,0l0,0l0,0l0,0l0.1,0l0.1,0.1l0.1,0.1l0,0l0,0l0,0l0,0l0,0l0.1,0.1l0.1,0.1l0,0l0.1,0.1
 					l0,0l0,0l0,0l0,0.1l0,0.1l0.1,0.1L358.1,344.8L358.1,344.8L358.1,344.8L358.1,344.8"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60621" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#AA6718" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M333.1,374.8
 					L333.1,374.8l0,0.2l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0v0v0v0v0l0,0.1l0,0.4v0l0,0.1l0,0.4l0,0.4l0,0.3l0,0.2l0,0.1
 					l0,0.3l0,0.3l0,0.3l0,0.2l0,0.2l0,0.4l0,0.5l0,0.2l0,0.1l0,0.1l0,0.1l0,0.1l-0.2,0l-0.1,0h-0.1h-0.1h0l0,0l-0.1,0l-0.1,0l-0.1,0
@@ -955,6 +1030,8 @@ title: Final Pilot Cohort
 					l0,0.1l0,0.2l0,0.1l0,0.1l0,0.2l0,0.2l0,0.1l0,0.1l0,0v0l0,0.1v0l0,0l0,0.1v0.1l0,0.1l0,0.4l0,1l0,1.3l0,0.1l0,1.2l0,0.1l0,0
 					l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0l0,0.1l0,0.1l0,0.1l0,0l0,0.1v0.1l0,0.1l0,0.1v0.1l0,0.1v0.1v0v0.1l0,0.1v0l0,0.1v0v0l0,0.1
 					l0,0l0,0.2v0.1l0,0.1l0,0.1l0,0.1l0,0.1v0L333.1,374.8L333.1,374.8"/>
+			</g>
+			<g id="zip60636" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#AA6718" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M316.5,381
 					l-2.8-0.1l-1.8,0l-0.9,0l-5.6,0.1l-5.6,0.3l0-0.1l0-0.1l0-0.1v0l0,0l0,0l0-0.1l0-0.3l0-0.2l0-0.3l0-0.1l0-0.1l0-0.2l0-0.2l0-0.2
 					l0-0.2l0-0.2l0-0.1l0-0.2l0-0.2l0-0.2l0-0.2l0-0.2l0-0.2l0-0.1l0-0.2l0-0.2l0-0.1l0-0.2l0-0.2l0-0.2l0-0.2l0-0.2v0l0-0.2l0-0.2
@@ -981,7 +1058,7 @@ title: Final Pilot Cohort
 					l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0l0,0.1l0,0.1l0,0.1l0,0.1l0,0l0,0.1l0,0.1v0L316.5,381L316.5,381L316.5,381"
 					/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60649" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#703B0F" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M380.1,384.7
 					l-1.5,0.1l-0.2,0l-0.4,0l-0.7,0l-0.1,0l-0.2,0l-0.2,0h0l-0.2,0l-0.4,0l-0.2,0l-0.5,0l-0.3,0l-0.1,0l-0.3,0l-0.1,0l-0.1,0l-0.2,0
 					l-0.3,0h0l-0.3,0l-0.4,0h0l-0.3,0l-0.1,0l-0.2,0l0,0l-0.3,0l-0.3,0l-0.2,0l-0.2,0l-0.4,0l-0.3,0l-0.3,0l-0.3,0l-0.2,0l-0.4,0
@@ -1036,7 +1113,7 @@ title: Final Pilot Cohort
 					l0,0v0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0.1l0,0.1l0.1,0.2v0l0,0.1l0,0l0,0.1l0,0.1l0,0.1l0,0.1l0,0.1
 					l0,0.1l0,0.1l0,0.1l0,0.1l0,0l0,0l0,0l0,0l0,0L380.1,384.7L380.1,384.7L380.1,384.7L380.1,384.7L380.1,384.7L380.1,384.7"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60617" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#D68C29" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M380.3,384.8
 					L380.3,384.8L380.3,384.8L380.3,384.8L380.3,384.8L380.3,384.8l0.1,0l0,0l0.1,0l0,0l0,0l0,0l0,0h0h0.1l0,0l0,0l0,0l0,0l0.2,0h0.1
 					l0,0h0l0,0l0,0l0,0l0,0l0,0l0,0l0,0h0l0,0l0,0l0,0l0,0h0l0,0l0,0l0,0l0,0l0.1,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0
@@ -1089,7 +1166,7 @@ title: Final Pilot Cohort
 					l0.5,0l0.2,0l0.4,0l0.2,0h0l0.2,0l0.2,0l0.1,0l0.7,0l0.4,0l0.2,0l1.5-0.1l0,0L380.3,384.8L380.3,384.8L380.3,384.8L380.3,384.8
 					L380.3,384.8"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60643" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#FDD1A5" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M324.4,457.3
 					l-0.1,0l0,0l0,0.1l0,0.1l0,0.1l0,0.1h0l-1.3,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0h-0.1l-0.1,0l-0.1,0l-0.1,0
 					l-0.1,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0l0,0l0-0.2l0-0.3l0-0.1l0-0.4l0-0.1l0-0.1l0,0l0-0.2l0-0.1l0-0.1l0-0.1l0-0.1
@@ -1097,7 +1174,7 @@ title: Final Pilot Cohort
 					l0.1,0l0.1,0l0.1,0h0l0,0l0.1,0l0.2,0l0.1,0l0.2,0h0l0.1,0l0.1,0l0.1,0l0.2,0l0.1,0l0.1,0l0.1,0l0.2,0l0,0l0,0.9l0,0.5l0,0.7
 					l0,0.7l0,0.8l0,0.1L324.4,457.3"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60653" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#E8BA8B" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M345.5,324.2
 					l0,0.2l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0,0.1l0.1,0.1l0,0.1l0,0.1l0.1,0.2l0.1,0.2l0.2,0.3l0.2,0.4l0.1,0.1
 					l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1l0.1,0.1
@@ -1128,7 +1205,7 @@ title: Final Pilot Cohort
 					l0.2,0l0.1,0l0.1,0l0.3,0l0.2,0l0.2,0l0.1,0l0.3,0l0.1,0l0.2,0l0.1,0l0.2,0l0.2,0h0.2l0.1,0l0.4,0l0.3,0l0.3,0l0.3,0l0.1,0l0.2,0
 					h0.2l0.2,0l0.1,0l0.3,0l0.3,0l0.7,0l0.1,0l0.9,0l0.4,0l0.5,0l0.7,0l0.2,0L345.5,324.2L345.5,324.2"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60628" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#E2A359" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M356.3,408.3
 					l0,0.2v0.1l0,0.2l0,0l0,0.2l0,0.1v0l0,0.4l0,0.2l0,0.2l0,0.2l0,0.1l0,0.3l0,0.2l0,0.2l0,0.3l0,0.2l0,0.1l0,0.5l0,0.2l0,0.5l0,1
 					l0,0.5l0,0.8l0,1.4l0,1l0.1,1.5l0,0.6l0,0.1l0,0.3l0.9,25.3l-9.7-0.5l-0.2,0l0,0l0,0l0,0.1l0,0l0,0.1l0,0l0,0.1l0,0.1l0,0.1l0,0
@@ -1169,6 +1246,8 @@ title: Final Pilot Cohort
 					l0.1,0h0.2h0.2h0.1l0.3,0l0.2,0l0.5,0l0.1,0l0.4,0l0.4,0l0.5,0l0,0l0.3,0l0,0l0.3,0l0.2,0l0,0l0.1,0l0.3,0l0.1,0l0.2,0l0.2,0
 					l0.1,0l0.1,0l0.3,0l0.2,0h0.2h0.2l0.3,0l0.2,0l0.2,0l0.3,0l0.3,0l0.3,0l0.1,0l0,0l0.1,0l0.1,0l0.3,0l0.2,0l0.2,0l0.2,0l0.2,0
 					l0.3,0l0.2,0l0.1,0l0.3,0l0.1,0l0.1,0l0.1,0l0.4,0l0.1,0l0.3,0l0.3,0l0.1,0l0.2,0L356.3,408.3"/>
+			</g>
+			<g id="zip60629" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#E2A359" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M299.7,380.9
 					L299.7,380.9L299.7,380.9l0,0.1l0,0.1l0,0.1l-2.8,0.4l0-0.3l-2.8,0.1l-4.9,0.1l-0.7-0.1l-7.7,0l-0.2,0l-1.2,0l-0.2,0h0h0h0h0h0h0
 					h0l0,0h0l0,0l0,0l0,0h0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0l0,0
@@ -1199,7 +1278,7 @@ title: Final Pilot Cohort
 					l0,0.3l0,0.2l0,0.2l0,0.2v0l0,0.2l0,0.2l0,0.2l0,0.2l0,0.2l0,0.1l0,0.2l0,0.2l0,0.1l0,0.2l0,0.2l0,0.2l0,0.2l0,0.2l0,0.2l0,0.1
 					l0,0.2l0,0.2l0,0.2l0,0.2l0,0.2l0,0.1l0,0.1l0,0.3l0,0.2l0,0.3L299.7,380.9L299.7,380.9"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60620" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#E8BA8B" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M334.1,408.4
 					L334.1,408.4L334.1,408.4l-0.3,0l-0.2,0l-0.2,0l0,0l-0.1,0l-0.1,0l-0.1,0l-0.1,0l0,0l-0.3,0l-0.2,0l-0.2,0l-0.2,0l-0.1,0l-0.1,0h0
 					l-0.2,0l-0.2,0l-0.2,0l-0.1,0h0l-0.2,0l-0.2,0l-0.2,0l-0.1,0l-0.2,0l-0.3,0l-0.2,0l-0.1,0l-0.3,0l-0.2,0l0,0l-0.1,0l-0.1,0l-0.2,0
@@ -1230,6 +1309,8 @@ title: Final Pilot Cohort
 					l0,0.1v0l0,0.1l0,0.1l0,0.1l0,0l0,0.3l0,0.1l0,0.2l0,0.2l0,0.3l0,0.2l0,0.1l0,0.2l0,0.1l0,0.1l0,0.1l0,0.2l0,0.4l0,0.2l0,0.1
 					l0,0.1l0,0.1l0,0.2l0,0.1l0,0.2l0,0.4l0,0.2l0,0.2l0,0.1l0,0.6l0,0.1l0,0.3l0,0.3l0,0.1l0,0.1l0,0.1l0,0l0,0.1l0,0.1L334.1,408.4"
 					/>
+			</g>
+			<g id="zip60637" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#E8BA8B" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M360.5,351.8
 					L360.5,351.8L360.5,351.8l-0.3,0.1l-0.1,0L360,352l-0.1,0l-0.1,0.1l-0.1,0.1l-0.1,0.1l-0.1,0.1l-0.1,0.1l0,0l-0.1,0.2v0l0,0.1
 					l0,0.1l0,0l0,0l0,0l0,0.1l0,0.1l0,0l0,0.1l0,0.1v0.1l0,0.1l0,0.1l0,0.1v0.1v0.1l0,0.1l0,0.1l0,0.1l0,0.1l0,0l0,0.1l0,0l0,0.1
@@ -1270,7 +1351,7 @@ title: Final Pilot Cohort
 					l0.1,0l0.2,0l0.2,0l0.2,0h0l0.2,0l0.2,0l0.2,0l0.2,0l0.1,0l0.1,0l0.2,0l0.2,0l0.2,0l0.2,0l0.1,0l0.1,0l0.1,0l0.1,0h0l0.1,0l0.1,0
 					l0.1,0l0.9,0.1L360.5,351.8"/>
 			</g>
-			<g transform="matrix(1,0,0,1,35.4331,23.622)">
+			<g id="zip60619" transform="matrix(1,0,0,1,35.4331,23.622)">
 				<path vector-effect="none" fill="#D68C29" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="bevel" d="M355.6,385.3
 					L355.6,385.3l0,0.2l0,0.2l0,0.1v0l0,0.2v0l0,0.1v0v0v0v0l0,0v0.1l0,0.1l0,0.1l0,0.1l0,0l0,0.1l0,0.1l0,0.1l0,0.3l0,0.2l0,0.2
 					l0,0.4l0,0.5l0,0.2l0,0.2l0,0.1l0,0.4l0,0.4l0,0.2l0,0.3l0,0.1l0,0.3l0,0.4l0,0.2l0,0.1l0,0.2l0,0.2l0,0.3l0,0.2l0,0.2l0,0.3
@@ -1442,4 +1523,3 @@ title: Final Pilot Cohort
 		</g>
 	</g>
 </svg>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>

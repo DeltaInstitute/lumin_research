@@ -85,5 +85,5 @@ title: Implementing the Pilot
 </div>
 
 <div class="sectionIntro">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. </p>
+	<p>The DeltaLumin pilot ran for three months and included an onboarding process with an enrollment packet and kick-off events, twice-monthly energy updates communicating personal energy use, monthly workshops to solicitdirect feedback from participants through conversation and written surveys, and continued engagement and participant support.</p>
 </div>

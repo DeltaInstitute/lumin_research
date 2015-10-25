@@ -9,7 +9,7 @@ title: Measuring Engagement
 		<img src="img/workshopIcon.svg" class="img-responsive">
 	</div>
 	<div class="col-sm-9">
-		<h4>Monthly Workshop Activities & Discussion</h4>
+		<h4>Monthly workshop activities & discussion</h4>
 		<p>Participants were required to attend monthly in-person events to share reactions and insights related to the features they interacted with the previous month. Qualitative data was collected in the form of responses to open-ended discussion questions and reactions to interactive group activities. </p>
 	</div>
 </div>
@@ -19,7 +19,7 @@ title: Measuring Engagement
 	</div>
 	<div class="col-sm-9">
 		<h4>Monthly surveys</h4>
-		<p>Monthly surveys were distributed and completed at each Monthly Workshop. These were mixed method surveys with an emphasis on close-ended questions, but with open-ended questions included as necessary aiming to collect information about opinions, motivations, and intentions related to energy use generally and treatments more specifically.</p>
+		<p>Monthly surveys were distributed and completed at each monthly workshop. These were mixed method surveys with an emphasis on close-ended questions, but with open-ended questions included as necessary to collect information about opinions, motivations, and intentions related to energy use generally and treatments more specifically.</p>
 	</div>
 </div>
 <div class="row">

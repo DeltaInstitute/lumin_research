@@ -23,5 +23,5 @@ title: Building the Prototype
 </div>
 
 <div class="sectionIntro">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non. Duis purus ipsum, blandit fringilla interdum et, faucibus ac mauris.</p>
+	<p>The DeltaLumin team built a prototype web dashboard and communication service to test the energy illumination strategies developed in the earlier stages of the project. Developing the prototype involved building quick, low-fidelity versions of products and services we hypothesized would have an impact on our participants’ relationship with energy use. The next section will outline how the prototype was tested with users.</p>
 </div>

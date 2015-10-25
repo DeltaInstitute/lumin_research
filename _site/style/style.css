@@ -224,9 +224,9 @@ a, a:hover, a:active, a:visited {
 }
 
 .logos img {
-  opacity:.6;
-  transition: all .3s ease;
-  padding: 20px;
+  opacity:.8;
+  transition: all .2s ease;
+  padding: 0 25%;
   vertical-align: middle;
 }
 
@@ -289,7 +289,7 @@ a, a:hover, a:active, a:visited {
 
 .section-content li {
     font-size: 16px;
-    margin-top:1em;
+    margin-top:.2em;
 }
 
 .section-content ol {
@@ -299,6 +299,7 @@ a, a:hover, a:active, a:visited {
 
 .section-content ul {
     font-size: 16px;
+    margin:1em 5%;
 }
 
 .section-content strong {
@@ -1673,7 +1674,15 @@ h4 {
     padding-left: 0%;
 }
 
-#learning, #learningBackground, #interesting, #interestingBackground, #helpful, #helpfulBackground, #confusing, #confusingBackground, #eyeOpening, #eyeOpeningBackground {
+#learning, 
+#learningBackground, 
+#interesting, 
+#interestingBackground, 
+#helpful, #helpfulBackground, 
+#confusing, 
+#confusingBackground, 
+#eyeOpening, 
+#eyeOpeningBackground {
   opacity: 0;
 }
 
@@ -1820,7 +1829,11 @@ h4 {
     color: #fff;
 }
 
-#forecastEval, #applianceEval, #goalEval, #programEval #utilityBill {
+#forecastEval, 
+#applianceEval, 
+#goalEval, 
+#programEval,
+#utilityBill {
     width: 90%;
     height: 175px;
     box-sizing: border-box;
@@ -2163,7 +2176,10 @@ h4 {
 /*HCD Mobile Interaction*/
 
 @media screen and (max-width: 992px) {
-  #researchTitle svg, #developmentTitle svg, #refineTitle svg, #pilotTitle svg {
+  #researchTitle svg, 
+  #developmentTitle svg, 
+  #refineTitle svg, 
+  #pilotTitle svg {
     display:none;
   }
   #researchTitle, #developmentTitle {
@@ -2182,7 +2198,10 @@ h4 {
     padding: 1% 4%;
   }
 
-  #researchTitle p, #developmentTitle p, #refineTitle p, #pilotTitle p {
+  #researchTitle p, 
+  #developmentTitle p, 
+  #refineTitle p, 
+  #pilotTitle p {
     color: #fff;
     opacity: .6;
   }
@@ -2226,6 +2245,10 @@ h4 {
   .carouselContainer {
   height: 510px;
   }
+
+  .participantProfile {
+    height: 300px;
+  }
 }
 
 
@@ -2252,10 +2275,18 @@ h4 {
   height: 380px;
   }
 
+  .participantProfile {
+    height: 250px;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
   .carouselContainer {
     height: 280px;
+  }
+
+  .participantProfile {
+    height: 150px;
   }
 }  

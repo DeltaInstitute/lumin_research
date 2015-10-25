@@ -2,7 +2,7 @@
 layout: section
 title: Visualizing Energy Use
 ---
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
+<p>Several themes in the visual design of energy use information emerged through our early conversations with our targeted audience. One consistent finding was that participants found it much easier to understand their energy use when it was presented in dollars rather than in units of energy (kilowatt-hours or kwH). We also found that keeping information simple and clear was most effective in promoting understanding. These findings informed the design of our dashboard below.</p>
 
 <div class="dashboard">
 	<div class="computer">
@@ -291,4 +291,4 @@ title: Visualizing Energy Use
 	</div>	
 </div>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
+<p>Google Sheets provided a valuable development back end as we tweaked our energy models. The data was served to the front end, and scalable vector graphics (SVGs) were created on an as-needed basis using the JavaScript library D3.js.</p>

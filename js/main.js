@@ -267,6 +267,120 @@ $('#howTheyUseEnergy').on('click', function() {
 // Zipcode Interation
 //======================================================================================
 
+$('#zip60638').on('mouseenter', function(){
+    $('#zipText60638').attr('display', 'inline');
+});
+
+$('#zip60638').on('mouseout', function(){
+    $('#zipText60638').attr('display', 'none');
+});
+
+$('#zip60652').on('mouseenter', function(){
+    $('#zipText60652').attr('display', 'inline');
+});
+
+$('#zip60652').on('mouseout', function(){
+    $('#zipText60652').attr('display', 'none');
+});
+
+$('#zip60615').on('mouseenter', function(){
+    $('#zipText60615').attr('display', 'inline');
+});
+
+$('#zip60615').on('mouseout', function(){
+    $('#zipText60615').attr('display', 'none');
+});
+
+$('#zip60621').on('mouseenter', function(){
+    $('#zipText60621').attr('display', 'inline');
+});
+
+$('#zip60621').on('mouseout', function(){
+    $('#zipText60621').attr('display', 'none');
+});
+
+$('#zip60636').on('mouseenter', function(){
+    $('#zipText60636').attr('display', 'inline');
+});
+
+$('#zip60636').on('mouseout', function(){
+    $('#zipText60636').attr('display', 'none');
+});
+
+$('#zip60649').on('mouseenter', function(){
+    $('#zipText60649').attr('display', 'inline');
+});
+
+$('#zip60649').on('mouseout', function(){
+    $('#zipText60649').attr('display', 'none');
+});
+
+$('#zip60617').on('mouseenter', function(){
+    $('#zipText60617').attr('display', 'inline');
+});
+
+$('#zip60617').on('mouseout', function(){
+    $('#zipText60617').attr('display', 'none');
+});
+
+$('#zip60643').on('mouseenter', function(){
+    $('#zipText60643').attr('display', 'inline');
+});
+
+$('#zip60643').on('mouseout', function(){
+    $('#zipText60643').attr('display', 'none');
+});
+
+$('#zip60653').on('mouseenter', function(){
+    $('#zipText60653').attr('display', 'inline');
+});
+
+$('#zip60653').on('mouseout', function(){
+    $('#zipText60653').attr('display', 'none');
+});
+
+$('#zip60628').on('mouseenter', function(){
+    $('#zipText60628').attr('display', 'inline');
+});
+
+$('#zip60628').on('mouseout', function(){
+    $('#zipText60628').attr('display', 'none');
+});
+
+$('#zip60629').on('mouseenter', function(){
+    $('#zipText60629').attr('display', 'inline');
+});
+
+$('#zip60629').on('mouseout', function(){
+    $('#zipText60629').attr('display', 'none');
+});
+
+$('#zip60620').on('mouseenter', function(){
+    $('#zipText60620').attr('display', 'inline');
+});
+
+$('#zip60620').on('mouseout', function(){
+    $('#zipText60620').attr('display', 'none');
+});
+
+$('#zip60637').on('mouseenter', function(){
+    $('#zipText60637').attr('display', 'inline');
+});
+
+$('#zip60637').on('mouseout', function(){
+    $('#zipText60637').attr('display', 'none');
+});
+
+$('#zip60619').on('mouseenter', function(){
+    $('#zipText60619').attr('display', 'inline');
+});
+
+$('#zip60619').on('mouseout', function(){
+    $('#zipText60619').attr('display', 'none');
+});
+
+
+
 
 
 // Prototype animation

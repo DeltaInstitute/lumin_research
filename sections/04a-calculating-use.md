@@ -240,4 +240,13 @@ title: Calculating Energy Use
 	</svg>
 </div> 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Fusce erat tortor, pharetra ac cursus at, volutpat eu sem. Ut et semper velit, ac feugiat nulla. Sed ipsum leo, rutrum a justo et, aliquam iaculis elit. Proin scelerisque vitae massa nec elementum.</p>
+<p>Due to constraints in accessing individual smart meter data, we developed an energy model that estimated energy use data that we could then present visually to our participants.</p> 
+
+<p>To work around the constraints related to smart meter data availability, the DeltaLumin team collected information on: (1) current weather patterns during the pilot period, (2) individual energy use data for each participant going back two years, and (3) the current appliances in their home including date and models. This information was used to simulate personalized energy updates in several forms. Based on our research, we determined that the most important data to present to our participants included:</p>
+
+<ul>
+	<li>breaking down energy use by energy-consuming appliances and devices,</li> 
+	<li>breaking down energy use across time,</li>
+	<li>measuring progress towards typical energy use for the month, and </li>
+	<li>alignment with existing utility programs.</li>
+</ul>

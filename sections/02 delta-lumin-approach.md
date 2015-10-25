@@ -31,5 +31,5 @@ title: The DeltaLumin Approach
 </div>
 
 <div class="sectionIntro">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. </p>
+	<p>Delta worked with our partners to develop a user-focused, empathetic approach to product and program design. We began by spending time with our potential users, getting to know their relationship with energy use, technology, and preferred methods of communications. Those experiences directly informed the development of the DeltaLumin product and service.</p>
 </div>
