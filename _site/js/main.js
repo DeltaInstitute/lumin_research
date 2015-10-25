@@ -36,6 +36,7 @@ var prototypePosition = $('#prototype').offset().top;
 var pilotPosition = $('#pilot').offset().top;
 var learningPosition = $('#learning').offset().top;
 var futurePosition = $('#future').offset().top;
+var contactPosition = $('#contact').offset().top;
 
 $(window).on('scroll', function(){
     if ($(this).scrollTop() > approachPosition - 100) {
@@ -88,6 +89,15 @@ $(window).on('scroll', function(){
         $('#futureNav').addClass('activeNav');
     } else {
         $('#futureNav').removeClass('activeNav');
+    }
+});
+
+$(window).on('scroll', function(){
+    if ($(this).scrollTop() > contactPosition - 100) {
+        $('nav').find('a').removeClass('activeNav');
+        $('#contactNav').addClass('activeNav');
+    } else {
+        $('#contactNav').removeClass('activeNav');
     }
 });
 
@@ -267,121 +277,78 @@ $('#howTheyUseEnergy').on('click', function() {
 // Zipcode Interation
 //======================================================================================
 
-$('#zip60638').on('mouseenter', function(){
-    $('#zipText60638').attr('display', 'inline');
+
+
+$('#zip60638').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60638').fadeIn();
+    $('#zip60638').attr('stroke', '#000');
 });
 
-$('#zip60638').on('mouseout', function(){
-    $('#zipText60638').attr('display', 'none');
+$('#zip60652').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60652').fadeIn(300);
 });
 
-$('#zip60652').on('mouseenter', function(){
-    $('#zipText60652').attr('display', 'inline');
+$('#zip60615').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60615').fadeIn(300);
 });
 
-$('#zip60652').on('mouseout', function(){
-    $('#zipText60652').attr('display', 'none');
+$('#zip60621').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60621').fadeIn(300);
 });
 
-$('#zip60615').on('mouseenter', function(){
-    $('#zipText60615').attr('display', 'inline');
+$('#zip60636').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60636').fadeIn(300);
 });
 
-$('#zip60615').on('mouseout', function(){
-    $('#zipText60615').attr('display', 'none');
+$('#zip60649').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60649').fadeIn(300);
 });
 
-$('#zip60621').on('mouseenter', function(){
-    $('#zipText60621').attr('display', 'inline');
+$('#zip60617').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60617').fadeIn(300);
 });
 
-$('#zip60621').on('mouseout', function(){
-    $('#zipText60621').attr('display', 'none');
+$('#zip60643').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60643').fadeIn(300);
 });
 
-$('#zip60636').on('mouseenter', function(){
-    $('#zipText60636').attr('display', 'inline');
+$('#zip60653').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60653').fadeIn(300);
 });
 
-$('#zip60636').on('mouseout', function(){
-    $('#zipText60636').attr('display', 'none');
+$('#zip60628').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60628').fadeIn(300);
 });
 
-$('#zip60649').on('mouseenter', function(){
-    $('#zipText60649').attr('display', 'inline');
+$('#zip60629').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60629').fadeIn(300);
 });
 
-$('#zip60649').on('mouseout', function(){
-    $('#zipText60649').attr('display', 'none');
+$('#zip60620').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60620').fadeIn(300);
 });
 
-$('#zip60617').on('mouseenter', function(){
-    $('#zipText60617').attr('display', 'inline');
+$('#zip60637').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60637').fadeIn(300);
 });
 
-$('#zip60617').on('mouseout', function(){
-    $('#zipText60617').attr('display', 'none');
+$('#zip60619').on('click', function(){
+    $('.zipText').hide();
+    $('#zipText60619').fadeIn(300);
 });
-
-$('#zip60643').on('mouseenter', function(){
-    $('#zipText60643').attr('display', 'inline');
-});
-
-$('#zip60643').on('mouseout', function(){
-    $('#zipText60643').attr('display', 'none');
-});
-
-$('#zip60653').on('mouseenter', function(){
-    $('#zipText60653').attr('display', 'inline');
-});
-
-$('#zip60653').on('mouseout', function(){
-    $('#zipText60653').attr('display', 'none');
-});
-
-$('#zip60628').on('mouseenter', function(){
-    $('#zipText60628').attr('display', 'inline');
-});
-
-$('#zip60628').on('mouseout', function(){
-    $('#zipText60628').attr('display', 'none');
-});
-
-$('#zip60629').on('mouseenter', function(){
-    $('#zipText60629').attr('display', 'inline');
-});
-
-$('#zip60629').on('mouseout', function(){
-    $('#zipText60629').attr('display', 'none');
-});
-
-$('#zip60620').on('mouseenter', function(){
-    $('#zipText60620').attr('display', 'inline');
-});
-
-$('#zip60620').on('mouseout', function(){
-    $('#zipText60620').attr('display', 'none');
-});
-
-$('#zip60637').on('mouseenter', function(){
-    $('#zipText60637').attr('display', 'inline');
-});
-
-$('#zip60637').on('mouseout', function(){
-    $('#zipText60637').attr('display', 'none');
-});
-
-$('#zip60619').on('mouseenter', function(){
-    $('#zipText60619').attr('display', 'inline');
-});
-
-$('#zip60619').on('mouseout', function(){
-    $('#zipText60619').attr('display', 'none');
-});
-
-
-
-
 
 // Prototype animation
 //======================================================================================
@@ -432,7 +399,6 @@ $('.calcFlowChart').each(function () {
     });
 });
 
-
 // Pilot animation
 //======================================================================================
 $(window).scroll(function () {
@@ -449,7 +415,7 @@ $('.feedback').each(function () {
     });
 });
 
-// Survey Results - Treatment Eval Animation
+// Survey Results - Feature Eval Animation
 //======================================================================================
 var div1=d3.select(document.getElementById('div1'));
     var forecastEval=d3.select(document.getElementById('forecastEval'));
@@ -507,6 +473,22 @@ $('.charts').each(function () {
                 .value(31)
                 .render();
     }
+
+// Spending forecast to engagement
+//======================================================================================
+$('#efficiencyButton').on('click', function(){
+    $(this).find('.buttonToFill').find('path').attr('fill', '#cccccc');
+    $('#conservationButton').find('.buttonToFill').find('rect').attr('fill', '#fff');
+    $('#forecastConservation').fadeOut();
+    $('#forecastEfficiency').fadeIn();
+});
+
+$('#conservationButton').on('click', function(){
+    $(this).find('.buttonToFill').find('rect').attr('fill', '#cccccc');
+    $('#efficiencyButton').find('.buttonToFill').find('path').attr('fill', '#fff');
+    $('#forecastEfficiency').fadeOut();
+    $('#forecastConservation').fadeIn();
+});
 
 // Web Analytics
 //======================================================================================

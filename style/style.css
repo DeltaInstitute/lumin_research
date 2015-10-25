@@ -332,6 +332,7 @@ h4 {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
+    margin-top: 2em;
 }
 
 .sideQuote {
@@ -383,6 +384,7 @@ h4 {
 
 .meetTheTeam h4 {
   opacity: .6;
+  margin-top: 0;
 }
 
 .meetTheTeam a {
@@ -1134,7 +1136,14 @@ h4 {
 
 .chartTitle {
   text-align: center; 
-  
+}
+
+.zipBoundary {
+  stroke: #fff;
+}
+
+.clicked path {
+  stroke: #000;
 }
 
 /* Prototype animation
@@ -1802,7 +1811,6 @@ h4 {
 }
 
 .surveyFeatureBaseline svg {
-    height: 350px;
     width:100%;
     padding-top: 5vh;
     padding-left: 10%; 
@@ -1894,6 +1902,13 @@ h4 {
     border-radius: 10px;
     background: #FFFFFF;
     color: #000;
+}
+
+
+#hypothesisButton, 
+#conservationButton, 
+#efficiencyButton {
+  cursor: pointer;
 }
 
 
