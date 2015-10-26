@@ -1907,7 +1907,9 @@ h4 {
 
 #hypothesisButton, 
 #conservationButton, 
-#efficiencyButton {
+#efficiencyButton, 
+#actionButton, 
+#intentionButton {
   cursor: pointer;
 }
 

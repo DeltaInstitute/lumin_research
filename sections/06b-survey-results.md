@@ -58,6 +58,199 @@ title: Survey Results
 
 <h4>General Engagement</h4>
 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+
+<br>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 800" enable-background="new 0 0 1200 800" xml:space="preserve">
+<g id="intentionSummary" display="none">
+	<rect x="647" y="359.5" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="86"/>
+	<rect x="700.3" y="336.8" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="108.8"/>
+	<rect x="753.7" y="419.7" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="25.8"/>
+	<rect x="887" y="359.5" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="86"/>
+	<rect x="940.3" y="348" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="97.5"/>
+	<rect x="993.7" y="391.6" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="53.9"/>
+	<rect x="647" y="687.5" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="74.3"/>
+	<rect x="700.3" y="639.4" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="122.5"/>
+	<rect x="753.7" y="734.6" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="27.3"/>
+	<rect x="887" y="708.1" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="53.7"/>
+	<rect x="940.3" y="650" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="111.8"/>
+	<rect x="993.7" y="683.3" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="78.5"/>
+	<text transform="matrix(1 0 0 1 443.5967 381.902)"><tspan x="0" y="0" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">NO DATA</tspan><tspan x="-6.7" y="24" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">AVAILABLE</tspan></text>
+	<text transform="matrix(1 0 0 1 443.5967 700.7935)"><tspan x="0" y="0" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">NO DATA</tspan><tspan x="-6.7" y="24" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">AVAILABLE</tspan></text>
+	<text transform="matrix(1 0 0 1 569.5144 225.5182)" font-family="'OpenSans'" font-size="30">Conservation Intentions</text>
+	<text transform="matrix(1 0 0 1 587.6602 542.7317)" font-family="'OpenSans'" font-size="30">Efficiency Intentions</text>
+	<rect x="486" y="74.4" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
+	<text transform="matrix(1 0 0 1 518.7657 94.0338)" font-family="'OpenSans'" font-size="20">Percent of Participants who Increased Intentions</text>
+	<rect x="486" y="105.8" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
+	<text transform="matrix(1 0 0 1 518.7657 125.4944)" font-family="'OpenSans'" font-size="20">Percent of Participants who Sustained Intentions</text>
+	<rect x="486" y="138.4" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
+	<text transform="matrix(1 0 0 1 518.7657 158.0787)" font-family="'OpenSans'" font-size="20">Percent of Participants who Decreased Intentions</text>
+</g>
+<g id="actionSummary">
+	<rect x="407" y="327" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="119.5"/>
+	<rect x="460.3" y="374" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="72.5"/>
+	<rect x="513.7" y="352.7" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="93.8"/>
+	<rect x="647" y="365.3" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="80.2"/>
+	<rect x="700.3" y="343.7" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="101.8"/>
+	<rect x="753.7" y="361.6" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="83.9"/>
+	<rect x="887" y="368.1" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="77.4"/>
+	<rect x="940.3" y="327" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="118.5"/>
+	<rect x="993.7" y="368.1" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="77.4"/>
+	<rect x="407" y="613.2" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="148.6"/>
+	<rect x="460.3" y="661.3" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="100.5"/>
+	<rect x="513.7" y="724" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="37.8"/>
+	<rect x="647" y="704.5" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="57.3"/>
+	<rect x="700.3" y="570" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="191.8"/>
+	<rect x="753.7" y="724" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="37.8"/>
+	<rect x="887" y="710.9" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="50.9"/>
+	<rect x="940.3" y="623" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="138.8"/>
+	<rect x="993.7" y="670" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="91.8"/>
+	<text transform="matrix(1 0 0 1 588.7322 224.9887)" font-family="'OpenSans'" font-size="30">Conservation Actions</text>
+	<text transform="matrix(1 0 0 1 606.8779 542.2021)" font-family="'OpenSans'" font-size="30">Efficiency Actions</text>
+	<rect x="486.2" y="74.9" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
+	<text transform="matrix(1 0 0 1 518.971 94.5956)" font-family="'OpenSans'" font-size="20">Percent of Participants who Increased Actions</text>
+	<rect x="486.2" y="106.4" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
+	<text transform="matrix(1 0 0 1 518.971 126.0562)" font-family="'OpenSans'" font-size="20">Percent of Participants who Sustained Actions</text>
+	<rect x="486.2" y="139" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
+	<text transform="matrix(1 0 0 1 518.971 158.6405)" font-family="'OpenSans'" font-size="20">Percent of Participants who Decreased Actions</text>
+</g>
+<g id="actionButton">
+	<g class="buttonToFill">
+		<g>
+			<path fill="#6ba1b9" stroke="#000000" stroke-miterlimit="10" d="M719.4,62.2h-0.5H447c-7.6,0-13.8-6.2-13.8-13.8V26
+				c0-7.6,6.2-13.8,13.8-13.8h271.9h0.5"/>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="718.9" y1="12.2" x2="718.9" y2="62.2"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 494.89 44.8414)" font-family="'OpenSans'" font-size="25" fill="#fff">Actions Taken</text>
+</g>
+<g id="intentionButton">
+	<g class="buttonToFill">
+		<g>
+			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M718.9,12.2h290.1c7.6,0,13.8,6.2,13.8,13.8v22.4
+				c0,7.6-6.2,13.8-13.8,13.8H718.9"/>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="718.9" y1="12.2" x2="718.9" y2="62.2"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 749.754 44.8412)" font-family="'OpenSans'" font-size="25">Intentions Reported</text>
+</g>
+<g id="generalEngBackground">
+	<g id="stringEff">
+		<line fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" x1="253.8" y1="640" x2="253.8" y2="687.5"/>
+		<rect x="252.4" y="680.6" fill="#656E72" width="2.9" height="8.5"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M253.8,641c0-6.6-5.4-12-12-12"/>
+	</g>
+	<polygon fill="#656E72" points="180.6,632 202.7,746.5 84.1,746.8 70.9,678.6 	"/>
+	<polyline fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" points="225.8,740.7 225.8,636 242.2,636 242.2,740.7 	"/>
+	<polyline fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" points="225.8,740.7 206,740.7 206,746.9 262.7,746.9 
+		262.7,740.7 242.2,740.7 	"/>
+	<g id="incandescent">
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M174.8,729.2l-13.2-4c-2.1-0.6-5.2-3.2-6.3-5.6
+			c-8.3-18.3-30.8-14.6-35.7,1.6l0,0.2c-4.3,14.3,9.5,32.6,28.8,21.3c1.7-1.1,5.6-2.1,8.3-1.2l13.2,4"/>
+		<g id="lines">
+			<line fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" x1="160.8" y1="742.6" x2="165.7" y2="726.4"/>
+		</g>
+		<g id="fillament">
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M161.8,738.9c-9.5-6.1-23.7-3.2-23.1-0.7"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M138.8,738.2c0.7,1.7,6.6-2.6,5.9-4.5"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M144.8,733.7c-0.4-1.6-6.4-2.5-6.4-0.7"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M138.4,733c0.2,1.4,6.9,0,6.8-2.3"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M145.1,730.7c-0.2-2.2-4.9-5-5.4-3.5"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M139.7,727.2c-0.2,1.7,6.4,2.1,6.7,0.2"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M146.3,727.6c0.9-1.7-3.7-6.5-4.8-5"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M141.5,722.6c-0.7,1.7,5,2.9,6.1,1.8"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M147.6,724.4c1.4-1.4-2.3-7.7-3.6-6.1"/>
+			<path fill="none" stroke="#656E72" stroke-miterlimit="10" d="M143.9,718.2c-1.6,1.6,12.8,11.8,20.8,11.6"/>
+		</g>
+	</g>
+	<g id="cfl">
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M241.9,610.6c2.3,0.5,4.7,1.3,7.2,2.4"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M230.7,608.7c2.3-0.2,4.7-0.2,7.4,0.2"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M218.5,612.9c0,0,2.9-1.6,7.8-2.6"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M226.8,626.7c0,0,6.2,1.7,14.1,0"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M223,619.9c0,3.7,1.7,6.8,3.7,6.8"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M245.2,619.9c0,3.6-2.1,6.5-4.7,6.5"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M218.5,612.9c0,3.8,2,6.9,4.5,6.9"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M249.1,612.9c0,3.8-1.7,6.9-3.8,6.9"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M218.5,612.9c0,0,15.3,3.5,30.6,0"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M241.1,612.5c0-3.4,3.5-5,6.7-6.2"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M237.3,612.9c-0.3-5.3,3.5-7.9,7.1-9.7"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M248,600.5c2.6,2.8,1.3,5.2,0,5.7"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M249.5,597.2c0,4.5-13.3,8.1-29.8,8.1"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M247.7,594.5c0,3.7-12.7,6.7-28.5,6.7"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M249.2,591.4c0,4.4-13.6,7.9-30.4,7.9"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M246.1,588.6c0,3.6-12.2,6.6-27.2,6.6"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M238.8,585.9c0,2.1-8.7,3.8-19.4,3.8"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M243.2,586.5c0,4.3-10.8,7.1-23.8,7.1"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M249.5,591.2c0-1.6-1.4-2.8-3.1-2.8"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M249.8,597c0-1.4-0.8-2.6-1.8-2.6"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M226.5,611.5c0-3.5-1.9-6.2-4.2-6.2"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M230.9,611c0-3.2-1.3-5.7-2.8-5.7"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M219.2,600.9c-0.3,1.8,0.2,4,0.5,4"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M218.8,594.8c-0.3,1.2-0.3,2.2,0.2,4"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M219.4,589.4c-0.4,1.6-0.4,1.9,0,3.8"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M226.2,587.6c0-0.9,5.6-1.6,12.6-1.6"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M243.2,586.5c0-2.5-4.3-4.5-9.7-4.5"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M226,587.6c-0.3-4,1.5-5,7.7-5.6"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M226.2,587.4c0,0.5,3.5,0.8,7.8,0.8"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M246.1,588.4c0-0.3-1.4-0.6-3.2-0.6"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M242,592c0-0.6-1.7-1-3.7-1"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M219.7,593.9c0,0.4,3.4,0.7,7.6,0.7"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M237,591.8c0,0.3,1.7,0.6,3.8,0.6"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M248.2,594.4c0-0.2-0.3-0.3-0.7-0.3"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M243.5,597.9c0-0.5-1.2-1-2.6-1"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M238.3,597.7c0,0.4,1.8,0.7,4.1,0.7"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M220.7,599.3c0,0.6,4.7,1,10.4,1"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M241.3,602.7c0,0.2,1.4,0.4,3.1,0.4"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M230.9,611c0,0.3-1.9,0.5-4.4,0.5"/>
+		<path fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" d="M241.1,612.5c0,0.2-1.7,0.4-3.8,0.4"/>
+		<line fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" x1="226.5" y1="626.6" x2="226.5" y2="636.2"/>
+		<line fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" x1="241.3" y1="636" x2="241.3" y2="627"/>
+	</g>
+	<line fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" x1="185.5" y1="322.6" x2="185.5" y2="376.5"/>
+	<rect x="184.2" y="369.9" fill="#656E72" width="2.8" height="8.1"/>
+	<polyline fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" points="158.7,427.5 158.7,340.7 174.4,340.7 174.4,427.5 	"/>
+	<polyline fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" points="158.7,427.5 139.8,427.5 139.8,433.4 194,433.4 
+		194,427.5 174.4,427.5 	"/>
+	<text transform="matrix(1 0 0 1 439.7346 470.8759)" font-family="'OpenSans-Bold'" font-size="20">MONTH 1</text>
+	<text transform="matrix(1 0 0 1 680.2346 470.8757)" font-family="'OpenSans-Bold'" font-size="20">MONTH 2</text>
+	<text transform="matrix(1 0 0 1 919.7346 470.8756)" font-family="'OpenSans-Bold'" font-size="20">MONTH 3</text>
+	<text transform="matrix(1 0 0 1 439.7346 787.8594)" font-family="'OpenSans-Bold'" font-size="20">MONTH 1</text>
+	<text transform="matrix(1 0 0 1 680.2346 787.8593)" font-family="'OpenSans-Bold'" font-size="20">MONTH 2</text>
+	<text transform="matrix(1 0 0 1 919.7346 787.8591)" font-family="'OpenSans-Bold'" font-size="20">MONTH 3</text>
+	<text transform="matrix(1 0 0 1 296.1539 419.666)" font-family="'OpenSans'" font-size="12.6081">10%</text>
+	<text transform="matrix(1 0 0 1 296.1539 391.5847)" font-family="'OpenSans'" font-size="12.6081">20%</text>
+	<text transform="matrix(1 0 0 1 296.0285 361.5847)" font-family="'OpenSans'" font-size="12.6081">30%</text>
+	<text transform="matrix(1 0 0 1 296.0286 333.4998)" font-family="'OpenSans'" font-size="12.6081">40%</text>
+	<text transform="matrix(1 0 0 1 296.0288 305.4998)" font-family="'OpenSans'" font-size="12.6081">50%</text>
+	<text transform="matrix(1 0 0 1 296.1538 277.4998)" font-family="'OpenSans'" font-size="12.6081">60%</text>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="445.5" x2="1128" y2="445.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="416.5" x2="1128" y2="416.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="388.5" x2="1128" y2="388.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="359.5" x2="1128" y2="359.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="331.5" x2="1128" y2="331.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="326" y1="302.5" x2="1127" y2="302.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="274.5" x2="1128" y2="274.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="245.5" x2="1128" y2="245.5"/>
+	<text transform="matrix(1 0 0 1 294.17 736.1663)" font-family="'OpenSans'" font-size="12.6081">10%</text>
+	<text transform="matrix(1 0 0 1 294.17 708.085)" font-family="'OpenSans'" font-size="12.6081">20%</text>
+	<text transform="matrix(1 0 0 1 294.0446 678.085)" font-family="'OpenSans'" font-size="12.6081">30%</text>
+	<text transform="matrix(1 0 0 1 294.0447 650)" font-family="'OpenSans'" font-size="12.6081">40%</text>
+	<text transform="matrix(1 0 0 1 294.0449 622)" font-family="'OpenSans'" font-size="12.6081">50%</text>
+	<text transform="matrix(1 0 0 1 294.1699 594)" font-family="'OpenSans'" font-size="12.6081">60%</text>
+	<polygon fill="#656E72" points="222.5,344.7 110.9,344.7 132.2,233.1 198.7,233.1 	"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="732.5" x2="1128" y2="732.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="704.5" x2="1128" y2="704.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="674.5" x2="1128" y2="674.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="646.5" x2="1128" y2="646.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="326" y1="618.5" x2="1127" y2="618.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="590.5" x2="1128" y2="590.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="561.5" x2="1128" y2="561.5"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="761.5" x2="1128" y2="761.5"/>
+</g>
+</svg>
+
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
 
 <h4>Spending Forecast and Engagement</h4>
@@ -436,6 +629,7 @@ title: Survey Results
 	<text transform="matrix(1 0 0 1 585.9958 87.639)" font-family="'OpenSans'" font-size="25">Conservation Actions</text>
 </g>
 </svg>
+<br>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
 

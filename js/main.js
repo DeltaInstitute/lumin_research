@@ -474,18 +474,44 @@ $('.charts').each(function () {
                 .render();
     }
 
+// General Engagement
+//======================================================================================
+
+$('#actionButton').on('click', function(){
+    $(this).find('.buttonToFill').find('path').attr('fill', '#6ba1b9');
+    $(this).find('text').attr('fill', '#fff');
+    $('#intentionButton').find('.buttonToFill').find('path').attr('fill', '#fff');
+    $('#intentionButton').find('text').attr('fill', '#000');
+    $('#intentionSummary').fadeOut();
+    $('#actionSummary').fadeIn();
+});
+
+$('#intentionButton').on('click', function(){
+    $(this).find('.buttonToFill').find('path').attr('fill', '#6ba1b9');
+    $(this).find('text').attr('fill', '#fff');
+    $('#actionButton').find('.buttonToFill').find('path').attr('fill', '#fff');
+    $('#actionButton').find('text').attr('fill', '#000');
+    $('#actionSummary').fadeOut();
+    $('#intentionSummary').fadeIn();
+});
+
+
 // Spending forecast to engagement
 //======================================================================================
 $('#efficiencyButton').on('click', function(){
-    $(this).find('.buttonToFill').find('path').attr('fill', '#cccccc');
+    $(this).find('.buttonToFill').find('path').attr('fill', '#6ba1b9');
+    $(this).find('text').attr('fill', '#fff');
     $('#conservationButton').find('.buttonToFill').find('rect').attr('fill', '#fff');
+    $('#conservationButton').find('text').attr('fill', '#000');
     $('#forecastConservation').fadeOut();
     $('#forecastEfficiency').fadeIn();
 });
 
 $('#conservationButton').on('click', function(){
-    $(this).find('.buttonToFill').find('rect').attr('fill', '#cccccc');
+    $(this).find('.buttonToFill').find('rect').attr('fill', '#6ba1b9');
+    $(this).find('text').attr('fill', '#fff');
     $('#efficiencyButton').find('.buttonToFill').find('path').attr('fill', '#fff');
+    $('#efficiencyButton').find('text').attr('fill', '#000');
     $('#forecastEfficiency').fadeOut();
     $('#forecastConservation').fadeIn();
 });
