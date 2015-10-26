@@ -1,18 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 800 500" enable-background="new 0 0 800 500" xml:space="preserve">
+<style type="text/css" >
+    <![CDATA[
+		@font-face { font-family: 'Avenir'; src: url('../style/AvenirNextLTPro-Regular.otf'); } 
+		@font-face { font-family: AvenirDemi; src: url('../style/AvenirNextLTPro-Demi.otf'); } 
+		@font-face { font-family: AvenirMedium; src: url('../style/AvenirNextLTPro-Medium.otf'); } 
+
+		text {
+		font-family: 'Open Sans', sans-serif;
+		}
+	]]>
+</style>
 <g id="Layer_1">
-	<text transform="matrix(1 0 0 1 16.416 19.032)" font-family="'Avenir'" font-size="25.3609">Program Match</text>
+	<text transform="matrix(1 0 0 1 16.416 19.032)" font-size="25.3609">Program Match</text>
 	<rect x="16.4" y="30.2" fill="none" width="767.2" height="49.1"/>
-	<text transform="matrix(1 0 0 1 16.416 44.5305)"><tspan x="0" y="0" font-family="'Avenir'" font-size="19.0207">We have used the personal energy information you provided at the beginning of the </tspan><tspan x="0" y="22.8" font-family="'Avenir'" font-size="19.0207">Pilot to identify utility programs that might help you reduce your energy spending.</tspan></text>
+	<text transform="matrix(1 0 0 1 16.416 44.5305)"><tspan x="0" y="0" font-size="19.0207">We have used the personal energy information you provided at the beginning of the </tspan><tspan x="0" y="22.8" font-size="19.0207">Pilot to identify utility programs that might help you reduce your energy spending.</tspan></text>
 	<rect x="159.1" y="91.3" fill="none" width="624.5" height="133.1"/>
-	<text transform="matrix(1 0 0 1 159.0713 105.6829)"><tspan x="0" y="0" font-family="'Avenir'" font-size="19.0207">ComEd Lighting Discount</tspan><tspan x="0" y="22.8" font-family="'Avenir'" font-size="19.0207">You indicated that you have 3 incandescent and 15 CFL light bulbs in </tspan><tspan x="0" y="45.6" font-family="'Avenir'" font-size="19.0207">your home. By replacing your less efficient bulbs with LEDs we estimate </tspan><tspan x="0" y="68.5" font-family="'Avenir'" font-size="19.0207">you could save up to $3.81 per month. ComEd offers more efficient </tspan><tspan x="0" y="91.3" font-family="'Avenir'" font-size="19.0207">bulbs at a discount at participating retailers. Interested? Learn more at </tspan><tspan x="0" y="114.1" font-family="'Avenir'" font-size="19.0207">www.comed.com/home-savings/discounts/Pages/default.aspx</tspan></text>
+	<text transform="matrix(1 0 0 1 159.0713 105.6829)"><tspan x="0" y="0" font-size="19.0207" font-weight="700">ComEd Lighting Discount</tspan><tspan x="0" y="22.8" font-size="19.0207">You indicated that you have 3 incandescent and 15 CFL light bulbs in </tspan><tspan x="0" y="45.6" font-size="19.0207">your home. By replacing your less efficient bulbs with LEDs we estimate </tspan><tspan x="0" y="68.5" font-size="19.0207">you could save up to $3.81 per month. ComEd offers more efficient </tspan><tspan x="0" y="91.3" font-size="19.0207">bulbs at a discount at participating retailers. Interested? Learn more at </tspan><tspan x="0" y="114.1" font-size="19.0207">www.comed.com/home-savings/discounts/Pages/default.aspx</tspan></text>
 	<rect x="159.1" y="241.1" fill="none" width="624.5" height="133.1"/>
-	<text transform="matrix(1 0 0 1 159.0713 255.4632)"><tspan x="0" y="0" font-family="'Avenir'" font-size="19.0207">ComEd Central AC Cycling</tspan><tspan x="0" y="22.8" font-family="'Avenir'" font-size="19.0207">You indicated that you have central air conditioning in your home. Earn </tspan><tspan x="0" y="45.6" font-family="'Avenir'" font-size="19.0207">up to $10 in bill credits by signing up for Central AC Cycling. Interest</tspan><tspan x="594.9" y="45.6" font-family="'Avenir'" font-size="19.0207">-</tspan><tspan x="0" y="68.5" font-family="'Avenir'" font-size="19.0207">ed? Learn more at www. comed.com/home-savings/energymanage</tspan><tspan x="584.9" y="68.5" font-family="'Avenir'" font-size="19.0207">-</tspan><tspan x="0" y="91.3" font-family="'Avenir'" font-size="19.0207">ment/Pages/central-ac-cycling.aspx</tspan></text>
+	<text transform="matrix(1 0 0 1 159.0713 255.4632)"><tspan x="0" y="0" font-size="19.0207" font-weight="700">ComEd Central AC Cycling</tspan><tspan x="0" y="22.8" font-size="19.0207">You indicated that you have central air conditioning in your home. Earn </tspan><tspan x="0" y="45.6" font-size="19.0207">up to $10 in bill credits by signing up for Central AC Cycling. Interested</tspan><tspan x="594.9" y="45.6" font-size="19.0207">-</tspan><tspan x="0" y="68.5" font-size="19.0207">Learn more at www. comed.com/home-savings/energymanage</tspan><tspan x="584.9" y="68.5" font-size="19.0207">-</tspan><tspan x="0" y="91.3" font-size="19.0207">ment/Pages/central-ac-cycling.aspx</tspan></text>
 	<rect x="159.1" y="367.9" fill="none" width="624.5" height="133.1"/>
-	<text transform="matrix(1 0 0 1 159.0713 382.2683)"><tspan x="0" y="0" font-family="'Avenir'" font-size="19.0207">ComEd Refrigerator and Freezer Recycling</tspan><tspan x="0" y="22.8" font-family="'Avenir'" font-size="19.0207">You indicated that you have an inefficient refrigerator. You can save up </tspan><tspan x="0" y="45.6" font-family="'Avenir'" font-size="19.0207">to $11.57 per month by replacing it with a more efficient model and </tspan><tspan x="0" y="68.5" font-family="'Avenir'" font-size="19.0207">earn a one-time $50 rebate for recycling your refrigerator. Interested? </tspan><tspan x="0" y="91.3" font-family="'Avenir'" font-size="19.0207">Learn more at www. comed.com/home-savings/recycling/Pages/de</tspan><tspan x="584.3" y="91.3" font-family="'Avenir'" font-size="19.0207">-</tspan><tspan x="0" y="114.1" font-family="'Avenir'" font-size="19.0207">fault.aspx</tspan></text>
+	<text transform="matrix(1 0 0 1 159.0713 382.2683)"><tspan x="0" y="0" font-size="19.0207" font-weight="700">ComEd Refrigerator and Freezer Recycling</tspan><tspan x="0" y="22.8" font-size="19.0207">You indicated that you have an inefficient refrigerator. You can save up </tspan><tspan x="0" y="45.6" font-size="19.0207">to $11.57 per month by replacing it with a more efficient model and </tspan><tspan x="0" y="68.5" font-size="19.0207">earn a one-time $50 rebate for recycling your refrigerator. Interested? </tspan><tspan x="0" y="91.3" font-size="19.0207">Learn more at www. comed.com/home-savings/recycling/Pages/de</tspan><tspan x="584.3" y="91.3" font-size="19.0207">-</tspan><tspan x="0" y="114.1" font-size="19.0207">fault.aspx</tspan></text>
 </g>
 <g id="website">
 	<g>

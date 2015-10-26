@@ -1130,6 +1130,8 @@ h4 {
   transform: translate(-145px, -40px);
 }
 
+
+
 .grayFill {
   background-color: gray;
 }
@@ -1140,6 +1142,7 @@ h4 {
 
 .zipBoundary {
   stroke: #fff;
+  cursor: pointer;
 }
 
 .clicked path {
@@ -1447,18 +1450,18 @@ h4 {
 }
 
 #allScrollContent {
-  -webkit-animation: exploreSite 30s linear infinite;
-          animation: exploreSite 30s linear infinite;
+  -webkit-animation: exploreSite 20s linear infinite;
+          animation: exploreSite 20s linear infinite;
 }
 
 #week {
-  -webkit-animation: hideWeek 30s linear infinite;
-  animation: hideWeek 30s linear infinite;
+  -webkit-animation: hideWeek 20s linear infinite;
+  animation: hideWeek 20s linear infinite;
 }
 
 #month {
-  -webkit-animation: showMonth 30s linear infinite;
-  animation: showMonth 30s linear infinite;
+  -webkit-animation: showMonth 20s linear infinite;
+  animation: showMonth 20s linear infinite;
 }
 
 @-webkit-keyframes exploreSite {
@@ -2017,7 +2020,9 @@ h4 {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
+ .surveyResultSVG {
+  max-height: 80vh;
+ }
 
 
 /* ==========================================================================

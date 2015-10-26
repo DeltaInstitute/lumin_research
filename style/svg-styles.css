@@ -1,0 +1,11 @@
+@font-face { font-family: Avenir; src: url('AvenirNextLTPro-Regular.otf'); } 
+@font-face { font-family: AvenirDemi; src: url('AvenirNextLTPro-Demi.otf'); } 
+@font-face { font-family: AvenirMedium; src: url('AvenirNextLTPro-Medium.otf'); } 
+
+text {
+	font-family: sans-serif;
+}
+
+#forecast {
+	color: blue;
+}

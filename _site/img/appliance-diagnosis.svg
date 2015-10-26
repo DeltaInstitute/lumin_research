@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 800 500" enable-background="new 0 0 800 500" xml:space="preserve">
-<g id="Layer_1">
-</g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 500" enable-background="new 0 0 800 500" xml:space="preserve">
+<style type="text/css" >
+    <![CDATA[
+		@font-face { font-family: 'Avenir'; src: url('../style/AvenirNextLTPro-Regular.otf'); } 
+		@font-face { font-family: AvenirDemi; src: url('../style/AvenirNextLTPro-Demi.otf'); } 
+		@font-face { font-family: AvenirMedium; src: url('../style/AvenirNextLTPro-Medium.otf'); } 
+
+		#applianceLabels text {
+		font-family: 'Open Sans', sans-serif;
+		}
+	]]>
+</style>
 <g id="website">
 	<rect x="88.6" y="358.2" fill="#885A28" width="31.4" height="49.6"/>
 	<path fill="none" stroke="#885A28" stroke-miterlimit="10" d="M53.3,415.9H26.8c-18.3,0-18.3,0-18.3-18.3v-26.4
@@ -76,11 +84,11 @@
 	<line fill="none" stroke="#467979" stroke-linecap="square" stroke-miterlimit="10" x1="34.5" y1="319.5" x2="34.5" y2="313.8"/>
 	<line fill="none" stroke="#467979" stroke-linecap="square" stroke-miterlimit="10" x1="43.2" y1="319.5" x2="43.2" y2="313.8"/>
 </g>
-<g id="Isolation_Mode">
-	<text transform="matrix(1 0 0 1 676.2666 42.1655)"><tspan x="0" y="0" fill="#0272AE" font-family="'Avenir'" font-size="22.2718">Refrigerator</tspan><tspan x="0" y="29.7" fill="#0272AE" font-family="'Avenir'" font-size="22.2718">$15.34</tspan></text>
-	<text transform="matrix(1 0 0 1 350.1812 128.7359)"><tspan x="0" y="0" fill="#D88E2A" font-family="'Avenir'" font-size="22.2718">Lighting</tspan><tspan x="0" y="29.7" fill="#D88E2A" font-family="'Avenir'" font-size="22.2718">$7.02</tspan></text>
-	<text transform="matrix(1 0 0 1 300.9019 211.9009)"><tspan x="0" y="0" fill="#6CA1B9" font-family="'Avenir'" font-size="22.2718">AC</tspan><tspan x="0" y="29.7" fill="#6CA1B9" font-family="'Avenir'" font-size="22.2718">$6.38</tspan></text>
-	<text transform="matrix(1 0 0 1 263.1821 296.586)"><tspan x="0" y="0" fill="#467979" font-family="'Avenir'" font-size="22.2718">TV</tspan><tspan x="0" y="29.7" fill="#467979" font-family="'Avenir'" font-size="22.2718">$5.09</tspan></text>
-	<text transform="matrix(1 0 0 1 135.1226 377.3858)"><tspan x="0" y="0" fill="#885A28" font-family="'Avenir'" font-size="22.2718">Electric Range</tspan><tspan x="0" y="29.7" fill="#885A28" font-family="'Avenir'" font-size="22.2718">$1.23</tspan></text>
+<g id="applianceLabels">
+	<text transform="matrix(1 0 0 1 676.2666 42.1655)"><tspan x="0" y="0" fill="#0272AE" font-size="22.2718">Refrigerator</tspan><tspan x="0" y="29.7" fill="#0272AE" font-size="22.2718">$15.34</tspan></text>
+	<text transform="matrix(1 0 0 1 350.1812 128.7359)"><tspan x="0" y="0" fill="#D88E2A" font-size="22.2718">Lighting</tspan><tspan x="0" y="29.7" fill="#D88E2A" font-size="22.2718">$7.02</tspan></text>
+	<text transform="matrix(1 0 0 1 300.9019 211.9009)"><tspan x="0" y="0" fill="#6CA1B9" font-size="22.2718">AC</tspan><tspan x="0" y="29.7" fill="#6CA1B9" font-size="22.2718">$6.38</tspan></text>
+	<text transform="matrix(1 0 0 1 263.1821 296.586)"><tspan x="0" y="0" fill="#467979" font-size="22.2718">TV</tspan><tspan x="0" y="29.7" fill="#467979" font-size="22.2718">$5.09</tspan></text>
+	<text transform="matrix(1 0 0 1 135.1226 377.3858)"><tspan x="0" y="0" fill="#885A28" font-size="22.2718">Electric Range</tspan><tspan x="0" y="29.7" fill="#885A28" font-size="22.2718">$1.23</tspan></text>
 </g>
 </svg>

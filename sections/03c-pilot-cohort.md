@@ -50,7 +50,7 @@ title: Final Pilot Cohort
 			<circle class="conCircle" cx="70%" cy="225" r="16"></circle>
 			<g id="fourBehaviors">
 				<circle class="conCircle" cx="70%" cy="225" r="16"></circle>
-				<text x="69%" y="150" font-family="Open Sans" font-size="25px">26</text>
+				<text x="69%" y="150" font-family="Open Sans" font-size="25px">16</text>
 				<text x="65%" y="165" font-family="Open Sans" fill="#000" font-size="15px">participants had</text>
 				<text x="64.5%" y="180" font-family="Open Sans" fill="#000" font-size="15px">four energy-saving</text>
 				<text x="63%" y="195" font-family="Open Sans" fill="#000" font-size="15px">behaviors before the pilot</text>
@@ -118,78 +118,117 @@ title: Final Pilot Cohort
 		<rect x="0" y="50px" width="100%" height="450px" fill="#eee" stroke="none" rx="10" ry="10"></rect>
 		<rect x="2%" y="75" height="400" width="40%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
 		<g id="zipHeadings">
-			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" font-weight="700">Zip Code:</text>
+			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'" font-weight="700">Zip Code:</text>
 			<text x="23%" y="225px" font-size="20px" font-family="'Open Sans'" font-weight="700">Neighborhoods:</text>
 		</g>
 		<g id="zipText60638" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60638</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60638</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Garfield Ridge</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Clearing</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">1% of participants</text>
 		</g>
 		<g id="zipText60652" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60652</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60652</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Ashburn</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">3% of participants</text>
 		</g>
 		<g id="zipText60615" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60615</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60615</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Grand Boulevard</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Hyde Park</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">Kenwood</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'">Washington Park</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">9% of participants</text>
 		</g>
 		<g id="zipText60621" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60621</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60621</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Englewood</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Greater Grand Crossing</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">Washington Park</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">16% of participants</text>
 		</g>
 		<g id="zipText60636" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60636</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60636</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Chicago Lawn</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Gage Park</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">West Englewood</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">14% of participants</text>
 		</g>
 		<g id="zipText60649" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60649</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60649</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">South Shore </text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">19% of participants</text>
 		</g>
 		<g id="zipText60617" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60617</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60617</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Avalon Park</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Calumet Heights</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">East Side</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'">South Chicago</text>
+			<text x="23%" y="350px" font-size="20px" font-family="'Open Sans'">South Deering</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">9% of participants</text>
 		</g>
 		<g id="zipText60643" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60643</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60643</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Beverly</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Morgan Park</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">Washington Heights</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'">West Pullman</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">4% of participants</text>
 		</g>
 		<g id="zipText60653" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60653</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60653</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Douglas</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Grand Boulevard</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">Kenwood </text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'"> Oakland</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">1% of participants</text>
 		</g>
 		<g id="zipText60628" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60628</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60628</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Pullman</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Roseland</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">Washington Heights</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'">West Pullman</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">4% of participants</text>
 		</g>
 		<g id="zipText60629" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60629</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60629</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Chicago Lawn</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Clearing</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">Gage Park</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'">Garfield Ridge</text>
+			<text x="23%" y="350px" font-size="20px" font-family="'Open Sans'">West Elsdon</text>
+			<text x="23%" y="375px" font-size="20px" font-family="'Open Sans'">West Lawn</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">3% of participants</text>
 		</g>
 		<g id="zipText60620" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60620</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60620</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Auburn Gresham</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Beverly</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">Chatham</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'">Greater Grand Crossing</text>
+			<text x="23%" y="350px" font-size="20px" font-family="'Open Sans'">Roseland</text>
+			<text x="23%" y="375px" font-size="20px" font-family="'Open Sans'">Washington Heights </text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">1% of participants</text>
 		</g>
 		<g id="zipText60637" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60637</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60637</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">Greater Grand Crossing</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'">Hyde Park</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'">South Shore</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'">Washington Park</text>
+			<text x="23%" y="350px" font-size="20px" font-family="'Open Sans'">Woodlawn</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">1% of participants</text>
 		</g>
 		<g id="zipText60619" class="zipText" display="none">
-			<text x="23%" y="200px" font-size="20px" font-family="'Open Sans'">60619</text>
-			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'">???</text>
-			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'" font-weight="700">XX% of participants</text>
+			<text x="31%" y="200px" font-size="20px" font-family="'Open Sans'">60619</text>
+			<text x="23%" y="250px" font-size="20px" font-family="'Open Sans'"> Avalon Park</text>
+			<text x="23%" y="275px" font-size="20px" font-family="'Open Sans'"> Burnside, Chatham</text>
+			<text x="23%" y="300px" font-size="20px" font-family="'Open Sans'"> Calumet Heights</text>
+			<text x="23%" y="325px" font-size="20px" font-family="'Open Sans'"> Greater Grand Crossing</text>
+			<text x="23%" y="350px" font-size="20px" font-family="'Open Sans'"> Roseland, South Shore</text>
+			<text x="23%" y="175px" font-size="20px" font-family="'Open Sans'" fill="#d78d2a" font-weight="700">1% of participants</text>
 		</g>
 		<text class="chartTitle" x="10%" y="120" font-size="1.5rem">Participants by Zip Code</text> 
 		<g id="chicagoMap">
@@ -1390,22 +1429,38 @@ title: Final Pilot Cohort
 		<g id="rentOwn">
 			<rect x="44%" y="75" height="190" width="54%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
 			<text class="chartTitle" x="60%" y="120" font-size="1.5rem">Renters vs. Owners</text>
-			<rect x="46%" y="200" height="30" width="15%" fill="orange"></rect>
+			<rect x="46%" y="200" height="30" width="15%" fill="#d78d2a"></rect>
 			<rect x="61%" y="200" height="30" width="35%" fill="gray"></rect>
-			<text x="46%" y="175" font-size="25px" fill="orange">Rent</text>
+			<text x="46%" y="175" font-size="25px" fill="#d78d2a">Rent</text>
 			<text x="90%" y="175" font-size="25px" fill="gray">Own</text>
-			<text x="46%" y="250" fill="orange">29%</text>
+			<text x="46%" y="250" fill="#d78d2a">29%</text>
 			<text x="93%" y="250" fill="gray">71%</text>
 		</g>
 		<g id="homeSize">
 			<rect x="44%" y="285" height="190" width="54%" fill="#fff" stroke="none" rx="10" ry="10"></rect>
 			<line x1="50%" x2="96%" y1="425" y2="425" stroke="#000"></line>
 			<text class="chartTitle" x="65%" y="320" font-size="1.5rem">Home Size</text>
+			<g>
+				<rect x="54%" y="410" height="15" width="5%" fill=
+				"#d78d2a"></rect>
+				<rect x="66%" y="365" height="60" width="5%" fill=
+				"#d78d2a"></rect>
+				<rect x="78%" y="340" height="85" width="5%" fill=
+				"#d78d2a"></rect>
+				<rect x="90%" y="385" height="40" width="5%" fill=
+				"#d78d2a"></rect>
+			</g>
 			<g class="guidelines">	
 				<line x1="50%" x2="96%" y1="405" y2="405" stroke="#000"></line>
 				<line x1="50%" x2="96%" y1="385" y2="385" stroke="#000"></line>
 				<line x1="50%" x2="96%" y1="365" y2="365" stroke="#000"></line>
 				<line x1="50%" x2="96%" y1="345" y2="345" stroke="#000"></line>
+			</g>
+			<g class="guidelines">	
+				<text x="47%" y="410">10%</text>
+				<text x="47%" y="390">20%</text>
+				<text x="47%" y="370">30%</text>
+				<text x="47%" y="350">40%</text>
 			</g>
 			<text x="54%" y="440"><700</text>
 			<text x="53%" y="460">square ft</text>

@@ -62,7 +62,7 @@ title: Survey Results
 
 <br>
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 800" enable-background="new 0 0 1200 800" xml:space="preserve">
+<svg class="surveyResultSVG" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1200 800" enable-background="new 0 0 1200 800" xml:space="preserve">
 <g id="intentionSummary" display="none">
 	<rect x="647" y="359.5" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="86"/>
 	<rect x="700.3" y="336.8" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="108.8"/>
@@ -76,16 +76,16 @@ title: Survey Results
 	<rect x="887" y="708.1" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="53.7"/>
 	<rect x="940.3" y="650" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="111.8"/>
 	<rect x="993.7" y="683.3" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="78.5"/>
-	<text transform="matrix(1 0 0 1 443.5967 381.902)"><tspan x="0" y="0" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">NO DATA</tspan><tspan x="-6.7" y="24" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">AVAILABLE</tspan></text>
-	<text transform="matrix(1 0 0 1 443.5967 700.7935)"><tspan x="0" y="0" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">NO DATA</tspan><tspan x="-6.7" y="24" fill="#B3B3B3" font-family="'OpenSans'" font-size="20">AVAILABLE</tspan></text>
-	<text transform="matrix(1 0 0 1 569.5144 225.5182)" font-family="'OpenSans'" font-size="30">Conservation Intentions</text>
-	<text transform="matrix(1 0 0 1 587.6602 542.7317)" font-family="'OpenSans'" font-size="30">Efficiency Intentions</text>
+	<text transform="matrix(1 0 0 1 443.5967 381.902)"><tspan x="0" y="0" fill="#B3B3B3" font-family="'Open Sans'" font-size="20">NO DATA</tspan><tspan x="-6.7" y="24" fill="#B3B3B3" font-family="'Open Sans'" font-size="20">AVAILABLE</tspan></text>
+	<text transform="matrix(1 0 0 1 443.5967 700.7935)"><tspan x="0" y="0" fill="#B3B3B3" font-family="'Open Sans'" font-size="20">NO DATA</tspan><tspan x="-6.7" y="24" fill="#B3B3B3" font-family="'Open Sans'" font-size="20">AVAILABLE</tspan></text>
+	<text transform="matrix(1 0 0 1 569.5144 225.5182)" font-family="'Open Sans'" font-size="30">Conservation Intentions</text>
+	<text transform="matrix(1 0 0 1 587.6602 542.7317)" font-family="'Open Sans'" font-size="30">Efficiency Intentions</text>
 	<rect x="486" y="74.4" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
-	<text transform="matrix(1 0 0 1 518.7657 94.0338)" font-family="'OpenSans'" font-size="20">Percent of Participants who Increased Intentions</text>
+	<text transform="matrix(1 0 0 1 518.7657 94.0338)" font-family="'Open Sans'" font-size="20">Percent of Participants who Increased Intentions</text>
 	<rect x="486" y="105.8" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
-	<text transform="matrix(1 0 0 1 518.7657 125.4944)" font-family="'OpenSans'" font-size="20">Percent of Participants who Sustained Intentions</text>
+	<text transform="matrix(1 0 0 1 518.7657 125.4944)" font-family="'Open Sans'" font-size="20">Percent of Participants who Sustained Intentions</text>
 	<rect x="486" y="138.4" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
-	<text transform="matrix(1 0 0 1 518.7657 158.0787)" font-family="'OpenSans'" font-size="20">Percent of Participants who Decreased Intentions</text>
+	<text transform="matrix(1 0 0 1 518.7657 158.0787)" font-family="'Open Sans'" font-size="20">Percent of Participants who Decreased Intentions</text>
 </g>
 <g id="actionSummary">
 	<rect x="407" y="327" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="119.5"/>
@@ -106,14 +106,14 @@ title: Survey Results
 	<rect x="887" y="710.9" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="50.9"/>
 	<rect x="940.3" y="623" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="138.8"/>
 	<rect x="993.7" y="670" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="53.3" height="91.8"/>
-	<text transform="matrix(1 0 0 1 588.7322 224.9887)" font-family="'OpenSans'" font-size="30">Conservation Actions</text>
-	<text transform="matrix(1 0 0 1 606.8779 542.2021)" font-family="'OpenSans'" font-size="30">Efficiency Actions</text>
+	<text transform="matrix(1 0 0 1 588.7322 224.9887)" font-family="'Open Sans'" font-size="30">Conservation Actions</text>
+	<text transform="matrix(1 0 0 1 606.8779 542.2021)" font-family="'Open Sans'" font-size="30">Efficiency Actions</text>
 	<rect x="486.2" y="74.9" fill="#638B3D" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
-	<text transform="matrix(1 0 0 1 518.971 94.5956)" font-family="'OpenSans'" font-size="20">Percent of Participants who Increased Actions</text>
+	<text transform="matrix(1 0 0 1 518.971 94.5956)" font-family="'Open Sans'" font-size="20">Percent of Participants who Increased Actions</text>
 	<rect x="486.2" y="106.4" fill="#656E72" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
-	<text transform="matrix(1 0 0 1 518.971 126.0562)" font-family="'OpenSans'" font-size="20">Percent of Participants who Sustained Actions</text>
+	<text transform="matrix(1 0 0 1 518.971 126.0562)" font-family="'Open Sans'" font-size="20">Percent of Participants who Sustained Actions</text>
 	<rect x="486.2" y="139" fill="#D68C29" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" width="24.7" height="24.7"/>
-	<text transform="matrix(1 0 0 1 518.971 158.6405)" font-family="'OpenSans'" font-size="20">Percent of Participants who Decreased Actions</text>
+	<text transform="matrix(1 0 0 1 518.971 158.6405)" font-family="'Open Sans'" font-size="20">Percent of Participants who Decreased Actions</text>
 </g>
 <g id="actionButton">
 	<g class="buttonToFill">
@@ -123,7 +123,7 @@ title: Survey Results
 			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="718.9" y1="12.2" x2="718.9" y2="62.2"/>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 494.89 44.8414)" font-family="'OpenSans'" font-size="25" fill="#fff">Actions Taken</text>
+	<text transform="matrix(1 0 0 1 494.89 44.8414)" font-family="'Open Sans'" font-size="25" fill="#fff">Actions Taken</text>
 </g>
 <g id="intentionButton">
 	<g class="buttonToFill">
@@ -133,7 +133,7 @@ title: Survey Results
 			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="718.9" y1="12.2" x2="718.9" y2="62.2"/>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 749.754 44.8412)" font-family="'OpenSans'" font-size="25">Intentions Reported</text>
+	<text transform="matrix(1 0 0 1 749.754 44.8412)" font-family="'Open Sans'" font-size="25">Intentions Reported</text>
 </g>
 <g id="generalEngBackground">
 	<g id="stringEff">
@@ -213,18 +213,18 @@ title: Survey Results
 	<polyline fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" points="158.7,427.5 158.7,340.7 174.4,340.7 174.4,427.5 	"/>
 	<polyline fill="#FFFFFF" stroke="#656E72" stroke-miterlimit="10" points="158.7,427.5 139.8,427.5 139.8,433.4 194,433.4 
 		194,427.5 174.4,427.5 	"/>
-	<text transform="matrix(1 0 0 1 439.7346 470.8759)" font-family="'OpenSans-Bold'" font-size="20">MONTH 1</text>
-	<text transform="matrix(1 0 0 1 680.2346 470.8757)" font-family="'OpenSans-Bold'" font-size="20">MONTH 2</text>
-	<text transform="matrix(1 0 0 1 919.7346 470.8756)" font-family="'OpenSans-Bold'" font-size="20">MONTH 3</text>
-	<text transform="matrix(1 0 0 1 439.7346 787.8594)" font-family="'OpenSans-Bold'" font-size="20">MONTH 1</text>
-	<text transform="matrix(1 0 0 1 680.2346 787.8593)" font-family="'OpenSans-Bold'" font-size="20">MONTH 2</text>
-	<text transform="matrix(1 0 0 1 919.7346 787.8591)" font-family="'OpenSans-Bold'" font-size="20">MONTH 3</text>
-	<text transform="matrix(1 0 0 1 296.1539 419.666)" font-family="'OpenSans'" font-size="12.6081">10%</text>
-	<text transform="matrix(1 0 0 1 296.1539 391.5847)" font-family="'OpenSans'" font-size="12.6081">20%</text>
-	<text transform="matrix(1 0 0 1 296.0285 361.5847)" font-family="'OpenSans'" font-size="12.6081">30%</text>
-	<text transform="matrix(1 0 0 1 296.0286 333.4998)" font-family="'OpenSans'" font-size="12.6081">40%</text>
-	<text transform="matrix(1 0 0 1 296.0288 305.4998)" font-family="'OpenSans'" font-size="12.6081">50%</text>
-	<text transform="matrix(1 0 0 1 296.1538 277.4998)" font-family="'OpenSans'" font-size="12.6081">60%</text>
+	<text transform="matrix(1 0 0 1 439.7346 470.8759)" font-family="'Open Sans'" font-weight="700" font-size="20">MONTH 1</text>
+	<text transform="matrix(1 0 0 1 680.2346 470.8757)" font-family="'Open Sans'" font-weight="700" font-size="20">MONTH 2</text>
+	<text transform="matrix(1 0 0 1 919.7346 470.8756)" font-family="'Open Sans'" font-weight="700" font-size="20">MONTH 3</text>
+	<text transform="matrix(1 0 0 1 439.7346 787.8594)" font-family="'Open Sans'" font-weight="700" font-size="20">MONTH 1</text>
+	<text transform="matrix(1 0 0 1 680.2346 787.8593)" font-family="'Open Sans'" font-weight="700" font-size="20">MONTH 2</text>
+	<text transform="matrix(1 0 0 1 919.7346 787.8591)" font-family="'Open Sans'" font-weight="700" font-size="20">MONTH 3</text>
+	<text transform="matrix(1 0 0 1 296.1539 419.666)" font-family="'Open Sans'" font-size="12.6081">10%</text>
+	<text transform="matrix(1 0 0 1 296.1539 391.5847)" font-family="'Open Sans'" font-size="12.6081">20%</text>
+	<text transform="matrix(1 0 0 1 296.0285 361.5847)" font-family="'Open Sans'" font-size="12.6081">30%</text>
+	<text transform="matrix(1 0 0 1 296.0286 333.4998)" font-family="'Open Sans'" font-size="12.6081">40%</text>
+	<text transform="matrix(1 0 0 1 296.0288 305.4998)" font-family="'Open Sans'" font-size="12.6081">50%</text>
+	<text transform="matrix(1 0 0 1 296.1538 277.4998)" font-family="'Open Sans'" font-size="12.6081">60%</text>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="445.5" x2="1128" y2="445.5"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="416.5" x2="1128" y2="416.5"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="388.5" x2="1128" y2="388.5"/>
@@ -233,12 +233,12 @@ title: Survey Results
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="326" y1="302.5" x2="1127" y2="302.5"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="274.5" x2="1128" y2="274.5"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="245.5" x2="1128" y2="245.5"/>
-	<text transform="matrix(1 0 0 1 294.17 736.1663)" font-family="'OpenSans'" font-size="12.6081">10%</text>
-	<text transform="matrix(1 0 0 1 294.17 708.085)" font-family="'OpenSans'" font-size="12.6081">20%</text>
-	<text transform="matrix(1 0 0 1 294.0446 678.085)" font-family="'OpenSans'" font-size="12.6081">30%</text>
-	<text transform="matrix(1 0 0 1 294.0447 650)" font-family="'OpenSans'" font-size="12.6081">40%</text>
-	<text transform="matrix(1 0 0 1 294.0449 622)" font-family="'OpenSans'" font-size="12.6081">50%</text>
-	<text transform="matrix(1 0 0 1 294.1699 594)" font-family="'OpenSans'" font-size="12.6081">60%</text>
+	<text transform="matrix(1 0 0 1 294.17 736.1663)" font-family="'Open Sans'" font-size="12.6081">10%</text>
+	<text transform="matrix(1 0 0 1 294.17 708.085)" font-family="'Open Sans'" font-size="12.6081">20%</text>
+	<text transform="matrix(1 0 0 1 294.0446 678.085)" font-family="'Open Sans'" font-size="12.6081">30%</text>
+	<text transform="matrix(1 0 0 1 294.0447 650)" font-family="'Open Sans'" font-size="12.6081">40%</text>
+	<text transform="matrix(1 0 0 1 294.0449 622)" font-family="'Open Sans'" font-size="12.6081">50%</text>
+	<text transform="matrix(1 0 0 1 294.1699 594)" font-family="'Open Sans'" font-size="12.6081">60%</text>
 	<polygon fill="#656E72" points="222.5,344.7 110.9,344.7 132.2,233.1 198.7,233.1 	"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="732.5" x2="1128" y2="732.5"/>
 	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="327" y1="704.5" x2="1128" y2="704.5"/>
@@ -257,7 +257,7 @@ title: Survey Results
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg class="surveyResultSVG" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1200 800" enable-background="new 0 0 1200 800" xml:space="preserve">
 <g id="forecastResultsBackground">
 	<rect x="26.9" y="175" fill="none" stroke="#000000" stroke-miterlimit="10" width="200" height="266.7"/>
@@ -314,15 +314,15 @@ title: Survey Results
 	<rect x="41.7" y="559.2" opacity="0.5" fill="#B3B3B3" width="170.7" height="6.5"/>
 	<rect x="41.7" y="570.2" opacity="0.5" fill="#B3B3B3" width="170.7" height="6.5"/>
 	<rect x="41.7" y="609.8" fill="#638B3D" width="170.7" height="104.4"/>
-	<text transform="matrix(1 0 0 1 111.8044 398.7883)" fill="#FFFFFF" font-family="'OpenSans-Bold'" font-size="107.176">!</text>
+	<text transform="matrix(1 0 0 1 111.8044 398.7883)" fill="#FFFFFF" font-family="'Open Sans'" font-weight="700" font-size="107.176">!</text>
 	<line fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="88.7" y1="663.3" x2="112.3" y2="686.9"/>
 	<line fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" x1="112.3" y1="686.9" x2="165.9" y2="633.3"/>
-	<text transform="matrix(1 0 0 1 338.1009 316.8759)" font-family="'OpenSans-Bold'" font-size="30">MONTH 1</text>
-	<text transform="matrix(1 0 0 1 653.0989 316.8759)" font-family="'OpenSans-Bold'" font-size="30">MONTH 2</text>
-	<text transform="matrix(1 0 0 1 962.0155 316.7347)" font-family="'OpenSans-Bold'" font-size="30">MONTH 3</text>
-	<text transform="matrix(1 0 0 1 341.8091 618.2734)" font-family="'OpenSans-Bold'" font-size="30">MONTH 1</text>
-	<text transform="matrix(1 0 0 1 656.8071 618.2734)" font-family="'OpenSans-Bold'" font-size="30">MONTH 2</text>
-	<text transform="matrix(1 0 0 1 965.7237 618.1322)" font-family="'OpenSans-Bold'" font-size="30">MONTH 3</text>
+	<text transform="matrix(1 0 0 1 338.1009 316.8759)" font-family="'Open Sans'" font-weight="700" font-size="30">MONTH 1</text>
+	<text transform="matrix(1 0 0 1 653.0989 316.8759)" font-family="'Open Sans'" font-weight="700" font-size="30">MONTH 2</text>
+	<text transform="matrix(1 0 0 1 962.0155 316.7347)" font-family="'Open Sans'" font-weight="700" font-size="30">MONTH 3</text>
+	<text transform="matrix(1 0 0 1 341.8091 618.2734)" font-family="'Open Sans'" font-weight="700" font-size="30">MONTH 1</text>
+	<text transform="matrix(1 0 0 1 656.8071 618.2734)" font-family="'Open Sans'" font-weight="700" font-size="30">MONTH 2</text>
+	<text transform="matrix(1 0 0 1 965.7237 618.1322)" font-family="'Open Sans'" font-weight="700" font-size="30">MONTH 3</text>
 </g>
 <g id="forecastConservation">
 	<g id="XMLID_1_">
@@ -610,10 +610,10 @@ title: Survey Results
 				c0,7.6-6.2,13.8-13.8,13.8H869.5"/>
 			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="869.5" y1="55" x2="869.5" y2="105"/>
 		</g>
-	<text transform="matrix(1 0 0 1 930.3784 87.639)" font-family="'OpenSans'" font-size="25">Efficiency Actions</text>
+	<text transform="matrix(1 0 0 1 930.3784 87.639)" font-family="'Open Sans'" font-size="25">Efficiency Actions</text>
 </g>
 <g id="hypothesisButton">
-	<text transform="matrix(1 0 0 1 351.0789 87.6391)" font-family="'OpenSans'" font-size="25">Hypothesis</text>
+	<text transform="matrix(1 0 0 1 351.0789 87.6391)" font-family="'Open Sans'" font-size="25">Hypothesis</text>
 	<g class="buttonToFill">
 			<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M559.5,105H559H287.1c-7.6,0-13.8-6.2-13.8-13.8V68.8
 				c0-7.6,6.2-13.8,13.8-13.8H559h0.5"/>
@@ -626,7 +626,7 @@ title: Survey Results
 			<rect x="559.5" y="55" fill="none" width="310" height="50" stroke="#000"/>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 585.9958 87.639)" font-family="'OpenSans'" font-size="25">Conservation Actions</text>
+	<text transform="matrix(1 0 0 1 585.9958 87.639)" font-family="'Open Sans'" font-size="25">Conservation Actions</text>
 </g>
 </svg>
 <br>
@@ -653,9 +653,9 @@ title: Survey Results
 <svg viewBox="0 0 1200 500" class="websiteAnalytics" width="100%" height="500px">
 
 <!--labels--> 	
-	<text x="20%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 1</text>
-	<text x="51%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 2</text>
-	<text x="81%" y="430px" font-family="'OpenSans'" font-size="20" text-align="center">Month 3</text>
+	<text x="20%" y="430px" font-family="'Open Sans'" font-size="20" text-align="center">Month 1</text>
+	<text x="51%" y="430px" font-family="'Open Sans'" font-size="20" text-align="center">Month 2</text>
+	<text x="81%" y="430px" font-family="'Open Sans'" font-size="20" text-align="center">Month 3</text>
 
 <!--bars-->	
 	<g class="webAnalyticsBars">
