@@ -190,6 +190,7 @@ footer {
 .intro {
     background-image: url("../img/electricity_bw.jpg");
     background-repeat: no-repeat;
+    max-width: 120%;
     height:100vh;
     margin: 0;
     padding: 0;
@@ -641,35 +642,35 @@ h4 {
 }
 
 #lowIncome {
-    font-family: 'Sanchez';
-    font-weight: 700;
-    font-size: 120%;
-    color: #638c3d;
-    cursor: pointer;
+  font-family: 'Sanchez';
+  font-weight: 700;
+  font-size: 120%;
+  color: #638c3d;
+  cursor: pointer;
 }
 
 #lowIncomeDefinition {
-    display: none;
+  display: none;
 }
 
 #lowIncomeDefinition h4 {
-    color: #638c3d;
+  color: #638c3d;
 }
 
 #engagement {
-    font-family: 'Sanchez';
-    font-weight: 700;
-    font-size: 120%;
-    color: #0270af;
-    cursor: pointer;
+  font-family: 'Sanchez';
+  font-weight: 700;
+  font-size: 120%;
+  color: #0270af;
+  cursor: pointer;
 }
 
 #engagementDefinition {
-    display: none;
+  display: none;
 }
 
 #engagementDefinition h4 {
-    color: #0270af;
+  color: #0270af;
 }
 
 /*Carousel
@@ -682,6 +683,7 @@ h4 {
 
 .featureCarousel #featureImg {
   margin: 0 auto;
+  max-height:60vh;
 }
 
 .carouselContainer {

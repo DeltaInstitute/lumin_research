@@ -72,8 +72,8 @@ title: Visualizing Energy Use
 						<tspan x="0" y="0" fill="#FFFFFF">Welcome to your DeltaLumin dashboard. The dashboard contains information on </tspan>
 						<tspan x="0" y="24" fill="#FFFFFF">how you use electricity in your home including how much you use, when you use it, </tspan>
 						<tspan x="0" y="48" fill="#FFFFFF">and how you use it.</tspan>
-						<tspan x="0" y="96" fill="#FFFFFF">It looks like you usually spend about on electricity during . So far this month, we </tspan>
-						<tspan x="0" y="120" fill="#FFFFFF">estimate you&apos;ve spent about on your electricity.</tspan>
+						<tspan x="0" y="96" fill="#FFFFFF">It looks like you usually spend about $130 on electricity during June. So far this month, </tspan>
+						<tspan x="0" y="120" fill="#FFFFFF">we estimate you&apos;ve spent about $52.40 on your electricity.</tspan>
 						<tspan x="0" y="168" fill="#FFFFFF">Take a look around!</tspan>
 					</text>
 					<rect x="139.3" y="28.3" fill="#646E71" width="927.1" height="51.2"/>
