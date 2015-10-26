@@ -1942,11 +1942,11 @@ h4 {
 }
 
 .energyUpdateDays {
-  fill: orange;
+  fill: #d78d2a;
 }
 
 .workshopEventDays {
-  fill: green;
+  fill: #638c3d;
 }
 
 .webViewMsg {
