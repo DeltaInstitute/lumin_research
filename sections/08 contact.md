@@ -10,7 +10,7 @@ title: Contact
 	<div class="row">
 		<div class="col-md-5">
 			<h3>Get In Touch</h3>
-			<form action="//formspree.io/your@email.com" method="POST">
+			<form action="//formspree.io/hello@delta-institute.org" method="POST">
 			    <input type="text" name="name" id="yourName" placeholder="Name">
 			    <input type="email" name="email" id="yourEmail" placeholder="Email address">
 			    <input type="text" name="subject" id="emailSubject" placeholder="Subject">
