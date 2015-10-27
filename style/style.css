@@ -549,6 +549,7 @@ h4 {
     font-family: 'Sanchez';
     font-weight: 700;
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
 .human-centered-design p {
@@ -2217,16 +2218,22 @@ h4 {
     background-color: #0270af;
     color: #fff;
     padding: 1% 4%;
+    margin-top: 0;
+    border: 2px solid #fff;
   }
   #refineTitle {
     background-color: #638c3d;
     color: #fff;
     padding: 1% 4%;
+    margin-top: 0;
+    border: 2px solid #fff;
   }
   #pilotTitle {
     background-color: #edbb3a;
     color: #fff;
     padding: 1% 4%;
+    margin-top: 0;
+    border: 2px solid #fff;
   }
 
   #researchTitle p, 
@@ -2319,5 +2326,16 @@ h4 {
 
   .participantProfile {
     height: 150px;
+  }
+
+  .meetTheTeam h3 {
+    margin-top: .25em;
+    margin-bottom: 0;
+    font-size: 1.5em;
+  } 
+
+  .meetTheTeam h4 {
+    font-size: 1em;
+    margin-top: 0;
   }
 }  
