@@ -469,7 +469,7 @@ $('.charts').each(function () {
                 .render();
 
         var rp5 = radialProgress(document.getElementById('utilityBill'))
-                .diameter(250)
+                .diameter(220)
                 .value(31)
                 .render();
     }
@@ -536,6 +536,7 @@ $('#hypothesisButton').on('click', function(){
     $('#forecastMonths').fadeOut();
     $('#hypothesis').fadeIn();
 });
+ 
 
 // Web Analytics
 //======================================================================================

@@ -52,5 +52,5 @@ title: Learning from our Participants
 </div>
 
 <div class="sectionIntro">
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a vehicula ante. Sed pellentesque, lectus et faucibus elementum, erat erat vestibulum risus, vitae sollicitudin mauris turpis sed magna. In hac habitasse platea dictumst. Morbi dapibus sed lectus non efficitur. Suspendisse potenti. Pellentesque iaculis mattis justo, id finibus nibh suscipit non.</p>
+	<p>We gained insights and reflected on user input in several different forms throughout the DeltaLumin Pilot. This mixed method approach -- including in-person workshops, written surveys, and website analytics -- allowed us to compare findings and triangulate insights. </p>
 </div>

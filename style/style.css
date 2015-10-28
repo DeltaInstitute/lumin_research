@@ -315,8 +315,8 @@ a, a:hover, a:active, a:visited {
     margin-top: 50px;
 }
 
-.row p.caption {
-    margin: -1em 0 1em 0;
+p.caption {
+    margin: 0 0 1em 0;
     font-style: italic;
     font-size: 10px;
 }
@@ -1679,6 +1679,10 @@ h4 {
   }
 }
 
+.workshopSeries h4 {
+  padding-top: 10px;
+}
+
 
 /* Learnings animation
 =============================================================================*/
@@ -1814,7 +1818,7 @@ h4 {
 /* Survey Results - Treatment Eval Animation
 =============================================================================*/
 .surveyFeature svg {
-    height: 275px;
+    height: 175px;
     width:100%;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -1826,13 +1830,17 @@ h4 {
 .surveyFeatureBaseline svg {
     width:100%;
     padding-top: 5vh;
-    padding-left: 10%; 
+    margin: 0 auto; 
     background-color: #fff;
 
 }
 
 .surveyFeature p {
   padding-top: 1vh;
+}
+
+.charts h4 {
+  margin: 0;
 }
 
 .background {
@@ -1850,13 +1858,19 @@ h4 {
     color: #fff;
 }
 
+#utilityBill {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
 #forecastEval, 
 #applianceEval, 
 #goalEval, 
-#programEval,
-#utilityBill {
-    width: 90%;
-    height: 175px;
+#programEval, {
+    width: 80%;
+    height: 200px;
     box-sizing: border-box;
     float: left;
 }
@@ -1917,7 +1931,6 @@ h4 {
     color: #000;
 }
 
-
 #hypothesisButton, 
 #conservationButton, 
 #efficiencyButton, 
@@ -1925,7 +1938,6 @@ h4 {
 #intentionButton {
   cursor: pointer;
 }
-
 
 .xAxis, .yAxis {
   stroke: #000000;
@@ -2287,6 +2299,10 @@ h4 {
   .participantProfile {
     height: 300px;
   }
+
+  #utilityBill {
+    width: 40%;
+  }
 }
 
 
@@ -2317,6 +2333,10 @@ h4 {
     height: 250px;
   }
 
+  #utilityBill {
+    width: 50%;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -2337,5 +2357,9 @@ h4 {
   .meetTheTeam h4 {
     font-size: 1em;
     margin-top: 0;
+  }
+
+    #utilityBill {
+    width: 100%;
   }
 }  
