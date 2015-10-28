@@ -1863,7 +1863,7 @@ h4 {
 
 #forecastEval .arc {
     stroke-weight: 0.1;
-    fill: #568b42;
+    fill: #638b3d;
 }
 
 #forecastEval .arc2 {
@@ -1873,7 +1873,7 @@ h4 {
 
 #applianceEval .arc {
     stroke-weight: 0.1;
-    fill: #568b42;
+    fill: #638b3d;
 }
 
 #applianceEval .arc2 {
@@ -1883,7 +1883,7 @@ h4 {
 
 #goalEval .arc {
     stroke-weight: 0.1;
-    fill: #568b42;
+    fill: #638b3d;
 }
 
 #goalEval .arc2 {
@@ -1893,7 +1893,7 @@ h4 {
 
 #programEval .arc {
     stroke-weight: 0.1;
-    fill: #568b42;
+    fill: #638b3d;
 }
 
 #programEval .arc2 {
@@ -1903,7 +1903,7 @@ h4 {
 
 #utilityBill .arc {
     stroke-weight: 0.1;
-    fill: red;
+    fill: #d68c29;
 }
 
 #utilityBill .arc2 {

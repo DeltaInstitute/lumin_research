@@ -501,19 +501,40 @@ $('#intentionButton').on('click', function(){
 $('#efficiencyButton').on('click', function(){
     $(this).find('.buttonToFill').find('path').attr('fill', '#6ba1b9');
     $(this).find('text').attr('fill', '#fff');
+    $('#hypothesisButton').find('.buttonToFill').find('path').attr('fill', '#fff');
+    $('#hypothesisButton').find('text').attr('fill', '#000');
     $('#conservationButton').find('.buttonToFill').find('rect').attr('fill', '#fff');
     $('#conservationButton').find('text').attr('fill', '#000');
     $('#forecastConservation').fadeOut();
+    $('#hypothesis').fadeOut();
+    $('#forecastMonths').fadeIn();
     $('#forecastEfficiency').fadeIn();
 });
 
 $('#conservationButton').on('click', function(){
     $(this).find('.buttonToFill').find('rect').attr('fill', '#6ba1b9');
     $(this).find('text').attr('fill', '#fff');
+    $('#hypothesisButton').find('.buttonToFill').find('path').attr('fill', '#fff');
+    $('#hypothesisButton').find('text').attr('fill', '#000');
     $('#efficiencyButton').find('.buttonToFill').find('path').attr('fill', '#fff');
     $('#efficiencyButton').find('text').attr('fill', '#000');
     $('#forecastEfficiency').fadeOut();
+    $('#hypothesis').fadeOut();
+    $('#forecastMonths').fadeIn();
     $('#forecastConservation').fadeIn();
+});
+
+$('#hypothesisButton').on('click', function(){
+    $(this).find('.buttonToFill').find('path').attr('fill', '#6ba1b9');
+    $(this).find('text').attr('fill', '#fff');
+    $('#conservationButton').find('.buttonToFill').find('rect').attr('fill', '#fff');
+    $('#conservationButton').find('text').attr('fill', '#000');
+    $('#efficiencyButton').find('.buttonToFill').find('path').attr('fill', '#fff');
+    $('#efficiencyButton').find('text').attr('fill', '#000');
+    $('#forecastEfficiency').fadeOut();
+    $('#forecastConservation').fadeOut();
+    $('#forecastMonths').fadeOut();
+    $('#hypothesis').fadeIn();
 });
 
 // Web Analytics
