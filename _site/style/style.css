@@ -118,7 +118,7 @@ header {
     height: 60px;
     position: fixed;
     width: 100%;
-    z-index: 500;
+    z-index: 5000;
 }
 
 nav {
@@ -1831,7 +1831,7 @@ h4 {
     padding-top: 5vh;
     margin: 0 auto; 
     background-color: #fff;
-
+    height: 410px;
 }
 
 .surveyFeature p {
@@ -1858,7 +1858,7 @@ h4 {
 }
 
 #utilityBill {
-    width: 30%;
+    width: 35%;
     height: 100%;
     box-sizing: border-box;
     float: left;
@@ -1937,16 +1937,24 @@ h4 {
 p.mailGraph {
   color: #d68c29;
   font-weight: 700;
+  text-align: center;
 }
 
 p.emailGraph {
   color: #638b3d;
   font-weight: 700;
+  text-align: center;
 }
 
 p.dashboardGraph {
   color: #656d71;
   font-weight: 700;
+  text-align: center;
+}
+
+p.noOpensGraph {
+  font-weight: 700;
+  text-align: center;
 }
 
 #hypothesisButton, 
@@ -2237,7 +2245,13 @@ p.dashboardGraph {
 
 /*HCD Mobile Interaction*/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1350px) {
+  #utilityBill {
+    width:45%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
   #researchTitle svg, 
   #developmentTitle svg, 
   #refineTitle svg, 
@@ -2272,6 +2286,10 @@ p.dashboardGraph {
   #pilotTitle p {
     color: #fff;
     opacity: .6;
+  }
+
+  #utilityBill {
+    width: 55%;
   }
 }
 
@@ -2323,7 +2341,7 @@ p.dashboardGraph {
   }
 
   #utilityBill {
-    width: 40%;
+    width: 70%;
   }
 }
 
@@ -2356,7 +2374,7 @@ p.dashboardGraph {
   }
 
   #utilityBill {
-    width: 50%;
+    width: 100%;
   }
 
 }

@@ -39,6 +39,8 @@
 
     <div class="section-content">
         <br>
+        <br>
+        <br>
         <p><a href="http://delta-institute.org">Delta Institute</a> is a nonprofit working to build a resilient Great Lakes environment and economy through sustainable solutions. One of Delta's <a href="http://delta-institute.org/objectives/">strategic objectives</a> is to <em>disrupt the energy status quo</em> by helping buildings become more efficient, creating strategies to increase renewable energy generation, and, in the case of DeltaLumin, working directly with consumers to understand how they use and manage their energy and develop effective strategies for behavior change.</p>
 
         <p>Delta has ten years of experience working directly with homeowners on energy conservation. For years, we implemented a home weatherization program to educate homeowners on where their homes were energy inefficient and guide them toward solutions. For DeltaLumin, we wanted to flip our top-down program approach and instead start with the energy users.</p>
@@ -396,8 +398,10 @@
 
 	
 <div class="section-content">
-    <h3>Demographic and Geographic Priorities</h3>
-		<p>Delta focused on identifying pilot participants that had smart meters in their homes and fit with ISEIF’s priority demographic characteristics, including low-income households and seniors. Delta conducted research to identify the geographic areas throughout Chicago where smart meters had already been installed and that were largely low-income communities. Faith in Place led the on-the-ground recruitment efforts focusing their attention on places of worship in the areas of high priority. </p>
+    <h3>Recruitment</h3>
+		<p>Delta focused on identifying pilot participants that had smart meters in their homes and fit with ISEIF’s priority demographic characteristics, including low-income households and seniors. Delta conducted research to identify the geographic areas throughout Chicago where smart meters had already been installed and that were largely low-income communities. Faith in Place led the on-the-ground recruitment efforts focusing their attention on places of worship in the areas of high priority.</p>
+
+<p>The Faith in Place recruitment team visited several places of worship throughout the recruitment period. Faith in Place was crucial in developing and communicating the value of the program to potential participants, administering eligibility surveys, and sustaining engagement through the enrollment process and beyond.</p>
 
 <div id="map"></div>
 
@@ -409,19 +413,8 @@
 
 	
 <div class="section-content">
-    <h3>Recruitment Team</h3>
-		<p>The Faith in Place recruitment team visited XX places of worship throughout the recruitment period. Faith in Place was crucial in developing and communicating the value of the program to potential participants, administering eligibility surveys, and sustaining engagement through the enrollment process and beyond. </p>
-
-</div>
-
-
-
-
-
-	
-<div class="section-content">
     <h3>Final Pilot Cohort</h3>
-		<p>The final pilot cohort consisted of a diverse group of 75 south and west side Chicago residents from XX different community areas. Though the age of participants varied, the majority were over 50 years old with XX over 65 years old. Most participating households were single- or two-person households, as many were retirees or parents with grown children. [income] 71% of participating households owned rather than rented their homes, and most homes were between [home size].</p>
+		<p>The final pilot cohort consisted of a diverse group of 75 south and west side Chicago residents from many different community areas. Though the age of participants varied, the majority were over 50 years old with 36% over 65 years old. Most participating households were single- or two-person households, as many were retirees or parents with grown children. 71% of participating households owned rather than rented their homes, and most homes were between 1350 and 2000 square feet. </p>
 <p>At the pilot kick-off event, participants completed a baseline survey for the DeltaLumin program. This survey collected information related to their homes, appliances, interaction with ComEd, as well as actions they had taken to save energy in the past. Questions were asked both about energy-saving behaviors and any energy-efficient home appliances they have. This helped us to understand the potential for reducing total energy consumption through behavior change and home retrofits. </p>
 <svg x="0px" y="0px" viewbox="0 0 1200 550" class="participantProfile" height="550px" width="100%">
 	<g id="whoAreThey" class="profileTabs">
@@ -2319,11 +2312,24 @@
 <p>To work around the constraints related to smart meter data availability, the DeltaLumin team collected information on: (1) current weather patterns during the pilot period, (2) individual energy use data for each participant going back two years, and (3) the current appliances in their home including date and models. This information was used to simulate personalized energy updates in several forms. Based on our research, we determined that the most important data to present to our participants included:</p>
 
 <ul>
-	<li>breaking down energy use by energy-consuming appliances and devices,</li> 
-	<li>breaking down energy use across time,</li>
-	<li>measuring progress towards typical energy use for the month, and </li>
-	<li>alignment with existing utility programs.</li>
+	<li>breaking down energy use across time, </li> 
+	<li>measuring progress towards typical monthly spending,</li>
+	<li>breaking down energy use by energy-consuming appliances and devices, and</li>
+	<li>alignment with existing utility programs</li>
 </ul>
+<h4>Breaking down energy use across time</h4>
+<p>Although the lack of access to real time short-interval data made it more difficult to communicate interval energy use, estimating daily usage was important as a new way for participants to interact with their energy use information. This form of energy use information was used to fuel the monthly and daily energy use features that were found on the dashboard.</p>
+<p>Weekly information was calculated using the average daily usage based on their average monthly energy use for the last two years of the same month. Daily usage was then adjusted for current weather conditions based on the number of heating or cooling degree days (HDD or CDD). For monthly spending, the previous two months were determined using actual energy usage data pulled from ComEd data portal while the current month was estimated using the same calculation as the spending forecast feature, which will be outlined in the next section. </p>
+<h4>Measuring progress towards typical monthly spending</h4>
+<p>This form of energy use was illuminated to help participants better understand how to plan for their energy spending proactively rather than simply reacting to their monthly bills after they have already used energy for the month. This information feeds both the spending forecast and the energy spending goal features.</p>
+<p>This predictive energy information was calculated by first using the average energy use during the same month for the previous two years and the cost per unit of energy for each participant’s supplier to determine total average spending for that month. This provided the predictive total spent for the month. Then, participants’ estimated spending to date was determined using current weather information and knowledge of their current appliances. The usage for non-weather dependent appliances was derived from total monthly spending, whereas energy usage for weather dependent appliances was adjusted for daily conditions (i.e. on especially hot days, air conditioning usage was estimated to be higher than on milder days). </p>
+<h4>Breaking down energy use by energy-consuming appliances and devices</h4>
+<p>The appliance-level energy information was intended to help participants more easily identify opportunities to save energy and take action.  This form of energy use information was used to populate the Appliance Spending Diagnosis feature.</p>
+<p>The foundation for our appliance-level spending diagnosis came from the Illinois Technical Resource Manual (TRM) for the Illinois Energy Efficiency Incentive Programs (EEPS). Where the <a href="http://www.ilsag.info/technical-reference-manual.html">Illinois TRM</a> did not provide deemed usage and savings sufficient to provide estimates, we added appliances and average usage with datasets found on the US Department of Energy website. Rather than detailing energy usage of all appliances in each home, we decided to focus on the largest energy consumers in the average home, as this provided an optimum amount of information without overwhelming the user. In the Baseline Survey completed by participant at our first workshop, they were asked about their refrigerator , air conditioner , televisions , lighting , electric range and dishwasher. We then matched the appliance make and model to the corresponding appliance type in our appliance dataset.</p>
+<p>To personalize each participant's appliance spending diagnosis, we altered the previously calculated “average usage” to best fit the participant’s lifestyle and current weather conditions. For each appliance, we picked one variable that affects the useage most significantly. For the air conditioners (AC), we multiplied the average usage by a percent based on the Cooling Degree Days (CDD). For lighting, refrigerators, televisions, dishwashers, and ranges, we assumed the variable that most greatly impacts their usage is the occupancy of the home. The more people in a house or apartment, the more each of these appliances will be used.</p>
+<h4>Alignment with existing utility programs</h4>
+<p>In addition to providing estimated energy use by appliance to help participants identify savings opportunities, we also matched participants with existing utility programs based on their behavior and appliances. This was seen in the Program Match feature.</p>
+<p>During the pilot there were three utility programs participants could be matched to related to lighting, refrigerators, and air conditioners. Matches were determined based on participant responses to the baseline survey. If they indicated that they had an older inefficient refrigerator, air conditioner, or light bulbs they were told about the related program. We also provided an estimate of the monthly savings they could expect to see if they chose to participate in the program. </p>
 
 </div>
 
@@ -2335,6 +2341,7 @@
 <div class="section-content">
     <h3>Visualizing Energy Use</h3>
 		<p>Several themes in the visual design of energy use information emerged through our early conversations with our targeted audience. One consistent finding was that participants found it much easier to understand their energy use when it was presented in dollars rather than in units of energy (kilowatt-hours or kwH). We also found that keeping information simple and clear was most effective in promoting understanding. These findings informed the design of our dashboard below.</p>
+<p>Google Sheets provided a valuable development back end as we tweaked our energy models. The data was served to the front end, and scalable vector graphics (SVGs) were created on an as-needed basis using the JavaScript library D3.js.</p>
 
 <div class="dashboard">
 	<div class="computer">
@@ -2622,8 +2629,6 @@
 		</svg>
 	</div>	
 </div>
-
-<p>Google Sheets provided a valuable development back end as we tweaked our energy models. The data was served to the front end, and scalable vector graphics (SVGs) were created on an as-needed basis using the JavaScript library D3.js.</p>
 
 </div>
 
@@ -3423,8 +3428,8 @@
 	</div>
 	<div class="col-md-4">
 		<h4>Workshop 3: Matching Users with Existing Utility Programs</h4>
-		<p>Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<p>Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>The objective of the third and final pilot participant work was to introduce participants to existing utility programs that match their lifestyle, home types, and appliances and gauge their willingness to participate in such programs. The activity at the final workshop involved discussing several existing utility programs, providing hypothetical household scenarios, and listening to participants’ group discussions determining which programs were appropriate for which scenario. This allowed us to gain insight into participants’ processes for balancing risk and benefits of participating in these programs.</p>
+		<p>We found that although some participants had participated or considered participating in the programs covered in the activity, many had not. Participants were generally hesitant to commit to ongoing programs that could result in compromised comfort, but appreciated information on one-off programs that provide one-time incentives without giving up comfort or flexibility. They also appreciated the customized estimated savings for participating in each program. </p>
 	</div>
 </div>
 
@@ -3531,24 +3536,25 @@
 	</div>	
 	<div class="col-xs-3">
 		<img src="img/month-1-comm-results.png" class="img-responsive monthly-communications" />
-		<p class="mailGraph">41% opened their mail</p>
-		<p class="emailGraph">27% opened their email</p>
-		<p class="dashboardGraph">30% viewed the dashboard</p>
-		<p>1% did not open any</p>
+		<p class="mailGraph">90% opened their mail</p>
+		<p class="emailGraph">62% opened their email</p>
+		<p class="dashboardGraph">67% viewed the dashboard</p>
+		<p class="noOpensGraph">1% did not open any</p>
 	</div>
 	<div class="col-xs-3">
 		<img src="img/month-2-comm-results.png" class="img-responsive" />
-		<p class="mailGraph">43% opened their mail</p>
-		<p class="emailGraph">27% opened their email</p>
-		<p class="dashboardGraph">27% viewed the dashboard</p>
-		<p>2% did not open any</p>
+		<p class="mailGraph">95% opened their mail</p>
+		<p class="emailGraph">63% opened their email</p>
+		<p class="dashboardGraph">60% viewed the dashboard</p>
+		<p class="noOpensGraph">5% did not open any</p>
 	</div>
 	<div class="col-xs-3">
 		<img src="img/month-3-comm-results.png" class="img-responsive" />
-		<p class="mailGraph">43% opened their mail</p>
-		<p class="emailGraph">26% opened their email</p>
-		<p class="dashboardGraph">29% viewed the dashboard</p>
-		<p>3% did not open any</p>
+		<p class="mailGraph">90% opened their mail</p>
+		<p class="emailGraph">55% opened their email</p>
+		<p class="dashboardGraph">61% viewed the dashboard</p>
+		<p class="noOpensGraph">6
+		% did not open any</p>
 	</div>
 	<div class="col-xs-2">
 	</div>	
@@ -3558,11 +3564,10 @@
 
 <div class="charts">
 	<h4>Feature Evaluation</h4>
-	<p>In general participants found DeltaLumin communication materials were easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate the understandability of each.*</p>
-	<p class="caption">*Participants responded to this question before talking in-person with DeltaLumin staff about each feature with the exception of the Program Match feature, which due to programmatic timeline constraints was answered after group discussion.</p>
-
+	
 	<div id="utilityBill" class="surveyFeatureBaseline"></div>
 	
+	<p>In general participants found DeltaLumin communication materials were easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate the understandability of each. Participants responded to this question before talking in-person with DeltaLumin staff about each feature with the exception of the Program Match feature, which due to programmatic timeline constraints was answered after group discussion.</p>
 	<p>At the Pilot kick-off, 31% of participants reported that they disagreed or strongly disagreed that it is easy to understand their conventional utility bill. After the introduction of the Spending Forecast feature, 52% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Appliance Diagnosis feature, 60% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Energy Spending Goal feature, 68% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Program Match feature, 85% of participants agreed or strongly agreed that it was easy to understand.</p> 
 
 	
@@ -4224,13 +4229,19 @@
 
 <h4>Appliance Diagnosis and Engagement</h4>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod magnam. Rerum distinctio placeat enim amet sit atque quisquam quam voluptas? Sequi dignissimos illo placeat, ut cum corporis ipsam suscipit!Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<h4>Goal Setting and Engagement</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea impedit amet quaerat ipsam magni, iusto autem minima natus voluptatum officia ipsa. Ad corporis, placeat! Molestiae rerum quam unde nulla.Maxime eos quod porro nulla odit? Vel labore quibusdam, perspiciatis assumenda eius aspernatur non nesciunt dolorum modi eum ipsam exercitationem, pariatur incidunt sed vitae maxime, dolorem dolor voluptate eligendi? Animi. Eveniet ipsa perspiciatis voluptate eaque sapiente inventore, modi dolor autem, amet eligendi eos dolores, aliquid blanditiis minima, facilis repudiandae. Modi doloremque, dolor corporis expedita odit, a id sapiente odio. Atque?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu.</p>
+
+<h4>Program Match and Engagement</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit facere officia voluptate doloremque commodi asperiores fugiat quia velit facilis fugit, harum provident, voluptatibus repellat saepe. Quibusdam quisquam voluptatibus recusandae sunt. Vel ratione rem aspernatur molestiae magnam, ullam reprehenderit praesentium, veniam eos quo quae nisi tempore itaque! Nisi quisquam blanditiis pariatur repudiandae delectus, possimus, dolorem quibusdam ullam cum vel ratione? Voluptatem.</p>
+<p>Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
 
 <h3>Website Analytics</h3>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae minus dicta ex, repellat reprehenderit doloremque. Saepe vel labore ad voluptatibus id sequi voluptatum nihil ipsa itaque, ea doloribus eum at.</p>
 
 <p><br /></p>
 

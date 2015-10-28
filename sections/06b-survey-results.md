@@ -13,24 +13,25 @@ title: Survey Results
 	</div>	
 	<div class="col-xs-3">
 		<img src="img/month-1-comm-results.png" class="img-responsive monthly-communications">
-		<p class="mailGraph">41% opened their mail</p>
-		<p class="emailGraph">27% opened their email</p>
-		<p class="dashboardGraph">30% viewed the dashboard</p>
-		<p>1% did not open any</p>
+		<p class="mailGraph">90% opened their mail</p>
+		<p class="emailGraph">62% opened their email</p>
+		<p class="dashboardGraph">67% viewed the dashboard</p>
+		<p class="noOpensGraph">1% did not open any</p>
 	</div>
 	<div class="col-xs-3">
 		<img src="img/month-2-comm-results.png" class="img-responsive">
-		<p class="mailGraph">43% opened their mail</p>
-		<p class="emailGraph">27% opened their email</p>
-		<p class="dashboardGraph">27% viewed the dashboard</p>
-		<p>2% did not open any</p>
+		<p class="mailGraph">95% opened their mail</p>
+		<p class="emailGraph">63% opened their email</p>
+		<p class="dashboardGraph">60% viewed the dashboard</p>
+		<p class="noOpensGraph">5% did not open any</p>
 	</div>
 	<div class="col-xs-3">
 		<img src="img/month-3-comm-results.png" class="img-responsive">
-		<p class="mailGraph">43% opened their mail</p>
-		<p class="emailGraph">26% opened their email</p>
-		<p class="dashboardGraph">29% viewed the dashboard</p>
-		<p>3% did not open any</p>
+		<p class="mailGraph">90% opened their mail</p>
+		<p class="emailGraph">55% opened their email</p>
+		<p class="dashboardGraph">61% viewed the dashboard</p>
+		<p class="noOpensGraph">6
+		% did not open any</p>
 	</div>
 	<div class="col-xs-2">
 	</div>	
@@ -40,11 +41,10 @@ title: Survey Results
 
 <div class="charts">
 	<h4>Feature Evaluation</h4>
-	<p>In general participants found DeltaLumin communication materials were easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate the understandability of each.*</p>
-	<p class="caption">*Participants responded to this question before talking in-person with DeltaLumin staff about each feature with the exception of the Program Match feature, which due to programmatic timeline constraints was answered after group discussion.</p>
-
+	
 	<div id="utilityBill" class="surveyFeatureBaseline"></div>
 	
+	<p>In general participants found DeltaLumin communication materials were easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate the understandability of each. Participants responded to this question before talking in-person with DeltaLumin staff about each feature with the exception of the Program Match feature, which due to programmatic timeline constraints was answered after group discussion.</p>
 	<p>At the Pilot kick-off, 31% of participants reported that they disagreed or strongly disagreed that it is easy to understand their conventional utility bill. After the introduction of the Spending Forecast feature, 52% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Appliance Diagnosis feature, 60% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Energy Spending Goal feature, 68% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Program Match feature, 85% of participants agreed or strongly agreed that it was easy to understand.</p> 
 
 	
@@ -709,13 +709,19 @@ title: Survey Results
 
 <h4>Appliance Diagnosis and Engagement</h4>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod magnam. Rerum distinctio placeat enim amet sit atque quisquam quam voluptas? Sequi dignissimos illo placeat, ut cum corporis ipsam suscipit!Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<h4>Goal Setting and Engagement</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea impedit amet quaerat ipsam magni, iusto autem minima natus voluptatum officia ipsa. Ad corporis, placeat! Molestiae rerum quam unde nulla.Maxime eos quod porro nulla odit? Vel labore quibusdam, perspiciatis assumenda eius aspernatur non nesciunt dolorum modi eum ipsam exercitationem, pariatur incidunt sed vitae maxime, dolorem dolor voluptate eligendi? Animi. Eveniet ipsa perspiciatis voluptate eaque sapiente inventore, modi dolor autem, amet eligendi eos dolores, aliquid blanditiis minima, facilis repudiandae. Modi doloremque, dolor corporis expedita odit, a id sapiente odio. Atque?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu.</p>
+
+<h4>Program Match and Engagement</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit facere officia voluptate doloremque commodi asperiores fugiat quia velit facilis fugit, harum provident, voluptatibus repellat saepe. Quibusdam quisquam voluptatibus recusandae sunt. Vel ratione rem aspernatur molestiae magnam, ullam reprehenderit praesentium, veniam eos quo quae nisi tempore itaque! Nisi quisquam blanditiis pariatur repudiandae delectus, possimus, dolorem quibusdam ullam cum vel ratione? Voluptatem.</p>
+<p>Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
 
 <h3>Website Analytics</h3>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae minus dicta ex, repellat reprehenderit doloremque. Saepe vel labore ad voluptatibus id sequi voluptatum nihil ipsa itaque, ea doloribus eum at.</p>
 
 <br>
 

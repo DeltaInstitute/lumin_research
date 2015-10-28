@@ -469,7 +469,7 @@ $('.charts').each(function () {
                 .render();
 
         var rp5 = radialProgress(document.getElementById('utilityBill'))
-                .diameter(220)
+                .diameter(400  )
                 .value(31)
                 .render();
     }

@@ -2,7 +2,7 @@
 layout: section
 title: Final Pilot Cohort
 ---
-<p>The final pilot cohort consisted of a diverse group of 75 south and west side Chicago residents from XX different community areas. Though the age of participants varied, the majority were over 50 years old with XX over 65 years old. Most participating households were single- or two-person households, as many were retirees or parents with grown children. [income] 71% of participating households owned rather than rented their homes, and most homes were between [home size].</p>
+<p>The final pilot cohort consisted of a diverse group of 75 south and west side Chicago residents from many different community areas. Though the age of participants varied, the majority were over 50 years old with 36% over 65 years old. Most participating households were single- or two-person households, as many were retirees or parents with grown children. 71% of participating households owned rather than rented their homes, and most homes were between 1350 and 2000 square feet. </p>
 <p>At the pilot kick-off event, participants completed a baseline survey for the DeltaLumin program. This survey collected information related to their homes, appliances, interaction with ComEd, as well as actions they had taken to save energy in the past. Questions were asked both about energy-saving behaviors and any energy-efficient home appliances they have. This helped us to understand the potential for reducing total energy consumption through behavior change and home retrofits. </p>
 <svg x="0px" y="0px" viewBox="0 0 1200 550" class="participantProfile" height="550px" width="100%">
 	<g id="whoAreThey" class="profileTabs">
