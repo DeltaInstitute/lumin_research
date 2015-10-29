@@ -215,7 +215,8 @@ footer {
 }
 
 .section-content {
-    padding: 1em 8% 0 8%;
+    padding: 1em 8%;
+    max-width: 1500px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -259,6 +260,7 @@ a, a:hover, a:active, a:visited {
 .sectionIntro {
     padding: 2em 8% 0 8%;
     font-family: 'Open Sans';
+    max-width: 1500px;
 }
 
 .sectionIntro p {
@@ -332,7 +334,6 @@ h4 {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
-    margin-top: 2em;
 }
 
 .sideQuote {
@@ -2242,6 +2243,10 @@ p.noOpensGraph {
 /* Media Queries
 =============================================================================*/
 
+@media screen and (min-width: 1500px) {
+.section-content, .sectionIntro {
+    margin: 0 auto;
+  }
 
 /*HCD Mobile Interaction*/
 
