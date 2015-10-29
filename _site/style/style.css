@@ -334,6 +334,11 @@ h4 {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 20px;
+    margin-top: 2em;
+}
+
+.row h4 {
+  margin-top: 0;
 }
 
 .sideQuote {
