@@ -1870,6 +1870,16 @@ h4 {
     float: left;
 }
 
+#utilityBillText {
+  color: #d68c29;
+  font-weight: 700;
+}
+
+#featureEvalText {
+  color: #638b3d;
+  font-weight: 700;
+}
+
 #forecastEval, 
 #applianceEval, 
 #goalEval, 

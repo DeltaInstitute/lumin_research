@@ -40,16 +40,21 @@ title: Survey Results
 <br>
 
 <div class="charts">
-	<h4>Feature Evaluation</h4>
+	
 	
 	<div id="utilityBill" class="surveyFeatureBaseline"></div>
 	
+	<h4>Feature Evaluation</h4>
+	<br>
 	<p>In general participants found DeltaLumin communication materials were easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate the understandability of each. Participants responded to this question before talking in-person with DeltaLumin staff about each feature with the exception of the Program Match feature, which due to programmatic timeline constraints was answered after group discussion.</p>
-	<p>At the Pilot kick-off, 31% of participants reported that they agreed or strongly agreed that it is easy to understand their conventional utility bill. After the introduction of the Spending Forecast feature, 52% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Appliance Diagnosis feature, 60% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Energy Spending Goal feature, 68% of participants agreed or strongly agreed that it was easy to understand. After the introduction of the Program Match feature, 85% of participants agreed or strongly agreed that it was easy to understand.</p> 
+	<p>At the Pilot kick-off, <span id="utilityBillText">31% of participants reported that they agreed or strongly agreed that it is easy to understand their conventional utility bill</span>. 
 
-	
-</p>
-
+	<p>After the introduction of each feature:</p>
+	<p><span id="featureEvalText">52% of participants</span> agreed or strongly agreed that Spending Forecast was easy to understand,</p> 
+	<p><span id="featureEvalText">60% of participants</span> agreed or strongly agreed that Appliance Diagnosis was easy to understand,</p>
+	<p><span id="featureEvalText">68% of participants</span> agreed or strongly agreed that Energy Spending Goal was easy to understand,and</p> 
+	<p><span id="featureEvalText">85% of participants</span> agreed or strongly agreed that Program Match was easy to understand.</span></p> 
+	<p>Such widespread understandability of the feature set was encouraging. Next, we looked at how this understanding translates into action or intention around energy-related behaviors and purchasing decisions.</p>
 	<div class="row">
 		<div class="col-xs-12">
 			<p>When participants were asked whether or not each feature was easy to understand they responded in the following ways:</p>
@@ -59,28 +64,24 @@ title: Survey Results
 		<div class="col-md-3 col-sm-6">	
 			<div id="forecastEval" class="surveyFeature"></div>
 			<h4>Spending Forecast</h4>
-			<p>52% of participants reported Spending Forecast was easy to understand.</p>
 		</div>
 		<div class="col-md-3 col-sm-6">
 			<div id="applianceEval" class="surveyFeature"></div>
 			<h4>Appliance Diagnosis</h4>
-			<p>60% of participants reported Appliance Diagnosis was easy to understand.</p>
 		</div>
 		<div class="col-md-3 col-sm-6">
 			<div id="goalEval" class="surveyFeature"></div>
 			<h4>Energy Spending Goal</h4>
-			<p>68% of participants reported Goal Setting was easy to understand.</p>
-			<br>
 		</div>
 		<div class="col-md-3 col-sm-6">
 			<div id="programEval" class="surveyFeature"></div>
 			<h4>Program Match</h4>
-			<p>85% of participants reported Program Match was easy to understand.</p>
 		</div>
 	</div>
-
-	<p>Such widespread understandability of the feature set was encouraging. Next, we looked at how this understanding translates into action or intention around energy-related behaviors and purchasing decisions.</p>
 </div>
+
+<br>
+<br>
 
 <h4>General Engagement</h4>
 
