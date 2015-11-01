@@ -1883,7 +1883,7 @@ h4 {
 #forecastEval, 
 #applianceEval, 
 #goalEval, 
-#programEval, {
+#programEval {
     width: 80%;
     height: 200px;
     box-sizing: border-box;
