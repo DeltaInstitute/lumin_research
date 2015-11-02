@@ -252,30 +252,30 @@ title: Calculating Energy Use
 </ul>
 
 <div class='row'>
-	<div class='col-xs-2'>
-		<img src='http://placehold.it/200x200'>
+	<div class='col-sm-2'>
+		<img src='img/dailySpendingSimple.svg'>
 	</div>
-	<div class='col-xs-10'>
+	<div class='col-sm-10'>
 		<h4>Breaking down energy use across time</h4>
 		<p>Although the lack of access to real time short-interval data made it more difficult to communicate interval energy use, estimating daily usage was important as a new way for participants to interact with their energy use information. This form of energy use information was used to fuel the monthly and daily energy use features that were found on the dashboard.</p>
 		<p>Weekly information was calculated using the average daily usage based on their average monthly energy use for the last two years of the same month. Daily usage was then adjusted for current weather conditions based on the number of heating or cooling degree days (HDD or CDD). For monthly spending, the previous two months were determined using actual energy usage data pulled from ComEd data portal while the current month was estimated using the same calculation as the spending forecast feature, which will be outlined in the next section. </p>	
 	</div>
 </div>
 <div class='row'>
-	<div class='col-xs-2'>
-		<img src='img/spending-forecast.svg' alt='spending forecast' class='img-responsive'>
+	<div class='col-sm-2'>
+		<img src='img/spendingForecastSimple.svg' alt='spending forecast' class='img-responsive'>
 	</div>
-	<div class='col-xs-10'>
+	<div class='col-sm-10'>
 		<h4>Measuring progress towards typical monthly spending</h4>
 		<p>This form of energy use was illuminated to help participants better understand how to plan for their energy spending proactively rather than simply reacting to their monthly bills after they have already used energy for the month. This information feeds both the spending forecast and the energy spending goal features.</p>
 		<p>This predictive energy information was calculated by first using the average energy use during the same month for the previous two years and the cost per unit of energy for each participant’s supplier to determine total average spending for that month. This provided the predictive total spent for the month. Then, participants’ estimated spending to date was determined using current weather information and knowledge of their current appliances. The usage for non-weather dependent appliances was derived from total monthly spending, whereas energy usage for weather dependent appliances was adjusted for daily conditions (i.e. on especially hot days, air conditioning usage was estimated to be higher than on milder days). </p>
 	</div>
 </div>
 <div class='row'>
-	<div class='col-xs-2'>
-		<img src='img/appliance-diagnosis.svg' alt='spending forecast' class='img-responsive'>
+	<div class='col-sm-2'>
+		<img src='img/applianceDiagnosisSimple.svg' alt='spending forecast' class='img-responsive'>
 	</div>
-	<div class='col-xs-10'>
+	<div class='col-sm-10'>
 		<h4>Breaking down energy use by energy-consuming appliances and devices</h4>
 		<p>The appliance-level energy information was intended to help participants more easily identify opportunities to save energy and take action.  This form of energy use information was used to populate the Appliance Spending Diagnosis feature.</p> 
 		<p>The foundation for our appliance-level spending diagnosis came from the Illinois Technical Resource Manual (TRM) for the Illinois Energy Efficiency Incentive Programs (EEPS). Where the <a href="http://www.ilsag.info/technical-reference-manual.html">Illinois TRM</a> did not provide deemed usage and savings sufficient to provide estimates, we added appliances and average usage with datasets found on the US Department of Energy website. Rather than detailing energy usage of all appliances in each home, we decided to focus on the largest energy consumers in the average home, as this provided an optimum amount of information without overwhelming the user. In the Baseline Survey completed by participant at our first workshop, they were asked about their refrigerator , air conditioner , televisions , lighting , electric range and dishwasher. We then matched the appliance make and model to the corresponding appliance type in our appliance dataset.</p>

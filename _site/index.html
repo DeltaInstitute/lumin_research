@@ -2319,30 +2319,30 @@
 </ul>
 
 <div class="row">
-	<div class="col-xs-2">
-		<img src="http://placehold.it/200x200" />
+	<div class="col-sm-2">
+		<img src="img/dailySpendingSimple.svg" />
 	</div>
-	<div class="col-xs-10">
+	<div class="col-sm-10">
 		<h4>Breaking down energy use across time</h4>
 		<p>Although the lack of access to real time short-interval data made it more difficult to communicate interval energy use, estimating daily usage was important as a new way for participants to interact with their energy use information. This form of energy use information was used to fuel the monthly and daily energy use features that were found on the dashboard.</p>
 		<p>Weekly information was calculated using the average daily usage based on their average monthly energy use for the last two years of the same month. Daily usage was then adjusted for current weather conditions based on the number of heating or cooling degree days (HDD or CDD). For monthly spending, the previous two months were determined using actual energy usage data pulled from ComEd data portal while the current month was estimated using the same calculation as the spending forecast feature, which will be outlined in the next section. </p>	
 	</div>
 </div>
 <div class="row">
-	<div class="col-xs-2">
-		<img src="img/spending-forecast.svg" alt="spending forecast" class="img-responsive" />
+	<div class="col-sm-2">
+		<img src="img/spendingForecastSimple.svg" alt="spending forecast" class="img-responsive" />
 	</div>
-	<div class="col-xs-10">
+	<div class="col-sm-10">
 		<h4>Measuring progress towards typical monthly spending</h4>
 		<p>This form of energy use was illuminated to help participants better understand how to plan for their energy spending proactively rather than simply reacting to their monthly bills after they have already used energy for the month. This information feeds both the spending forecast and the energy spending goal features.</p>
 		<p>This predictive energy information was calculated by first using the average energy use during the same month for the previous two years and the cost per unit of energy for each participant’s supplier to determine total average spending for that month. This provided the predictive total spent for the month. Then, participants’ estimated spending to date was determined using current weather information and knowledge of their current appliances. The usage for non-weather dependent appliances was derived from total monthly spending, whereas energy usage for weather dependent appliances was adjusted for daily conditions (i.e. on especially hot days, air conditioning usage was estimated to be higher than on milder days). </p>
 	</div>
 </div>
 <div class="row">
-	<div class="col-xs-2">
-		<img src="img/appliance-diagnosis.svg" alt="spending forecast" class="img-responsive" />
+	<div class="col-sm-2">
+		<img src="img/applianceDiagnosisSimple.svg" alt="spending forecast" class="img-responsive" />
 	</div>
-	<div class="col-xs-10">
+	<div class="col-sm-10">
 		<h4>Breaking down energy use by energy-consuming appliances and devices</h4>
 		<p>The appliance-level energy information was intended to help participants more easily identify opportunities to save energy and take action.  This form of energy use information was used to populate the Appliance Spending Diagnosis feature.</p> 
 		<p>The foundation for our appliance-level spending diagnosis came from the Illinois Technical Resource Manual (TRM) for the Illinois Energy Efficiency Incentive Programs (EEPS). Where the <a href="http://www.ilsag.info/technical-reference-manual.html">Illinois TRM</a> did not provide deemed usage and savings sufficient to provide estimates, we added appliances and average usage with datasets found on the US Department of Energy website. Rather than detailing energy usage of all appliances in each home, we decided to focus on the largest energy consumers in the average home, as this provided an optimum amount of information without overwhelming the user. In the Baseline Survey completed by participant at our first workshop, they were asked about their refrigerator , air conditioner , televisions , lighting , electric range and dishwasher. We then matched the appliance make and model to the corresponding appliance type in our appliance dataset.</p>
@@ -3562,16 +3562,14 @@
 <p>At every workshop, participants were asked to report what form of energy update they interacted with throughout the previous month. Although in the initial baseline survey there was an even split between participants who preferred email and mail communication, throughout the pilot participants tended to refer to their mailed energy updates more than their emailed updates or their dashboard. </p>
 <div class="row">
 	<div class="col-xs-4">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
-			<g id="month1">
-				<text transform="matrix(1 0 0 1 277.0629 383.5137)" font-family="'Open Sans'" font-size="60">MONTH 1</text>
-				<path class="monthMail" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M661.6,513.8
-					c-49.3,80.8-138.3,134.8-239.9,134.8c-155,0-280.7-125.7-280.7-280.7S266.7,87.1,421.8,87.1c140.7,0,257.2,103.5,277.6,238.5" />
-				<path id="month1Email" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M673.6,401.6
-					C661,497.6,594,582,495.4,612.1c-134.5,41-276.8-34.7-317.8-169.2s34.7-276.8,169.2-317.8c65-19.8,131.9-12.4,188.2,15.8" />
-				<path id="month1Dashboard" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="M644.8,396.1
-					c-11.9,104.5-96,189.7-204.8,199.2c-124.2,10.8-233.7-81.2-244.5-205.4c-0.8-9-1-18-0.8-26.9" />
-			</g>
+		<svg id="month1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 800 700" enable-background="new 0 0 800 800" xml:space="preserve">
+			<text transform="matrix(1 0 0 1 277.0629 383.5137)" font-family="'Open Sans'" font-weight="700" font-size="60">MONTH 1</text>
+			<path id="month1Mail" class="commDrawMail " fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M661.6,513.8
+				c-49.3,80.8-138.3,134.8-239.9,134.8c-155,0-280.7-125.7-280.7-280.7S266.7,87.1,421.8,87.1c140.7,0,257.2,103.5,277.6,238.5" />
+			<path id="month1Email" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M673.6,401.6
+				C661,497.6,594,582,495.4,612.1c-134.5,41-276.8-34.7-317.8-169.2s34.7-276.8,169.2-317.8c65-19.8,131.9-12.4,188.2,15.8" />
+			<path id="month1Dashboard" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="M644.8,396.1
+				c-11.9,104.5-96,189.7-204.8,199.2c-124.2,10.8-233.7-81.2-244.5-205.4c-0.8-9-1-18-0.8-26.9" />
 		</svg>
 		<p class="mailGraph">90% opened their mail</p>
 		<p class="emailGraph">62% opened their email</p>
@@ -3579,18 +3577,16 @@
 		<p class="noOpensGraph">1% did not open any</p>
 	</div>
 	<div class="col-xs-4">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
-			<g id="month2">
-				<text transform="matrix(1 0 0 1 277.0629 383.5137)" display="inline" font-family="'Open Sans'" font-size="60">MONTH 2</text>
-				<path id="month2Dashboard" display="inline" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="
-					M607.1,492.2c-40.3,59.7-108.6,98.9-186,98.9c-123.9,0-224.3-100.4-224.3-224.3s100.4-224.3,224.3-224.3
-					c80.2,0,150.6,42.1,190.2,105.4" />
-				<path id="month2Email" display="inline" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M627.5,509.6
-					C582,575.4,506.1,618.5,420,618.5c-139.2,0-252-112.8-252-252s112.8-252,252-252" />
-				<path class="monthMail" display="inline" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M647.8,526.7
-					c-50.5,72.3-134.3,119.6-229.1,119.6c-154.2,0-279.2-125-279.2-279.2s125-279.2,279.2-279.2S698,212.8,698,367
-					c0,27-3.8,53.2-11,77.9" />
-			</g>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 800 700" enable-background="new 0 0 800 800" xml:space="preserve">
+			<text transform="matrix(1 0 0 1 277.0629 383.5137)" display="inline" font-family="'Open Sans'" font-weight="700" font-size="60">MONTH 2</text>
+			<path id="month2Dashboard" display="inline" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="
+				M607.1,492.2c-40.3,59.7-108.6,98.9-186,98.9c-123.9,0-224.3-100.4-224.3-224.3s100.4-224.3,224.3-224.3
+				c80.2,0,150.6,42.1,190.2,105.4" />
+			<path id="month2Email" display="inline" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M627.5,509.6
+				C582,575.4,506.1,618.5,420,618.5c-139.2,0-252-112.8-252-252s112.8-252,252-252" />
+			<path id="month2Mail" class="commDrawMail" display="inline" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M647.8,526.7
+				c-50.5,72.3-134.3,119.6-229.1,119.6c-154.2,0-279.2-125-279.2-279.2s125-279.2,279.2-279.2S698,212.8,698,367
+				c0,27-3.8,53.2-11,77.9" />
 		</svg>
 		<p class="mailGraph">95% opened their mail</p>
 		<p class="emailGraph">63% opened their email</p>
@@ -3598,14 +3594,14 @@
 		<p class="noOpensGraph">5% did not open any</p>
 	</div>
 	<div class="col-xs-4">
-		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 800 700" enable-background="new 0 0 800 800" xml:space="preserve">
 			<g id="month3">
-				<text transform="matrix(1 0 0 1 277.0629 383.5137)" display="inline" font-family="'Open Sans'" font-size="60">MONTH 3</text>
+				<text transform="matrix(1 0 0 1 277.0629 383.5137)" display="inline" font-family="'Open Sans'" font-weight="700" font-size="60">MONTH 3</text>
 				<path id="month3Dashboard" display="inline" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="
 					M608.3,498.5c-56.2,81-161.2,118.3-259,84.7C249,548.7,188.7,450.6,197.8,349.5" />
 				<path id="month3Email" display="inline" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M631,514
 					c-80,115.6-238.6,144.5-354.2,64.5S132.3,340,212.3,224.3c20.5-29.6,46-53.5,74.7-71.3" />
-				<path class="monthMail" display="inline" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M599.3,586.5
+				<path id="month3Mail" class="commDrawMail" display="inline" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M599.3,586.5
 				c-95.4,77.9-234.6,86-339.9,11.3c-126.4-89.7-156.2-265-66.5-391.4s265-156.2,391.4-66.5c99,70.2,138.7,192.9,108.3,303.6" />
 			</g>
 		</svg>

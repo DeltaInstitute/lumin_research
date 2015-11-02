@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 200" enable-background="new 0 0 400 200" xml:space="preserve">
+<g id="Layer_1">
+</g>
+<g id="time">
+	<rect x="27.2" y="37.1" fill="#D1CDC6" width="40.3" height="114"/>
+	<rect x="77.6" y="29.1" fill="#D1CDC6" width="40.3" height="122"/>
+	<rect x="332.6" y="21.5" fill="#568B43" width="40.4" height="129.6"/>
+	<g>
+		<g>
+			<line fill="none" stroke="#646E71" stroke-miterlimit="10" x1="17.2" y1="151.9" x2="384.5" y2="151.9"/>
+			<g>
+				<rect x="16.7" y="148.7" fill="#646E71" width="1" height="6.5"/>
+			</g>
+			<g>
+				<rect x="384" y="148.7" fill="#646E71" width="1" height="6.5"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 33.0302 170.5925)" fill="#646E71" font-family="'OpenSans-Semibold'" font-size="15.745">Sun</text>
+	<text transform="matrix(1 0 0 1 80.6665 170.5925)" fill="#646E71" font-family="'OpenSans-Semibold'" font-size="15.745">Mon</text>
+	<rect x="128" y="44.5" fill="#D1CDC6" width="40.3" height="106.6"/>
+	<text transform="matrix(1 0 0 1 134.1342 170.5925)" fill="#646E71" font-family="'OpenSans-Semibold'" font-size="15.745">Tue</text>
+	<rect x="179.1" y="31.8" fill="#D1CDC6" width="40.3" height="119.6"/>
+	<text transform="matrix(1 0 0 1 182.3999 170.8522)" fill="#646E71" font-family="'OpenSans-Semibold'" font-size="15.745">Wed</text>
+	<rect x="229.8" y="19.2" fill="#D1CDC6" width="40.3" height="131.9"/>
+	<text transform="matrix(1 0 0 1 235.5268 170.5925)" fill="#646E71" font-family="'OpenSans-Semibold'" font-size="15.745">Thu</text>
+	<rect x="280.7" y="38.7" fill="#D1CDC6" width="40.3" height="112.4"/>
+	<text transform="matrix(1 0 0 1 291.1069 170.5925)" fill="#646E71" font-family="'OpenSans-Semibold'" font-size="15.745">Fri</text>
+	<text transform="matrix(1 0 0 1 339.9848 170.5905)" fill="#646E71" font-family="'OpenSans-Semibold'" font-size="15.745">Sat</text>
+</g>
+</svg>

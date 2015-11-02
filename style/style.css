@@ -1822,15 +1822,15 @@ h4 {
 
 /* Survey Results - Communications
 =============================================================================*/
-#month1Mail, #month2Mail, #month3Mail {
+.commDrawMail {
   stroke-dasharray: 1663;
   stroke-dashoffset: 1663;
   -webkit-animation: draw 1s linear;
           animation: draw 1s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 #month1Email, #month2Email, #month3Email {
@@ -1840,8 +1840,8 @@ h4 {
           animation: draw 1s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 #month1Dashboard, #month2Dashboard, #month3Dashboard {
@@ -1851,8 +1851,8 @@ h4 {
           animation: draw 1s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 /* Survey Results - Treatment Eval Animation
