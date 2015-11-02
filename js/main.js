@@ -415,6 +415,23 @@ $('.feedback').each(function () {
     });
 });
 
+// Communication Results
+//======================================================================================
+$(window).scroll(function () {
+$('#month1').find('.monthMail').each(function () {
+    var imagePos = $(this).offset().top;
+    var imageHeight = $(this).height();
+    var topOfWindow = $(window).scrollTop();
+
+    if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+        $(this).addClass('drawComm');
+    } else {
+        $(this).removeClass('drawComm');
+    }
+    });
+});
+
+
 // Survey Results - Feature Eval Animation
 //======================================================================================
 var div1=d3.select(document.getElementById('div1'));

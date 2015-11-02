@@ -9,32 +9,60 @@ title: Survey Results
 
 <p>At every workshop, participants were asked to report what form of energy update they interacted with throughout the previous month. Although in the initial baseline survey there was an even split between participants who preferred email and mail communication, throughout the pilot participants tended to refer to their mailed energy updates more than their emailed updates or their dashboard. </p>
 <div class="row">
-	<div class="col-xs-2">
-	</div>	
-	<div class="col-xs-3">
-		<img src="img/month-1-comm-results.png" class="img-responsive monthly-communications">
+	<div class="col-xs-4">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+			<g id="month1">
+				<text transform="matrix(1 0 0 1 277.0629 383.5137)" font-family="'Open Sans'" font-size="60">MONTH 1</text>
+				<path class="monthMail" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M661.6,513.8
+					c-49.3,80.8-138.3,134.8-239.9,134.8c-155,0-280.7-125.7-280.7-280.7S266.7,87.1,421.8,87.1c140.7,0,257.2,103.5,277.6,238.5"/>
+				<path id="month1Email" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M673.6,401.6
+					C661,497.6,594,582,495.4,612.1c-134.5,41-276.8-34.7-317.8-169.2s34.7-276.8,169.2-317.8c65-19.8,131.9-12.4,188.2,15.8"/>
+				<path id="month1Dashboard" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="M644.8,396.1
+					c-11.9,104.5-96,189.7-204.8,199.2c-124.2,10.8-233.7-81.2-244.5-205.4c-0.8-9-1-18-0.8-26.9"/>
+			</g>
+		</svg>
 		<p class="mailGraph">90% opened their mail</p>
 		<p class="emailGraph">62% opened their email</p>
 		<p class="dashboardGraph">67% viewed the dashboard</p>
 		<p class="noOpensGraph">1% did not open any</p>
 	</div>
-	<div class="col-xs-3">
-		<img src="img/month-2-comm-results.png" class="img-responsive">
+	<div class="col-xs-4">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+			<g id="month2">
+				<text transform="matrix(1 0 0 1 277.0629 383.5137)" display="inline" font-family="'Open Sans'" font-size="60">MONTH 2</text>
+				<path id="month2Dashboard" display="inline" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="
+					M607.1,492.2c-40.3,59.7-108.6,98.9-186,98.9c-123.9,0-224.3-100.4-224.3-224.3s100.4-224.3,224.3-224.3
+					c80.2,0,150.6,42.1,190.2,105.4"/>
+				<path id="month2Email" display="inline" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M627.5,509.6
+					C582,575.4,506.1,618.5,420,618.5c-139.2,0-252-112.8-252-252s112.8-252,252-252"/>
+				<path class="monthMail" display="inline" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M647.8,526.7
+					c-50.5,72.3-134.3,119.6-229.1,119.6c-154.2,0-279.2-125-279.2-279.2s125-279.2,279.2-279.2S698,212.8,698,367
+					c0,27-3.8,53.2-11,77.9"/>
+			</g>
+		</svg>
 		<p class="mailGraph">95% opened their mail</p>
 		<p class="emailGraph">63% opened their email</p>
 		<p class="dashboardGraph">60% viewed the dashboard</p>
 		<p class="noOpensGraph">5% did not open any</p>
 	</div>
-	<div class="col-xs-3">
-		<img src="img/month-3-comm-results.png" class="img-responsive">
+	<div class="col-xs-4">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+			<g id="month3">
+				<text transform="matrix(1 0 0 1 277.0629 383.5137)" display="inline" font-family="'Open Sans'" font-size="60">MONTH 3</text>
+				<path id="month3Dashboard" display="inline" fill="none" stroke="#656D71" stroke-width="20" stroke-miterlimit="10" d="
+					M608.3,498.5c-56.2,81-161.2,118.3-259,84.7C249,548.7,188.7,450.6,197.8,349.5"/>
+				<path id="month3Email" display="inline" fill="none" stroke="#638C3D" stroke-width="20" stroke-miterlimit="10" d="M631,514
+					c-80,115.6-238.6,144.5-354.2,64.5S132.3,340,212.3,224.3c20.5-29.6,46-53.5,74.7-71.3"/>
+				<path class="monthMail" display="inline" fill="none" stroke="#D78D2A" stroke-width="20" stroke-miterlimit="10" d="M599.3,586.5
+				c-95.4,77.9-234.6,86-339.9,11.3c-126.4-89.7-156.2-265-66.5-391.4s265-156.2,391.4-66.5c99,70.2,138.7,192.9,108.3,303.6"/>
+			</g>
+		</svg>
 		<p class="mailGraph">90% opened their mail</p>
 		<p class="emailGraph">55% opened their email</p>
 		<p class="dashboardGraph">61% viewed the dashboard</p>
 		<p class="noOpensGraph">6
 		% did not open any</p>
 	</div>
-	<div class="col-xs-2">
-	</div>	
 </div>
 
 <br>
