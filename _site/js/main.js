@@ -417,7 +417,19 @@ $('.feedback').each(function () {
 
 // Communication Results
 //======================================================================================
+$(window).scroll(function () {
+$('.commCharts').each(function () {
+    var imagePos = $(this).offset().top;
+    var imageHeight = $(this).height();
+    var topOfWindow = $(window).scrollTop();
 
+    if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+        $(this).addClass("commDrawMail");
+    } else {
+        $(this).removeClass("commDrawMail");
+    }
+    });
+});
 
 
 // Survey Results - Feature Eval Animation
@@ -435,7 +447,7 @@ $('.charts').each(function () {
     var imageHeight = $(this).height();
     var topOfWindow = $(window).scrollTop();
 
-    if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {  
+    if (imagePos < topOfWindow + 250 && imagePos > topOfWindow + 150) {  
         start();
     }
     });
@@ -445,11 +457,11 @@ $('.charts').each(function () {
 
     }
 
-    function deselect() {
-        div1.attr("class","radial");
-        forecastEval.attr("class","radial");
-        div3.attr("class","radial");
-    }
+    // function deselect() {
+    //     div1.attr("class","radial");
+    //     forecastEval.attr("class","radial");
+    //     div3.attr("class","radial");
+    // }
 
     function start() {
 
@@ -474,7 +486,7 @@ $('.charts').each(function () {
                 .render();
 
         var rp5 = radialProgress(document.getElementById('utilityBill'))
-                .diameter(400  )
+                .diameter(400)
                 .value(31)
                 .render();
     }

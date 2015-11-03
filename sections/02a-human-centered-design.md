@@ -3,8 +3,8 @@ layout: section
 title: Human-Centered Design
 ---
 
-<p><blockquote class="sideQuote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu." <strong>--Tim Brown, CEO IDEO</strong>
-</blockquote></p>
+<!-- <p><blockquote class="sideQuote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu." <strong>--Tim Brown, CEO IDEO</strong>
+</blockquote></p> -->
 
 <p>Delta worked with design firm <a href="http://ideo.com">IDEO</a> to take a human-centered design approach to the development and piloting of the DeltaLumin product and service. Human-centered design is rooted in a comprehensive understanding of the needs, values, and motivations of the potential users of the product or service being designed. The process often begins with intensive field research that results in specific insights that are then combined with design strategies to develop new products or services that meet the needs of the people who use them.</p>
 

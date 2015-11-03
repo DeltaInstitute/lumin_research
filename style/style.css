@@ -1822,37 +1822,15 @@ h4 {
 
 /* Survey Results - Communications
 =============================================================================*/
-.commDrawMail {
-  stroke-dasharray: 1663;
-  stroke-dashoffset: 1663;
-  -webkit-animation: draw 1s linear;
-          animation: draw 1s linear;
+.commDrawMail path {
+  stroke-dasharray: 1550;
+  stroke-dashoffset: 1550;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation: draw 1.5s linear;
+          animation: draw 1.5s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-#month1Email, #month2Email, #month3Email {
-  stroke-dasharray: 1284;
-  stroke-dashoffset: 1284;
-  -webkit-animation: draw 1s linear;
-          animation: draw 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-
-#month1Dashboard, #month2Dashboard, #month3Dashboard {
-  stroke-dasharray: 1152;
-  stroke-dashoffset: 1152;
-  -webkit-animation: draw 1s linear;
-          animation: draw 1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
 }
 
 /* Survey Results - Treatment Eval Animation
@@ -2014,6 +1992,7 @@ p.noOpensGraph {
 #actionButton, 
 #intentionButton {
   cursor: pointer;
+  transition: fill .3s ease-in-out;
 }
 
 .xAxis, .yAxis {
@@ -2114,6 +2093,10 @@ p.noOpensGraph {
 }
  .surveyResultSVG {
   max-height: 80vh;
+ }
+
+ .learnings h4 {
+  margin-top: 2em;
  }
 
 
