@@ -2415,6 +2415,7 @@ p.noOpensGraph {
 @media screen and (max-width: 650px) {
   .intro {
     background-image: url('../img/wholeroom_blur_mobile.jpg');
+    background-attachment: scroll;
   }
 
   .intro h1 {
