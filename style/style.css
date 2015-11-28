@@ -2303,6 +2303,10 @@ p.noOpensGraph {
 =============================================================================*/
 
 @media screen and (min-width: 1500px) {
+.intro {
+    background-image: url("../img/wholeroom_blur.jpg");
+}
+
 .section-content, .sectionIntro {
     margin: 0 auto;
   }
