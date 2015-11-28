@@ -293,6 +293,12 @@ a, a:hover, a:active, a:visited {
     font-size: 16px;
 }
 
+.section-content h5 {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
 .section-content li {
     font-size: 16px;
     margin-top:.2em;
@@ -1688,6 +1694,14 @@ h4 {
   padding-top: 10px;
 }
 
+.workshopImage {
+  float: left;
+  width: 40%;
+  padding: 0 2% 0 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 
 /* Learnings animation
 =============================================================================*/
@@ -1819,6 +1833,18 @@ h4 {
     filter: alpha(opacity=100);
   }
 }
+
+/* Survey Results - Communications
+=============================================================================*/
+
+.section-content .workshopTakeaways .takeawayDetails ul {
+  margin-left: 0;
+}
+
+.section-content .workshopTakeaways ul {
+  margin-left: 0;
+}
+
 
 /* Survey Results - Communications
 =============================================================================*/

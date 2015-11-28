@@ -52,5 +52,5 @@ title: Learning from our Participants
 </div>
 
 <div class="sectionIntro">
-	<p>We gained insights and reflected on user input in several different forms throughout the DeltaLumin Pilot. This mixed method approach -- including in-person workshops, written surveys, and website analytics -- allowed us to compare findings and triangulate insights. </p>
+	<p>We gained insights and reflected on user input using various methods throughout the DeltaLumin Pilot. This mixed method approach -- which included in-person workshops, written surveys, and website analytics -- allowed us to compare findings and triangulate insights.</p>
 </div>

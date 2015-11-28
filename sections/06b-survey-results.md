@@ -2,10 +2,12 @@
 layout: section
 title: Survey Results
 ---
-<p>The monthly surveys were designed to collect user feedback including: (1) frequency and medium preferences of interaction with DeltaLumin materials, (2) evaluation of the readability/clarity of information presented in each feature, and (3) reported actions and intentions related to energy behaviors and decisions.</p>
+<p>Monthly surveys were designed to collect user feedback including: (1) preferred frequency and medium of interaction with DeltaLumin materials, (2) evaluation of the clarity of the information presented in each feature, and (3) actions and intentions related to energy behaviors and decisions.</p>
+
 
 <h4>Communication Preferences</h4>
-<p>In the initial baseline survey, 37 participants indicated that they preferred to receive energy updates from DeltaLumin by email and 38 indicated mail as their preference. Throughout the pilot all 75 participants received every energy update by mail and the 53 participants who provided an email address received the same information by email. Participants also had access to their online dashboard at any time throughout the pilot period.</p>
+<p>In the initial baseline survey, 49% participants indicated that they preferred to receive energy updates from DeltaLumin by email, and 51%  preferred mail. Throughout the pilot, all 75 participants received energy updates by mail and the 53 participants who provided an email address also received the same information by email. Participants were also able to access their online dashboards at any time throughout the pilot period.</p>
+
 <div class="row commCharts">
 	<div class="col-xs-4">
 		<svg id="month1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 700" enable-background="new 0 0 800 800" xml:space="preserve">
@@ -57,16 +59,14 @@ title: Survey Results
 </div>
 <br>
 
-<p>At every workshop, participants were asked to report what form of energy update they interacted with throughout the previous month. Although in the initial baseline survey there was an even split between participants who preferred email and mail communication, throughout the pilot participants tended to refer to their mailed energy updates more than their emailed updates or their dashboard. </p>
-<br>
+<p>At each workshop, participants were asked to report whether they interacted with their energy information by mail, email, or through the dashboard. Although in the initial baseline survey there was a near-even split between participants who preferred email communication and those who preferred to receive their energy updates via mail, throughout the pilot participants tended to refer to their mailed energy updates more than their emailed updates or their online dashboard.</p>
 
 <div class="charts">
 	
 	<div id="utilityBill" class="surveyFeatureBaseline"></div>
 	
-	<h4>Feature Evaluation</h4>
-	<br>
-	<p>In general participants found DeltaLumin communication materials were easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate the understandability of each. Participants responded to this question before talking in-person with DeltaLumin staff about each feature with the exception of the Program Match feature, which due to programmatic timeline constraints was answered after group discussion.</p>
+	<h4>Feature Evaluation: Readability</h4>
+	<p>Participants generally found DeltaLumin communication materials easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate its understandability by answering the following question: “How much do you agree or disagree with the following statement: ‘It is easy to understand my [feature].’” <em>Note: Participants responded to this question before discussing the new feature with a DeltaLumin staff member, with the exception of the Program Match feature, which, due to programmatic timeline constraints, was surveyed after group discussion.</em></p>
 	<p>At the Pilot kick-off, <span id="utilityBillText">31% of participants reported that they agreed or strongly agreed that it is easy to understand their conventional utility bill</span>. 
 
 	<p>After the introduction of each feature:</p>
@@ -74,7 +74,7 @@ title: Survey Results
 	<p><span id="featureEvalText">60% of participants</span> agreed or strongly agreed that Appliance Diagnosis was easy to understand,</p>
 	<p><span id="featureEvalText">68% of participants</span> agreed or strongly agreed that Energy Spending Goal was easy to understand,and</p> 
 	<p><span id="featureEvalText">85% of participants</span> agreed or strongly agreed that Program Match was easy to understand.</span></p> 
-	<p>Such widespread understandability of the feature set was encouraging. Next, we looked at how this understanding translates into action or intention around energy-related behaviors and purchasing decisions.</p>
+	<p>This widespread understanding of the feature set was encouraging. Next, we looked at how participants’ comprehension translated into action or intention around energy-related behaviors and purchasing decisions.</p>
 	
 	<div class="row">
 		<div class="col-md-3 col-sm-6">	
@@ -104,10 +104,11 @@ title: Survey Results
 
 <h4>General Engagement</h4>
 
-<p>Throughout the pilot, the DeltaLumin team asked participants to report both conservation actions (changing behaviors to use less energy) and efficiency actions (acquiring energy-using equipment that uses less energy). Between the baseline survey completed before the pilot kicked off and the end of month one, 58% of participants reported sustaining or increasing the number of conservation (behavior) actions taken. Between month one and month two 70% of participants reported sustaining or increasing conservation action. Between month two and the end of the pilot 72% of participants reported sustaining or increasing conservation action.</p>
+<p>Throughout the pilot, the DeltaLumin team asked participants to report both conservation actions (changing behaviors to use less energy) and efficiency actions (acquiring energy-using equipment that uses less energy). Throughout the pilot, participants consistently reported increasing the actions they took to conserve energy, and the number of participants reporting sustaining conservation actions steadily increased. This is an important finding as conservation actions are only successful at continuing to save energy if they are sustained over time.</p>
 
-<p>Efficiency action can take more time to implement since it often requires financial investment, however, we did see some uptake in efficiency action in the short timeframe of the pilot. Between the baseline survey and month one 48% of participants reported sustaining or increasing efficiency actions. Between month one and month two, 80% of participants reported sustaining or increasing efficiency action. Between month two and the end of the pilot, 81% of participants reported sustaining or increasing efficiency action. 
-</p>
+<p>Efficiency actions can take more time to implement since they often require a financial investment, however, we did observe an increase in the frequency of efficiency actions, even over the pilot’s short timeframe. The number of participants who increased the number of efficiency actions taken each month increased dramatically between the second and third months of the pilot.</p>
+
+<p>DeltaLumin’s definition of engagement included both action and the intent to act in the future as a result of exposure to communication. This was especially important to capture because of the short duration of the pilot and the lead time required to act on some of the suggested energy saving strategies. Information on intention was only collected during the last two months of the pilot. The number of participants who reported that they intended to take more conservation actions nearly doubled between the midpoint and the end of the pilot, and  the number of participants who said that they would be willing to increase efficiency actions more than doubled in the same period.</p>
 
 <br>
 
@@ -304,9 +305,11 @@ title: Survey Results
 <br>
 <h4>Spending Forecast and Engagement</h4>
 
-<p>In an attempt to better understand why we experienced sustained or increased energy-related action and intentions, we looked at the relationship between the specific information that was communicated to participants and their reactions.</p>
+<p>In an attempt to better understand why we observed this increase in energy-related action and intentions, we also looked at the relationship between the specific information communicated to participants in each feature and their reported actions and intentions.</p>
 
-<p>Every month, pilot participants received a Spending Forecast in their mid-month energy update. This feature indicated how much we estimated they had already spent so far that month and what we anticipated their total spending for the month would be.  In month one, of participants who received communication indicating that they were on track to overspend their typical monthly bill, 46% reported increasing conservation actions compared to 19% of participants on track to underspend their typical monthly bill. In month two, 42% of participants who were told they were on track to overspend reported increasing action compared to 22% of participants on track at mid-month. </p>
+<p>Every month, pilot participants received a Spending Forecast in their mid-month energy update. This feature showed our estimate of their monthly spending-to-date, and what we anticipated their total spending for the month would be. In each month of the pilot, a higher percentage of participants who received communication indicating that they were on track to <em>overspend</em> their typical monthly bill reported increased conservation actions than participants who received communication indicating they were on track to <em>meet or underspend</em> their typical monthly bill. </p>
+
+<p>In month one, of participants who received communication indicating that they were likely to <em>overspend</em> their typical monthly bill, 46% reported increasing conservation actions, compared to 19% of participants who were told that they were on track to <em>underspend</em> their typical monthly bill. In month two, 42% of participants who were told they were likely to <em>overspend</em> reported increasing conservation action, compared to 22% of participants on track to <em>underspend</em> at mid-month. In the last month of the pilot, 41% of participants who were told they were likely to <em>overspend</em> reported increasing conservation action compared to 11% of participants on track to <em>underspend</em> at mid-month. There was no consistent pattern in reported efficiency action. In months one and three participants who were told they were on track to <em>overspend</em> were less likely to take additional conservation actions, while the opposite was true in month two. We hypothesize that this is a result of the higher initial monetary cost and effort it takes to implement efficiency actions compared to conservation actions.</p>
 
 <svg class="surveyResultSVG" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1200 800" enable-background="new 0 0 1200 800" xml:space="preserve">
@@ -731,22 +734,22 @@ title: Survey Results
 <br>
 <h4>Appliance Diagnosis and Engagement</h4>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quod magnam. Rerum distinctio placeat enim amet sit atque quisquam quam voluptas? Sequi dignissimos illo placeat, ut cum corporis ipsam suscipit!Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<p>Pilot participants received an Appliance Spending Diagnosis in each of their mid- and end-of-month energy updates. This feature illustrated the five appliances or electronic devices that were using the greatest amount of energy--and thus costing them the most money--to operate that month, and estimated their monthly spending-to-date on that item. It was difficult to measure the relationship between appliance-level communication and reported intention or action, however, we did find that participants liked and appreciated the feature as a way to identify opportunities for savings.</p>
 
 <br>
+
 <h4>Goal Setting and Engagement</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ea impedit amet quaerat ipsam magni, iusto autem minima natus voluptatum officia ipsa. Ad corporis, placeat! Molestiae rerum quam unde nulla.Maxime eos quod porro nulla odit? Vel labore quibusdam, perspiciatis assumenda eius aspernatur non nesciunt dolorum modi eum ipsam exercitationem, pariatur incidunt sed vitae maxime, dolorem dolor voluptate eligendi? Animi. Eveniet ipsa perspiciatis voluptate eaque sapiente inventore, modi dolor autem, amet eligendi eos dolores, aliquid blanditiis minima, facilis repudiandae. Modi doloremque, dolor corporis expedita odit, a id sapiente odio. Atque?</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu.</p>
+<p>In months two and three of the pilot, participants received communication about their progress toward their energy savings goals in their mid- and end-of-month energy updates. For month two, all participants were assigned a suggested goal of 5% savings. During the workshop in advance of month three, participants were asked to set their own energy savings goal. We expected to see significantly more engagement in the month that they set their own goals, but observed no change in engagement levels corresponding to assigned vs. self-selected goals.</p>
 
-<br>
+<!-- <br>
 <h4>Program Match and Engagement</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit facere officia voluptate doloremque commodi asperiores fugiat quia velit facilis fugit, harum provident, voluptatibus repellat saepe. Quibusdam quisquam voluptatibus recusandae sunt. Vel ratione rem aspernatur molestiae magnam, ullam reprehenderit praesentium, veniam eos quo quae nisi tempore itaque! Nisi quisquam blanditiis pariatur repudiandae delectus, possimus, dolorem quibusdam ullam cum vel ratione? Voluptatem.</p>
-<p>Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p>
+<p>Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut. Duis laoreet augue elit, eleifend posuere sapien varius eu. Suspendisse tristique orci eget sem accumsan, ut cursus turpis porta. Donec elementum tellus vitae diam facilisis, in eleifend mi maximus. </p> -->
 
 <br>
 <h3>Website Analytics</h3>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim accumsan tempor. Nam pellentesque justo quam, quis malesuada libero semper ut.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae minus dicta ex, repellat reprehenderit doloremque. Saepe vel labore ad voluptatibus id sequi voluptatum nihil ipsa itaque, ea doloribus eum at.</p>
+<p>Energy Dashboard views were tracked using Google analytics. Higher website visit counts seemed to be associated with the delivery of monthly updates and attendance at pilot workshops. Website views also became more consistent later in the pilot. </p>
 
 <br>
 
