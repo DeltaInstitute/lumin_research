@@ -1,13 +1,4 @@
-function checkWindow() {
-    var imagePos = $(this).offset().top;
-    var imageHeight = $(this).height();
-    var topOfWindow = $(window).scrollTop();
-    if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-        return inView
-    } else {
-        return outOfView
-    }
-}
+
 
 // Nav
 //======================================================================================
@@ -200,24 +191,6 @@ function changeFeature(){
     $(featureDescription[ currentFeaturePosition ]).removeClass('hidden');
 }
 
-// Measures animation
-//======================================================================================
-// $(window).scroll(function () {
-// $('.measureExample').each(function () {
-//     var imagePos = $(this).offset().top;
-//     var imageHeight = $(this).height();
-//     var topOfWindow = $(window).scrollTop();
-
-//     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-//         $('.lightOn').addClass('switchOn');
-//         $('.string').addClass('pullOn');
-//     } else {
-//         $('.lightOn').removeClass('switchOn');
-//         $('.string').removeClass('pullOn');
-//     }
-//     });
-// });
-
 
 // Recruitment animation
 //======================================================================================
@@ -235,12 +208,6 @@ $('.recruitment').each(function () {
     });
 });
 
-// Recruitment Map
-//======================================================================================
-
-L.mapbox.accessToken = 'pk.eyJ1IjoiY21jZyIsImEiOiJlZTA1Mjg5MThhNzAwYjIwMzkzOTRhZmI0YzdhM2ZhNyJ9.qmfiogrh1Wu7_JlfoaSMKw';
-var map = L.mapbox.map('map', 'mapbox.streets')
-.setView([41.831396, -87.610218], 9);
 
 
 // Participant Profile interaction
@@ -375,12 +342,11 @@ $('.envelope').each(function () {
     var topOfWindow = $(window).scrollTop();
 
     if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-        $('.envelope').addClass('open');
+        $(this).addClass('open');
     } else {
-        $('.envelope').removeClass('open');
+        $(this).removeClass('open');
     }
-	
-	});
+    });
 });
 
 // Energy Calc animation
@@ -399,7 +365,7 @@ $('.calcFlowChart').each(function () {
     });
 });
 
-// Pilot animation
+// Learning animation
 //======================================================================================
 $(window).scroll(function () {
 $('.feedback').each(function () {

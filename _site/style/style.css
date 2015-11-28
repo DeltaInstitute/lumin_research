@@ -188,7 +188,7 @@ footer {
 =============================================================================*/
 
 .intro {
-    background-image: url("../img/wholeroom_blur.jpg");
+    background-image: url(../img/wholeroom_blur.jpg);
     background-repeat: no-repeat;
     background-position: right top;
     height:100vh;
