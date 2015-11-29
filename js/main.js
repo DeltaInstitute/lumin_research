@@ -7,7 +7,7 @@ $('.hamburger').on('click', function(){
     $('.menu').toggleClass('openMenu');
 });
 
-$('.menu a').on('click', function() {
+$('nav a').on('click', function() {
   // use the href of the link to identify what
   // section to scroll to
   var thisTarget = $(this).attr('href');
@@ -17,10 +17,10 @@ $('.menu a').on('click', function() {
   // scrollTop to the targetOffest
   $('body').animate({
     scrollTop: targetOffset
-  }, 800);
+  }, 1200);
 });
 
-
+var introPosition = $('.intro').offset().top;
 var approachPosition = $('#approach').offset().top;
 var recruitmentPosition = $('#recruitment').offset().top;
 var prototypePosition = $('#prototype').offset().top;
@@ -28,6 +28,7 @@ var pilotPosition = $('#pilot').offset().top;
 var learningPosition = $('#learning').offset().top;
 var futurePosition = $('#future').offset().top;
 var contactPosition = $('#contact').offset().top;
+
 
 $(window).on('scroll', function(){
     if ($(this).scrollTop() > approachPosition - 100) {

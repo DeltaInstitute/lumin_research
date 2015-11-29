@@ -61,10 +61,12 @@ title: Survey Results
 
 <p>At each workshop, participants were asked to report whether they interacted with their energy information by mail, email, or through the dashboard. Although in the initial baseline survey there was a near-even split between participants who preferred email communication and those who preferred to receive their energy updates via mail, throughout the pilot participants tended to refer to their mailed energy updates more than their emailed updates or their online dashboard.</p>
 
+<br>
+
 <div class="charts">
 	
 	<div id="utilityBill" class="surveyFeatureBaseline"></div>
-	
+
 	<h4>Feature Evaluation: Readability</h4>
 	<p>Participants generally found DeltaLumin communication materials easier to understand than their conventional utility bills. With the introduction of each new feature, participants were asked to evaluate its understandability by answering the following question: “How much do you agree or disagree with the following statement: ‘It is easy to understand my [feature].’” <em>Note: Participants responded to this question before discussing the new feature with a DeltaLumin staff member, with the exception of the Program Match feature, which, due to programmatic timeline constraints, was surveyed after group discussion.</em></p>
 	<p>At the Pilot kick-off, <span id="utilityBillText">31% of participants reported that they agreed or strongly agreed that it is easy to understand their conventional utility bill</span>. 

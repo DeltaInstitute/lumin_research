@@ -1282,6 +1282,9 @@ h4 {
           animation-fill-mode: forwards;
 }
 
+#program {
+  transform: translate(-20px, -20px);
+}
 
 
 /* Pilot animation
@@ -2408,6 +2411,11 @@ p.noOpensGraph {
   #utilityBill {
     width: 70%;
   }
+
+  .workshopImage {
+    width:60%;
+  }
+
 }
 
 
@@ -2447,9 +2455,21 @@ p.noOpensGraph {
     width: 100%;
   }
 
+  .workshopImage {
+    width:100%;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
+  header {
+    height: 40px;
+  }
+
+  nav {
+  padding: .25em 1em 1em 1em;
+}
+
   .carouselContainer {
     height: 280px;
   }
