@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 kramdown:
   input:          GFM
 encoding:		  utf-8
@@ -10,10 +10,10 @@ permalink:        /posts/:title
 
 # Setup
 title:            DeltaLumin Year 1
-url:              deltalumin.com/lumin-story
+url:              research.mylumin.com
 baseurl:          /
 author:
-  name:           DeltaLumin
+  name:           Lumin Research
 pages_list:
   Work: 'work/index.html'
   Resume: 'about/index.html'
@@ -22,8 +22,8 @@ category-list: [] # can expand to include more categories as they are added
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/DeltaInstitute/lumin-story
-name: 			  	DeltaLumin
+  repo:           https://github.com/DeltaInstitute/LuminResearch
+name: 			  	Lumin Research
 
 # Plugins
 exclude: [vendor]
